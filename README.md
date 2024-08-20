@@ -1,23 +1,16 @@
-# AngiospermTraiter
-
 # AngiospermTraiter ![Python application](https://github.com/rafelafrance/AngiospermTraiter/workflows/CI/badge.svg)
 
 Extract traits about plants from treatments.
 
 I should also mention that this repository builds upon other repositories:
-- `common_utils`: This is just a grab bag of simple utilities I used in several other project. I got tired of having to change every repository that used them each time there was an edit, so I just put them here.
-  - `https://github.com/rafelafrance/common_utils`
-- `spell-well`: Is a super simple "delete-only" spell checker I wrote. There may be better options now, but it survives until I can find one that handles our particular needs.
-  - `https://github.com/rafelafrance/spell-well`
 - `traiter`: This is the base code for all the rule-based parsers (aka traiters) that I write. The details change but the underlying process is the same for all.
   - `https://github.com/rafelafrance/traiter`
-- `FloraTraiter`: This repository branched off from FloraTraiter and uses many of the same traits/fields as it does.
-  - `https://github.com/rafelafrance/FloraTraiter`
 
-## All righty, what's this all about then?
+## All righty, what's this then?
 
 **Challenge**: Extract trait information from plant treatments. That is, if I'm given treatment text like: (Reformatted to emphasize targeted traits.)
-TODO
+
+**TODO**
 
 ## Terms
 Essentially, we are finding relevant terms in the text (NER) and then linking them (Entity Linking). There are several types of terms:
@@ -58,7 +51,7 @@ make install
 Every time you run any script in this repository, you'll have to activate the virtual environment once at the start of your session.
 
 ```bash
-cd FloraTraiter
+cd AngiospermTraiter
 source .venv/bin/activate
 ```
 
@@ -74,6 +67,7 @@ parse-treatments --treatment-dir /path/to/treatments --json-dir /path/to/output/
 
 The output formats --json-dir & --html-file are optional. An example of the HTML output was shown above. An example of JSON output.
 
+**TODO**
 ```json
 {
     "dwc:scientificName": "Astragalus cobrensis A. Gray var. maguirei Kearney, | var. maguirei",
@@ -93,17 +87,6 @@ The output formats --json-dir & --html-file are optional. An example of the HTML
     "text": "..."
 }
 ```
-
-### Taxon database
-
-A taxon database is included with the source code, but it may be out of date. I build a taxon database from 4 sources. The 3 primary sources each have various issues, but they complement each other well.
-
-1. [ITIS sqlite database](https://www.itis.gov/downloads/index.html)
-2. [The WFO Plant List](https://wfoplantlist.org/plant-list/classifications)
-3. [Plant of the World Online](http://sftp.kew.org/pub/data-repositories/WCVP/)
-4. [Some miscellaneous taxa not found in the other sources.](flora/pylib/rules/terms/other_taxa.csv)
-
-Download the first 3 sources and then use the `util_add_taxa.py` script to extract the taxa and put them into a form the parsers can use.
 
 ## Tests
 

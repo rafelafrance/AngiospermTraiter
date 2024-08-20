@@ -1,0 +1,15 @@
+label,pattern,replace
+q_mark,(?)
+q_mark,?
+q_mark,[?]
+system,androdioecious,androdioecy
+system,androdioecy,androdioecy
+system,dioecious,dioecy
+system,dioecy,dioecy
+system,gynodioecious,gynodioecy
+system,gynodioecy,gynodioecy
+system,monecious,monoecy
+system,monoecious,monoecy
+system,monoecy,monoecy
+system,polygamomonoecy,polygamomonoecy
+system,polygamomonoecious,polygamomonoecy

@@ -1,0 +1,6 @@
+label,pattern,replace
+q_mark,(?),
+q_mark,?,
+q_mark,[?],
+sex,bisexual,
+sex,unisexual,
