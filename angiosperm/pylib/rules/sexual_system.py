@@ -33,7 +33,7 @@ class SexualSystem(Base):
         add.trait_pipe(
             nlp, name="sexual_system_patterns", compiler=cls.sexual_system_patterns()
         )
-        add.debug_tokens(nlp)  # #################################################
+        # add.debug_tokens(nlp)  # #################################################
         add.cleanup_pipe(nlp, name="sexual_system_cleanup")
 
     @classmethod
