@@ -13,12 +13,8 @@ from traiter.pylib.rules.base import Base
 @dataclass(eq=False)
 class OvaryPosition(Base):
     # Class vars ----------
-    ovary_position_csv: ClassVar[Path] = (
-        Path(__file__).parent / "terms" / "ovary_position.csv"
-    )
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(
-        ovary_position_csv, "replace"
-    )
+    ovary_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "ovary.csv"
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(ovary_csv, "replace")
     # ---------------------
 
     ovary_position: str = None
@@ -28,7 +24,7 @@ class OvaryPosition(Base):
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="ovary_position_terms", path=cls.ovary_position_csv)
+        add.term_pipe(nlp, name="ovary_position_terms", path=cls.ovary_csv)
         add.trait_pipe(
             nlp, name="ovary_position_patterns", compiler=cls.ovary_position_patterns()
         )

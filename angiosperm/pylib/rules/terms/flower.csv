@@ -1,6 +1,7 @@
 label,pattern,replace
-flower,flower,
-flower,flowers,
+flower,flower,flower
+flower,flowered,flower
+flower,flowers,flower
 grouping,solitary,solitary
 grouping,inflorescence,inflorescence
 grouping,inflorescences,inflorescence

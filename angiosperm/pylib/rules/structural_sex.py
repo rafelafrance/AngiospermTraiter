@@ -13,12 +13,8 @@ from traiter.pylib.rules.base import Base
 @dataclass(eq=False)
 class StructuralSex(Base):
     # Class vars ----------
-    structural_sex_csv: ClassVar[Path] = (
-        Path(__file__).parent / "terms" / "structural_sex.csv"
-    )
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(
-        structural_sex_csv, "replace"
-    )
+    sex_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "sex.csv"
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(sex_csv, "replace")
     # ---------------------
 
     structural_sex: str = None
@@ -29,7 +25,7 @@ class StructuralSex(Base):
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="structural_sex_terms", path=cls.structural_sex_csv)
+        add.term_pipe(nlp, name="structural_sex_terms", path=cls.sex_csv)
         add.trait_pipe(
             nlp, name="structural_sex_patterns", compiler=cls.structural_sex_patterns()
         )

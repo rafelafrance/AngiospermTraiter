@@ -1,10 +1,12 @@
 import spacy
 from traiter.pylib.pipes import extensions, sentence, tokenizer
 
+from angiosperm.pylib.rules.flower_count import FlowerCount
 from angiosperm.pylib.rules.flower_grouping import FlowerGrouping
 from angiosperm.pylib.rules.inflorescence import Inflorescence
 from angiosperm.pylib.rules.inflorescence_position import InflorescencePosition
 from angiosperm.pylib.rules.ovary_position import OvaryPosition
+from angiosperm.pylib.rules.range import Range
 from angiosperm.pylib.rules.sexual_system import SexualSystem
 from angiosperm.pylib.rules.structural_sex import StructuralSex
 
@@ -27,5 +29,8 @@ def build():
     FlowerGrouping.pipe(nlp)
     Inflorescence.pipe(nlp)
     InflorescencePosition.pipe(nlp)
+
+    Range.pipe(nlp)
+    FlowerCount.pipe(nlp)
 
     return nlp

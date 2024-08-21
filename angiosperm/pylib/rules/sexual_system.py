@@ -13,12 +13,8 @@ from traiter.pylib.rules.base import Base
 @dataclass(eq=False)
 class SexualSystem(Base):
     # Class vars ----------
-    sexual_system_csv: ClassVar[Path] = (
-        Path(__file__).parent / "terms" / "sexual_system.csv"
-    )
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(
-        sexual_system_csv, "replace"
-    )
+    sex_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "sex.csv"
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(sex_csv, "replace")
     # ---------------------
 
     sexual_system: str = None
@@ -29,7 +25,7 @@ class SexualSystem(Base):
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="sexual_system_terms", path=cls.sexual_system_csv)
+        add.term_pipe(nlp, name="sexual_system_terms", path=cls.sex_csv)
         add.trait_pipe(
             nlp, name="sexual_system_patterns", compiler=cls.sexual_system_patterns()
         )

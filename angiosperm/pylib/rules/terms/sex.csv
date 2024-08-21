@@ -2,6 +2,8 @@ label,pattern,replace
 q_mark,(?)
 q_mark,?
 q_mark,[?]
+structural,bisexual,
+structural,unisexual,
 system,androdioecious,dioecy
 system,androdioecy,dioecy
 system,dioecious,dioecy
