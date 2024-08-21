@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.ovary_position import OvaryPosition
 from tests.setup import parse
 
 
-class TestSexualSystem(unittest.TestCase):
+class TestOvaryPosition(unittest.TestCase):
     def test_ovary_position_01(self):
         self.assertEqual(
             parse("Epigynous disk present (large, pulviniform)."),

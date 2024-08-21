@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.structural_sex import StructuralSex
 from tests.setup import parse
 
 
-class TestStructuralSexOfFlowers(unittest.TestCase):
+class TestStructuralSex(unittest.TestCase):
     def test_structural_sex_of_flowers_01(self):
         self.assertEqual(
             parse("Unisexual flowers present."),

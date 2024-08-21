@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.flower_grouping import FlowerGrouping
 from tests.setup import parse
 
 
-class TestSexualSystem(unittest.TestCase):
+class TestFlowerGrouping(unittest.TestCase):
     def test_flower_grouping_01(self):
         self.assertEqual(
             parse("Flowers aggregated in ‘inflorescences’;"),
