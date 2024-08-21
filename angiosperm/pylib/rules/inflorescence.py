@@ -70,7 +70,6 @@ class Inflorescence(Base):
         inflorescence = ent.text.lower()
         morphology = cls.replace.get(inflorescence, inflorescence)
         growth = cls.growth.get(inflorescence)
-        print(inflorescence, morphology, growth)
         return cls.from_ent(ent, morphology=morphology, growth_pattern=growth)
 
 

@@ -1,11 +1,13 @@
 import unittest
 
 from angiosperm.pylib.rules.inflorescence import Inflorescence
+from angiosperm.pylib.rules.inflorescence_position import InflorescencePosition
 from tests.setup import parse
 
 
-class TestSexualSystem(unittest.TestCase):
-    def test_inflorescence_morphology_01(self):
+class TestInflorescence(unittest.TestCase):
+    def test_inflorescence_01(self):
+        self.maxDiff = None
         self.assertEqual(
             parse(
                 """Inflorescences terminal, or axillary; usually in cymes, cymose
@@ -13,6 +15,8 @@ class TestSexualSystem(unittest.TestCase):
                 or even in heads;"""
             ),
             [
+                InflorescencePosition(position="terminal", start=15, end=23),
+                InflorescencePosition(position="axillary", start=28, end=36),
                 Inflorescence(
                     morphology="cyme", growth_pattern="determinate", start=49, end=54
                 ),
@@ -47,7 +51,7 @@ class TestSexualSystem(unittest.TestCase):
             ],
         )
 
-    def test_inflorescence_morphology_02(self):
+    def test_inflorescence_02(self):
         self.assertEqual(
             parse(
                 """The ultimate inflorescence units racemose.
