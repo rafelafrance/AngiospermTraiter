@@ -29,6 +29,7 @@ class StructuralSex(Base):
         add.trait_pipe(
             nlp, name="structural_sex_patterns", compiler=cls.structural_sex_patterns()
         )
+        # add.debug_tokens(nlp)  # #################################################
         add.cleanup_pipe(nlp, name="structural_sex_cleanup")
 
     @classmethod
@@ -40,7 +41,7 @@ class StructuralSex(Base):
                 keep="structural_sex",
                 decoder={
                     "[?]": {"ENT_TYPE": "q_mark"},
-                    "structural_sex": {"ENT_TYPE": "sex"},
+                    "structural_sex": {"ENT_TYPE": "structural"},
                 },
                 patterns=[
                     " structural_sex+ ",
@@ -52,7 +53,7 @@ class StructuralSex(Base):
     @classmethod
     def structural_sex_match(cls, ent):
         structural_sex = next(
-            (e.text.lower() for e in ent.ents if e.label_ == "sex"), None
+            (e.text.lower() for e in ent.ents if e.label_ == "structural"), None
         )
         structural_sex = cls.replace.get(structural_sex, structural_sex)
         uncertain = next((True for e in ent.ents if e.label_ == "q_mark"), None)

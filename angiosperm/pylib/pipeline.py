@@ -1,6 +1,7 @@
 import spacy
 from traiter.pylib.pipes import extensions, sentence, tokenizer
 
+from angiosperm.pylib.rules.bract import Bract
 from angiosperm.pylib.rules.flower_count import FlowerCount
 from angiosperm.pylib.rules.flower_grouping import FlowerGrouping
 from angiosperm.pylib.rules.inflorescence import Inflorescence
@@ -29,6 +30,7 @@ def build():
     FlowerGrouping.pipe(nlp)
     Inflorescence.pipe(nlp)
     InflorescencePosition.pipe(nlp)
+    Bract.pipe(nlp)
 
     Range.pipe(nlp)
     FlowerCount.pipe(nlp)
