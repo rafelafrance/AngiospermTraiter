@@ -7,7 +7,6 @@ from tests.setup import parse
 
 class TestInflorescence(unittest.TestCase):
     def test_inflorescence_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 """Inflorescences terminal, or axillary; usually in cymes, cymose
@@ -21,7 +20,7 @@ class TestInflorescence(unittest.TestCase):
                     morphology="cyme", growth_pattern="determinate", start=49, end=54
                 ),
                 Inflorescence(
-                    morphology="cymose", growth_pattern="determinate", start=56, end=62
+                    morphology="cyme", growth_pattern="determinate", start=56, end=62
                 ),
                 Inflorescence(
                     morphology="raceme-like",
@@ -35,7 +34,9 @@ class TestInflorescence(unittest.TestCase):
                     start=72,
                     end=80,
                 ),
-                Inflorescence(morphology="umbel", start=84, end=90),
+                Inflorescence(
+                    morphology="umbel", growth_pattern="indeterminate", start=84, end=90
+                ),
                 Inflorescence(
                     morphology="raceme-like",
                     growth_pattern="indeterminate",
@@ -71,6 +72,11 @@ class TestInflorescence(unittest.TestCase):
                     start=83,
                     end=90,
                 ),
-                Inflorescence(morphology="umbel", start=102, end=108),
+                Inflorescence(
+                    morphology="umbel",
+                    growth_pattern="indeterminate",
+                    start=102,
+                    end=108,
+                ),
             ],
         )

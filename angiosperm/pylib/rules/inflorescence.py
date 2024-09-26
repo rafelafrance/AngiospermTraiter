@@ -4,7 +4,6 @@ from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
-from traiter.pylib.darwin_core import DarwinCore
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 from traiter.pylib.rules.base import Base
@@ -27,16 +26,16 @@ class Inflorescence(Base):
     morphology: str = None
     growth_pattern: str = None
 
-    def to_dwc(self, dwc) -> DarwinCore:
+    def formatted(self) -> dict[str, str]:
         data = {}
 
         if self.morphology is not None:
-            data["inflorescenceMorphology"] = self.morphology
+            data["Inflorescence morphology"] = self.morphology
 
         if self.growth_pattern is not None:
-            data["inflorescenceGrowthPattern"] = self.growth_pattern
+            data["Inflorescence growth pattern"] = self.growth_pattern
 
-        return dwc.add_dyn(**data)
+        return data
 
     @classmethod
     def pipe(cls, nlp: Language):

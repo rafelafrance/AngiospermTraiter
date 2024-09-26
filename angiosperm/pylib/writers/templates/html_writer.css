@@ -1,0 +1,105 @@
+body {
+  margin: 40px;
+}
+
+section {
+  margin: 10px;
+}
+
+section p {
+  margin: 12px;
+}
+
+.row {
+  margin: 4px 32px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+label {
+  font-weight: 600;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+button.toggle {
+  padding: 0 4px;
+}
+
+button.toggle:before {
+  content: "\2013";
+}
+
+button.toggle.closed:before {
+  content: "+";
+}
+
+.bold {
+  font-weight: bold;
+}
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cc0 {
+  background: #a6cee388;
+}
+.cc1 {
+  background: #1f78b488;
+}
+.cc2 {
+  background: #b2df8a88;
+}
+.cc3 {
+  background: #33a02c88;
+}
+.cc4 {
+  background: #fb9a9988;
+}
+.cc5 {
+  background: #fdbf6f88;
+}
+.cc6 {
+  background: #ff7f0088;
+}
+.cc7 {
+  background: #cab2d688;
+}
+.cc8 {
+  background: #6a3d9a88;
+}
+.cc9 {
+  background: #ffff9988;
+}
+.cc10 {
+  background: #b1592888;
+}
+.cc11 {
+  background: #dddddd88;
+}
+.cc12 {
+  background: #b3b3b388;
+}
+.cc13 {
+  background: #b3b30088;
+}
+.cc14 {
+  background: #e31a1c88;
+}

@@ -3,10 +3,10 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
-from traiter.pylib.darwin_core import DarwinCore
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
-from traiter.pylib.rules.base import Base
+
+from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
@@ -19,8 +19,8 @@ class InflorescencePosition(Base):
 
     position: str = None
 
-    def to_dwc(self, dwc) -> DarwinCore:
-        return dwc.add_dyn(inflorescencePosition=self.position)
+    def formatted(self) -> dict[str, str]:
+        return {"Inflorescence position": self.position}
 
     @classmethod
     def pipe(cls, nlp: Language):

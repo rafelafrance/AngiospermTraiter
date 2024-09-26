@@ -4,7 +4,6 @@ from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
-from traiter.pylib.darwin_core import DarwinCore
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 from traiter.pylib.rules.base import Base
@@ -20,8 +19,10 @@ class StructuralSex(Base):
     structural_sex: str = None
     uncertain: bool = None
 
-    def to_dwc(self, dwc) -> DarwinCore:
-        return dwc.add(structuralSexOfFlowers=self.structural_sex)
+    def formatted(self) -> dict[str, str]:
+        value = self.sexual_system
+        value += " ?" if self.uncertain else ""
+        return {"Structural sex of flowers": value}
 
     @classmethod
     def pipe(cls, nlp: Language):

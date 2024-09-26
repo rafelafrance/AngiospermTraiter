@@ -3,11 +3,11 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
-from traiter.pylib.darwin_core import DarwinCore
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 from traiter.pylib.rules import terms as t_terms
-from traiter.pylib.rules.base import Base
+
+from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
@@ -21,8 +21,10 @@ class Bract(Base):
 
     present: bool = None
 
-    def to_dwc(self, dwc) -> DarwinCore:
-        return dwc.add_dyn(bractPresent=self.present)
+    def formatted(self) -> dict[str, str]:
+        return {
+            "Bracts subtending inflorescence": "present" if self.present else "absent"
+        }
 
     @classmethod
     def pipe(cls, nlp: Language):

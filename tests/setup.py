@@ -1,8 +1,8 @@
 from traiter.pylib.util import compress
 
-from angiosperm.pylib import pipeline
+from angiosperm.pylib.pipelines import all_traits
 
-PIPELINE = pipeline.build()
+PIPELINE = all_traits.build()
 
 
 def parse(text: str) -> list:

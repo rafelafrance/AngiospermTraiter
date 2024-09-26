@@ -6,10 +6,10 @@ from spacy import Language, registry
 from traiter.pylib import const as t_const
 from traiter.pylib import term_util
 from traiter.pylib import util as t_util
-from traiter.pylib.darwin_core import DarwinCore
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add, reject_match
-from traiter.pylib.rules.base import Base
+
+from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
@@ -24,13 +24,14 @@ class FlowerCount(Base):
     high: int = None
     max: int = None
 
-    def to_dwc(self, dwc) -> DarwinCore:
-        return dwc.add_dyn(
-            FlowerCountMinimum=self.min,
-            FlowerCountLow=self.low,
-            FlowerCountHigh=self.high,
-            FlowerCountMaximum=self.max,
-        )
+    def formatted(self) -> dict[str, str]:
+        value = [
+            f"{k}={v}"
+            for k in ("min", "low", "high", "max")
+            if (v := getattr(self, k) is not None)
+        ]
+        value = ", ".join(value)
+        return {"Number of flowers in an inflorescence": value}
 
     @classmethod
     def pipe(cls, nlp: Language):

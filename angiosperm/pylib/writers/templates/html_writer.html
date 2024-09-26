@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Angiosperms</title>
+    <style>
+      {% include 'html_writer.css' -%}
+    </style>
+  </head>
+  <body>
+    <h1>{{ file_name }}: {{ now }}</h1>
+
+    {% for page in pages %}
+    <h2>{{ page.taxon | safe }}</h2>
+    <section>
+      {% for para in page.paragraphs %}
+      <p>{{ para.text | safe }}</p>
+      {% for trait in para.traits %}
+      <div class="row">{{ trait[0] | safe }} {{ trait[1] | safe }}</div>
+      {% endfor %} {% endfor %}
+    </section>
+    {% endfor %}
+
+    <script>
+      {% include 'html_writer.js' -%}
+    </script>
+  </body>
+</html>
