@@ -10,7 +10,7 @@ test:
 	export MOCK_TRAITER=0
 
 install:
-	test -d .venv || python3.11 -m venv .venv
+	test -d .venv || python3.12 -m venv .venv
 	. .venv/bin/activate
 	./.venv/bin/python -m pip install -U pip setuptools wheel
 	./.venv/bin/python -m pip install git+https://github.com/rafelafrance/traiter.git@master#egg=traiter
@@ -18,7 +18,7 @@ install:
 	./.venv/bin/python -m spacy download en_core_web_md
 
 dev:
-	test -d .venv || python3.11 -m venv .venv
+	test -d .venv || python3.12 -m venv .venv
 	. .venv/bin/activate
 	./.venv/bin/python -m pip install -U pip setuptools wheel
 	./.venv/bin/python -m pip install -e ../../traiter/traiter

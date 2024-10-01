@@ -1,0 +1,97 @@
+label,pattern,replace,presence
+androecium_structural_phyllotaxy,spiral,spiral
+androecium_structural_phyllotaxy,spiraled,spiral
+androecium_structural_phyllotaxy,spirals,spiral
+androecium_structural_phyllotaxy,whorled,whorled
+androecium_structural_phyllotaxy,whorls,whorled
+number_of_androecium_structural_whorls_count,biseriate,2
+number_of_androecium_structural_whorls_count,pentaseriate,5
+number_of_androecium_structural_whorls_count,tetradynamous,2
+number_of_androecium_structural_whorls_count,tetraseriate,4
+number_of_androecium_structural_whorls_count,triseriate,3
+number_of_androecium_structural_whorls_count,uniseriate,1
+anther,anter,anther
+anther,anters,anther
+anther_attachment,basifixed,
+anther_attachment,dorsifixed,
+anther_attachment,subbasifixed,
+anther_attachment,versatile,
+anther_dehiscence,apical pore,
+anther_dehiscence,flap-valvate,
+anther_dehiscence,h-valvate,
+anther_dehiscence,longitudinal slit,
+anther_dehiscence,scattered pore,
+connective_extension,connective extension
+fusion_of_anthers,apostemonous,distinct
+fusion_of_anthers,connate,connate
+fusion_of_anthers,fused,connate
+fusion_of_anthers,syngenesious,connate
+fusion_of_anthers,distinct,distinct
+fusion_of_anthers,free,distinct
+fusion_of_anthers,unfused,distinct
+anther_orientation,extrorse,
+anther_orientation,introrse,
+anther_orientation,latrorse,
+connate_stamen_grouping,diadelphous,
+connate_stamen_grouping,monadelphous,
+connate_stamen_grouping,polyadelphous,
+connective_extension,connective extension,
+exserted_stamens,exserted stamens,
+exserted_stamens_presence,exerted,,present
+exserted_stamens_presence,inserted,,absent
+fertile_stamens,fertile stamens,fertile stamens
+filament,filament,filament
+filament,filaments,filament
+fusion_of_filaments,connate,connate
+fusion_of_filaments,diadelphous,connate
+fusion_of_filaments,fused,connate
+fusion_of_filaments,monadelphous,connate
+fusion_of_filaments,apostemonous,distinct
+fusion_of_filaments,distinct,distinct
+fusion_of_filaments,unfused,distinct
+fusion_of_filaments_to_inner_perianth,adnate to perianth,fused
+fusion_of_filaments_to_inner_perianth,adnation,fused
+fusion_of_filaments_to_inner_perianth,apostemonous,free
+fusion_of_filaments_to_inner_perianth,epipetalous,fused
+fusion_of_filaments_to_inner_perianth,free,free
+fusion_of_filaments_to_inner_perianth,fused,fused
+fusion_of_filaments_to_inner_perianth,fused at base,
+filament_length,absent,absent
+filament_length,present,present
+filament_length,sessile,absent
+filament_length,elongate,present
+filament_width,laminar,wide
+filament_width,narrow,narrow
+filament_width,typical,narrow
+filament_width,wide,wide
+gametophyte_development_at_anthesis,2 celled,2-celled
+gametophyte_development_at_anthesis,2-celled,2-celled
+gametophyte_development_at_anthesis,3 celled,3-celled
+gametophyte_development_at_anthesis,3-celled,3-celled
+gametophyte_development_at_anthesis,trinucleate,3-celled
+petaloid_staminodes,petaloid staminodes,petaloid staminodes
+relative_lengths_of_stamens,didymous,equal
+relative_lengths_of_stamens,didynamous,differentiated
+relative_lengths_of_stamens,differentiated,differentiated
+relative_lengths_of_stamens,equal,equal
+relative_lengths_of_stamens,tetradynamous,differentiated
+relative_lengths_of_stamens,two lengths,differentiated
+stamen,stamen,stamen
+stamen,stamens,stamen
+stamen_position,alternipetalous,antisepalous
+stamen_position,alternisepalous,antisepalous
+stamen_position,antipetalous,antisepalous
+stamen_position,antisepalous,antisepalous
+stamen_position,antitepalous,antisepalous
+stamen_position,non-perianth,
+staminode,staminode,staminode
+staminode,staminodes,staminode
+staminode_presence,antherode,,present
+thecae,thecae,
+thecae_number,dithecal,two
+thecae_number,monothecal,one
+thecae_number,one,
+thecae_number,two,two
+number_of_fertile_stamens,number of fertile stamens,number of fertile stamen
+number_of_fertile_stamens,number of fertile stamen,number of fertile stamen
+number_of_androecium_structural_whorls,Number of androecium structural whorls,

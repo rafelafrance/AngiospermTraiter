@@ -6,24 +6,27 @@ from spacy import Language, registry
 from traiter.pylib import term_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
-from traiter.pylib.rules.base import Base
+
+from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
 class OvaryPosition(Base):
     # Class vars ----------
-    ovary_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "ovary.csv"
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(ovary_csv, "replace")
+    term_csv: ClassVar[Path] = (
+        Path(__file__).parent / "terms" / "general_floral_characters.csv"
+    )
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
     ovary_position: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Flower grouping": self.flower_grouping}
+        return {"Flower grouping": self.ovary_position}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="ovary_position_terms", path=cls.ovary_csv)
+        add.term_pipe(nlp, name="ovary_position_terms", path=cls.term_csv)
         add.trait_pipe(
             nlp, name="ovary_position_patterns", compiler=cls.ovary_position_patterns()
         )

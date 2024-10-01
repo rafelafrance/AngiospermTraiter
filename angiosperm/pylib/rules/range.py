@@ -17,7 +17,7 @@ from traiter.pylib.rules.base import Base
 class Range(Base):
     # Class vars ----------
     all_csvs: ClassVar[list[Path]] = [
-        Path(__file__).parent / "terms" / "about_terms.csv",
+        Path(t_terms.__file__).parent / "about_terms.csv",
         Path(t_terms.__file__).parent / "numeric_terms.csv",
         Path(t_terms.__file__).parent / "month_terms.csv",
     ]

@@ -1,0 +1,96 @@
+label,pattern,replace,inflorescence_growth_pattern,presence
+androecium,androecium
+bract_presence,ebracteate,,,absent
+bract_presence,ebracteolate,,,absent
+bract_presence,epicalyx,,,present
+bract_presence,involucral,,,present
+bract_presence,involucrate,,,present
+bract_presence,involucre,,,present
+bract_presence,ocreola,,,present
+bract_presence,phyllary,,,present
+bract_presence,tegule,,,present
+bracts,bract,bracts
+bracts,bracts,bracts
+extra_floral_nectary,extra floral nectaries,extra floral nectary
+extra_floral_nectary,extra floral nectary,extra floral nectary
+extrafloral_nectary_position,bracts
+extrafloral_nectary_position,lamina
+extrafloral_nectary_position,nodes
+extrafloral_nectary_position,pedicel
+floral_nectary,floral nectaries,floral nectary
+floral_nectary,floral nectaries,floral nectary
+floral_nectary_on_gynoecium,floral nectary on gynoecium
+floral_nectary_on_androecium,floral nectary on androecium
+floral_nectary_on_perianth,floral nectary on perianth
+flower,flower,flower
+flower,flowered,flower
+flower,flowers,flower
+flower_grouping,inflorescence,inflorescence
+flower_grouping,inflorescences,inflorescence
+flower_grouping,inflorescenses,inflorescence
+flower_grouping,solitary,solitary
+gynoecium,gynoecium
+inflorescence_morphology,asteraceae capitula
+inflorescence_morphology,corymb,raceme-like,indeterminate
+inflorescence_morphology,corymbiform,raceme-like,indeterminate
+inflorescence_morphology,corymbrose,raceme-like,indeterminate
+inflorescence_morphology,corymbs,raceme-like,indeterminate
+inflorescence_morphology,cyme,cyme,determinate
+inflorescence_morphology,cymes,cyme,determinate
+inflorescence_morphology,cymose,cyme,determinate
+inflorescence_morphology,globose capitula
+inflorescence_morphology,head,globose capitula
+inflorescence_morphology,heads,globose capitula
+inflorescence_morphology,monopodial,,indeterminate
+inflorescence_morphology,panicle,panicle,indeterminate
+inflorescence_morphology,panicles,panicle,indeterminate
+inflorescence_morphology,paniculate,panicle,indeterminate
+inflorescence_morphology,paniculiform,panicle,indeterminate
+inflorescence_morphology,raceme,raceme-like,indeterminate
+inflorescence_morphology,raceme-like,raceme-like,indeterminate
+inflorescence_morphology,racemes,raceme-like,indeterminate
+inflorescence_morphology,racemiform,raceme-like,indeterminate
+inflorescence_morphology,racemose,raceme-like,indeterminate
+inflorescence_morphology,spadix,raceme-like,indeterminate
+inflorescence_morphology,spike,raceme-like,indeterminate
+inflorescence_morphology,spikes,raceme-like,indeterminate
+inflorescence_morphology,sympodial,,determinate
+inflorescence_morphology,umbel,umbel,indeterminate
+inflorescence_morphology,umbels,umbel,indeterminate
+inflorescence_position,axillary
+inflorescence_position,terminal
+nectary_position,androecium
+nectary_position,base of stamen
+nectary_position,base of stamens
+nectary_position,gynoecium
+nectary_position,perianth
+number_of_flowers_in_an_inflorescence,Number of flowers in an inflorescence
+ovary_position,epigynous,inferior
+ovary_position,half-inferior,half-inferior
+ovary_position,hypogynous,superior
+ovary_position,inferior,inferior
+ovary_position,partially inferior,half-inferior
+ovary_position,perigynous,half-inferior
+ovary_position,superior,superior
+pedicel,pedicel,pedicel
+pedicel,pedicels,pedicel
+pedicel_presence,pedicellate,,,present
+pedicel_presence,peduncle,,,present
+pedicel_presence,pedunculate,,,present
+pedicel_presence,sessile,,,absent
+petaloid_bracts,bracts petaloid
+petaloid_bracts,petaloid bracts
+petaloid_bracts,petaloid bracts
+plant_sexual_system,androdioecious,dioecy
+plant_sexual_system,androdioecy,dioecy
+plant_sexual_system,dioecious,dioecy
+plant_sexual_system,dioecy,dioecy
+plant_sexual_system,gynodioecious,dioecy
+plant_sexual_system,gynodioecy,dioecy
+plant_sexual_system,monecious,monoecy
+plant_sexual_system,monoecious,monoecy
+plant_sexual_system,monoecy,monoecy
+plant_sexual_system,polygamomonoecious,polygamomonoecy
+plant_sexual_system,polygamomonoecy,polygamomonoecy
+structural_sex_of_flowers,bisexual
+structural_sex_of_flowers,unisexual

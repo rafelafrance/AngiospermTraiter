@@ -1,0 +1,53 @@
+label,pattern,replace,presence
+capitate,capitate,
+capitate_stigma_presence,conical,,present
+capitate_stigma_presence,lobed,,present
+fusion_of_carpels,free,free
+fusion_of_carpels,fused at base,fused at base
+fusion_of_carpels,fused,fused
+fusion_of_carpels,pistil fusion,fused
+carpels,carpel,carpels
+carpels,carpels,carpels
+gynoecium,gynoecium,
+gynoecium_phyllotaxy,spiral,spiral
+gynoecium_phyllotaxy,spiraled,spiral
+gynoecium_phyllotaxy,spirals,spiral
+gynoecium_phyllotaxy,whorled,whorled
+gynoecium_phyllotaxy,whorls,whorled
+gynophore,gynophore,
+gynophore_presence,style present,,present
+integument,integument,
+integument_number,bitegmic,two
+integument_number,one,one
+integument_number,one,unitegmic
+integument_number,two,two
+nucellus_development,crassinucellate,
+nucellus_development,tenuinucellate,
+ovule_orientation,amphitropous,
+ovule_orientation,anatropous,
+ovule_orientation,campylotropous,
+ovule_orientation,circinotropous,
+ovule_orientation,hemianatropous,
+ovule_orientation,orthotropous,
+ovules,ovules,ovules
+papillate,papillate,
+papillate_stigmata,papillate stigmata,
+petaloid,petaloid,
+petaloid_style,petaloid style
+phyllotaxy,phyllotaxy
+placentation,apical,
+placentation,axile,
+placentation,basal,
+placentation,free-central,
+placentation,laminar,
+placentation,marginal,
+placentation,parietal,
+stigma,stigma,
+stigma,stigmata,
+style,style,style
+style,styles,style
+fusion,fusion
+fusion_of_styles,free,
+fusion_of_styles,fused,
+number_of_carpels,number of carpels
+number_of_ovules_per_carpel,number of ovules per carpel

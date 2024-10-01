@@ -1,0 +1,189 @@
+label,pattern,replace,presence
+aperture,aperture,
+aperture_distribution,distal,polar
+aperture_distribution,equatorially distributed,equatorially distributed
+aperture_distribution,globally distributed,globally distributed
+aperture_distribution,pantoaperturate,globally distributed
+aperture_distribution,polar,polar
+aperture_distribution,spiral,spiral
+aperture_distribution,sulcate,polar
+aperture_distribution,ulcerate,polar
+aperture_membrane_texture,ornamented,
+aperture_membrane_texture,psilate,
+aperture_number,diaperturate,
+aperture_number,hexaperturate,
+aperture_number,inaperturate,
+aperture_number,monoaperturate,
+aperture_number,pentaperturate,
+aperture_number,polyaperturate,
+aperture_number,tetraperturate,
+aperture_number,triaperturate,
+aperture_shape,colpate,elongate
+aperture_shape,colporate,colporate
+aperture_shape,colporate,colporous
+aperture_shape,colpus,elongate
+aperture_shape,elongate,elongate
+aperture_shape,furrow,elongate
+aperture_shape,porate,pore-like
+aperture_shape,pore,pore-like
+aperture_shape,pore-like,pore-like
+aperture_shape,ring-like,elongate
+aperture_shape,spiral,elongate
+aperture_shape,sulcate,elongate
+aperture_shape,sulcus,elongate
+aperture_shape,ulcerate,pore-like
+aperture_shape,ulcus,pore-like
+bodies,bodies,bodies
+bodies,body,bodies
+bridge,bridge,
+cell,cell,
+cell_number,2-celled,
+cell_number,3-celled,
+coatings,coating,coating
+coatings,coatings,coating
+continuity,continuity,
+cytoplasm,cytoplasm,
+cytoplasm_reserves,lipids,
+cytoplasm_reserves,polysaccharide vesicles,
+cytoplasm_reserves,starch,
+demicolpus,demicolpus,
+differentiated,differentiated,
+distribution,distribution,
+dry_pollen,dry pollen,
+dry_pollen_outline,boat-shaped,lobate
+dry_pollen_outline,circular,
+dry_pollen_outline,elliptic,
+dry_pollen_outline,irregular,
+dry_pollen_outline,lobate,lobate
+dry_pollen_outline,polygonal,
+dry_pollen_outline,quadrangular,
+dry_pollen_outline,triangular,
+elongate,elongate,
+endexine,endexine,
+endexine_continuity,continuous,
+endexine_continuity,discontinuous,
+endexine_distribution,apertures only,
+endexine_distribution,regular,
+endexine_presence,nexine absent,,absent
+endexine_texture,compact,
+endexine_texture,lamellar,
+endexine_texture,spongy,
+equatorial_aperture_position,angulaperturate,
+equatorial_aperture_position,planaperturate,
+exine,exine,
+exine_differentiated_presence,annulus,,present
+exine_differentiated_presence,labrum,,present
+exine_differentiated_presence,margo,,present
+foot_layer,foot layer,
+foot_layer_continuity,continuous,
+foot_layer_continuity,discontinuous,discontinuous
+foot_layer_continuity,perforate,discontinuous
+foot_layer_presence,nexine absent,,absent
+geniculum,geniculum,
+infratectum,infratectum,
+infratectum_morphology,alveolate,
+infratectum_morphology,columellate,
+infratectum_morphology,granular,
+intine,intine,
+intine_layers,bilayered,
+intine_layers,monolayered,
+lophate,lophate,
+lophate_ornamentation_presence,lophate,,present
+number,number,
+oncus,oncus,
+operculum,operculum,
+operculum_presence,operculum,,present
+operculum_presence,pontoperculum,,present
+ornamentation,ornamentation,
+p_e_ratio,isodiametric,
+p_e_ratio,oblate,
+p_e_ratio,prolate,
+polar_view,polar view,
+polar_view_outline,circular,
+polar_view_outline,elliptic,
+polar_view_outline,irregular,
+polar_view_outline,lobate,
+polar_view_outline,polygonal,
+polar_view_outline,quadrangular,
+polar_view_outline,triangular,
+polarity,heteropolar,
+polarity,isopolar,
+polinium_division,massula,rsectile pollinia
+polinium_division,regular pollinia,regular pollinia
+polinium_division,sectile pollinia,sectile pollinia
+pollen,pollen unit,pollen
+pollen,pollen,
+pollen_coating_presence,pollen coating vesicles,,present
+pollen_coating_presence,pollenkitt,,present
+pollen_coating_presence,primexine matrix,,present
+pollen_coating_presence,tryphine,,present
+pollen_unit,dyad,
+pollen_unit,massula,pollinium
+pollen_unit,monad,
+pollen_unit,pollinium,pollinium
+pollen_unit,polyad,
+pollen_unit,pseudomonad,tetrad
+pollen_unit,tetrad,tetrad
+pororate,pororate,
+protrusion_morphology,acuminate,acuminate
+protrusion_morphology,baculate,cylindrical
+protrusion_morphology,ball-shaped,ball-shaped
+protrusion_morphology,clavate,club-shaped
+protrusion_morphology,club-shaped,club-shaped
+protrusion_morphology,cylindrical,cylindrical
+protrusion_morphology,echinate,acuminate
+protrusion_morphology,gemmate,ball-shaped
+protrusion_morphology,verrucate,wart-shaped
+protrusion_morphology,wart-shaped,areolate
+protrusion_morphology,wart-shaped,wart-shaped
+protrusion_presence,baculate,,present
+protrusion_presence,clavate,,present
+protrusion_presence,echinate,,present
+protrusion_presence,gemmate,,present
+protrusion_presence,psilate,,absent
+protrusion_presence,scabrate,,absent
+protrusions,protrusion,protrusions
+protrusions,protrusions,protrusions
+pseudoaperture,pseudoaperture,
+pseudoaperture_presence,polychotomoosulcus,,absent
+pseudoaperture_presence,pseudopore,,absent
+reserves,reserves,
+ring_like,ring-like,
+ring_like_aperture_presence,anazonasulculate,,present
+ring_like_aperture_presence,catazonasulculate,,present
+ring_like_aperture_presence,zonasulculus,,present
+shape,shape,
+size,size,elongate
+sulcus,sulcus,
+sulcus_branched,polychotomoosulcus,
+sulcus_branched,trichotomosulcus,
+sulcus_branched,unbranched,
+surface_texture,foveolate,perforate
+surface_texture,gemmate,scabrate
+surface_texture,granulate,scabrate
+surface_texture,microechinate,scabrate
+surface_texture,microgemmate,scabrate
+surface_texture,perforate,perforate
+surface_texture,psilate,psilate
+surface_texture,reticulate,reticulate
+surface_texture,scabrate,scabrate
+surface_texture,smooth,psilate
+surface_texture,striate,striate
+tectum,tectum,
+tectum_morphology,continuous,eutectate
+tectum_morphology,discontinuous,semitectate
+tectum_morphology,eutectate,eutectate
+tectum_morphology,perforate,semitectate
+tectum_morphology,pertectate,eutectate
+tectum_morphology,semitectate,semitectate
+tectum_presence,atectate,,absent
+tectum_presence,tectate,,present
+tetrad_arrangement,linear,tetrad planar
+tetrad_arrangement,pseudomonad,pseudomonad
+tetrad_arrangement,t-shaped,tetrad planar
+tetrad_arrangement,tetrad decussate,tetrad decussate
+tetrad_arrangement,tetrad planar,tetrad planar
+tetrad_arrangement,tetrad tetrahedral,tetrad tetrahedral
+tetrad_arrangement,tetragonal,tetrad planar
+texture,texture,
+ubisch,ubisch,

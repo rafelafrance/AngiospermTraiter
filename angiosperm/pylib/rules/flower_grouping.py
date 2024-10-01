@@ -13,8 +13,10 @@ from angiosperm.pylib.rules.base import Base
 @dataclass(eq=False)
 class FlowerGrouping(Base):
     # Class vars ----------
-    flower_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "flower.csv"
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(flower_csv, "replace")
+    term_csv: ClassVar[Path] = (
+        Path(__file__).parent / "terms" / "general_floral_characters.csv"
+    )
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
     flower_grouping: str = None
@@ -24,7 +26,7 @@ class FlowerGrouping(Base):
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="flower_grouping_terms", path=cls.flower_csv)
+        add.term_pipe(nlp, name="flower_grouping_terms", path=cls.term_csv)
         add.trait_pipe(
             nlp,
             name="flower_grouping_patterns",

@@ -1,0 +1,16 @@
+label,pattern,replace,present
+presence,absent,,absent
+presence,existing,,present
+presence,exists,,present
+presence,extant,,present
+presence,lack,,absent
+presence,lacking,,absent
+presence,missing,,absent
+presence,present,,present
+presence,prevalent,,present
+presence,rare,,absent
+presence,uncommon,,absent
+presence,without,,absent
+q_mark,(?)
+q_mark,?
+q_mark,[?]
