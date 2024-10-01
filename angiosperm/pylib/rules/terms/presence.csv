@@ -6,6 +6,8 @@ presence,extant,,present
 presence,lack,,absent
 presence,lacking,,absent
 presence,missing,,absent
+presence,non,,absent
+presence,non-,,absent
 presence,present,,present
 presence,prevalent,,present
 presence,rare,,absent

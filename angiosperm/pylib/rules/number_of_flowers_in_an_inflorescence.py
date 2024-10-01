@@ -13,7 +13,7 @@ from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
-class FlowerCount(Base):
+class NumberOfFlowersInAnInflorescence(Base):
     # Class vars ----------
     term_csv: ClassVar[list[Path]] = (
         Path(__file__).parent / "terms" / "general_floral_characters.csv"
@@ -88,4 +88,4 @@ class FlowerCount(Base):
 
 @registry.misc("flower_count_match")
 def structural_sex_match(ent):
-    return FlowerCount.flower_count_match(ent)
+    return NumberOfFlowersInAnInflorescence.flower_count_match(ent)

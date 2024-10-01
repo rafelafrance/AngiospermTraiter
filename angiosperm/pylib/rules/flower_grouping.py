@@ -19,10 +19,10 @@ class FlowerGrouping(Base):
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
-    flower_grouping: str = None
+    grouping: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Flower grouping": self.flower_grouping}
+        return {"Flower grouping": self.grouping}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -39,33 +39,33 @@ class FlowerGrouping(Base):
     def flower_grouping_patterns(cls):
         return [
             Compiler(
-                label="flower_grouping",
+                label="grouping",
                 on_match="flower_grouping_match",
-                keep="flower_grouping",
+                keep="grouping",
                 decoder={
                     "adp": {"POS": "ADP"},
                     "adv": {"POS": "ADV"},
                     "cconj": {"POS": "CCONJ"},
                     "flower": {"ENT_TYPE": "flower"},
-                    "flower_grouping": {"ENT_TYPE": "grouping"},
+                    "grouping": {"ENT_TYPE": "flower_grouping"},
                     "'": {"POS": "PUNCT"},
                     "verb": {"POS": "VERB"},
                 },
                 patterns=[
-                    " flower verb? adp? '? flower_grouping+ '? ",
-                    " flower       adv? '? flower_grouping+ '? ",
-                    " cconj  verb  adp? '? flower_grouping+ '? ",
+                    " flower verb? adp? '? grouping+ '? ",
+                    " flower       adv? '? grouping+ '? ",
+                    " cconj  verb  adp? '? grouping+ '? ",
                 ],
             ),
         ]
 
     @classmethod
     def flower_grouping_match(cls, ent):
-        flower_grouping = next(
-            (e.text.lower() for e in ent.ents if e.label_ == "grouping"), None
+        grouping = next(
+            (e.text.lower() for e in ent.ents if e.label_ == "flower_grouping"), None
         )
-        flower_grouping = cls.replace.get(flower_grouping, flower_grouping)
-        return cls.from_ent(ent, flower_grouping=flower_grouping)
+        grouping = cls.replace.get(grouping, grouping)
+        return cls.from_ent(ent, grouping=grouping)
 
 
 @registry.misc("flower_grouping_match")

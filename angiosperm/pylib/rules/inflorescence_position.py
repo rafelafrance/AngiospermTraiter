@@ -42,11 +42,11 @@ class InflorescencePosition(Base):
     def inflorescence_position_patterns(cls):
         return [
             Compiler(
-                label="inflorescence_position",
+                label="position",
                 on_match="inflorescence_position_match",
-                keep="inflorescence_position",
+                keep="position",
                 decoder={
-                    "position": {"ENT_TYPE": "position"},
+                    "position": {"ENT_TYPE": "inflorescence_position"},
                 },
                 patterns=[
                     " position+ ",
