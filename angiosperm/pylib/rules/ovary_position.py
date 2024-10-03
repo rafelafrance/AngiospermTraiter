@@ -41,7 +41,7 @@ class OvaryPosition(Base):
                 on_match="ovary_position_match",
                 keep="position",
                 decoder={
-                    "position": {"ENT_TYPE": "ovary_position"},
+                    "position": {"ENT_TYPE": "ovary_position_term"},
                 },
                 patterns=[
                     " position+ ",
@@ -52,7 +52,8 @@ class OvaryPosition(Base):
     @classmethod
     def ovary_position_match(cls, ent):
         position = next(
-            (e.text.lower() for e in ent.ents if e.label_ == "ovary_position"), None
+            (e.text.lower() for e in ent.ents if e.label_ == "ovary_position_term"),
+            None,
         )
         position = cls.replace.get(position, position)
         return cls.from_ent(ent, position=position)

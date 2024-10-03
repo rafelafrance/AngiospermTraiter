@@ -55,11 +55,11 @@ class InflorescenceMorphology(Base):
     def inflorescence_morphology_patterns(cls):
         return [
             Compiler(
-                label="morphology",
+                label="inflorescence_morphology",
                 on_match="inflorescence_morphology_match",
-                keep="morphology",
+                keep="inflorescence_morphology",
                 decoder={
-                    "morphology": {"ENT_TYPE": "inflorescence_morphology"},
+                    "morphology": {"ENT_TYPE": "inflorescence_morphology_term"},
                 },
                 patterns=[
                     " morphology+ ",

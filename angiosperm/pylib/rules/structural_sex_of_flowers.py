@@ -42,12 +42,12 @@ class StructuralSexOfFlowers(Base):
     def structural_sex_of_flowers_patterns(cls):
         return [
             Compiler(
-                label="structural_sex",
+                label="structural_sex_of_flowers",
                 on_match="structural_sex_of_flowers_match",
-                keep="structural_sex",
+                keep="structural_sex_of_flowers",
                 decoder={
                     "[?]": {"ENT_TYPE": "q_mark"},
-                    "structural_sex": {"ENT_TYPE": "structural_sex_of_flowers"},
+                    "structural_sex": {"ENT_TYPE": "structural_sex_of_flowers_term"},
                 },
                 patterns=[
                     " structural_sex+ ",
@@ -62,7 +62,7 @@ class StructuralSexOfFlowers(Base):
             (
                 e.text.lower()
                 for e in ent.ents
-                if e.label_ == "structural_sex_of_flowers"
+                if e.label_ == "structural_sex_of_flowers_term"
             ),
             None,
         )

@@ -51,13 +51,13 @@ class NumberOfFlowersInAnInflorescence(Base):
     def flower_count_patterns(cls):
         return [
             Compiler(
-                label="flower_count",
+                label="number_of_flowers_in_an_inflorescence",
                 on_match="flower_count_match",
-                keep="flower_count",
+                keep="number_of_flowers_in_an_inflorescence",
                 decoder={
                     "-": {"TEXT": {"IN": t_const.DASH}, "OP": "+"},
                     "99-99": {"ENT_TYPE": "range"},
-                    "flower": {"ENT_TYPE": "flower"},
+                    "flower": {"ENT_TYPE": "flower_term"},
                 },
                 patterns=[
                     " flower+ 99-99+ ",
@@ -79,7 +79,7 @@ class NumberOfFlowersInAnInflorescence(Base):
                             raise reject_match.RejectMatch
                         kwargs[key] = value
 
-            elif token._.term == "number_word":
+            elif token._.term == "number_term":
                 value = cls.replace.get(token.lower_, token.lower_)
                 kwargs["low"] = t_util.to_positive_int(value)
 

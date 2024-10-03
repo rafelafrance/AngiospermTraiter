@@ -7,6 +7,7 @@ from angiosperm.pylib.rules.number_of_flowers_in_an_inflorescence import (
     NumberOfFlowersInAnInflorescence,
 )
 from angiosperm.pylib.rules.ovary_position import OvaryPosition
+from angiosperm.pylib.rules.pedicel import Pedicel
 from angiosperm.pylib.rules.petaloid_bracts import PetaloidBracts
 from angiosperm.pylib.rules.plant_sexual_system import PlantSexualSystem
 from angiosperm.pylib.rules.range import Range
@@ -24,6 +25,7 @@ def build():
     Bracts.pipe(nlp)
     PetaloidBracts.pipe(nlp)
     OvaryPosition.pipe(nlp)
+    Pedicel.pipe(nlp)
 
     Range.pipe(nlp)
     NumberOfFlowersInAnInflorescence.pipe(nlp)

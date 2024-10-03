@@ -40,11 +40,12 @@ class Pedicel(Base):
                 keep="pedicel",
                 decoder={
                     "missing": {"ENT_TYPE": {"IN": ["absent", "missing"]}},
-                    "pedicel": {"ENT_TYPE": "present"},
+                    "pedicel_term": {"ENT_TYPE": "pedicel_term"},
+                    "pedicel_present": {"ENT_TYPE": "pedicel_presence"},
                 },
                 patterns=[
-                    " missing* pedicel+ missing* ",
-                    " absent+ ",
+                    " missing* pedicel_term+ missing* ",
+                    " pedicel_present+ ",
                 ],
             ),
         ]

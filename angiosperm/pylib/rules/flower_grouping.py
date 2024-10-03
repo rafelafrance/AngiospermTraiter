@@ -39,22 +39,22 @@ class FlowerGrouping(Base):
     def flower_grouping_patterns(cls):
         return [
             Compiler(
-                label="grouping",
+                label="flower_grouping",
                 on_match="flower_grouping_match",
-                keep="grouping",
+                keep="flower_grouping",
                 decoder={
                     "adp": {"POS": "ADP"},
                     "adv": {"POS": "ADV"},
                     "cconj": {"POS": "CCONJ"},
-                    "flower": {"ENT_TYPE": "flower"},
-                    "grouping": {"ENT_TYPE": "flower_grouping"},
+                    "flower_term": {"ENT_TYPE": "flower_term"},
+                    "grouping": {"ENT_TYPE": "flower_grouping_term"},
                     "'": {"POS": "PUNCT"},
                     "verb": {"POS": "VERB"},
                 },
                 patterns=[
-                    " flower verb? adp? '? grouping+ '? ",
-                    " flower       adv? '? grouping+ '? ",
-                    " cconj  verb  adp? '? grouping+ '? ",
+                    " flower_term verb? adp? '? grouping+ '? ",
+                    " flower_term       adv? '? grouping+ '? ",
+                    " cconj       verb  adp? '? grouping+ '? ",
                 ],
             ),
         ]
@@ -62,7 +62,8 @@ class FlowerGrouping(Base):
     @classmethod
     def flower_grouping_match(cls, ent):
         grouping = next(
-            (e.text.lower() for e in ent.ents if e.label_ == "flower_grouping"), None
+            (e.text.lower() for e in ent.ents if e.label_ == "flower_grouping_term"),
+            None,
         )
         grouping = cls.replace.get(grouping, grouping)
         return cls.from_ent(ent, grouping=grouping)

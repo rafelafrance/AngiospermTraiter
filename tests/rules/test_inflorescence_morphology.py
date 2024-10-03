@@ -2,6 +2,7 @@ import unittest
 
 from angiosperm.pylib.rules.inflorescence_morphology import InflorescenceMorphology
 from angiosperm.pylib.rules.inflorescence_position import InflorescencePosition
+from angiosperm.pylib.rules.pedicel import Pedicel
 from tests.setup import parse
 
 
@@ -72,6 +73,7 @@ class TestInflorescence(unittest.TestCase):
                     start=33,
                     end=41,
                 ),
+                Pedicel(start=58, end=69, present=True),
                 InflorescenceMorphology(
                     morphology="globose capitula",
                     start=70,

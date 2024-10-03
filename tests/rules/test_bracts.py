@@ -9,7 +9,7 @@ class TestBract(unittest.TestCase):
         self.assertEqual(
             parse("with involucral bracts, or without involucral bracts;"),
             [
-                Bracts(present=True, start=5, end=15),
-                Bracts(present=False, start=27, end=45),
+                Bracts(present=True, start=5, end=22),
+                Bracts(present=False, start=27, end=52),
             ],
         )

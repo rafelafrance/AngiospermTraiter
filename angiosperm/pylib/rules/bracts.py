@@ -40,10 +40,12 @@ class Bracts(Base):
                 keep="bract",
                 decoder={
                     "missing": {"ENT_TYPE": "missing"},
-                    "bract": {"ENT_TYPE": "bract_presence"},
+                    "bract_present": {"ENT_TYPE": "bract_presence_term"},
+                    "bract_term": {"ENT_TYPE": "bract_term"},
                 },
                 patterns=[
-                    " missing* bract+ missing* ",
+                    " missing* bract_present+ bract_term* missing* ",
+                    " missing*                bract_term+ missing* ",
                 ],
             ),
         ]

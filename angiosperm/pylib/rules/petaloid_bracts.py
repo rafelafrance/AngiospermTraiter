@@ -39,12 +39,12 @@ class PetaloidBracts(Base):
     def petaloid_bracts_patterns(cls):
         return [
             Compiler(
-                label="bract",
+                label="petaloid bracts",
                 on_match="petaloid_bracts_match",
-                keep="bract",
+                keep="petaloid bracts",
                 decoder={
                     "missing": {"ENT_TYPE": "missing"},
-                    "bract": {"ENT_TYPE": "petaloid_bracts"},
+                    "bract": {"ENT_TYPE": "petaloid_bract_term"},
                 },
                 patterns=[
                     " missing* bract+ missing* ",

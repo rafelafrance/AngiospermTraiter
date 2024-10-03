@@ -49,7 +49,7 @@ class PlantSexualSystem(Base):
                 keep="sexual_system",
                 decoder={
                     "[?]": {"ENT_TYPE": "q_mark"},
-                    "sexual_system": {"ENT_TYPE": "plant_sexual_system"},
+                    "sexual_system": {"ENT_TYPE": "plant_sexual_system_term"},
                 },
                 patterns=[
                     " sexual_system+ ",
@@ -61,7 +61,11 @@ class PlantSexualSystem(Base):
     @classmethod
     def plant_sexual_system_match(cls, ent):
         sexual_system = next(
-            (e.text.lower() for e in ent.ents if e.label_ == "plant_sexual_system"),
+            (
+                e.text.lower()
+                for e in ent.ents
+                if e.label_ == "plant_sexual_system_term"
+            ),
             None,
         )
         sexual_system = cls.replace.get(sexual_system, sexual_system)
