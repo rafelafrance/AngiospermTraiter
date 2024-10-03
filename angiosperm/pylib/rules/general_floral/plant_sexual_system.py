@@ -38,7 +38,6 @@ class PlantSexualSystem(Base):
 
     @classmethod
     def plant_sexual_system_patterns(cls):
-        print()
         return [
             Compiler(
                 label="sexual_system",
