@@ -62,7 +62,7 @@ You'll need some treatment text files. One treatment per file.
 Example:
 
 ```bash
-parse-treatments --treatment-dir /path/to/treatments --json-dir /path/to/output/traits --html-file /path/to/traits.html
+general_floral_parse-treatments --treatment-dir /path/to/treatments --json-dir /path/to/output/traits --html-file /path/to/traits.html
 ```
 
 The output formats --json-dir & --html-file are optional. An example of the HTML output was shown above. An example of JSON output.
