@@ -18,10 +18,7 @@ extrafloral_nectary_position_term,lamina
 extrafloral_nectary_position_term,nodes
 extrafloral_nectary_position_term,pedicel
 floral_nectary_term,floral nectaries,floral nectary
-floral_nectary_term,floral nectaries,floral nectary
-floral_nectary_on_androecium_term,floral nectary on androecium
-floral_nectary_on_gynoecium_term,floral nectary on gynoecium
-floral_nectary_on_perianth_term,floral nectary on perianth
+floral_nectary_term,floral nectary,floral nectary
 flower_grouping_term,inflorescence,inflorescence
 flower_grouping_term,inflorescences,inflorescence
 flower_grouping_term,inflorescenses,inflorescence
@@ -59,11 +56,8 @@ inflorescence_morphology_term,umbel,umbel,indeterminate
 inflorescence_morphology_term,umbels,umbel,indeterminate
 inflorescence_position_term,axillary
 inflorescence_position_term,terminal
-nectary_position_term,androecium
 nectary_position_term,base of stamen
 nectary_position_term,base of stamens
-nectary_position_term,gynoecium
-nectary_position_term,perianth
 number_of_flowers_in_an_inflorescence_term,Number of flowers in an inflorescence
 ovary_position_term,epigynous,inferior
 ovary_position_term,half-inferior,half-inferior
@@ -79,6 +73,7 @@ pedicel_presence,sessile,,,absent
 pedicel_term,pedicel,pedicel
 pedicel_term,pedicelled,pedicel
 pedicel_term,pedicels,pedicel
+perianth_term,perianth
 petaloid_bract_term,bracts petaloid,petaloid bracts
 petaloid_bract_term,petaloid 'bracts',petaloid bracts
 petaloid_bract_term,petaloid bract,petaloid bracts
