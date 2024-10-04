@@ -6,6 +6,7 @@ from typing import ClassVar
 from spacy import registry
 from spacy.language import Language
 from traiter.pylib import const as t_const
+from traiter.pylib import term_util
 from traiter.pylib.darwin_core import DarwinCore
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add, reject_match
@@ -20,7 +21,9 @@ class Range(Base):
         Path(t_terms.__file__).parent / "about_terms.csv",
         Path(t_terms.__file__).parent / "numeric_terms.csv",
         Path(t_terms.__file__).parent / "month_terms.csv",
+        Path(t_terms.__file__).parent / "number_word_terms.csv",
     ]
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(all_csvs, "replace")
 
     and_: ClassVar[list[str]] = ["&", "and", "et"]
     conj: ClassVar[list[str]] = [*and_, "or"]
@@ -90,6 +93,7 @@ class Range(Base):
             "9.9or": {"LOWER": {"REGEX": cls.min_or}},
             "month": {"ENT_TYPE": "month"},
             "not_numeric": {"ENT_TYPE": {"IN": cls.not_numeric}},
+            "num": {"ENT_TYPE": "number_word"},
         }
         return [
             Compiler(
@@ -102,6 +106,7 @@ class Range(Base):
                     "9.9",
                     "( 9.9 -/or ) ambiguous ( -/to ambiguous )",
                     "9.9 ( -/to [?] )",
+                    "num",
                 ],
             ),
             Compiler(
@@ -231,7 +236,8 @@ class Range(Base):
                 raise reject_match.RejectMatch
 
             token._.flag = "range"
-            nums += re.findall(r"\d*\.?\d+", token.text)
+            text = cls.replace.get(token.text, token.text)
+            nums += re.findall(r"\d*\.?\d+", text)
 
         keys = ent.label_.split(".")[1:]
         kwargs = dict(zip(keys, nums, strict=False))
