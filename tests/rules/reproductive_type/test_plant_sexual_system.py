@@ -1,15 +1,18 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.plant_sexual_system import PlantSexualSystem
-from tests.setup import general_floral_parse
+from angiosperm.pylib.rules.reproductive_type.plant_sexual_system import (
+    PlantSexualSystem,
+)
+from tests.setup import parse
 
 
 class TestSexualSystem(unittest.TestCase):
     def test_sexual_system_01(self):
         self.maxDiff = None
         self.assertEqual(
-            general_floral_parse(
-                "Plants monoecious, or dioecious, or polygamomonoecious (?)."
+            parse(
+                "reproductive_type",
+                "Plants monoecious, or dioecious, or polygamomonoecious (?).",
             ),
             [
                 PlantSexualSystem(sexual_system="monoecy", start=7, end=17),

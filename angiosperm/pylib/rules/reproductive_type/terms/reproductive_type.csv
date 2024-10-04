@@ -1,0 +1,17 @@
+label,pattern,replace
+plant_sexual_system_term,androdioecious,dioecy
+plant_sexual_system_term,androdioecy,dioecy
+plant_sexual_system_term,dioecious,dioecy
+plant_sexual_system_term,dioecy,dioecy
+plant_sexual_system_term,gynodioecious,dioecy
+plant_sexual_system_term,gynodioecy,dioecy
+plant_sexual_system_term,monecious,monoecy
+plant_sexual_system_term,monoecious,monoecy
+plant_sexual_system_term,monoecy,monoecy
+plant_sexual_system_term,polygamomonoecious,polygamomonoecy
+plant_sexual_system_term,polygamomonoecy,polygamomonoecy
+q_mark,(?)
+q_mark,?
+q_mark,[?]
+structural_sex_of_flowers_term,bisexual
+structural_sex_of_flowers_term,unisexual

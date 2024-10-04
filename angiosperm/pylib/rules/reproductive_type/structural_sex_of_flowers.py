@@ -13,7 +13,7 @@ from angiosperm.pylib.rules.base import Base
 @dataclass(eq=False)
 class StructuralSexOfFlowers(Base):
     # Class vars ----------
-    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "general_floral.csv"
+    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "reproductive_type.csv"
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 

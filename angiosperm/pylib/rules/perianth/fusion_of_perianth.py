@@ -41,7 +41,6 @@ class FusionOfPerianth(Base):
                 on_match="fusion_of_perianth_match",
                 keep="fusion_of_perianth",
                 decoder={
-                    "[?]": {"ENT_TYPE": "q_mark"},
                     "fusion": {"ENT_TYPE": "fusion_of_perianth_term"},
                 },
                 patterns=[

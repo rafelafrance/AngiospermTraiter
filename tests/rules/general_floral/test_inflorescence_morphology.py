@@ -7,16 +7,17 @@ from angiosperm.pylib.rules.general_floral.inflorescence_position import (
     InflorescencePosition,
 )
 from angiosperm.pylib.rules.general_floral.pedicel import Pedicel
-from tests.setup import general_floral_parse
+from tests.setup import parse
 
 
 class TestInflorescence(unittest.TestCase):
     def test_inflorescence_01(self):
         self.assertEqual(
-            general_floral_parse(
+            parse(
+                "general_floral",
                 """Inflorescences terminal, or axillary; usually in cymes, cymose
                 corymbs, panicles or umbels, in racemes of panicles,
-                or even in heads;"""
+                or even in heads;""",
             ),
             [
                 InflorescencePosition(position="terminal", start=15, end=23),
@@ -65,10 +66,11 @@ class TestInflorescence(unittest.TestCase):
     def test_inflorescence_02(self):
         self.maxDiff = None
         self.assertEqual(
-            general_floral_parse(
+            parse(
+                "general_floral",
                 """The ultimate inflorescence units racemose.
                 Inflorescences pedunculate heads, short racemes or compact umbels,
-                or sometimes reduced to a single flower."""
+                or sometimes reduced to a single flower.""",
             ),
             [
                 InflorescenceMorphology(

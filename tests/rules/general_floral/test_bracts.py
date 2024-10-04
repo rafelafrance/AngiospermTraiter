@@ -1,14 +1,15 @@
 import unittest
 
 from angiosperm.pylib.rules.general_floral.bracts import Bracts
-from tests.setup import general_floral_parse
+from tests.setup import parse
 
 
 class TestBract(unittest.TestCase):
     def test_bract_01(self):
         self.assertEqual(
-            general_floral_parse(
-                "with involucral bracts, or without involucral bracts;"
+            parse(
+                "general_floral",
+                "with involucral bracts, or without involucral bracts;",
             ),
             [
                 Bracts(present=True, start=5, end=22),

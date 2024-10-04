@@ -1,6 +1,7 @@
 label,pattern,replace,presence
 clawed_petal_term,clawed petal
 clawed_petal_term,clawed petals
+fusion_of_perianth_term,basally connate,connate at base
 fusion_of_perianth_term,connate at base,
 fusion_of_perianth_term,connate,
 fusion_of_perianth_term,distinct,
@@ -57,6 +58,8 @@ perianth_whorl_count_term,dicyclic,2
 perianth_whorl_count_term,uniseriate,1
 petal_arrangement_term,imbricate,
 petal_arrangement_term,valvate,
+petals_fused_term,fused petals,
+petals_fused_term,petals fused,
 phyllotaxy_term,phyllotaxy,phyllotaxy
 saccate_perianth_term,saccate perianth,
 symmetry_of_perianth_term,actinomorphic,actinomorphic
@@ -65,4 +68,5 @@ symmetry_of_perianth_term,bilaterally symmetric,zygomorphic
 symmetry_of_perianth_term,disymmetric,
 symmetry_of_perianth_term,radially symmetric,actinomorphic
 symmetry_of_perianth_term,radially symmetric,actinomorphic
+symmetry_of_perianth_term,symmetric,symmetric
 symmetry_of_perianth_term,zygomorphic,zygomorphic

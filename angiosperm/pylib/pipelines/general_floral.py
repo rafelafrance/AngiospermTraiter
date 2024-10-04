@@ -23,18 +23,12 @@ from angiosperm.pylib.rules.general_floral.inflorescence_position import (
 from angiosperm.pylib.rules.general_floral.ovary_position import OvaryPosition
 from angiosperm.pylib.rules.general_floral.pedicel import Pedicel
 from angiosperm.pylib.rules.general_floral.petaloid_bracts import PetaloidBracts
-from angiosperm.pylib.rules.general_floral.plant_sexual_system import PlantSexualSystem
-from angiosperm.pylib.rules.general_floral.structural_sex_of_flowers import (
-    StructuralSexOfFlowers,
-)
 from angiosperm.pylib.rules.range import Range
 
 
 def build():
     nlp = base.setup()
 
-    PlantSexualSystem.pipe(nlp)
-    StructuralSexOfFlowers.pipe(nlp)
     FlowerGrouping.pipe(nlp)
     InflorescencePosition.pipe(nlp)
     InflorescenceMorphology.pipe(nlp)
