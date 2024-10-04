@@ -37,7 +37,6 @@ def read(input_dir: Path) -> dict[str, Page]:
     pages: dict[str, Page] = {}
 
     paths = sorted(input_dir.glob("*.htm*"))
-    paths = [p for p in paths if p.stem == "cornacea"]
 
     for path in paths:
         with path.open("rb") as in_file:

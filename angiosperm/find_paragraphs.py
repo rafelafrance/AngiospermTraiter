@@ -3,21 +3,17 @@ import argparse
 import textwrap
 from pathlib import Path
 
-from angiosperm.pylib import log
-from angiosperm.pylib.readers import family_html
-from angiosperm.pylib.writers import html_writer
+from angiosperm.pylib.readers import paragraphs_html
 
 
 def main():
-    log.started()
     args = parse_args()
 
-    pages = family_html.read(args.input_dir)
+    paragraphs = paragraphs_html.read(args.input_dir, args.pattern)
 
-    if args.html_file:
-        html_writer.write(pages, args.html_file)
-
-    log.finished()
+    for taxon, paragraph in paragraphs.items():
+        print(taxon, "\n")
+        print(paragraph, "\n")
 
 
 def parse_args() -> argparse.Namespace:
@@ -25,10 +21,7 @@ def parse_args() -> argparse.Namespace:
         fromfile_prefix_chars="@",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         description=textwrap.dedent(
-            """
-            Extract floral trait information from "The Families of Angiosperms"
-            web pages.
-            """,
+            """Find target paragraphs for gathering test data.""",
         ),
     )
 
@@ -41,10 +34,8 @@ def parse_args() -> argparse.Namespace:
     )
 
     arg_parser.add_argument(
-        "--html-file",
-        type=Path,
-        metavar="PATH",
-        help="""Output formatted trait data to this HTML file.""",
+        "--pattern",
+        help="""The paragraph's first sentence should contain this pattern.""",
     )
 
     args = arg_parser.parse_args()
