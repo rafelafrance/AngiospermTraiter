@@ -3,6 +3,7 @@ from traiter.pylib.util import compress
 from angiosperm.pylib.pipelines import (
     androecium,
     general_floral,
+    leaf,
     perianth,
     reproductive_type,
 )
@@ -10,6 +11,7 @@ from angiosperm.pylib.pipelines import (
 PIPELINES = {
     "androecium": androecium.build(),
     "general_floral": general_floral.build(),
+    "leaf": leaf.build(),
     "perianth": perianth.build(),
     "reproductive_type": reproductive_type.build(),
 }

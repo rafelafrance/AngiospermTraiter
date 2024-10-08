@@ -1,13 +1,9 @@
 from angiosperm.pylib.pipelines import base
 from angiosperm.pylib.rules.clawed_petal import ClawedPetal
 from angiosperm.pylib.rules.fusion_of_perianth import FusionOfPerianth
-from angiosperm.pylib.rules.number_of_perianth_whorls import (
-    NumberOfPerianthWhorls,
-)
+from angiosperm.pylib.rules.number_of_perianth_whorls import NumberOfPerianthWhorls
 from angiosperm.pylib.rules.number_of_petals_fused import NumberOfPetalsFused
-from angiosperm.pylib.rules.perianth_differentiation import (
-    PerianthDifferentiation,
-)
+from angiosperm.pylib.rules.perianth_differentiation import PerianthDifferentiation
 from angiosperm.pylib.rules.perianth_margin import PerianthMargin
 from angiosperm.pylib.rules.perianth_merism import PerianthMerism
 from angiosperm.pylib.rules.perianth_presence import PerianthPresence
