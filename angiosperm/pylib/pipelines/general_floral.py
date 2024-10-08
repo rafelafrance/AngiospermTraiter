@@ -1,18 +1,18 @@
 from angiosperm.pylib.pipelines import base
-from angiosperm.pylib.rules.general_floral.bracts import Bracts
-from angiosperm.pylib.rules.general_floral.flower_grouping import FlowerGrouping
-from angiosperm.pylib.rules.general_floral.flowers_in_an_inflorescence import (
+from angiosperm.pylib.rules.bracts import Bracts
+from angiosperm.pylib.rules.flower_grouping import FlowerGrouping
+from angiosperm.pylib.rules.flowers_in_an_inflorescence import (
     FlowersInAnInflorescence,
 )
-from angiosperm.pylib.rules.general_floral.inflorescence_morphology import (
+from angiosperm.pylib.rules.inflorescence_morphology import (
     InflorescenceMorphology,
 )
-from angiosperm.pylib.rules.general_floral.inflorescence_position import (
+from angiosperm.pylib.rules.inflorescence_position import (
     InflorescencePosition,
 )
-from angiosperm.pylib.rules.general_floral.ovary_position import OvaryPosition
-from angiosperm.pylib.rules.general_floral.pedicel import Pedicel
-from angiosperm.pylib.rules.general_floral.petaloid_bracts import PetaloidBracts
+from angiosperm.pylib.rules.ovary_position import OvaryPosition
+from angiosperm.pylib.rules.pedicel import Pedicel
+from angiosperm.pylib.rules.petaloid_bracts import PetaloidBracts
 from angiosperm.pylib.rules.range import Range
 
 

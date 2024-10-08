@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.androecium.staminodes import Staminodes
+from angiosperm.pylib.rules.staminodes import Staminodes
 from tests.setup import parse
 
 

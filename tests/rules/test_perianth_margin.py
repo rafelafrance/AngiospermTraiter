@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.perianth_margin import PerianthMargin
+from angiosperm.pylib.rules.perianth_margin import PerianthMargin
 from tests.setup import parse
 
 

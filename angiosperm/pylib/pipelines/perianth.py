@@ -1,20 +1,20 @@
 from angiosperm.pylib.pipelines import base
-from angiosperm.pylib.rules.perianth.clawed_petal import ClawedPetal
-from angiosperm.pylib.rules.perianth.fusion_of_perianth import FusionOfPerianth
-from angiosperm.pylib.rules.perianth.number_of_perianth_whorls import (
+from angiosperm.pylib.rules.clawed_petal import ClawedPetal
+from angiosperm.pylib.rules.fusion_of_perianth import FusionOfPerianth
+from angiosperm.pylib.rules.number_of_perianth_whorls import (
     NumberOfPerianthWhorls,
 )
-from angiosperm.pylib.rules.perianth.number_of_petals_fused import NumberOfPetalsFused
-from angiosperm.pylib.rules.perianth.perianth_differentiation import (
+from angiosperm.pylib.rules.number_of_petals_fused import NumberOfPetalsFused
+from angiosperm.pylib.rules.perianth_differentiation import (
     PerianthDifferentiation,
 )
-from angiosperm.pylib.rules.perianth.perianth_margin import PerianthMargin
-from angiosperm.pylib.rules.perianth.perianth_merism import PerianthMerism
-from angiosperm.pylib.rules.perianth.perianth_presence import PerianthPresence
-from angiosperm.pylib.rules.perianth.perianth_shape import PerianthShape
-from angiosperm.pylib.rules.perianth.saccate_perianth import SaccatePerianth
-from angiosperm.pylib.rules.perianth.symmetry_of_perianth import SymmetryOfPerianth
+from angiosperm.pylib.rules.perianth_margin import PerianthMargin
+from angiosperm.pylib.rules.perianth_merism import PerianthMerism
+from angiosperm.pylib.rules.perianth_presence import PerianthPresence
+from angiosperm.pylib.rules.perianth_shape import PerianthShape
 from angiosperm.pylib.rules.range import Range
+from angiosperm.pylib.rules.saccate_perianth import SaccatePerianth
+from angiosperm.pylib.rules.symmetry_of_perianth import SymmetryOfPerianth
 
 
 def build():

@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.androecium.number_of_fertile_stamens import (
+from angiosperm.pylib.rules.number_of_fertile_stamens import (
     NumberOfFertileStamens,
 )
 from tests.setup import parse

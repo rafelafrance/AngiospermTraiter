@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.ovary_position import OvaryPosition
+from angiosperm.pylib.rules.ovary_position import OvaryPosition
 from tests.setup import parse
 
 

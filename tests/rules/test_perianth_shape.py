@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.perianth_shape import PerianthShape
+from angiosperm.pylib.rules.perianth_shape import PerianthShape
 from tests.setup import parse
 
 

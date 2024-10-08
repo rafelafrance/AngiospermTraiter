@@ -1,12 +1,12 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.inflorescence_morphology import (
+from angiosperm.pylib.rules.inflorescence_morphology import (
     InflorescenceMorphology,
 )
-from angiosperm.pylib.rules.general_floral.inflorescence_position import (
+from angiosperm.pylib.rules.inflorescence_position import (
     InflorescencePosition,
 )
-from angiosperm.pylib.rules.general_floral.pedicel import Pedicel
+from angiosperm.pylib.rules.pedicel import Pedicel
 from tests.setup import parse
 
 

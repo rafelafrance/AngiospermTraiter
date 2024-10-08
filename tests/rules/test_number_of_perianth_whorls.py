@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.number_of_perianth_whorls import (
+from angiosperm.pylib.rules.number_of_perianth_whorls import (
     NumberOfPerianthWhorls,
 )
 from tests.setup import parse

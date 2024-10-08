@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.saccate_perianth import SaccatePerianth
+from angiosperm.pylib.rules.saccate_perianth import SaccatePerianth
 from tests.setup import parse
 
 

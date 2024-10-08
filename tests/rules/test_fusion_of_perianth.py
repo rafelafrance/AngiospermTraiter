@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.fusion_of_perianth import FusionOfPerianth
+from angiosperm.pylib.rules.fusion_of_perianth import FusionOfPerianth
 from tests.setup import parse
 
 

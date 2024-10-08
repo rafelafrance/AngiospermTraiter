@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.perianth_differentiation import (
+from angiosperm.pylib.rules.perianth_differentiation import (
     PerianthDifferentiation,
 )
 from tests.setup import parse

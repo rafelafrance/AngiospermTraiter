@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.pedicel import Pedicel
+from angiosperm.pylib.rules.pedicel import Pedicel
 from tests.setup import parse
 
 

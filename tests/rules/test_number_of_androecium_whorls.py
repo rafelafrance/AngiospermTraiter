@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.androecium.androecium_structural_whorls import (
+from angiosperm.pylib.rules.androecium_structural_whorls import (
     NumberOfAndroeciumWhorls,
 )
 from tests.setup import parse

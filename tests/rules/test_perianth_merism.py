@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.perianth_merism import PerianthMerism
+from angiosperm.pylib.rules.perianth_merism import PerianthMerism
 from tests.setup import parse
 
 

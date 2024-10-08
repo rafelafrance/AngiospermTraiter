@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.flower_grouping import FlowerGrouping
+from angiosperm.pylib.rules.flower_grouping import FlowerGrouping
 from tests.setup import parse
 
 

@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.clawed_petal import ClawedPetal
+from angiosperm.pylib.rules.clawed_petal import ClawedPetal
 from tests.setup import parse
 
 

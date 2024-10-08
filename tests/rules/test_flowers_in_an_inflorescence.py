@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.flowers_in_an_inflorescence import (
+from angiosperm.pylib.rules.flowers_in_an_inflorescence import (
     FlowersInAnInflorescence,
 )
 from tests.setup import parse

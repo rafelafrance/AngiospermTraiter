@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.number_of_petals_fused import NumberOfPetalsFused
+from angiosperm.pylib.rules.number_of_petals_fused import NumberOfPetalsFused
 from tests.setup import parse
 
 

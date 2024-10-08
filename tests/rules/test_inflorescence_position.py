@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.inflorescence_position import (
+from angiosperm.pylib.rules.inflorescence_position import (
     InflorescencePosition,
 )
 from tests.setup import parse

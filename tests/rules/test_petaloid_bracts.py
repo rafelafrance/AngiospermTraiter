@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.petaloid_bracts import (
+from angiosperm.pylib.rules.petaloid_bracts import (
     PetaloidBracts,
 )
 from tests.setup import parse

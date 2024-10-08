@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.bracts import Bracts
+from angiosperm.pylib.rules.bracts import Bracts
 from tests.setup import parse
 
 

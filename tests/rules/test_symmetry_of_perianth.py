@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.perianth.symmetry_of_perianth import SymmetryOfPerianth
+from angiosperm.pylib.rules.symmetry_of_perianth import SymmetryOfPerianth
 from tests.setup import parse
 
 
