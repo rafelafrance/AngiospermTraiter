@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.reproductive_type.plant_sexual_system import (
+from angiosperm.pylib.rules.plant_sexual_system import (
     PlantSexualSystem,
 )
 from tests.setup import parse

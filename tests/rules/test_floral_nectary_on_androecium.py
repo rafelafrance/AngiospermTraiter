@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.reproductive_type.floral_nectary_on_androecium import (
+from angiosperm.pylib.rules.floral_nectary_on_androecium import (
     FloralNectaryOnAndroecium,
 )
 from tests.setup import parse

@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.reproductive_type.floral_nectary_on_perianth import (
+from angiosperm.pylib.rules.floral_nectary_on_perianth import (
     FloralNectaryOnPerianth,
 )
 from tests.setup import parse

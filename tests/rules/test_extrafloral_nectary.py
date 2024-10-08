@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.reproductive_type.extrafloral_nectary import (
+from angiosperm.pylib.rules.extrafloral_nectary import (
     ExtrafloralNectary,
 )
 from tests.setup import parse

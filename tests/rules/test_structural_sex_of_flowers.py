@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.reproductive_type.structural_sex_of_flowers import (
+from angiosperm.pylib.rules.structural_sex_of_flowers import (
     StructuralSexOfFlowers,
 )
 from tests.setup import parse
