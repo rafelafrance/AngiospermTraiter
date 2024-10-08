@@ -39,15 +39,17 @@ def read(input_dir: Path) -> dict[str, Page]:
     paths = sorted(input_dir.glob("*.htm*"))
 
     for path in paths:
+        print(path)
         with path.open("rb") as in_file:
             raw = in_file.read()
 
         soup = BeautifulSoup(raw, features="lxml")
 
-        taxon = get_taxon(soup.title.text)
+        # taxon = get_taxon(soup.title.text)
+        taxon = soup.title.text
 
         if taxon in pages:
-            sys.exit(f"Duplicate taxon {taxon}")
+            sys.exit(f"Duplicate taxon: {taxon}")
 
         paragraphs = get_paragraphs(soup)
 
@@ -56,10 +58,10 @@ def read(input_dir: Path) -> dict[str, Page]:
     return pages
 
 
-def get_taxon(text):
-    taxon = text.split("-")[-1]
-    taxon = taxon.split()[0]
-    return taxon
+# def get_taxon(text):
+#     taxon = text.split("-")[-1]
+#     taxon = taxon.split()[0]
+#     return taxon
 
 
 def get_paragraphs(soup):

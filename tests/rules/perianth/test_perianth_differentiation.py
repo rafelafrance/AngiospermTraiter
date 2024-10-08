@@ -12,7 +12,7 @@ class TestBract(unittest.TestCase):
             parse("perianth", "Perianth of tepals"),
             [
                 PerianthDifferentiation(
-                    differentiation="undifferentiated", start=12, end=18
+                    differentiation="undifferentiated", start=0, end=18
                 ),
             ],
         )

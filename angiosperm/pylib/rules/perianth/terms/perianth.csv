@@ -42,7 +42,8 @@ perianth_shape_term,urceolate,bell-shaped
 perianth_shape_term,urn-shape,bell-shaped
 perianth_shape_term,urn-shaped,bell-shaped
 perianth_shape_term,wheel-shaped,funnelform
-perianth_term,perianth,
+perianth_term,perianth,perianth
+perianth_term,perianths,perianth
 perianth_whorl_count_term,biseriate,2
 perianth_whorl_count_term,dicyclic,2
 perianth_whorl_count_term,uniseriate,1

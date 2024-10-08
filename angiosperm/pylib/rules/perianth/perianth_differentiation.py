@@ -41,10 +41,13 @@ class PerianthDifferentiation(Base):
                 on_match="perianth_differentiation_match",
                 keep="perianth_differentiation",
                 decoder={
+                    "adp": {"POS": "ADP"},
+                    "perianth": {"ENT_TYPE": "perianth_term"},
                     "differentiation": {"ENT_TYPE": "perianth_differentiation_term"},
                 },
                 patterns=[
-                    " differentiation+ ",
+                    " perianth adp? differentiation+ ",
+                    " differentiation+ perianth? ",
                 ],
             ),
         ]

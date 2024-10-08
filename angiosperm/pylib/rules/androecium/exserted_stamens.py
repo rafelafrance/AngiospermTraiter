@@ -11,10 +11,10 @@ from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
-class PerianthPresence(Base):
+class ExsertedStamens(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
-        Path(__file__).parent / "terms" / "perianth.csv",
+        Path(__file__).parent / "terms" / "androecium.csv",
         Path(t_terms.__file__).parent / "missing_terms.csv",
     ]
     # ---------------------
@@ -22,42 +22,42 @@ class PerianthPresence(Base):
     present: bool = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Perianth presence": "present" if self.present else "absent"}
+        return {"Exserted stamens": "present" if self.present else "absent"}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="perianth_terms", path=cls.csvs)
+        add.term_pipe(nlp, name="exserted_stamens_terms", path=cls.csvs)
         add.trait_pipe(
             nlp,
-            name="perianth_patterns",
-            compiler=cls.perianth_patterns(),
+            name="exserted_stamens_patterns",
+            compiler=cls.exserted_stamens_patterns(),
         )
         # add.debug_tokens(nlp)  # #################################################
-        add.cleanup_pipe(nlp, name="perianth_cleanup")
+        add.cleanup_pipe(nlp, name="exserted_stamens_cleanup")
 
     @classmethod
-    def perianth_patterns(cls):
+    def exserted_stamens_patterns(cls):
         return [
             Compiler(
-                label="perianth",
-                on_match="perianth_match",
-                keep="perianth",
+                label="exserted_stamens",
+                on_match="exserted_stamens_match",
+                keep="exserted_stamens",
                 decoder={
-                    "perianth": {"ENT_TYPE": "perianth_term"},
+                    "exserted_stamens": {"ENT_TYPE": "exserted_stamens_presence"},
                     "missing": {"ENT_TYPE": "missing"},
                 },
                 patterns=[
-                    " missing* perianth+ missing* ",
+                    " missing* exserted_stamens+ missing* ",
                 ],
             ),
         ]
 
     @classmethod
-    def perianth_match(cls, ent):
+    def exserted_stamens_match(cls, ent):
         present = not any(e.label_ == "missing" for e in ent.ents)
         return cls.from_ent(ent, present=present)
 
 
-@registry.misc("perianth_match")
-def perianth_match(ent):
-    return PerianthPresence.perianth_match(ent)
+@registry.misc("exserted_stamens_match")
+def exserted_stamens_match(ent):
+    return ExsertedStamens.exserted_stamens_match(ent)

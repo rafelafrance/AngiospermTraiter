@@ -26,8 +26,8 @@ connective_extension_term,connective extension
 exserted_stamens_presence,exerted,,present
 exserted_stamens_presence,inserted,,absent
 exserted_stamens_term,exserted stamens,
-fertile_stamens_term,fertile stamens,fertile stamens
 fertile_stamens_term,fertile stamen,fertile stamens
+fertile_stamens_term,fertile stamens,fertile stamens
 filament_length_term,absent,absent
 filament_length_term,elongate,present
 filament_length_term,present,present
@@ -64,13 +64,13 @@ gametophyte_development_at_anthesis_term,2-celled,2-celled
 gametophyte_development_at_anthesis_term,3 celled,3-celled
 gametophyte_development_at_anthesis_term,3-celled,3-celled
 gametophyte_development_at_anthesis_term,trinucleate,3-celled
-number_of_androecium_structural_whorls_count_term,biseriate,2
-number_of_androecium_structural_whorls_count_term,pentaseriate,5
-number_of_androecium_structural_whorls_count_term,tetradynamous,2
-number_of_androecium_structural_whorls_count_term,tetraseriate,4
-number_of_androecium_structural_whorls_count_term,triseriate,3
-number_of_androecium_structural_whorls_count_term,uniseriate,1
-number_of_androecium_structural_whorls_term,Number of androecium structural whorls,
+number_of_androecium_whorls_count_term,biseriate,2
+number_of_androecium_whorls_count_term,pentaseriate,5
+number_of_androecium_whorls_count_term,tetradynamous,2
+number_of_androecium_whorls_count_term,tetraseriate,4
+number_of_androecium_whorls_count_term,triseriate,3
+number_of_androecium_whorls_count_term,uniseriate,1
+number_of_androecium_whorls_term,Number of androecium structural whorls,
 number_of_fertile_stamens_term,number of fertile stamen,number of fertile stamen
 number_of_fertile_stamens_term,number of fertile stamens,number of fertile stamen
 petaloid_staminodes_term,petaloid staminodes,petaloid staminodes
@@ -85,14 +85,18 @@ stamen_position_term,alternisepalous,antisepalous
 stamen_position_term,antipetalous,antisepalous
 stamen_position_term,antisepalous,antisepalous
 stamen_position_term,antitepalous,antisepalous
-stamen_position_term,non-perianth,
+stamen_position_term,non-perianth,non-perianth
+stamen_position_term,position,non-perianth
 stamen_term,stamen,stamen
 stamen_term,stamens,stamen
 staminode_presence,antherode,,present
-staminode_term,staminode,staminode
-staminode_term,staminodes,staminode
+staminode_term,staminode,staminodes
+staminode_term,staminodes,staminodes
 thecae_number_term,dithecal,two
 thecae_number_term,monothecal,one
 thecae_number_term,one,one
 thecae_number_term,two,two
 thecae_term,thecae,
+whorls_term,whorl,whorls
+whorls_term,whorled,whorls
+whorls_term,whorls,whorls

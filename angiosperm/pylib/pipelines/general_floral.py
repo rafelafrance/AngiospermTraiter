@@ -29,6 +29,9 @@ from angiosperm.pylib.rules.range import Range
 def build():
     nlp = base.setup()
 
+    Range.pipe(nlp)
+    FlowersInAnInflorescence.pipe(nlp)
+
     FlowerGrouping.pipe(nlp)
     InflorescencePosition.pipe(nlp)
     InflorescenceMorphology.pipe(nlp)
@@ -40,8 +43,5 @@ def build():
     FloralNectaryOnAndroecium.pipe(nlp)
     FloralNectaryOnPerianth.pipe(nlp)
     ExtrafloralNectary.pipe(nlp)
-
-    Range.pipe(nlp)
-    FlowersInAnInflorescence.pipe(nlp)
 
     return base.teardown(nlp)

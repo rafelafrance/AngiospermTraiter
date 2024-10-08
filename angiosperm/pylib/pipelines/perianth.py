@@ -10,6 +10,7 @@ from angiosperm.pylib.rules.perianth.perianth_differentiation import (
 )
 from angiosperm.pylib.rules.perianth.perianth_margin import PerianthMargin
 from angiosperm.pylib.rules.perianth.perianth_merism import PerianthMerism
+from angiosperm.pylib.rules.perianth.perianth_presence import PerianthPresence
 from angiosperm.pylib.rules.perianth.perianth_shape import PerianthShape
 from angiosperm.pylib.rules.perianth.saccate_perianth import SaccatePerianth
 from angiosperm.pylib.rules.perianth.symmetry_of_perianth import SymmetryOfPerianth
@@ -18,6 +19,10 @@ from angiosperm.pylib.rules.range import Range
 
 def build():
     nlp = base.setup()
+
+    Range.pipe(nlp)
+    NumberOfPetalsFused.pipe(nlp)
+    NumberOfPerianthWhorls.pipe(nlp)
 
     FusionOfPerianth.pipe(nlp)
     SymmetryOfPerianth.pipe(nlp)
@@ -28,8 +33,7 @@ def build():
     ClawedPetal.pipe(nlp)
     PerianthShape.pipe(nlp)
 
-    Range.pipe(nlp)
-    NumberOfPetalsFused.pipe(nlp)
-    NumberOfPerianthWhorls.pipe(nlp)
+    # Needs to be last because it overlaps with other traits
+    PerianthPresence.pipe(nlp)
 
     return base.teardown(nlp)

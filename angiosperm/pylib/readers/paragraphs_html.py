@@ -14,17 +14,11 @@ def read(input_dir: Path, pattern: str) -> dict[str, str]:
 
         soup = BeautifulSoup(raw, features="lxml")
 
-        taxon = get_taxon(soup.title.text)
+        taxon = soup.title.text
 
         paragraphs[taxon] = get_paragraph(soup, pattern)
 
     return paragraphs
-
-
-def get_taxon(text):
-    taxon = text.split("-")[-1]
-    taxon = taxon.split()[0]
-    return taxon
 
 
 def get_paragraph(soup, pattern):
