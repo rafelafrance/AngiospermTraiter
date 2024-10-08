@@ -1,6 +1,6 @@
 Acanthaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Pollination entomophilous; mechanism conspicuously specialized (commonly exhibiting a loose-pollen mechanism, cf. Scophulariaceae etc.  e.g. the large bee-flowers of Acanthus), or unspecialized.
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Pollination entomophilous; mechanism conspicuously specialized (commonly exhibiting a loose-pollen mechanism, cf. Scophulariaceae etc.  e.g. the large bee-flowers of Acanthus), or unspecialized.
 
 Aceraceae
 
@@ -24,7 +24,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Adoxaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Pollination entomophilous; via small flies.
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Pollination entomophilous; via small flies.
 
 Aegicerataceae
 
@@ -68,7 +68,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. 
 
 Alseuosmiaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or polygamomonoecious (?  polygamous). Floral nectaries present. Nectar secretion from the disk.
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or polygamomonoecious (?  polygamous). Floral nectaries present. Nectar secretion from the disk.
 
 Alstroemeriaceae
 
@@ -100,7 +100,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Anarthriaceae
 
-Reproductive type, pollination. Unisexual flowers present (usually). Plants monoecious (rarely), or andromonoecious, or gynomonoecious, or dioecious (usually). Female flowers with staminodes, or without staminodes. Gynoecium of male flowers absent. Floral nectaries absent (?  no septal nectaries). Pollination anemophilous.
+Reproductive type, pollination. Unisexual flowers present (usually). Plants monoecious (rarely), or andromonoecious, or gynomonoecious, or dioecious (usually). Female flowers with staminodes, or without staminodes. Gynoecium of male flowers absent. Floral nectaries absent (?  no septal nectaries). Pollination anemophilous.
 
 Ancistrocladaceae
 
@@ -184,7 +184,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. 
 
 Asclepiadaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Pollination entomophilous; often via diptera; mechanism conspicuously specialized (involving trapping of insects legs or probosces between the osmotically elastic anther wings, and withdrawal entailing capture of the pollinia by means of sutured corpuscular pollen carriers).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Pollination entomophilous; often via diptera; mechanism conspicuously specialized (involving trapping of insects legs or probosces between the osmotically elastic anther wings, and withdrawal entailing capture of the pollinia by means of sutured corpuscular pollen carriers).
 
 Asparagaceae
 
@@ -260,7 +260,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Tand.
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (mostly), or monoecious (?  at least sometimes functionally unisexual).
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (mostly), or monoecious (?  at least sometimes functionally unisexual).
 
 Batidaceae
 
@@ -284,7 +284,7 @@ Reproductive type, pollination. Unisexual flowers present. Plants (crypto) dioec
 
 Berberidaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion from the perianth, or from the androecium (from the honey-leaves of the perianth, which are interpretable as staminodial). Pollination entomophilous; mechanism conspicuously specialized (the stamens springing violently upwards when their irritable bases are touched).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion from the perianth, or from the androecium (from the honey-leaves of the perianth, which are interpretable as staminodial). Pollination entomophilous; mechanism conspicuously specialized (the stamens springing violently upwards when their irritable bases are touched).
 
 Betulaceae
 
@@ -308,7 +308,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Blandfordiaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries).
 
 Blepharocaryaceae
 
@@ -344,7 +344,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Bromeliaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite (usually). Floral nectaries present. Nectar secretion from the gynoecium (via septal nectaries). Pollination entomophilous, or ornithophilous (commonly by hummingbirds), or chiropterophilous, or anemophilous (rarely  Navia).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite (usually). Floral nectaries present. Nectar secretion from the gynoecium (via septal nectaries). Pollination entomophilous, or ornithophilous (commonly by hummingbirds), or chiropterophilous, or anemophilous (rarely  Navia).
 
 Brunelliaceae
 
@@ -372,7 +372,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Butomaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion from the gynoecium (from the bases and sides of the carpelscorresponding with septal nectaries).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion from the gynoecium (from the bases and sides of the carpelscorresponding with septal nectaries).
 
 Buxaceae
 
@@ -448,11 +448,11 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Cardiopterigaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or andromonoecious, or gynomonoecious, or androdioecious, or gynodioecious, or polygamomonoecious (?  hermaphrodite or polygamous).
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or andromonoecious, or gynomonoecious, or androdioecious, or gynodioecious, or polygamomonoecious (?  hermaphrodite or polygamous).
 
 Caricaceae
 
-Reproductive type, pollination. Unisexual flowers present. Plants monoecious, or dioecious, or andromonoecious, or gynomonoecious, or polygamomonoecious (?  usually dioecious or monoecious, but sometimes with some perfect flowers). Gynoecium of male flowers vestigial, or absent.
+Reproductive type, pollination. Unisexual flowers present. Plants monoecious, or dioecious, or andromonoecious, or gynomonoecious, or polygamomonoecious (?  usually dioecious or monoecious, but sometimes with some perfect flowers). Gynoecium of male flowers vestigial, or absent.
 
 Carlemanniaceae
 
@@ -568,7 +568,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Commelinaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or andromonoecious, or dioecious. Floral nectaries absent (nectaries lacking). Pollination autogamous or entomophilous (but without nectar); via hymenoptera and via diptera (bees and syrphid flies); mechanism conspicuously specialized (with dimorphic stamens comprising concolourous fertilizing members, and specialised, bright yellow food stamens attractive to pollinators but producing little pollen. Moniliform hairs on the filaments may further delude visitors by simulating pollen), or unspecialized.
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or andromonoecious, or dioecious. Floral nectaries absent (nectaries lacking). Pollination autogamous or entomophilous (but without nectar); via hymenoptera and via diptera (bees and syrphid flies); mechanism conspicuously specialized (with dimorphic stamens comprising concolourous fertilizing members, and specialised, bright yellow food stamens attractive to pollinators but producing little pollen. Moniliform hairs on the filaments may further delude visitors by simulating pollen), or unspecialized.
 
 Compositae
 
@@ -580,7 +580,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Convallariaceae
 
-Reproductive type, pollination. Fertile flowers hermaphrodite. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion from the gynoecium (via septal nectaries). Pollination entomophilous, or by unusual means (supposedly by slugs  malacophilous  in Aspidistra).
+Reproductive type, pollination. Fertile flowers hermaphrodite. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion from the gynoecium (via septal nectaries). Pollination entomophilous, or by unusual means (supposedly by slugs  malacophilous  in Aspidistra).
 
 Convolvulaceae
 
@@ -592,7 +592,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Coriariaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or monoecious, or andromonoecious, or gynomonoecious, or polygamomonoecious (?  polygamous).
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or monoecious, or andromonoecious, or gynomonoecious, or polygamomonoecious (?  polygamous).
 
 Coridaceae
 
@@ -656,7 +656,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Cyanastraceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries, according to Rudall and Cutler (1995), this conflicting with previous claims).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries, according to Rudall and Cutler (1995), this conflicting with previous claims).
 
 Cyclanthaceae
 
@@ -700,7 +700,7 @@ Reproductive type, pollination. Unisexual flowers present. Plants dioecious, or 
 
 Davidiaceae
 
-Reproductive type, pollination. Unisexual flowers present. Plants andromonoecious. Female flowers with staminodes (the female-fertile flowers with few to many small staminodes inserted halway up the ovary (Airy Shaw 1973)). Gynoecium of male flowers absent.
+Reproductive type, pollination. Unisexual flowers present. Plants andromonoecious. Female flowers with staminodes (the female-fertile flowers with few to many small staminodes inserted halway up the ovary (Airy Shaw 1973)). Gynoecium of male flowers absent.
 
 Davidsoniaceae
 
@@ -932,7 +932,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Frankeniaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (usually), or polygamomonoecious (occasionally unisexual  Niederlinia). Pollination entomophilous.
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (usually), or polygamomonoecious (occasionally unisexual  Niederlinia). Pollination entomophilous.
 
 Fumariaceae
 
@@ -1184,7 +1184,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Icacinaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (usually), or andromonoecious, or gynomonoecious, or dioecious (especially the lianas), or androdioecious, or gynodioecious, or polygamomonoecious (rarely polygamous to dioecious).
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (usually), or andromonoecious, or gynomonoecious, or dioecious (especially the lianas), or androdioecious, or gynodioecious, or polygamomonoecious (rarely polygamous to dioecious).
 
 Idiospermaceae
 
@@ -1288,7 +1288,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. 
 
 Lardizabalaceae
 
-Reproductive type, pollination. Unisexual flowers present. Plants monoecious, or dioecious, or polygamomonoecious (Decaisnea, Holboellia). Female flowers with staminodes (six, small), or without staminodes. Gynoecium of male flowers pistillodial to absent. Floral nectaries present, or absent. Nectar secretion from the perianth, or from the androecium (from the honey-leaves, when these present).
+Reproductive type, pollination. Unisexual flowers present. Plants monoecious, or dioecious, or polygamomonoecious (Decaisnea, Holboellia). Female flowers with staminodes (six, small), or without staminodes. Gynoecium of male flowers pistillodial to absent. Floral nectaries present, or absent. Nectar secretion from the perianth, or from the androecium (from the honey-leaves, when these present).
 
 Lauraceae
 
@@ -1308,7 +1308,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Leguminosae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (mostly, in Caesalpinioideae and Papilionoideae), or monoecious, or andromonoecious, or polygamomonoecious (unisexual flowers commoner in Mimosoideae). Pollination entomophilous, or ornithophilous (especially common in southern Australia), or chiropterophilous (e.g. Mucuna holtoni, where the nectar guide is a petal functioning as a concave mirror for ultrasound); mechanism conspicuously specialized (with at least two forms of passive presenter, involving modifications of the style and/or of the keel of the corolla and/or the staminal filaments, and explosive pollination in (e.g.) Medicago), or unspecialized.
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (mostly, in Caesalpinioideae and Papilionoideae), or monoecious, or andromonoecious, or polygamomonoecious (unisexual flowers commoner in Mimosoideae). Pollination entomophilous, or ornithophilous (especially common in southern Australia), or chiropterophilous (e.g. Mucuna holtoni, where the nectar guide is a petal functioning as a concave mirror for ultrasound); mechanism conspicuously specialized (with at least two forms of passive presenter, involving modifications of the style and/or of the keel of the corolla and/or the staminal filaments, and explosive pollination in (e.g.) Medicago), or unspecialized.
 
 Leitneriaceae
 
@@ -1384,7 +1384,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. 
 
 Luzuriagaceae
 
-Reproductive type, pollination. Fertile flowers hermaphrodite. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries).
+Reproductive type, pollination. Fertile flowers hermaphrodite. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries).
 
 Macarthuriaceae
 
@@ -1496,7 +1496,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Monimiaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent (?). Plants hermaphrodite (?), or monoecious, or andromonoecious, or gynomonoecious, or dioecious, or androdioecious, or androdioecious, or polygamomonoecious, or polygamodioecious (?  commonly unisexual). Female flowers with staminodes, or without staminodes.
+Reproductive type, pollination. Unisexual flowers present, or absent (?). Plants hermaphrodite (?), or monoecious, or andromonoecious, or gynomonoecious, or dioecious, or androdioecious, or androdioecious, or polygamomonoecious, or polygamodioecious (?  commonly unisexual). Female flowers with staminodes, or without staminodes.
 
 Monotropaceae
 
@@ -1520,7 +1520,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Muntingiaceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion in Muntingia from the disk (from behind the filaments at the base of the ovary). Pollination entomophilous; via hymenoptera (Muntingia, by bees).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present. Nectar secretion in Muntingia from the disk (from behind the filaments at the base of the ovary). Pollination entomophilous; via hymenoptera (Muntingia, by bees).
 
 Musaceae
 
@@ -1684,7 +1684,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite; 
 
 Papilionoideae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite (mostly). Pollination entomophilous, or ornithophilous (especially common in southern Australia), or chiropterophilous (e.g. Mucuna holtoni, where the nectar guide is a petal functioning as a concave mirror for ultrasound); mechanism conspicuously specialized (with at least two forms of passive presenter, involving modifications of the style and/or of the keel of the corolla and/or the staminal filaments, and explosive pollination in (e.g.) Medicago), or unspecialized.
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite (mostly). Pollination entomophilous, or ornithophilous (especially common in southern Australia), or chiropterophilous (e.g. Mucuna holtoni, where the nectar guide is a petal functioning as a concave mirror for ultrasound); mechanism conspicuously specialized (with at least two forms of passive presenter, involving modifications of the style and/or of the keel of the corolla and/or the staminal filaments, and explosive pollination in (e.g.) Medicago), or unspecialized.
 
 Paracryphiaceae
 
@@ -1724,7 +1724,7 @@ Reproductive type, pollination. Unisexual flowers present. Plants polygamomonoec
 
 Pentaphragmataceae
 
-Reproductive type, pollination. Unisexual flowers present (rarely), or absent. Plants hermaphrodite (usually), or polygamomonoecious (?  rarely with unisexual flowers). Floral nectaries present. Nectar secretion from between the hypanthium and the gynoecium. Pollination mechanism unspecialized (by contrast with Campanulaceae).
+Reproductive type, pollination. Unisexual flowers present (rarely), or absent. Plants hermaphrodite (usually), or polygamomonoecious (?  rarely with unisexual flowers). Floral nectaries present. Nectar secretion from between the hypanthium and the gynoecium. Pollination mechanism unspecialized (by contrast with Campanulaceae).
 
 Pentaphylacaceae
 
@@ -1732,7 +1732,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Pentastemonaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or polygamomonoecious (?  flowers wholly or partly functionally unisexual, according to Duyfjes 1992).
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite, or polygamomonoecious (?  flowers wholly or partly functionally unisexual, according to Duyfjes 1992).
 
 Penthoraceae
 
@@ -1752,7 +1752,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite.
 
 Periplocaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (usually), or dioecious. Pollination entomophilous; mechanism conspicuously specialized (with pollen transference involving translators  spoon- or funnel-shaped structures arising from the stylehead between the anthers, which conceal the stigmatic surfaces from pollinators and into each of which the granular pollen from adjacent half-anthers is shed. A sticky disk on the base of the translator adheres to the head of a visiting insect, which carries off the translator and its pollen contents).
+Reproductive type, pollination. Unisexual flowers present, or absent. Plants hermaphrodite (usually), or dioecious. Pollination entomophilous; mechanism conspicuously specialized (with pollen transference involving translators  spoon- or funnel-shaped structures arising from the stylehead between the anthers, which conceal the stigmatic surfaces from pollinators and into each of which the granular pollen from adjacent half-anthers is shed. A sticky disk on the base of the translator adheres to the head of a visiting insect, which carries off the translator and its pollen contents).
 
 Petenaeaceae
 
@@ -1780,7 +1780,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. 
 
 Philydraceae
 
-Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries).
+Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. Floral nectaries present, or absent (?  no septal nectaries).
 
 Phormiaceae
 
@@ -1832,7 +1832,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Platanaceae
 
-Reproductive type, pollination. Fertile flowers functionally male and functionally female. Unisexual flowers present. Plants monoecious (the unisexual clusters in separate inflorescences). Female flowers with staminodes (commonly, 34), or without staminodes (?). Gynoecium of male flowers vestigial, or absent. Pollination anemophilous.
+Reproductive type, pollination. Fertile flowers functionally male and functionally female. Unisexual flowers present. Plants monoecious (the unisexual clusters in separate inflorescences). Female flowers with staminodes (commonly, 34), or without staminodes (?). Gynoecium of male flowers vestigial, or absent. Pollination anemophilous.
 
 Plocospermataceae
 
@@ -1896,7 +1896,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite; 
 
 Proteaceae
 
-Reproductive type, pollination. Unisexual flowers present (rarely), or absent. Plants hermaphrodite (usually), or monoecious, or andromonoecious, or dioecious. Pollination entomophilous, or ornithophilous, or chiropterophilous (?), or by unusual means (notably by small marsupials and rodents); mechanism conspicuously specialized (usually, exhibiting the greatest diversity of pollen presenter morphology in the flowering plants (Ladd 1994)), or unspecialized (Sphalmioideae).
+Reproductive type, pollination. Unisexual flowers present (rarely), or absent. Plants hermaphrodite (usually), or monoecious, or andromonoecious, or dioecious. Pollination entomophilous, or ornithophilous, or chiropterophilous (?), or by unusual means (notably by small marsupials and rodents); mechanism conspicuously specialized (usually, exhibiting the greatest diversity of pollen presenter morphology in the flowering plants (Ladd 1994)), or unspecialized (Sphalmioideae).
 
 Psiloxylaceae
 
@@ -1940,7 +1940,7 @@ Reproductive type, pollination. Unisexual flowers present. Plants monoecious, or
 
 Ranunculaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent (usually). Plants hermaphrodite, or dioecious (rarely, by suppression). Floral nectaries present (usually), or absent (e.g. Anemone, Clematis, Thalictrum). Nectar secretion from the perianth, or from the androecium (from the bases of the petals, considered staminodial in origin). Pollination entomophilous (usually  attracting insects by either nectar or pollen), or anemophilous (e.g. Thalictrum).
+Reproductive type, pollination. Unisexual flowers present, or absent (usually). Plants hermaphrodite, or dioecious (rarely, by suppression). Floral nectaries present (usually), or absent (e.g. Anemone, Clematis, Thalictrum). Nectar secretion from the perianth, or from the androecium (from the bases of the petals, considered staminodial in origin). Pollination entomophilous (usually  attracting insects by either nectar or pollen), or anemophilous (e.g. Thalictrum).
 
 Rapateaceae
 
@@ -2132,7 +2132,7 @@ Reproductive type, pollination. Unisexual flowers present, or absent. Plants her
 
 Schultzenst.
 
-Reproductive type, pollination. Fertile flowers functionally male and functionally female. Unisexual flowers present. Plants monoecious (the inflorescence system basally female, apically male). Floral nectaries absent (?  no septal nectaries). Pollination anemophilous.
+Reproductive type, pollination. Fertile flowers functionally male and functionally female. Unisexual flowers present. Plants monoecious (the inflorescence system basally female, apically male). Floral nectaries absent (?  no septal nectaries). Pollination anemophilous.
 
 Sphaerosepalaceae
 
@@ -2312,7 +2312,7 @@ Reproductive type, pollination. Unisexual flowers present (rarely), or absent. P
 
 Toricelliaceae
 
-Reproductive type, pollination. Fertile flowers functionally male, or functionally female. Unisexual flowers present. Plants monoecious, or dioecious (?). Female flowers without staminodes. Gynoecium of male flowers pistillodial (represented by 13 subulate processes).
+Reproductive type, pollination. Fertile flowers functionally male, or functionally female. Unisexual flowers present. Plants monoecious, or dioecious (?). Female flowers without staminodes. Gynoecium of male flowers pistillodial (represented by 13 subulate processes).
 
 Tovariaceae
 
@@ -2356,7 +2356,7 @@ Reproductive type, pollination. Unisexual flowers absent. Plants hermaphrodite. 
 
 Triuridaceae
 
-Reproductive type, pollination. Unisexual flowers present, or absent (rarely). Plants monoecious, or dioecious, or polygamomonoecious (?), or hermaphrodite (rarely  in some Sciaphila species). Pollination probably entomophilous.
+Reproductive type, pollination. Unisexual flowers present, or absent (rarely). Plants monoecious, or dioecious, or polygamomonoecious (?), or hermaphrodite (rarely  in some Sciaphila species). Pollination probably entomophilous.
 
 Trochodendraceae
 
@@ -2372,7 +2372,7 @@ Reproductive type, pollination. Fertile flowers hermaphrodite. Unisexual flowers
 
 Typhaceae
 
-Reproductive type, pollination. Fertile flowers functionally male and functionally female. Unisexual flowers present. Plants monoecious. Female flowers without staminodes. Gynoecium of male flowers absent. Floral nectaries absent (?  no septal nectaries). Pollination anemophilous.
+Reproductive type, pollination. Fertile flowers functionally male and functionally female. Unisexual flowers present. Plants monoecious. Female flowers without staminodes. Gynoecium of male flowers absent. Floral nectaries absent (?  no septal nectaries). Pollination anemophilous.
 
 Uapacaceae
 

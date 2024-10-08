@@ -1,5 +1,4 @@
 label,pattern,replace,inflorescence_growth_pattern,presence
-androecium_term,androecium
 bract_presence_term,ebracteate,,,absent
 bract_presence_term,ebracteolate,,,absent
 bract_presence_term,epicalyx,,,present
@@ -11,12 +10,6 @@ bract_presence_term,phyllary,,,present
 bract_presence_term,tegule,,,present
 bract_term,bract,bracts
 bract_term,bracts,bracts
-extra_floral_nectary_term,extra floral nectaries,extrafloral nectary
-extra_floral_nectary_term,extra floral nectary,extrafloral nectary
-extra_floral_nectary_term,extrafloral nectaries,extrafloral nectary
-extra_floral_nectary_term,extrafloral nectary,extrafloral nectary
-floral_nectary_term,floral nectaries,floral nectary
-floral_nectary_term,floral nectary,floral nectary
 flower_grouping_term,inflorescence,inflorescence
 flower_grouping_term,inflorescences,inflorescence
 flower_grouping_term,inflorescenses,inflorescence
@@ -24,7 +17,6 @@ flower_grouping_term,solitary,solitary
 flower_term,flower,flower
 flower_term,flowered,flower
 flower_term,flowers,flower
-gynoecium_term,gynoecium
 inflorescence_morphology_term,asteraceae capitula
 inflorescence_morphology_term,corymb,raceme-like,indeterminate
 inflorescence_morphology_term,corymbiform,raceme-like,indeterminate
@@ -71,7 +63,6 @@ pedicel_presence,sessile,,,absent
 pedicel_term,pedicel,pedicel
 pedicel_term,pedicelled,pedicel
 pedicel_term,pedicels,pedicel
-perianth_term,perianth
 petaloid_bract_term,bracts petaloid,petaloid bracts
 petaloid_bract_term,petaloid 'bracts',petaloid bracts
 petaloid_bract_term,petaloid bract,petaloid bracts

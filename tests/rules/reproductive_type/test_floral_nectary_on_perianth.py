@@ -1,6 +1,6 @@
 import unittest
 
-from angiosperm.pylib.rules.general_floral.floral_nectary_on_perianth import (
+from angiosperm.pylib.rules.reproductive_type.floral_nectary_on_perianth import (
     FloralNectaryOnPerianth,
 )
 from tests.setup import parse
@@ -9,8 +9,8 @@ from tests.setup import parse
 class TestFloralNectaryOnPerianth(unittest.TestCase):
     def test_floral_nectary_on_perianth_01(self):
         self.assertEqual(
-            parse("general_floral", "floral nectary on perianth"),
+            parse("reproductive_type", "Nectar secretion from the perianth"),
             [
-                FloralNectaryOnPerianth(present=True, start=0, end=26),
+                FloralNectaryOnPerianth(present=True, start=0, end=34),
             ],
         )

@@ -14,7 +14,7 @@ from angiosperm.pylib.rules.base import Base
 class ExtrafloralNectary(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
-        Path(__file__).parent / "terms" / "general_floral.csv",
+        Path(__file__).parent / "terms" / "reproductive_type.csv",
         Path(t_terms.__file__).parent / "missing_terms.csv",
     ]
     # ---------------------

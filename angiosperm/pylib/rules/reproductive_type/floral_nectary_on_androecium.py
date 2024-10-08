@@ -14,7 +14,7 @@ from angiosperm.pylib.rules.base import Base
 class FloralNectaryOnAndroecium(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
-        Path(__file__).parent / "terms" / "general_floral.csv",
+        Path(__file__).parent / "terms" / "reproductive_type.csv",
         Path(t_terms.__file__).parent / "missing_terms.csv",
     ]
     # ---------------------
@@ -43,13 +43,15 @@ class FloralNectaryOnAndroecium(Base):
                 on_match="floral_nectary_on_androecium_match",
                 keep="floral_nectary_on_androecium",
                 decoder={
-                    "adp": {"POS": "ADP"},
-                    "floral_nectary": {"ENT_TYPE": "floral_nectary_term"},
-                    "nectary_position": {"ENT_TYPE": "androecium_term"},
+                    "fill": {"POS": {"IN": ["ADP", "DET"]}},
+                    "organ": {"ENT_TYPE": "androecium_term"},
+                    "nectary": {"ENT_TYPE": "floral_nectary_term"},
+                    "secretion": {"ENT_TYPE": "nectar_secretion_term"},
                     "missing": {"ENT_TYPE": "missing"},
                 },
                 patterns=[
-                    " missing* floral_nectary+ adp? nectary_position+ missing* ",
+                    " missing* nectary+   fill? fill? organ+ missing* ",
+                    " missing* secretion+ fill? fill? organ+ missing* ",
                 ],
             ),
         ]

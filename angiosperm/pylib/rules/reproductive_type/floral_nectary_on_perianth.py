@@ -14,7 +14,7 @@ from angiosperm.pylib.rules.base import Base
 class FloralNectaryOnPerianth(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
-        Path(__file__).parent / "terms" / "general_floral.csv",
+        Path(__file__).parent / "terms" / "reproductive_type.csv",
         Path(t_terms.__file__).parent / "missing_terms.csv",
     ]
     # ---------------------
@@ -43,13 +43,15 @@ class FloralNectaryOnPerianth(Base):
                 on_match="floral_nectary_on_perianth_match",
                 keep="floral_nectary_on_perianth",
                 decoder={
-                    "adp": {"POS": "ADP"},
-                    "floral_nectary": {"ENT_TYPE": "floral_nectary_term"},
-                    "nectary_position": {"ENT_TYPE": "perianth_term"},
+                    "fill": {"POS": {"IN": ["ADP", "DET"]}},
+                    "nectary": {"ENT_TYPE": "floral_nectary_term"},
+                    "organ": {"ENT_TYPE": "perianth_term"},
+                    "secretion": {"ENT_TYPE": "nectar_secretion_term"},
                     "missing": {"ENT_TYPE": "missing"},
                 },
                 patterns=[
-                    " missing* floral_nectary+ adp? nectary_position+ missing* ",
+                    " missing* nectary+   fill? fill? organ+ missing* ",
+                    " missing* secretion+ fill? fill? organ+ missing* ",
                 ],
             ),
         ]

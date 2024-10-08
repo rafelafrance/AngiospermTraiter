@@ -16,7 +16,7 @@ Perianth sepaline; 4, or 5; 1 whorled; green. Calyx 4, or 5; 1 whorled; polysepa
 
 Acoraceae
 
-Perianth of tepals; 6; free (the members concave or hooded); 2 whorled; isomerous; similar in the two whorls (membranous).
+Perianth of tepals; 6; free (the members concave or hooded); 2 whorled; isomerous; similar in the two whorls (membranous).
 
 Actinidiaceae
 
@@ -36,7 +36,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Agavaceae
 
-Perianth of tepals; 6; free, or joined (below); 2 whorled; isomerous; petaloid; similar in the two whorls. Tepal apex trichomes (TAT) present (Agave, Furcraea, Yucca).
+Perianth of tepals; 6; free, or joined (below); 2 whorled; isomerous; petaloid; similar in the two whorls. Tepal apex trichomes (TAT) present (Agave, Furcraea, Yucca).
 
 Agdestidaceae
 
@@ -48,7 +48,7 @@ Perianth with distinct calyx and corolla; 8; 2 whorled; isomerous. Calyx 4; 1 wh
 
 Aizoaceae
 
-Perianth sepaline, or with distinct calyx and corolla (generally considered apetalous, but often with colourful, conspicuous staminodal petals); (1–)4–5(–20), or 20–120 (if the staminodes are interpreted as petals). Calyx (1–)4–5(–8); 1 whorled; gamosepalous (nearly always), or polysepalous (sometimes in Gunniopsis, Galenia); regular, or unequal but not bilabiate (e.g. sometimes with two large members and three smaller); fleshy; persistent; imbricate, or valvate (rarely). Corolla if considered present, 5–120 (of staminodal origin); 1–6 whorled.
+Perianth sepaline, or with distinct calyx and corolla (generally considered apetalous, but often with colourful, conspicuous staminodal petals); (1–)4–5(–20), or 20–120 (if the staminodes are interpreted as petals). Calyx (1–)4–5(–8); 1 whorled; gamosepalous (nearly always), or polysepalous (sometimes in Gunniopsis, Galenia); regular, or unequal but not bilabiate (e.g. sometimes with two large members and three smaller); fleshy; persistent; imbricate, or valvate (rarely). Corolla if considered present, 5–120 (of staminodal origin); 1–6 whorled.
 
 Akaniaceae
 
@@ -64,7 +64,7 @@ Perianth with distinct calyx and corolla; 6; free; 2 whorled; isomerous; differe
 
 Alliaceae
 
-Perianth of tepals; 6; free to joined; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls; white, or violet, or blue, or purple, or yellow, or green and white, or brown and white, or white and red. Tepal apex trichomes (TAT) present (Agapanthus), or absent (Allium, Brodiaea, Ipheion).
+Perianth of tepals; 6; free to joined; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls; white, or violet, or blue, or purple, or yellow, or green and white, or brown and white, or white and red. Tepal apex trichomes (TAT) present (Agapanthus), or absent (Allium, Brodiaea, Ipheion).
 
 Alseuosmiaceae
 
@@ -72,7 +72,7 @@ Perianth with distinct calyx and corolla; 8–14; 2 whorled; isomerous. Calyx (4
 
 Alstroemeriaceae
 
-Perianth with distinct calyx and corolla, or of tepals; 6; mostly free; 2 whorled (3+3); isomerous; petaloid, or sepaloid and petaloid; spotted; similar in the two whorls to different in the two whorls (the outer whorl often shorter, of different colour and less variegated); green, or orange, or red, or pink; deciduous.
+Perianth with distinct calyx and corolla, or of tepals; 6; mostly free; 2 whorled (3+3); isomerous; petaloid, or sepaloid and petaloid; spotted; similar in the two whorls to different in the two whorls (the outer whorl often shorter, of different colour and less variegated); green, or orange, or red, or pink; deciduous.
 
 Altingiaceae
 
@@ -100,7 +100,7 @@ Perianth with distinct calyx and corolla, or sepaline; 3–5, or 6–10; 1 whorl
 
 Anarthriaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid; similar in the two whorls (glume- or bract-like, folded).
+Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid; similar in the two whorls (glume- or bract-like, folded).
 
 Ancistrocladaceae
 
@@ -112,7 +112,7 @@ Perianth sepaline; 2–3 (in lateral members of the male triads), or 5 (in the t
 
 Anemarrhenaceae
 
-Perianth of tepals; 6; joined (the segments free above the perigone tube); 2 whorled; isomerous; sepaloid to petaloid (?); similar in the two whorls; green to white, or purple, or brown (with brownish veins); persistent; non-accrescent. Tepal apex trichomes (TAT) present.
+Perianth of tepals; 6; joined (the segments free above the perigone tube); 2 whorled; isomerous; sepaloid to petaloid (?); similar in the two whorls; green to white, or purple, or brown (with brownish veins); persistent; non-accrescent. Tepal apex trichomes (TAT) present.
 
 Anisophylleaceae
 
@@ -120,11 +120,11 @@ Perianth with distinct calyx and corolla; 6–10(–32); 2 whorled; isomerous. C
 
 Annonaceae
 
-Perianth with distinct calyx and corolla, or petaline, or of tepals (hard to interpret - usually described as P3+3+3, with the outer one or two whorls sepaloid); 9 (usually), or 10–12; basally joined, or free; usually 3 whorled; isomerous; similar in the two whorls, or different in the two whorls. Calyx 3, or 6; usually 2 whorled; polysepalous (usually), or gamosepalous (somtimes being basally fused). Calyx lobes markedly longer than the tube. Calyx valvate, or open in bud. Corolla 3, or 6; 1–2 whorled; polypetalous, or gamopetalous (sometimes, basally); imbricate, or valvate.
+Perianth with distinct calyx and corolla, or petaline, or of tepals (hard to interpret - usually described as P3+3+3, with the outer one or two whorls sepaloid); 9 (usually), or 10–12; basally joined, or free; usually 3 whorled; isomerous; similar in the two whorls, or different in the two whorls. Calyx 3, or 6; usually 2 whorled; polysepalous (usually), or gamosepalous (somtimes being basally fused). Calyx lobes markedly longer than the tube. Calyx valvate, or open in bud. Corolla 3, or 6; 1–2 whorled; polypetalous, or gamopetalous (sometimes, basally); imbricate, or valvate.
 
 Anthericaceae
 
-Perianth with distinct calyx and corolla (the whorls sometimes rather different), or of tepals; 6; free, or joined (sometimes with a basal tube); 2 whorled (3+3); isomerous; petaloid; similar in the two whorls, or different in the two whorls; white, or red, or yellow, or blue, or violet (mostly white, yellow, blue, rose or violet). Tepal apex trichomes (TAT) present (Arthropodium, Chamaescilla Chlorophytum, Dichopogon, Murchisonia, Thysanotus), or absent (Alania, Arnocrinum, Caesia, Hensmania, Herpolirion, Hodgsoniola, Johnsonia, Laxmannia, Sowerbaea, Stawellia, Tricoryne). Calyx (if the outer whorl so interpreted) 3; 1 whorled; regular. Corolla (if the inner whorl so interpreted) 3; 1 whorled; regular. Petals sometimes fringed.
+Perianth with distinct calyx and corolla (the whorls sometimes rather different), or of tepals; 6; free, or joined (sometimes with a basal tube); 2 whorled (3+3); isomerous; petaloid; similar in the two whorls, or different in the two whorls; white, or red, or yellow, or blue, or violet (mostly white, yellow, blue, rose or violet). Tepal apex trichomes (TAT) present (Arthropodium, Chamaescilla Chlorophytum, Dichopogon, Murchisonia, Thysanotus), or absent (Alania, Arnocrinum, Caesia, Hensmania, Herpolirion, Hodgsoniola, Johnsonia, Laxmannia, Sowerbaea, Stawellia, Tricoryne). Calyx (if the outer whorl so interpreted) 3; 1 whorled; regular. Corolla (if the inner whorl so interpreted) 3; 1 whorled; regular. Petals sometimes fringed.
 
 Antoniaceae
 
@@ -136,7 +136,7 @@ Perianth with distinct calyx and corolla, or sepaline (the presence of petals ca
 
 Aphyllanthaceae
 
-Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls (the lobes narrowly elliptic-oblong); blue. Tepal apex trichomes (TAT) absent.
+Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls (the lobes narrowly elliptic-oblong); blue. Tepal apex trichomes (TAT) absent.
 
 Apocynaceae
 
@@ -144,15 +144,15 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Apodanthaceae
 
-Perianth sepaline, or petaline, or of tepals (depending on interpretation); 4, or 5(–10); free; 1 whorled (within the whorls of scales); petaloid (at least in Pilosanthes); white (or cream), or red (or red below and cream tipped); fleshy to non-fleshy (imbricate).
+Perianth sepaline, or petaline, or of tepals (depending on interpretation); 4, or 5(–10); free; 1 whorled (within the whorls of scales); petaloid (at least in Pilosanthes); white (or cream), or red (or red below and cream tipped); fleshy to non-fleshy (imbricate).
 
 Aponogetonaceae
 
-Perianth of tepals, or absent; when present, (1–)2(–6); free; 1 whorled; petaloid; when present, white (usually), or blue, or purple.
+Perianth of tepals, or absent; when present, (1–)2(–6); free; 1 whorled; petaloid; when present, white (usually), or blue, or purple.
 
 Apostasiaceae
 
-Perianth of tepals; 6 (3+3); free; 2 whorled (the median inner member sometimes larger, forming a labellum); isomerous; petaloid; white, or yellow. Tepal apex trichomes (TAT) absent (Apostasia, Neuwiedia).
+Perianth of tepals; 6 (3+3); free; 2 whorled (the median inner member sometimes larger, forming a labellum); isomerous; petaloid; white, or yellow. Tepal apex trichomes (TAT) absent (Apostasia, Neuwiedia).
 
 Aquifoliaceae
 
@@ -160,11 +160,11 @@ Perianth with distinct calyx and corolla, or sepaline, or petaline, or vestigial
 
 Aquilariaceae
 
-Perianth with distinct calyx and corolla (but the corolla often scalelike), or sepaline; (8–)10; 1 whorled, or 2 whorled; isomerous (when corolla present, but the petal scales sometimes bilobed). Calyx (4–)5; 1 whorled; gamosepalous; (45) blunt-lobed; campanulate, or funnel-shaped, or tubular, or hypocrateriform; regular; imbricate. Corolla when present, (4–)5, or (8–)10; 1 whorled; polypetalous, or gamopetalous (the petals represented by scales at the mouth of the hypanthium/calyx tube, sometimes connate at the base, sometimes bilobed).
+Perianth with distinct calyx and corolla (but the corolla often scalelike), or sepaline; (8–)10; 1 whorled, or 2 whorled; isomerous (when corolla present, but the petal scales sometimes bilobed). Calyx (4–)5; 1 whorled; gamosepalous; (45) blunt-lobed; campanulate, or funnel-shaped, or tubular, or hypocrateriform; regular; imbricate. Corolla when present, (4–)5, or (8–)10; 1 whorled; polypetalous, or gamopetalous (the petals represented by scales at the mouth of the hypanthium/calyx tube, sometimes connate at the base, sometimes bilobed).
 
 Araceae
 
-Perianth of tepals, or absent; 0, or 4, or 6, or 8 (rarely 12); free (usually), or joined; when present, 2 whorled (3+3 or 2+2); isomerous; when present, sepaloid; similar in the two whorls (small, inconspicuous, often thick).
+Perianth of tepals, or absent; 0, or 4, or 6, or 8 (rarely 12); free (usually), or joined; when present, 2 whorled (3+3 or 2+2); isomerous; when present, sepaloid; similar in the two whorls (small, inconspicuous, often thick).
 
 Araliaceae
 
@@ -188,15 +188,15 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Asparagaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; sepaloid, or petaloid; similar in the two whorls; green, or white, or yellow. Tepal apex trichomes (TAT) absent (Asparagus).
+Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; sepaloid, or petaloid; similar in the two whorls; green, or white, or yellow. Tepal apex trichomes (TAT) absent (Asparagus).
 
 Asphodelaceae
 
-Perianth with distinct calyx and corolla, or of tepals; 6; free, or joined; 2 whorled (3+3); isomerous; sepaloid and petaloid, or petaloid; similar in the two whorls, or different in the two whorls; green, or white, or red, or pink, or yellow, or purple, or purple and brown (not blue or violet). Tepal apex trichomes (TAT) absent (11 genera).
+Perianth with distinct calyx and corolla, or of tepals; 6; free, or joined; 2 whorled (3+3); isomerous; sepaloid and petaloid, or petaloid; similar in the two whorls, or different in the two whorls; green, or white, or red, or pink, or yellow, or purple, or purple and brown (not blue or violet). Tepal apex trichomes (TAT) absent (11 genera).
 
 Asteliaceae
 
-Perianth of tepals; 6 (usually), or 10–14 (Neoastelia); free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; green, or white, or violet, or brown. Tepal apex trichomes (TAT) present (Astelia).
+Perianth of tepals; 6 (usually), or 10–14 (Neoastelia); free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; green, or white, or violet, or brown. Tepal apex trichomes (TAT) present (Astelia).
 
 Asteranthaceae
 
@@ -208,7 +208,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Atherospermataceae
 
-Perianth with distinct calyx and corolla, or sepaline, or vestigial, or absent (apetalous); when present, 4 (2 + 2), or 6–20 (?); 2(–3) whorled. Calyx 1 whorled. Corolla when present, 7–20 (or more); 1 whorled.
+Perianth with distinct calyx and corolla, or sepaline, or vestigial, or absent (apetalous); when present, 4 (2 + 2), or 6–20 (?); 2(–3) whorled. Calyx 1 whorled. Corolla when present, 7–20 (or more); 1 whorled.
 
 Aucubaceae
 
@@ -240,7 +240,7 @@ Perianth sepaline (sometimes, in male flowers), or vestigial to absent; when pre
 
 Balsaminaceae
 
-Perianth with distinct calyx and corolla; 2 whorled; isomerous, or anisomerous; different in the two whorls. Calyx 5, or 3 (often coloured, the morphologically anterior pair reduced or missing, the two laterals small and displaced forward to the anterior aspect of the flower, the posterior large and heavy); 1 whorled; polysepalous; unequal but not bilabiate; usually basally spurred (via the large member); not persistent (caducous); imbricate; with the median member posterior (before resupination). Corolla 5 (but often simulating three by fusion of the lateral pairs to form two equally or unequally bilobed petals); 1 whorled; polypetalous (Hydrocera), or partially gamopetalous (Impatiens). 4 of the petals joined (the large, morphologically anterior member remaining distinct, the latero-posterior members joined to form two compound petals). The joined petals latero- posterior (before resupination). Corolla imbricate; unequal but not bilabiate.
+Perianth with distinct calyx and corolla; 2 whorled; isomerous, or anisomerous; different in the two whorls. Calyx 5, or 3 (often coloured, the morphologically anterior pair reduced or missing, the two laterals small and displaced forward to the anterior aspect of the flower, the posterior large and heavy); 1 whorled; polysepalous; unequal but not bilabiate; usually basally spurred (via the large member); not persistent (caducous); imbricate; with the median member posterior (before resupination). Corolla 5 (but often simulating three by fusion of the lateral pairs to form two equally or unequally bilobed petals); 1 whorled; polypetalous (Hydrocera), or partially gamopetalous (Impatiens). 4 of the petals joined (the large, morphologically anterior member remaining distinct, the latero-posterior members joined to form two compound petals). The joined petals latero- posterior (before resupination). Corolla imbricate; unequal but not bilabiate.
 
 Barbeuiaceae
 
@@ -252,7 +252,7 @@ Perianth sepaline; 3, or 4; 1 whorled. Calyx 3, or 4 (the sepals of the female f
 
 Barclayaceae
 
-Perianth as interpreted here, with distinct calyx and corolla; 8–60 (?to many); 4–5 whorled. Calyx 5; 1 whorled; polysepalous (borne beneath the ovary, the oblong sepals long-mucronate); regular. Corolla 12–50 (to many); lobes more or less distinctly 3–4 whorled (on the tube); gamopetalous; regular; persistent.
+Perianth as interpreted here, with distinct calyx and corolla; 8–60 (?to many); 4–5 whorled. Calyx 5; 1 whorled; polysepalous (borne beneath the ovary, the oblong sepals long-mucronate); regular. Corolla 12–50 (to many); lobes more or less distinctly 3–4 whorled (on the tube); gamopetalous; regular; persistent.
 
 Barringtoniaceae
 
@@ -260,7 +260,7 @@ Perianth with distinct calyx and corolla; (6–)8–12; 2 whorled; isomerous; di
 
 Tand.
 
-Perianth with distinct calyx and corolla (if the bracteoles are regarded as calyx, the calyx as corolla), or sepaline (the best interpretation?), or petaline; 5, or 7 (if the bracteoles are mistaken for perianth); 1 whorled, or 2 whorled (if the bracteoles are included); anisomerous (if the bracteoles included); persistent. Calyx 5 (i.e. the true perianth), or 2 (i.e. the bracteoles); polysepalous (the true sepals and/or the bracteoles sometimes almost distinct), or gamosepalous (the bracteoles and/or the true sepals usually tubular below); persistent (both the bracteoles and the true calyx); imbricate.
+Perianth with distinct calyx and corolla (if the bracteoles are regarded as calyx, the calyx as corolla), or sepaline (the best interpretation?), or petaline; 5, or 7 (if the bracteoles are mistaken for perianth); 1 whorled, or 2 whorled (if the bracteoles are included); anisomerous (if the bracteoles included); persistent. Calyx 5 (i.e. the true perianth), or 2 (i.e. the bracteoles); polysepalous (the true sepals and/or the bracteoles sometimes almost distinct), or gamosepalous (the bracteoles and/or the true sepals usually tubular below); persistent (both the bracteoles and the true calyx); imbricate.
 
 Batidaceae
 
@@ -276,11 +276,11 @@ Perianth with distinct calyx and corolla (Streptothamnus), or sequentially inter
 
 Begoniaceae
 
-Perianth petaline; 2, or 4 (commonly), or 2–5, or 10 (rarely  Hillebrandia); free (usually), or joined; 1 whorled (in females and some males, then imbricate), or 2 whorled (in some males, then valvate); when 2, isomerous; more or less different in the two whorls (the outer members larger and covering the inner); white, or cream, or orange, or red, or pink. Corolla 2, or 4, or 5; 1 whorled, or 2 whorled; polypetalous (usually), or gamopetalous; imbricate, or valvate; unequal but not bilabiate.
+Perianth petaline; 2, or 4 (commonly), or 2–5, or 10 (rarely  Hillebrandia); free (usually), or joined; 1 whorled (in females and some males, then imbricate), or 2 whorled (in some males, then valvate); when 2, isomerous; more or less different in the two whorls (the outer members larger and covering the inner); white, or cream, or orange, or red, or pink. Corolla 2, or 4, or 5; 1 whorled, or 2 whorled; polypetalous (usually), or gamopetalous; imbricate, or valvate; unequal but not bilabiate.
 
 Behniaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; green, or white; persistent (marcescent, not becoming twisted). Tepal apex trichomes (TAT) present.
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; green, or white; persistent (marcescent, not becoming twisted). Tepal apex trichomes (TAT) present.
 
 Berberidaceae
 
@@ -308,7 +308,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Blandfordiaceae
 
-Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls; yellow, orange, and red (the tube orange-red, the lobes yellow). Tepal apex trichomes (TAT) present.
+Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls; yellow, orange, and red (the tube orange-red, the lobes yellow). Tepal apex trichomes (TAT) present.
 
 Blepharocaryaceae
 
@@ -348,7 +348,7 @@ Perianth with distinct calyx and corolla; 6; free, or joined; 2 whorled; isomero
 
 Brunelliaceae
 
-Perianth sepaline; (4–)5(–8); 1 whorled. Calyx (4–)5(–8); 1 whorled; gamosepalous (shortly connate below); 48 blunt-lobed. Calyx lobes markedly longer than the tube. Calyx regular; persistent; valvate.
+Perianth sepaline; (4–)5(–8); 1 whorled. Calyx (4–)5(–8); 1 whorled; gamosepalous (shortly connate below); 48 blunt-lobed. Calyx lobes markedly longer than the tube. Calyx regular; persistent; valvate.
 
 Bruniaceae
 
@@ -364,7 +364,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Burmanniaceae
 
-Perianth of tepals; 6, or 3 (3+3, but either whorl may be reduced or obsolete); joined; 1 whorled, or 2 whorled; isomerous; petaloid; different in the two whorls (Burmannia with the inner lobes smaller or absent), or similar in the two whorls.
+Perianth of tepals; 6, or 3 (3+3, but either whorl may be reduced or obsolete); joined; 1 whorled, or 2 whorled; isomerous; petaloid; different in the two whorls (Burmannia with the inner lobes smaller or absent), or similar in the two whorls.
 
 Burseraceae
 
@@ -372,7 +372,7 @@ Perianth with distinct calyx and corolla (usually), or sepaline (corolla sometim
 
 Butomaceae
 
-Perianth with distinct calyx and corolla (the outer members often tending towards sepaloid), or of tepals; 6; free; 2 whorled (3+3); isomerous; when not resolvable into calyx and corolla, petaloid; similar in the two whorls to different in the two whorls; green to white, or pink to purple, or brown (white through pink to purplish brown, the outer whorl often tinged with green).
+Perianth with distinct calyx and corolla (the outer members often tending towards sepaloid), or of tepals; 6; free; 2 whorled (3+3); isomerous; when not resolvable into calyx and corolla, petaloid; similar in the two whorls to different in the two whorls; green to white, or pink to purple, or brown (white through pink to purplish brown, the outer whorl often tinged with green).
 
 Buxaceae
 
@@ -388,7 +388,7 @@ Perianth with distinct calyx and corolla (but the calyx petaloid); 6; 2 whorled;
 
 Cactaceae
 
-Perianth sequentially intergrading from sepals to petals, or petaline; 20–100 (many); basally joined, or free; spotted; green and white, or cream, or yellow, or orange, or red, or pink, or purple.
+Perianth sequentially intergrading from sepals to petals, or petaline; 20–100 (many); basally joined, or free; spotted; green and white, or cream, or yellow, or orange, or red, or pink, or purple.
 
 Caesalpinioideae
 
@@ -396,7 +396,7 @@ Perianth with distinct calyx and corolla (usually), or sepaline (at least someti
 
 Calectasiaceae
 
-Perianth lilac-blue to purple, of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; blue, or purple (glossy, metallic).
+Perianth lilac-blue to purple, of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; blue, or purple (glossy, metallic).
 
 Callitrichaceae
 
@@ -404,11 +404,11 @@ Perianth absent.
 
 Calochortaceae
 
-Perianth with distinct calyx and corolla, or of tepals; 6; free; 2 whorled; isomerous; when not resolvable into calyx and corolla, petaloid; spotted; different in the two whorls (the outer members narrower, glabrous, and either green and sepaloid or like the inner whorl in colour, the inner members broad, cuneate or clawed, often fringed or ciliate and sometimes bearded). Calyx when recognisable as such, 3; 1 whorled; polysepalous; regular. Corolla 3; 1 whorled; polypetalous; regular; yellow, or red, or pink; plain, or with contrasting markings (often spotted or streaked). Petals clawed, or sessile; fringed (often, or ciliate), or entire.
+Perianth with distinct calyx and corolla, or of tepals; 6; free; 2 whorled; isomerous; when not resolvable into calyx and corolla, petaloid; spotted; different in the two whorls (the outer members narrower, glabrous, and either green and sepaloid or like the inner whorl in colour, the inner members broad, cuneate or clawed, often fringed or ciliate and sometimes bearded). Calyx when recognisable as such, 3; 1 whorled; polysepalous; regular. Corolla 3; 1 whorled; polypetalous; regular; yellow, or red, or pink; plain, or with contrasting markings (often spotted or streaked). Petals clawed, or sessile; fringed (often, or ciliate), or entire.
 
 Calycanthaceae
 
-Perianth sequentially intergrading from sepals to petals; 15–30 (each with 34 vascular traces); free.
+Perianth sequentially intergrading from sepals to petals; 15–30 (each with 34 vascular traces); free.
 
 Calyceraceae
 
@@ -416,15 +416,15 @@ Perianth with distinct calyx and corolla; (8–)10(–12); 2 whorled; isomerous.
 
 Campanulaceae
 
-Perianth with distinct calyx and corolla; 10, or 16–20 (Michauxia); 2 whorled; isomerous. Calyx 5, or 8–10 (Michauxia); 1 whorled; polysepalous, or gamosepalous (depending on interpretation  the tube nearly always being united with the ovary); basally appendaged (e.g. in Campanula, with adjoining pairs of sepals contributing to each appendage), or basally spurred, or neither appendaged nor spurred; imbricate, or valvate, or open in bud. Epicalyx present (sometimes), or absent. Corolla 5, or 8–10 (Michauxia); 1 whorled; gamopetalous (commonly), or polypetalous (e.g. Jasione). Corolla tube not noticeably adaxially split, or adaxially deeply split. Corolla valvate; often campanulate; bilabiate, or regular; blue (predominantly), or white, or yellow, or red, or pink, or purple; spurred (e.g., in the complexly spurred perianth of Heterotoma), or not spurred.
+Perianth with distinct calyx and corolla; 10, or 16–20 (Michauxia); 2 whorled; isomerous. Calyx 5, or 8–10 (Michauxia); 1 whorled; polysepalous, or gamosepalous (depending on interpretation  the tube nearly always being united with the ovary); basally appendaged (e.g. in Campanula, with adjoining pairs of sepals contributing to each appendage), or basally spurred, or neither appendaged nor spurred; imbricate, or valvate, or open in bud. Epicalyx present (sometimes), or absent. Corolla 5, or 8–10 (Michauxia); 1 whorled; gamopetalous (commonly), or polypetalous (e.g. Jasione). Corolla tube not noticeably adaxially split, or adaxially deeply split. Corolla valvate; often campanulate; bilabiate, or regular; blue (predominantly), or white, or yellow, or red, or pink, or purple; spurred (e.g., in the complexly spurred perianth of Heterotoma), or not spurred.
 
 Campynemataceae
 
-Perianth of tepals; 6; free (inserted near the top of the ovary); 2 whorled (3+3); petaloid; without spots, or spotted; pale, sometimes dotted-striated.
+Perianth of tepals; 6; free (inserted near the top of the ovary); 2 whorled (3+3); petaloid; without spots, or spotted; pale, sometimes dotted-striated.
 
 Canellaceae
 
-Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals (depending on whether the three thick, leathery, persistent outer members are interpreted as sepals or bracts); (7–)8–15; free, or joined; 2–3(–5) whorled; anisomerous. Calyx 3 (if the outer members are not interpreted as bracts), or 4–5 (interpreting the outer whorl of petals as sepals); 1 whorled; polysepalous; regular; imbricate. Corolla (4–)5–12; when cyclic, 1–2(–4) whorled; polypetalous, or partially gamopetalous, or gamopetalous. Corolla lobes about the same length as the tube, or markedly longer than the tube (corolla connate at the base in Canella, to the middle in Cinnamosma). Corolla imbricate. Petals slender.
+Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals (depending on whether the three thick, leathery, persistent outer members are interpreted as sepals or bracts); (7–)8–15; free, or joined; 2–3(–5) whorled; anisomerous. Calyx 3 (if the outer members are not interpreted as bracts), or 4–5 (interpreting the outer whorl of petals as sepals); 1 whorled; polysepalous; regular; imbricate. Corolla (4–)5–12; when cyclic, 1–2(–4) whorled; polypetalous, or partially gamopetalous, or gamopetalous. Corolla lobes about the same length as the tube, or markedly longer than the tube (corolla connate at the base in Canella, to the middle in Cinnamosma). Corolla imbricate. Petals slender.
 
 Cannabidaceae
 
@@ -432,7 +432,7 @@ Perianth sepaline; 5; free (male), or joined (female); 1 whorled. Calyx 5; polys
 
 Cannaceae
 
-Perianth with distinct calyx and corolla, or of tepals; 6; if considered not resolved into calyx and corolla, more or less petaloid; different in the two whorls (or rather, in the two series:the outer members (sepals) greenish or purplish and subpetaloid, smaller). Calyx 3; polysepalous; persistent. Corolla 3; 1 whorled; gamopetalous (into a tube, along with the stamen and staminodes); unequal but not bilabiate (one member often shorter than the other two).
+Perianth with distinct calyx and corolla, or of tepals; 6; if considered not resolved into calyx and corolla, more or less petaloid; different in the two whorls (or rather, in the two series:the outer members (sepals) greenish or purplish and subpetaloid, smaller). Calyx 3; polysepalous; persistent. Corolla 3; 1 whorled; gamopetalous (into a tube, along with the stamen and staminodes); unequal but not bilabiate (one member often shorter than the other two).
 
 Canotiaceae
 
@@ -512,7 +512,7 @@ Perianth absent (unless the female infloresence as described here (cf. Cronquist
 
 characters
 
-Disk: an elevated or appendicular, usually more or less fleshy and nectariferous development on the receptacle internal to the perianth or stamens, which may be receptacular or staminodial (or ambiguous) in origin.
+Disk: an elevated or appendicular, usually more or less fleshy and nectariferous development on the receptacle internal to the perianth or stamens, which may be receptacular or staminodial (or ambiguous) in origin.
 
 Chenopodiaceae
 
@@ -556,7 +556,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Colchicaceae
 
-Perianth of tepals; 6(–8); free, or joined; 1 whorled (commonly in Australian genera, e.g. Wurmbea), or 2 whorled (usually 3+3?); isomerous; petaloid; without spots, or spotted; similar in the two whorls (in size and form); white, or purple, or yellow, or red (or yellow at first, becoming bright red).
+Perianth of tepals; 6(–8); free, or joined; 1 whorled (commonly in Australian genera, e.g. Wurmbea), or 2 whorled (usually 3+3?); isomerous; petaloid; without spots, or spotted; similar in the two whorls (in size and form); white, or purple, or yellow, or red (or yellow at first, becoming bright red).
 
 Columelliaceae
 
@@ -572,7 +572,7 @@ Perianth with distinct calyx and corolla; 6; free, or joined (then the inner tep
 
 Compositae
 
-Perianth with distinct calyx and corolla, or petaline (calyx sometimes absent  e.g. Ambrosia and relatives); (1–)3–35; 1 whorled, or 2 whorled. Calyx when present, (1–)2–30 (of scales, awns or bristles constituting the pappus); represented by bristles (commonly), or not represented by bristles; 1 whorled; persistent, or not persistent; often accrescent (becoming the pappus); open in bud. Corolla 1–3 (ligulate florets), or (4–)5 (disk florets); 1 whorled; gamopetalous; valvate; unequal but not bilabiate (ligulate), or regular, or unequal but not bilabiate and regular, or bilabiate (in Mutisieae).
+Perianth with distinct calyx and corolla, or petaline (calyx sometimes absent  e.g. Ambrosia and relatives); (1–)3–35; 1 whorled, or 2 whorled. Calyx when present, (1–)2–30 (of scales, awns or bristles constituting the pappus); represented by bristles (commonly), or not represented by bristles; 1 whorled; persistent, or not persistent; often accrescent (becoming the pappus); open in bud. Corolla 1–3 (ligulate florets), or (4–)5 (disk florets); 1 whorled; gamopetalous; valvate; unequal but not bilabiate (ligulate), or regular, or unequal but not bilabiate and regular, or bilabiate (in Mutisieae).
 
 Connaraceae
 
@@ -580,7 +580,7 @@ Perianth with distinct calyx and corolla; (8–)10; 2 whorled; isomerous. Calyx 
 
 Convallariaceae
 
-Perianth of tepals; 6 (usually), or 8; free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; green, or white, or green and white, or pink to purple (rarely, and rarely other colours). Tepal apex trichomes (TAT) present (Convallaria, Polygonatum).
+Perianth of tepals; 6 (usually), or 8; free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; green, or white, or green and white, or pink to purple (rarely, and rarely other colours). Tepal apex trichomes (TAT) present (Convallaria, Polygonatum).
 
 Convolvulaceae
 
@@ -596,7 +596,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Coridaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; gamosepalous; five toothed (the teeth short, deltoid, each bearing a large, black, dorsal gland). Calyx lobes markedly shorter than the tube. Calyx campanulate to urceolate; persistent; valvate; with the median member anterior. Epicalyx present (comprising a ring of 1015 spreading aculei, below the calyx teeth). Corolla 5; 1 whorled; gamopetalous; campanulate, or tubular; sub- bilabiate (the three upper lobes longer); white, or red, or pink, or purple (bright magenta to rose or white). Petals (the corolla lobes) deeply bifid.
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; gamosepalous; five toothed (the teeth short, deltoid, each bearing a large, black, dorsal gland). Calyx lobes markedly shorter than the tube. Calyx campanulate to urceolate; persistent; valvate; with the median member anterior. Epicalyx present (comprising a ring of 1015 spreading aculei, below the calyx teeth). Corolla 5; 1 whorled; gamopetalous; campanulate, or tubular; sub- bilabiate (the three upper lobes longer); white, or red, or pink, or purple (bright magenta to rose or white). Petals (the corolla lobes) deeply bifid.
 
 Cornaceae
 
@@ -604,7 +604,7 @@ Perianth with distinct calyx and corolla, or sepaline; 4–5, or 8–10; 1 whorl
 
 Corsiaceae
 
-Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid; different in the two whorls (in that the posterior member of the outer whorl is large and coloured, and encloses the other five, which are linear-spathulate).
+Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid; different in the two whorls (in that the posterior member of the outer whorl is large and coloured, and encloses the other five, which are linear-spathulate).
 
 Corylaceae
 
@@ -628,11 +628,11 @@ Perianth with distinct calyx and corolla; (6–)8, or 10(–12); 2 whorled; isom
 
 Cruciferae
 
-Perianth with distinct calyx and corolla, or sepaline (the corolla occasionally lacking); 8 (usually), or 4; characteristically 3 whorled (K 2+2 decussate with the outer pair median, C4, the corolla diagonal), or 2 whorled (when corolla lacking). Calyx 2 whorled (generally, supposedly  usually obviously so in bud); polysepalous; regular; members sometimes dimorphic, with the lateral (inner) pair often basally saccate for nectar storage; decussate. Corolla 4 (diagonal); 1 whorled; polypetalous; imbricate, or contorted; regular (usually); white, or yellow, or orange, or purple, or blue. Petals clawed (usually), or sessile (e.g. Cuphonotus, Geococcus).
+Perianth with distinct calyx and corolla, or sepaline (the corolla occasionally lacking); 8 (usually), or 4; characteristically 3 whorled (K 2+2 decussate with the outer pair median, C4, the corolla diagonal), or 2 whorled (when corolla lacking). Calyx 2 whorled (generally, supposedly  usually obviously so in bud); polysepalous; regular; members sometimes dimorphic, with the lateral (inner) pair often basally saccate for nectar storage; decussate. Corolla 4 (diagonal); 1 whorled; polypetalous; imbricate, or contorted; regular (usually); white, or yellow, or orange, or purple, or blue. Petals clawed (usually), or sessile (e.g. Cuphonotus, Geococcus).
 
 Crypteroniaceae
 
-Perianth with distinct calyx and corolla, or sepaline (the corolla absent in Crypteronia); (8–)10, or 4–5(–6) (Crypteronia); 1 whorled, or 2 whorled; isomerous. Calyx 4–5(–6); 1 whorled; polysepalous (on the hypanthium?), or gamosepalous (?  the lobes (or sepals) thin, membranous); 45(6) blunt-lobed; persistent, or not persistent (Axinandra); valvate. Corolla when present, (4–)5; 1 whorled; polypetalous, or gamopetalous (Axinandra); deciduous (as a coneshaped unit in Axinandra, the individual petals falling in the other genera).
+Perianth with distinct calyx and corolla, or sepaline (the corolla absent in Crypteronia); (8–)10, or 4–5(–6) (Crypteronia); 1 whorled, or 2 whorled; isomerous. Calyx 4–5(–6); 1 whorled; polysepalous (on the hypanthium?), or gamosepalous (?  the lobes (or sepals) thin, membranous); 45(6) blunt-lobed; persistent, or not persistent (Axinandra); valvate. Corolla when present, (4–)5; 1 whorled; polypetalous, or gamopetalous (Axinandra); deciduous (as a coneshaped unit in Axinandra, the individual petals falling in the other genera).
 
 Ctenolophaceae
 
@@ -656,11 +656,11 @@ Perianth with distinct calyx and corolla; 6, or 10; 2 whorled; isomerous. Calyx 
 
 Cyanastraceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; blue.
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; blue.
 
 Cyclanthaceae
 
-Perianth of tepals, or vestigial, or absent; 4; free, or joined (symmetric or asymmetric, usually a more or less lobed cupule when present in male flowers, free or basally connate in females); 1 whorled (usually), or 2 whorled (seemingly, in Evodianthus); sepaloid; fleshy (often, in female flowers), or non-fleshy; persistent; accrescent (often, in female flowers).
+Perianth of tepals, or vestigial, or absent; 4; free, or joined (symmetric or asymmetric, usually a more or less lobed cupule when present in male flowers, free or basally connate in females); 1 whorled (usually), or 2 whorled (seemingly, in Evodianthus); sepaloid; fleshy (often, in female flowers), or non-fleshy; persistent; accrescent (often, in female flowers).
 
 Cymodoceaceae
 
@@ -672,11 +672,11 @@ Perianth sepaline (?); 1–5(–8) (male flowers), or 1–5 (female flowers); fr
 
 Cyperaceae
 
-Perianth of tepals, or vestigial (represented by bristles or hairs), or absent; when present, often 6; free; sometimes more or less sepaloid.
+Perianth of tepals, or vestigial (represented by bristles or hairs), or absent; when present, often 6; free; sometimes more or less sepaloid.
 
 Cypripediaceae
 
-Perianth with distinct calyx and corolla, or of tepals (usually, though very zygomorphic and the inner median very different in form from the rest); 5 (in that the lateral sepals are fused into a synsepalum), or 6 (if the synsepalum is counted as two); partially joined (the outer laterals); 2 whorled; isomerous (if the joined, outer laterals interpreted as two), or anisomerous (if not); if not readily resolvable into calyx and corolla, petaloid; without spots, or spotted; different in the two whorls (the lateral petals often much longer than the other tepals, and the median petal  the labellum  characteristically slipper-shaped); of various colours. Tepal apex trichomes (TAT) absent (Paphiopedilum). Calyx 2, or 3 (i.e. basically three, with the laterals joined); 1 whorled; partially gamosepalous (the anterior member  opposite the labellum  free). 2 of the members joined (the laterals). Calyx morphologically with the median member anterior (but the flower usually resupinate, so ostensibly posterior). Corolla 3; 1 whorled; polypetalous.
+Perianth with distinct calyx and corolla, or of tepals (usually, though very zygomorphic and the inner median very different in form from the rest); 5 (in that the lateral sepals are fused into a synsepalum), or 6 (if the synsepalum is counted as two); partially joined (the outer laterals); 2 whorled; isomerous (if the joined, outer laterals interpreted as two), or anisomerous (if not); if not readily resolvable into calyx and corolla, petaloid; without spots, or spotted; different in the two whorls (the lateral petals often much longer than the other tepals, and the median petal  the labellum  characteristically slipper-shaped); of various colours. Tepal apex trichomes (TAT) absent (Paphiopedilum). Calyx 2, or 3 (i.e. basically three, with the laterals joined); 1 whorled; partially gamosepalous (the anterior member  opposite the labellum  free). 2 of the members joined (the laterals). Calyx morphologically with the median member anterior (but the flower usually resupinate, so ostensibly posterior). Corolla 3; 1 whorled; polypetalous.
 
 Cyrillaceae
 
@@ -684,7 +684,7 @@ Perianth with distinct calyx and corolla; 10(–14); 2 whorled; isomerous. Calyx
 
 Cytinaceae
 
-Perianth sepaline, or petaline, or of tepals (depending on interpretation); 4 (always?); joined (forming a tube), or free (?); 1 whorled (preceded by numerous scales); somewhat fleshy, or non-fleshy (?).
+Perianth sepaline, or petaline, or of tepals (depending on interpretation); 4 (always?); joined (forming a tube), or free (?); 1 whorled (preceded by numerous scales); somewhat fleshy, or non-fleshy (?).
 
 Daphniphyllaceae
 
@@ -692,7 +692,7 @@ Perianth sepaline (usually), or absent (apetalous, occasionally the calyx also l
 
 Dasypogonaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; sepaloid (occasionally), or petaloid (usually); similar in the two whorls, or different in the two whorls; white, or cream, or yellow, or hyaline; fleshy, or non-fleshy. Tepal apex trichomes (TAT) absent (Acanthocarpus, Chamaexeros, Lomandra, Xerolirion).
+Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; sepaloid (occasionally), or petaloid (usually); similar in the two whorls, or different in the two whorls; white, or cream, or yellow, or hyaline; fleshy, or non-fleshy. Tepal apex trichomes (TAT) absent (Acanthocarpus, Chamaexeros, Lomandra, Xerolirion).
 
 Datiscaceae
 
@@ -732,11 +732,11 @@ Perianth with distinct calyx and corolla; 8–16; 2 whorled; isomerous. Calyx 4�
 
 Didiereaceae
 
-Perianth with distinct calyx and corolla (though the petaline calyx could be interpreted as bracteoles, the corolla as sepals); 6; 3 whorled; isomerous. Calyx 2; 1 whorled; polysepalous (petaloid, decussate); persistent. Corolla 4; 2 whorled (2+2, decussate); polypetalous. Petals sessile.
+Perianth with distinct calyx and corolla (though the petaline calyx could be interpreted as bracteoles, the corolla as sepals); 6; 3 whorled; isomerous. Calyx 2; 1 whorled; polysepalous (petaloid, decussate); persistent. Corolla 4; 2 whorled (2+2, decussate); polypetalous. Petals sessile.
 
 Didymelaceae
 
-Perianth sepaline, or absent (the male flowers subtended by 02 scales, the female by 04, interpretable as bracts or sepals); if so interpreted, 1–4. Calyx if so interpreted, 1–2 (male), or 1–4 (female).
+Perianth sepaline, or absent (the male flowers subtended by 02 scales, the female by 04, interpretable as bracts or sepals); if so interpreted, 1–4. Calyx if so interpreted, 1–2 (male), or 1–4 (female).
 
 Diegodendraceae
 
@@ -752,11 +752,11 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Dioscoreaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; sepaloid, or petaloid; similar in the two whorls, or different in the two whorls.
+Perianth of tepals; 6; joined; 2 whorled; isomerous; sepaloid, or petaloid; similar in the two whorls, or different in the two whorls.
 
 Dipentodontaceae
 
-Perianth with distinct calyx and corolla; 10–14; 2 whorled; isomerous. Calyx 5–7; 1 whorled; gamosepalous (the linear, pubescent sepals shortly united at the base). Calyx lobes markedly longer than the tube. Calyx persistent; valvate. Corolla 5–7; 1 whorled; polypetalous, or gamopetalous (?  the petals linear, indistinguishable from the sepals or slightly narrower); valvate; regular; persistent.
+Perianth with distinct calyx and corolla; 10–14; 2 whorled; isomerous. Calyx 5–7; 1 whorled; gamosepalous (the linear, pubescent sepals shortly united at the base). Calyx lobes markedly longer than the tube. Calyx persistent; valvate. Corolla 5–7; 1 whorled; polypetalous, or gamopetalous (?  the petals linear, indistinguishable from the sepals or slightly narrower); valvate; regular; persistent.
 
 Dipsacaceae
 
@@ -776,11 +776,11 @@ Perianth with distinct calyx and corolla; 1–20; 2 whorled; isomerous, or aniso
 
 Doryanthaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or red (maroon). Tepal apex trichomes (TAT) present.
+Perianth of tepals; 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or red (maroon). Tepal apex trichomes (TAT) present.
 
 Dracaenaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls. Tepal apex trichomes (TAT) present (Dracaena, Sanseviera).
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls. Tepal apex trichomes (TAT) present (Dracaena, Sanseviera).
 
 Droseraceae
 
@@ -808,7 +808,7 @@ Perianth with distinct calyx and corolla; 6–14; 2 whorled; isomerous. Calyx 3�
 
 Ecdeiocoleaceae
 
-Perianth of tepals; 6; free (somewhat unequal); 2 whorled (3+3); isomerous; sepaloid (glumaceous); different in the two whorls (two members of the outer whorl being laterally compressed and ciliate towards their tips).
+Perianth of tepals; 6; free (somewhat unequal); 2 whorled (3+3); isomerous; sepaloid (glumaceous); different in the two whorls (two members of the outer whorl being laterally compressed and ciliate towards their tips).
 
 Ehretiaceae
 
@@ -832,7 +832,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Emblingiaceae
 
-Perianth with distinct calyx and corolla; 7; 2 whorled; anisomerous. Calyx 5; 1 whorled; gamosepalous; unequal but not bilabiate (posticously dimidiate). Corolla 2 (anticous); 1 whorled; gamopetalous (the petals laterally connate into a slipper-like structure, hooded at the apex, externally sericeous); unequal but not bilabiate.
+Perianth with distinct calyx and corolla; 7; 2 whorled; anisomerous. Calyx 5; 1 whorled; gamosepalous; unequal but not bilabiate (posticously dimidiate). Corolla 2 (anticous); 1 whorled; gamopetalous (the petals laterally connate into a slipper-like structure, hooded at the apex, externally sericeous); unequal but not bilabiate.
 
 Empetraceae
 
@@ -844,7 +844,7 @@ Perianth with distinct calyx and corolla; 8 (Oligarrhena), or 10; 2 whorled; iso
 
 Eremolepidaceae
 
-Perianth sepaline, or of tepals, or absent (sometimes in male flowers of Antidaphne); 2–4 (or none, in male flowers), or 2–3 (in female flowers); free; 1 whorled; sepaloid.
+Perianth sepaline, or of tepals, or absent (sometimes in male flowers of Antidaphne); 2–4 (or none, in male flowers), or 2–3 (in female flowers); free; 1 whorled; sepaloid.
 
 Eremosynaceae
 
@@ -860,7 +860,7 @@ Perianth with distinct calyx and corolla, or sepaline (the corolla sometimes sma
 
 Eriospermaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or cream, or yellow, or pink; persistent (the outer members upright or spreading).
+Perianth of tepals; 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or cream, or yellow, or pink; persistent (the outer members upright or spreading).
 
 Erythropalaceae
 
@@ -884,7 +884,7 @@ Perianth with distinct calyx and corolla; 8(–10); 2 whorled; isomerous. Calyx 
 
 Euphorbiaceae
 
-Perianth sepaline, or vestigial, or absent, or petaline (occasionally); when present, (3–)5–6(–12); free, or joined; 1 whorled (usually), or 2 whorled (sometimes  e.g. Jatropha); when two-whorled, isomerous. Calyx 5; polysepalous, or gamosepalous; regular. Corolla when present, 5; polypetalous; regular.
+Perianth sepaline, or vestigial, or absent, or petaline (occasionally); when present, (3–)5–6(–12); free, or joined; 1 whorled (usually), or 2 whorled (sometimes  e.g. Jatropha); when two-whorled, isomerous. Calyx 5; polysepalous, or gamosepalous; regular. Corolla when present, 5; polypetalous; regular.
 
 Berti
 
@@ -900,7 +900,7 @@ Perianth absent.
 
 Euryalaceae
 
-Perianth with distinct calyx and corolla; 50–60 (many). Calyx 4; polysepalous; persistent. Corolla 40–60 (many); polypetalous; imbricate; white, or pink, or red (white at first, colouring later). Petals sessile.
+Perianth with distinct calyx and corolla; 50–60 (many). Calyx 4; polysepalous; persistent. Corolla 40–60 (many); polypetalous; imbricate; white, or pink, or red (white at first, colouring later). Petals sessile.
 
 Fagaceae
 
@@ -908,11 +908,11 @@ Perianth sepaline, or vestigial; (4–)6(–7); free to joined; 1 whorled. Calyx
 
 Flacourtiaceae
 
-Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals, or sepaline (corolla occasionally absent); 3–8, or 6–16(–30); when whorled 2 whorled (usually), or 3 whorled, or 1 whorled (rarely); when non-spiralled isomerous. Calyx 3–8(–15); when whorled 1 whorled; polysepalous, or gamosepalous; regular; persistent; accrescent, or non-accrescent; imbricate. Corolla 3–8(–15) (alternating with K, or spiral and intergrading with it); 1 whorled, or 2 whorled; appendiculate (sometimes with a corona of scales inside, cf. Passifloraceae), or not appendiculate; imbricate; regular.
+Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals, or sepaline (corolla occasionally absent); 3–8, or 6–16(–30); when whorled 2 whorled (usually), or 3 whorled, or 1 whorled (rarely); when non-spiralled isomerous. Calyx 3–8(–15); when whorled 1 whorled; polysepalous, or gamosepalous; regular; persistent; accrescent, or non-accrescent; imbricate. Corolla 3–8(–15) (alternating with K, or spiral and intergrading with it); 1 whorled, or 2 whorled; appendiculate (sometimes with a corona of scales inside, cf. Passifloraceae), or not appendiculate; imbricate; regular.
 
 Flagellariaceae
 
-Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls (equal or subequal); white.
+Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls (equal or subequal); white.
 
 Flindersiaceae
 
@@ -940,7 +940,7 @@ Perianth with distinct calyx and corolla; 6; 3 whorled; isomerous. Calyx 2; 1 wh
 
 Garryaceae
 
-Perianth sepaline (of bractlike tepals, in the male flowers), or vestigial to absent (absent or in the form of 24 small appendages at the top of the gynoecium beneath the styles, in female flowers); 2(–4) (when present in female flowers), or 4 (male flowers); 1 whorled. Calyx 2(–4) (when present, in female flowers), or 4 (in male flowers); 1 whorled; polysepalous, or gamosepalous (in the sense of being usually apically connate in the male flowers, with the stamens protruding from between them below); in male flowers, regular; in male flowers valvate.
+Perianth sepaline (of bractlike tepals, in the male flowers), or vestigial to absent (absent or in the form of 24 small appendages at the top of the gynoecium beneath the styles, in female flowers); 2(–4) (when present in female flowers), or 4 (male flowers); 1 whorled. Calyx 2(–4) (when present, in female flowers), or 4 (in male flowers); 1 whorled; polysepalous, or gamosepalous (in the sense of being usually apically connate in the male flowers, with the stamens protruding from between them below); in male flowers, regular; in male flowers valvate.
 
 Geissolomataceae
 
@@ -948,7 +948,7 @@ Perianth sepaline; 4; 1 whorled; petaloid; red to pink (rose). Calyx 4; 1 whorle
 
 Gelsemiaceae
 
-Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 4 (ocasionally), or 5; 1 whorled; polysepalous (Gelsemium), or gamosepalous (Mostuea); blunt-lobed, or toothed. Calyx lobes when gamosepalous, markedly shorter than the tube to about the same length as the tube. Calyx regular; mostly persistent; non-accrescent; imbricate; when K5, with the median member anterior. Corolla 4 (rarely, in Mostuea), or 5; 1 whorled; gamopetalous; imbricate; funnel-shaped (the tube much longer than the lobes); more or less regular; white, or yellow, or orange, or red, or blue (or lilac).
+Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 4 (ocasionally), or 5; 1 whorled; polysepalous (Gelsemium), or gamosepalous (Mostuea); blunt-lobed, or toothed. Calyx lobes when gamosepalous, markedly shorter than the tube to about the same length as the tube. Calyx regular; mostly persistent; non-accrescent; imbricate; when K5, with the median member anterior. Corolla 4 (rarely, in Mostuea), or 5; 1 whorled; gamopetalous; imbricate; funnel-shaped (the tube much longer than the lobes); more or less regular; white, or yellow, or orange, or red, or blue (or lilac).
 
 Geniostomaceae
 
@@ -960,7 +960,7 @@ Perianth with distinct calyx and corolla; 8–10(–24); 2 whorled; isomerous. C
 
 Geosiridaceae
 
-Perianth of tepals; 6; joined; 2 whorled (3+3, the outer imbricate, the inner contorted); isomerous; petaloid; similar in the two whorls; blue (-ish).
+Perianth of tepals; 6; joined; 2 whorled (3+3, the outer imbricate, the inner contorted); isomerous; petaloid; similar in the two whorls; blue (-ish).
 
 Geraniaceae
 
@@ -980,7 +980,7 @@ Perianth sepaline (corolla absent); 5; 1 whorled. Calyx 5; 1 whorled; polysepalo
 
 Glaucidiaceae
 
-Perianth sepaline, or petaline, or of tepals (usually described as having petaloid sepals and no corolla); 4; free; (if considered of tepals) petaloid; persistent. Calyx 4; polysepalous; persistent.
+Perianth sepaline, or petaline, or of tepals (usually described as having petaloid sepals and no corolla); 4; free; (if considered of tepals) petaloid; persistent. Calyx 4; polysepalous; persistent.
 
 Globulariaceae
 
@@ -996,7 +996,7 @@ Perianth sepaline; (5–)7(–9); free; spiralled, becoming smaller centripetall
 
 Gonystylaceae
 
-Perianth with distinct calyx and corolla (unless the corolla of Hutchinson, Cronquist et al. is interpreted as an extrastaminal disk, as by Airy Shaw 1973); 12–45; anisomerous. Calyx 5; 1 whorled; polysepalous, or gamosepalous (?); five blunt-lobed; regular; imbricate. Corolla 7–40; polypetalous (the petals 740, linear or deltoid, sometimes divided almost to the base, inserted on the hypanthium). Petals deeply bifid, or entire.
+Perianth with distinct calyx and corolla (unless the corolla of Hutchinson, Cronquist et al. is interpreted as an extrastaminal disk, as by Airy Shaw 1973); 12–45; anisomerous. Calyx 5; 1 whorled; polysepalous, or gamosepalous (?); five blunt-lobed; regular; imbricate. Corolla 7–40; polypetalous (the petals 740, linear or deltoid, sometimes divided almost to the base, inserted on the hypanthium). Petals deeply bifid, or entire.
 
 Goodeniaceae
 
@@ -1020,11 +1020,11 @@ Perianth with distinct calyx and corolla (male, female), or sepaline (female flo
 
 Grossulariaceae
 
-Perianth ambiguously with distinct calyx and corolla, or sepaline, or petaline; 4–5, or 8, or 10; 1 whorled, or 2 whorled; isomerous; when 2-whorled, different in the two whorls. Calyx 4, or 5 (sometimes petaloid); 1 whorled; gamosepalous; blunt-lobed; cupuliform, or campanulate; regular; persistent; sub- valvate, or imbricate. Corolla 4, or 5 (alternatively interpretable as staminodes); 1 whorled; polypetalous (the petals small, inserted in the hypanthium and alternating with the calyx lobes and stamens); if interpreted as such, with open aestivation; regular; persistent. Petals if interpreted as such, scalelike, obovate or subulate.
+Perianth ambiguously with distinct calyx and corolla, or sepaline, or petaline; 4–5, or 8, or 10; 1 whorled, or 2 whorled; isomerous; when 2-whorled, different in the two whorls. Calyx 4, or 5 (sometimes petaloid); 1 whorled; gamosepalous; blunt-lobed; cupuliform, or campanulate; regular; persistent; sub- valvate, or imbricate. Corolla 4, or 5 (alternatively interpretable as staminodes); 1 whorled; polypetalous (the petals small, inserted in the hypanthium and alternating with the calyx lobes and stamens); if interpreted as such, with open aestivation; regular; persistent. Petals if interpreted as such, scalelike, obovate or subulate.
 
 Grubbiaceae
 
-Perianth sepaline (apetalous according to Cronquist, 1981); ostensibly 4 (cf. Cronquist, but interpreted by Fagerlind (1947) as 2 bracteiform plus 2 vestigial calyx members, and a corolla comprising 2+2 diagonally disposed and valvate); 1 whorled, or 4 whorled (depending on interpretation). Calyx 4 (by either interpretation, as applied to the calyx of Cronquist or the corolla of Fagerlind); 1 whorled (Cronquist), or 2 whorled (under Fagerlinds interpretation); small, polysepalous; valvate.
+Perianth sepaline (apetalous according to Cronquist, 1981); ostensibly 4 (cf. Cronquist, but interpreted by Fagerlind (1947) as 2 bracteiform plus 2 vestigial calyx members, and a corolla comprising 2+2 diagonally disposed and valvate); 1 whorled, or 4 whorled (depending on interpretation). Calyx 4 (by either interpretation, as applied to the calyx of Cronquist or the corolla of Fagerlind); 1 whorled (Cronquist), or 2 whorled (under Fagerlinds interpretation); small, polysepalous; valvate.
 
 Guamatelaceae
 
@@ -1032,7 +1032,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Gunneraceae
 
-Perianth with distinct calyx and corolla, or sepaline (C sometimes lacking especially in female flowers, K sometimes very small); when present, 2–5; 1 whorled, or 2 whorled; isomerous, or anisomerous. Calyx 2(–3) (small or sometimes almost lacking); 1 whorled; polysepalous; valvate. Corolla when present, 2; 1 whorled; polypetalous.
+Perianth with distinct calyx and corolla, or sepaline (C sometimes lacking especially in female flowers, K sometimes very small); when present, 2–5; 1 whorled, or 2 whorled; isomerous, or anisomerous. Calyx 2(–3) (small or sometimes almost lacking); 1 whorled; polysepalous; valvate. Corolla when present, 2; 1 whorled; polypetalous.
 
 Guttiferae
 
@@ -1048,7 +1048,7 @@ Perianth sepaline; when segments detectable, 4–5; joined (discoid or cupular, 
 
 Haemodoraceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled (when free, Haemodoroideae), or 1 whorled (when tubular, Conostyloideae); isomerous; petaloid; similar in the two whorls; green, or white, or cream, or yellow, or orange, or red, or violet, or black.
+Perianth of tepals; 6; free, or joined; 2 whorled (when free, Haemodoroideae), or 1 whorled (when tubular, Conostyloideae); isomerous; petaloid; similar in the two whorls; green, or white, or cream, or yellow, or orange, or red, or violet, or black.
 
 Halophytaceae
 
@@ -1064,15 +1064,15 @@ Perianth with distinct calyx and corolla, or sepaline (often), or vestigial to a
 
 Hanguanaceae
 
-Perianth of tepals (the members small, rounded); 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls to different in the two whorls (the outer members smaller); pale.
+Perianth of tepals (the members small, rounded); 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls to different in the two whorls (the outer members smaller); pale.
 
 Hectorellaceae
 
-Perianth with distinct calyx and corolla, or sepaline (since postulated relationship with Portulacaceae implies that the sepals represent modified bracteoles, the corolla a petaloid calyx); 6, or 7; 1 whorled, or 2 whorled (as interpreted here); anisomerous. Calyx 2 (anterior/posterior); 1 whorled; polysepalous; persistent; median. Corolla 4–5; polypetalous, or gamopetalous (then shortly connate). Corolla lobes markedly longer than the tube.
+Perianth with distinct calyx and corolla, or sepaline (since postulated relationship with Portulacaceae implies that the sepals represent modified bracteoles, the corolla a petaloid calyx); 6, or 7; 1 whorled, or 2 whorled (as interpreted here); anisomerous. Calyx 2 (anterior/posterior); 1 whorled; polysepalous; persistent; median. Corolla 4–5; polypetalous, or gamopetalous (then shortly connate). Corolla lobes markedly longer than the tube.
 
 Heliconiaceae
 
-Perianth of tepals; 6; joined (the median member of the outer series more or less free from the rest, which are fused to form a five-dentate or five-lobed, boat shaped upper lip); 2 whorled; isomerous; petaloid; similar in the two whorls to different in the two whorls.
+Perianth of tepals; 6; joined (the median member of the outer series more or less free from the rest, which are fused to form a five-dentate or five-lobed, boat shaped upper lip); 2 whorled; isomerous; petaloid; similar in the two whorls to different in the two whorls.
 
 Helwingiaceae
 
@@ -1080,7 +1080,7 @@ Perianth petaline (as described by Airy Shaw); 3–4(–5); 1 whorled. Corolla 3
 
 Hemerocallidaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; brick red, or yellow to orange (sometimes striped, but not variegated with a droplike pattern). Tepal apex trichomes (TAT) present (i.e., Hemerocallis).
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; brick red, or yellow to orange (sometimes striped, but not variegated with a droplike pattern). Tepal apex trichomes (TAT) present (i.e., Hemerocallis).
 
 Henriqueziaceae
 
@@ -1088,11 +1088,11 @@ Perianth with distinct calyx and corolla; 9–10; 2 whorled; isomerous, or aniso
 
 Hernandiaceae
 
-Perianth with distinct calyx and corolla, or sepaline (?of tepals); 6–10 (35 in each whorl); free; more or less 2 whorled; isomerous; similar in the two whorls. Corolla not fleshy.
+Perianth with distinct calyx and corolla, or sepaline (?of tepals); 6–10 (35 in each whorl); free; more or less 2 whorled; isomerous; similar in the two whorls. Corolla not fleshy.
 
 Herreriaceae
 
-Perianth of tepals; 6; 2 whorled; isomerous; sepaloid, or petaloid (?); similar in the two whorls (at least in size and shape); deciduous. Tepal apex trichomes (TAT) present (Herreria).
+Perianth of tepals; 6; 2 whorled; isomerous; sepaloid, or petaloid (?); similar in the two whorls (at least in size and shape); deciduous. Tepal apex trichomes (TAT) present (Herreria).
 
 Heteropyxidaceae
 
@@ -1108,19 +1108,19 @@ Perianth with distinct calyx and corolla; (9–)10; 2 whorled; isomerous, or ani
 
 Hippuridaceae
 
-Perianth sepaline, or vestigial to absent (greatly reduced, to a more or less entire or 24 lobed rim); 0, or 2–4. Calyx when detectable entire to blunt-lobed.
+Perianth sepaline, or vestigial to absent (greatly reduced, to a more or less entire or 24 lobed rim); 0, or 2–4. Calyx when detectable entire to blunt-lobed.
 
 Hoplestigmataceae
 
-Perianth with distinct calyx and corolla; 13–18; irregularly 3–5 whorled; anisomerous. Calyx 1 whorled; gamosepalous (entire and globose in bud, splitting irregularly into 24 lobes); persistent (at the base of the fruit). Corolla 11–14; irregularly 2–4 whorled; gamopetalous (with a short tube). Corolla lobes about the same length as the tube, or markedly longer than the tube. Corolla imbricate; regular.
+Perianth with distinct calyx and corolla; 13–18; irregularly 3–5 whorled; anisomerous. Calyx 1 whorled; gamosepalous (entire and globose in bud, splitting irregularly into 24 lobes); persistent (at the base of the fruit). Corolla 11–14; irregularly 2–4 whorled; gamopetalous (with a short tube). Corolla lobes about the same length as the tube, or markedly longer than the tube. Corolla imbricate; regular.
 
 Hostaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or pink, or violet, or blue. Tepal apex trichomes (TAT) present.
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or pink, or violet, or blue. Tepal apex trichomes (TAT) present.
 
 Huaceae
 
-Perianth with distinct calyx and corolla; (9–)10; 2 whorled; isomerous, or anisomerous. Calyx 5, or 3–5; 1 whorled; polysepalous (Hua), or gamosepalous (the five sepals distinct in Hua, the calyx of Afrostyrax closed in the bud and opening by 35 irregular lobes); calyptrate (Afrostyrax), or not calyptrate; of Hua valvate. Corolla (4–)5 (the petals pubescent); 1 whorled; polypetalous; induplicate valvate. Petals long clawed (Hua), or sessile (more or less, in Afrostyrax  with a very short, broad base beneath the obovate blade).
+Perianth with distinct calyx and corolla; (9–)10; 2 whorled; isomerous, or anisomerous. Calyx 5, or 3–5; 1 whorled; polysepalous (Hua), or gamosepalous (the five sepals distinct in Hua, the calyx of Afrostyrax closed in the bud and opening by 35 irregular lobes); calyptrate (Afrostyrax), or not calyptrate; of Hua valvate. Corolla (4–)5 (the petals pubescent); 1 whorled; polypetalous; induplicate valvate. Petals long clawed (Hua), or sessile (more or less, in Afrostyrax  with a very short, broad base beneath the obovate blade).
 
 Hugoniaceae
 
@@ -1132,11 +1132,11 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Humiriaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5 (but the lobes of the two outer members sometimes suppressed); 1 whorled; gamosepalous (usually connate below into a thickened tube or cup); three or five blunt-lobed; cupuliform, or tubular; persistent; imbricate. Corolla 5; 1 whorled; polypetalous (the petals usually 35 nerved, thick); imbricate, or contorted; persistent, or deciduous.
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5 (but the lobes of the two outer members sometimes suppressed); 1 whorled; gamosepalous (usually connate below into a thickened tube or cup); three or five blunt-lobed; cupuliform, or tubular; persistent; imbricate. Corolla 5; 1 whorled; polypetalous (the petals usually 35 nerved, thick); imbricate, or contorted; persistent, or deciduous.
 
 Hyacinthaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; petaloid; without spots, or spotted; similar in the two whorls, or different in the two whorls (but usually of the same texture); white, or yellow, or red, or violet, or blue, or brown, or black. Tepal apex trichomes (TAT) present (Albuca, Bowiea, Chlorogalum, Hyacinthus, Hyacinthoides, Lachenalia, Muscari, Ornithogalum, Scilla).
+Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; petaloid; without spots, or spotted; similar in the two whorls, or different in the two whorls (but usually of the same texture); white, or yellow, or red, or violet, or blue, or brown, or black. Tepal apex trichomes (TAT) present (Albuca, Bowiea, Chlorogalum, Hyacinthus, Hyacinthoides, Lachenalia, Muscari, Ornithogalum, Scilla).
 
 Hydatellaceae
 
@@ -1156,11 +1156,11 @@ Perianth sepaline; 3; petaloid. Calyx 3 (of petaloid sepals); 1 whorled; polysep
 
 Hydrocharitaceae
 
-Perianth with distinct calyx and corolla (usually), or of tepals; 6, or (2–)3; free, or joined; 2 whorled; isomerous; if not resolvable into calyx and corolla, sepaloid, or petaloid; similar in the two whorls (then semipetaloid), or different in the two whorls; white, or yellow, or red, or purple, or blue. Calyx (2–)3; 1 whorled; polysepalous (sometimes from a hypanthium); regular. Corolla when present, 3; 1 whorled; polypetalous (attached to the gynoecium or to the perigone tube). Petals clawed, or sessile.
+Perianth with distinct calyx and corolla (usually), or of tepals; 6, or (2–)3; free, or joined; 2 whorled; isomerous; if not resolvable into calyx and corolla, sepaloid, or petaloid; similar in the two whorls (then semipetaloid), or different in the two whorls; white, or yellow, or red, or purple, or blue. Calyx (2–)3; 1 whorled; polysepalous (sometimes from a hypanthium); regular. Corolla when present, 3; 1 whorled; polypetalous (attached to the gynoecium or to the perigone tube). Petals clawed, or sessile.
 
 Hydrophyllaceae
 
-Perianth with distinct calyx and corolla; (8–)10(–20); 2 whorled; isomerous. Calyx (4–)5(–10); 1 whorled; gamosepalous, or polysepalous (sometimes lobes divided to the base); regular; basally appendaged, or basally spurred; imbricate. Epicalyx present (as appendages between the calyx lobes), or absent. Corolla (4–)5(–10); 1 whorled; appendiculate (often having scales of dubious morphological interpretation inside the tube, alternating with the stamens), or not appendiculate; gamopetalous; imbricate, or contorted; rotate, or campanulate, or funnel-shaped; regular; blue, or purple, or white.
+Perianth with distinct calyx and corolla; (8–)10(–20); 2 whorled; isomerous. Calyx (4–)5(–10); 1 whorled; gamosepalous, or polysepalous (sometimes lobes divided to the base); regular; basally appendaged, or basally spurred; imbricate. Epicalyx present (as appendages between the calyx lobes), or absent. Corolla (4–)5(–10); 1 whorled; appendiculate (often having scales of dubious morphological interpretation inside the tube, alternating with the stamens), or not appendiculate; gamopetalous; imbricate, or contorted; rotate, or campanulate, or funnel-shaped; regular; blue, or purple, or white.
 
 Hydrostachydaceae
 
@@ -1176,7 +1176,7 @@ Perianth with distinct calyx and corolla; 6; 3 whorled; isomerous. Calyx 2 (ante
 
 Hypoxidaceae
 
-Perianth of tepals; 4, or 6; free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; yellow, or white, or red (rarely); persistent (patent). Tepal apex trichomes (TAT) present (Hypoxis, Molineria, Pauridia, Rhodohypoxis).
+Perianth of tepals; 4, or 6; free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; yellow, or white, or red (rarely); persistent (patent). Tepal apex trichomes (TAT) present (Hypoxis, Molineria, Pauridia, Rhodohypoxis).
 
 Hypseocharitaceae
 
@@ -1188,7 +1188,7 @@ Perianth with distinct calyx and corolla (usually), or sepaline (rarely apetalou
 
 Idiospermaceae
 
-Perianth sequentially intergrading from sepals to petals, or petaline; 30–40 (spiralled, the outer members the largest and deciduous, the other 1518 retained); free; white (initially), or red (later); persistent (the inner 1518 members), or deciduous (the outer members).
+Perianth sequentially intergrading from sepals to petals, or petaline; 30–40 (spiralled, the outer members the largest and deciduous, the other 1518 retained); free; white (initially), or red (later); persistent (the inner 1518 members), or deciduous (the outer members).
 
 Illiciaceae
 
@@ -1200,7 +1200,7 @@ Perianth without spots. Calyx not represented by bristles; neither appendaged no
 
 Iridaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; without spots, or spotted (commonly); similar in the two whorls, or different in the two whorls (the inner sometimes much smaller); white, or yellow, or red, or purple, or violet, or blue (or blue-green). Tepal apex trichomes (TAT) absent (17 genera).
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; without spots, or spotted (commonly); similar in the two whorls, or different in the two whorls (the inner sometimes much smaller); white, or yellow, or red, or purple, or violet, or blue (or blue-green). Tepal apex trichomes (TAT) absent (17 genera).
 
 Irvingiaceae
 
@@ -1216,7 +1216,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Ixioliriaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls (but the outer members somewhat narrower); nearly white, or violet, or blue. Tepal apex trichomes (TAT) present (Ixiolirion).
+Perianth of tepals; 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls (but the outer members somewhat narrower); nearly white, or violet, or blue. Tepal apex trichomes (TAT) present (Ixiolirion).
 
 Ixonanthaceae
 
@@ -1224,11 +1224,11 @@ Perianth with distinct calyx and corolla; (8–)10; 2 whorled; isomerous. Calyx 
 
 Japonolirionaceae
 
-Perianth of tepals; 6; free (no more than basally contiguous, in Ohwi's illustration); 2 whorled; isomerous; membranous, 1-nerved; without spots; somewhat different in the two whorls (the inner three members larger); white and hyaline; persistent.
+Perianth of tepals; 6; free (no more than basally contiguous, in Ohwi's illustration); 2 whorled; isomerous; membranous, 1-nerved; without spots; somewhat different in the two whorls (the inner three members larger); white and hyaline; persistent.
 
 Joinvilleaceae
 
-Perianth of tepals; 6; free to joined; 2 whorled; isomerous; sepaloid (bractlike); similar in the two whorls to different in the two whorls (chaffy, the outer members much larger); green, or cream; persistent.
+Perianth of tepals; 6; free to joined; 2 whorled; isomerous; sepaloid (bractlike); similar in the two whorls to different in the two whorls (chaffy, the outer members much larger); green, or cream; persistent.
 
 Juglandaceae
 
@@ -1236,15 +1236,15 @@ Perianth sepaline, or vestigial, or absent; when present, (1–)4(–5). Calyx w
 
 Julianiaceae
 
-Perianth sepaline (male flowers), or absent (female flowers); of male flowers, 3–8; 1 whorled. Calyx of male flowers, 3–8; 1 whorled; gamosepalous; 38 blunt-lobed; regular.
+Perianth sepaline (male flowers), or absent (female flowers); of male flowers, 3–8; 1 whorled. Calyx of male flowers, 3–8; 1 whorled; gamosepalous; 38 blunt-lobed; regular.
 
 Juncaceae
 
-Perianth of tepals; 3 (rarely), or 6; free; 1 whorled (rarely, the inner whorl absent), or 2 whorled (usually); usually isomerous; sepaloid, or petaloid; similar in the two whorls, or different in the two whorls (sometimes very different in size); green, or white, or brown, or purple, or black, or hyaline.
+Perianth of tepals; 3 (rarely), or 6; free; 1 whorled (rarely, the inner whorl absent), or 2 whorled (usually); usually isomerous; sepaloid, or petaloid; similar in the two whorls, or different in the two whorls (sometimes very different in size); green, or white, or brown, or purple, or black, or hyaline.
 
 Juncaginaceae
 
-Perianth of tepals (there being one member outside each stamen or staminode), or absent (if the tepals are interpreted as staminal appendages  cf. Potamogetonaceae); 6 (usually), or 3, or 4, or 1; free; 2 whorled (usually), or 1 whorled; isomerous; sepaloid; without spots, or spotted (Tetroncium); similar in the two whorls.
+Perianth of tepals (there being one member outside each stamen or staminode), or absent (if the tepals are interpreted as staminal appendages  cf. Potamogetonaceae); 6 (usually), or 3, or 4, or 1; free; 2 whorled (usually), or 1 whorled; isomerous; sepaloid; without spots, or spotted (Tetroncium); similar in the two whorls.
 
 Kewaceae
 
@@ -1268,11 +1268,11 @@ Perianth with distinct calyx and corolla; (8–)10; 2 whorled; isomerous to anis
 
 Labiatae
 
-Perianth with distinct calyx and corolla; 4–10; 2 whorled; isomerous, or anisomerous (or only dubiously interpretable). Calyx 2, or 3, or 4, or 5 (basically 5, but often with the bilabiate condition superimposed, and 2-lobed in e.g. Prostanthera, 3-lobed in Melittis, 4-lobed in e.g. Preslia); 1 whorled; variously gamosepalous; entire (occasionally), or blunt-lobed, or toothed. Calyx lobes markedly shorter than the tube to markedly longer than the tube. Calyx campanulate, or funnel-shaped, or tubular; unequal but not bilabiate (one-lipped), or bilabiate, or regular; persistent; imbricate, or open in bud (commonly); (when K 5) with the median member posterior. Corolla more or less disguisedly 5 (usually with no clear indication of individual petals  commonly with five lobes, but usually with the bilabiate condition superimposed, and the five lobes variously secondarily lobed, reduced or suppressed), or 4 (occasionally, ostensibly, e.g. Mentha); 1 whorled; gamopetalous; imbricate; bilabiate (usually, the lower lip typically three-lobed, the upper commonly bilobed or emarginate but sometimes entire or three or four lobed), or unequal but not bilabiate (e.g. Teucrium, where the upper lip is suppressed), or regular (rarely, almost, as in Mentha); plain, or with contrasting markings.
+Perianth with distinct calyx and corolla; 4–10; 2 whorled; isomerous, or anisomerous (or only dubiously interpretable). Calyx 2, or 3, or 4, or 5 (basically 5, but often with the bilabiate condition superimposed, and 2-lobed in e.g. Prostanthera, 3-lobed in Melittis, 4-lobed in e.g. Preslia); 1 whorled; variously gamosepalous; entire (occasionally), or blunt-lobed, or toothed. Calyx lobes markedly shorter than the tube to markedly longer than the tube. Calyx campanulate, or funnel-shaped, or tubular; unequal but not bilabiate (one-lipped), or bilabiate, or regular; persistent; imbricate, or open in bud (commonly); (when K 5) with the median member posterior. Corolla more or less disguisedly 5 (usually with no clear indication of individual petals  commonly with five lobes, but usually with the bilabiate condition superimposed, and the five lobes variously secondarily lobed, reduced or suppressed), or 4 (occasionally, ostensibly, e.g. Mentha); 1 whorled; gamopetalous; imbricate; bilabiate (usually, the lower lip typically three-lobed, the upper commonly bilobed or emarginate but sometimes entire or three or four lobed), or unequal but not bilabiate (e.g. Teucrium, where the upper lip is suppressed), or regular (rarely, almost, as in Mentha); plain, or with contrasting markings.
 
 Lacandoniaceae
 
-Perianth of tepals; (4–)6 (the members acuminate to caudate tips); joined; without spots.
+Perianth of tepals; (4–)6 (the members acuminate to caudate tips); joined; without spots.
 
 Lacistemataceae
 
@@ -1284,15 +1284,15 @@ Perianth sepaline; 3; 1 whorled. Calyx 3; 1 whorled; polysepalous; imbricate.
 
 Lanariaceae
 
-Perianth persistent, of tepals (the lobes linear); 6; basally joined (tubular); 2 whorled (the abaxially pilose lobes biseriate above the short tube); without spots; white, or pink, or purple, or white and pink; persistent. Tepal apex trichomes (TAT) present.
+Perianth persistent, of tepals (the lobes linear); 6; basally joined (tubular); 2 whorled (the abaxially pilose lobes biseriate above the short tube); without spots; white, or pink, or purple, or white and pink; persistent. Tepal apex trichomes (TAT) present.
 
 Lardizabalaceae
 
-Perianth with distinct calyx and corolla, or sepaline; 3, or 6, or 9–12, or 12–50; isomerous. Calyx 3 (Akebia), or 6 (usually, rarely many, commonly petaloid, but small); 1 whorled (Akebia), or 2 whorled (mostly, rarely more?); polysepalous; regular; imbricate, or imbricate and valvate (the outer members sometimes valvate). Corolla when present, 6 (smaller than the sepals, in the form of nectariferous honey-leaves between P and A  cf. Ranunculaceae); 2 whorled; polypetalous; regular.
+Perianth with distinct calyx and corolla, or sepaline; 3, or 6, or 9–12, or 12–50; isomerous. Calyx 3 (Akebia), or 6 (usually, rarely many, commonly petaloid, but small); 1 whorled (Akebia), or 2 whorled (mostly, rarely more?); polysepalous; regular; imbricate, or imbricate and valvate (the outer members sometimes valvate). Corolla when present, 6 (smaller than the sepals, in the form of nectariferous honey-leaves between P and A  cf. Ranunculaceae); 2 whorled; polypetalous; regular.
 
 Lauraceae
 
-Perianth with distinct calyx and corolla, or sepaline, or of tepals (the two similar, more or less sepaloid whorls variously interpreted as tepals or sepals, hence the clumsy complexity of what follows); 6 (usually), or 4; free (but on a well developed hypanthium); (1–)2(–3) whorled; when more than one whorl, isomerous; sepaloid to petaloid; similar in the two whorls; green, or white, or cream, or yellow; fleshy, or non-fleshy; persistent, or deciduous; accrescent, or non-accrescent. Calyx if the P so interpreted, (4–)6; usually 2 whorled; polysepalous (on the hypanthium); regular; imbricate. Corolla if the inner P whorl so interpreted, 3; 1 whorled; polypetalous; imbricate; regular; green, or white, or yellow; fleshy. Petals sessile.
+Perianth with distinct calyx and corolla, or sepaline, or of tepals (the two similar, more or less sepaloid whorls variously interpreted as tepals or sepals, hence the clumsy complexity of what follows); 6 (usually), or 4; free (but on a well developed hypanthium); (1–)2(–3) whorled; when more than one whorl, isomerous; sepaloid to petaloid; similar in the two whorls; green, or white, or cream, or yellow; fleshy, or non-fleshy; persistent, or deciduous; accrescent, or non-accrescent. Calyx if the P so interpreted, (4–)6; usually 2 whorled; polysepalous (on the hypanthium); regular; imbricate. Corolla if the inner P whorl so interpreted, 3; 1 whorled; polypetalous; imbricate; regular; green, or white, or yellow; fleshy. Petals sessile.
 
 Lecythidaceae
 
@@ -1308,11 +1308,11 @@ Perianth with distinct calyx and corolla; (8–)10; 2 whorled; isomerous. Calyx 
 
 Leguminosae
 
-Perianth with distinct calyx and corolla (nearly always), or sepaline (corolla at least sometimes absent in 26 genera of Caesalpinioideae, some Swartzieae, some Amorphieae); (3–)5, or (6–)10(–11); 1 whorled (rarely), or 2 whorled; isomerous, or anisomerous. Calyx 5, or (3–)5(–6); 1 whorled; polysepalous, or partially gamosepalous, or gamosepalous (characteristic of most Mimosoideae and Papilionoideae). In Caesalpinioideae, sometimes 2 of the members joined. Calyx unequal but not bilabiate, or bilabiate, or regular; persistent (usually), or not persistent (e.g., Lamprolobium); accrescent (rarely), or non-accrescent; imbricate, or valvate (or splitting irregularly in the Swartzieae); when pentamerous, with the median member anterior. Epicalyx present (e.g., Pultenaea), or absent (usually). Corolla (1–)3–5 (commonly reduced below five or missing in Swartzieae, Amorphieae and Caesalpinioideae, commonly 34 in Mimosoideae); 1 whorled; appendiculate (petals variously auriculate, lobed, etc.), or not appendiculate; polypetalous (commonly in Caesalpinioideae), or partially gamopetalous (usually, in Papilionoideae), or gamopetalous (in some Mimosoideae and Sympetalandra). Papilionoideae commonly with 2 of the petals joined (the two ventral petals connivent to form the corolla keel), or 4 of the petals joined (the wings adnate to the keel). The joined petals of the papilionate corolla anterior (or anterior and lateral). Corolla imbricate (descending in Papilionoideae, ascending in Caesalpinioideae), or valvate (Mimosoideae), or with open aestivation (occasionally); white, or yellow, or orange, or red, or pink, or purple, or blue; or some members persistent (e.g. Trifolium), or deciduous. Petals clawed, or sessile.
+Perianth with distinct calyx and corolla (nearly always), or sepaline (corolla at least sometimes absent in 26 genera of Caesalpinioideae, some Swartzieae, some Amorphieae); (3–)5, or (6–)10(–11); 1 whorled (rarely), or 2 whorled; isomerous, or anisomerous. Calyx 5, or (3–)5(–6); 1 whorled; polysepalous, or partially gamosepalous, or gamosepalous (characteristic of most Mimosoideae and Papilionoideae). In Caesalpinioideae, sometimes 2 of the members joined. Calyx unequal but not bilabiate, or bilabiate, or regular; persistent (usually), or not persistent (e.g., Lamprolobium); accrescent (rarely), or non-accrescent; imbricate, or valvate (or splitting irregularly in the Swartzieae); when pentamerous, with the median member anterior. Epicalyx present (e.g., Pultenaea), or absent (usually). Corolla (1–)3–5 (commonly reduced below five or missing in Swartzieae, Amorphieae and Caesalpinioideae, commonly 34 in Mimosoideae); 1 whorled; appendiculate (petals variously auriculate, lobed, etc.), or not appendiculate; polypetalous (commonly in Caesalpinioideae), or partially gamopetalous (usually, in Papilionoideae), or gamopetalous (in some Mimosoideae and Sympetalandra). Papilionoideae commonly with 2 of the petals joined (the two ventral petals connivent to form the corolla keel), or 4 of the petals joined (the wings adnate to the keel). The joined petals of the papilionate corolla anterior (or anterior and lateral). Corolla imbricate (descending in Papilionoideae, ascending in Caesalpinioideae), or valvate (Mimosoideae), or with open aestivation (occasionally); white, or yellow, or orange, or red, or pink, or purple, or blue; or some members persistent (e.g. Trifolium), or deciduous. Petals clawed, or sessile.
 
 Leitneriaceae
 
-Perianth sepaline (female flowers), or absent (in male flowers, and in females if the sepals are interpreted as bracts); of the female flowers (3–)4(–8); of female flowers joined; 1 whorled. Calyx (i.e. the female perianth, alternatively interpretable as bracts or bracteoles) (3–)4(–8); gamosepalous (of minute, unequal and irregularly disposed, glandular-fimbriate scales, more or less connate basally).
+Perianth sepaline (female flowers), or absent (in male flowers, and in females if the sepals are interpreted as bracts); of the female flowers (3–)4(–8); of female flowers joined; 1 whorled. Calyx (i.e. the female perianth, alternatively interpretable as bracts or bracteoles) (3–)4(–8); gamosepalous (of minute, unequal and irregularly disposed, glandular-fimbriate scales, more or less connate basally).
 
 Lemnaceae
 
@@ -1340,7 +1340,7 @@ Perianth with distinct calyx and corolla, or sepaline (the corolla minute or mis
 
 Liliaceae
 
-Perianth of tepals (usually), or with distinct calyx and corolla; 6; free; 2 whorled; isomerous; petaloid, or sepaloid and petaloid; without spots, or spotted (commonly); similar in the two whorls, or different in the two whorls (the outer segments often smaller and less showy); colour variable.
+Perianth of tepals (usually), or with distinct calyx and corolla; 6; free; 2 whorled; isomerous; petaloid, or sepaloid and petaloid; without spots, or spotted (commonly); similar in the two whorls, or different in the two whorls (the outer segments often smaller and less showy); colour variable.
 
 Limnanthaceae
 
@@ -1380,11 +1380,11 @@ Perianth with distinct calyx and corolla, or petaline (the calyx much reduced, o
 
 Lowiaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; different in the two whorls (the outer members subequal, fused into the tube below, the lobes linear-lanceolate and pointed, the inner whorl consisting of an enlarged median which forms an elliptic-spathulate or boatshaped and sometimes patterned labellum, and a pair of smaller, elliptic to filiform laterals).
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; different in the two whorls (the outer members subequal, fused into the tube below, the lobes linear-lanceolate and pointed, the inner whorl consisting of an enlarged median which forms an elliptic-spathulate or boatshaped and sometimes patterned labellum, and a pair of smaller, elliptic to filiform laterals).
 
 Luzuriagaceae
 
-Perianth of tepals; 6; free (or almost), or joined; 2 whorled; isomerous; petaloid; similar in the two whorls, or different in the two whorls; white, or violet. Tepal apex trichomes (TAT) present (Geitonoplesium, Eustrephus).
+Perianth of tepals; 6; free (or almost), or joined; 2 whorled; isomerous; petaloid; similar in the two whorls, or different in the two whorls; white, or violet. Tepal apex trichomes (TAT) present (Geitonoplesium, Eustrephus).
 
 Macarthuriaceae
 
@@ -1396,7 +1396,7 @@ Perianth with distinct calyx and corolla (rarely), or sequentially intergrading 
 
 Malesherbiaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; polysepalous; regular; persistent (with the hypanthium); imbricate, or valvate (?  valvate according to all the written descriptions seen, imbricate in the Le Maout & Decaisne diagram). Corolla 5; 1 whorled; appendiculate (with a membranous, denticulate corona); polypetalous; valvate, or with open aestivation (?  the petals small); regular.
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; polysepalous; regular; persistent (with the hypanthium); imbricate, or valvate (?  valvate according to all the written descriptions seen, imbricate in the Le Maout & Decaisne diagram). Corolla 5; 1 whorled; appendiculate (with a membranous, denticulate corona); polypetalous; valvate, or with open aestivation (?  the petals small); regular.
 
 Malpighiaceae
 
@@ -1424,7 +1424,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Mayacaceae
 
-Perianth with distinct calyx and corolla; 6; free; 2 whorled; isomerous; different in the two whorls. Calyx 3; 1 whorled; polysepalous; regular; imbricate, or valvate (subvalvate). Corolla 1; 1 whorled; polypetalous; imbricate; regular; pale pink to purple (rose), or white. Petals shortly clawed; entire.
+Perianth with distinct calyx and corolla; 6; free; 2 whorled; isomerous; different in the two whorls. Calyx 3; 1 whorled; polysepalous; regular; imbricate, or valvate (subvalvate). Corolla 1; 1 whorled; polypetalous; imbricate; regular; pale pink to purple (rose), or white. Petals shortly clawed; entire.
 
 Medusagynaceae
 
@@ -1440,7 +1440,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Melanthiaceae
 
-Perianth of tepals; 6; free to joined; 2 whorled (3+3); isomerous; sepaloid, or petaloid; without spots, or spotted (occasionally); similar in the two whorls; white, or yellow, or brown, or purple (bright yellow in Narthecium, but usually inconspicuous, usually lacking patterns and spurs).
+Perianth of tepals; 6; free to joined; 2 whorled (3+3); isomerous; sepaloid, or petaloid; without spots, or spotted (occasionally); similar in the two whorls; white, or yellow, or brown, or purple (bright yellow in Narthecium, but usually inconspicuous, usually lacking patterns and spurs).
 
 Melastomataceae
 
@@ -1484,7 +1484,7 @@ Perianth sepaline, or vestigial (present, but much reduced, in female flowers), 
 
 Mitrastemonaceae
 
-Perianth sepaline, or petaline, or of tepals; 4 (?); joined (forming an irregularly undulate or 4-lobed cup); 1 whorled.
+Perianth sepaline, or petaline, or of tepals; 4 (?); joined (forming an irregularly undulate or 4-lobed cup); 1 whorled.
 
 Mitreolaceae
 
@@ -1496,7 +1496,7 @@ Perianth with distinct calyx and corolla, or sepaline (the petals small or absen
 
 Monimiaceae
 
-Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals, or sepaline, or vestigial to absent; 4–50 (to many, often shedding the tips from the bud as a calyptra); free, or joined; 2–3 whorled; anisomerous; fleshy, or non-fleshy; persistent, or deciduous. Calyx when recognisable 4; sometimes 2 whorled; polysepalous; regular; fleshy; calyptrate, or not calyptrate; imbricate (decussate). Corolla 7–20(–30); polypetalous.
+Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals, or sepaline, or vestigial to absent; 4–50 (to many, often shedding the tips from the bud as a calyptra); free, or joined; 2–3 whorled; anisomerous; fleshy, or non-fleshy; persistent, or deciduous. Calyx when recognisable 4; sometimes 2 whorled; polysepalous; regular; fleshy; calyptrate, or not calyptrate; imbricate (decussate). Corolla 7–20(–30); polypetalous.
 
 Monotropaceae
 
@@ -1504,7 +1504,7 @@ Perianth with distinct calyx and corolla (usually), or sepaline (corolla rarely 
 
 Montiniaceae
 
-Perianth with distinct calyx and corolla; 6–10 (male flowers), or 8–10 (female flowers); 2 whorled; isomerous. Calyx 3–5 (male flowers), or 4–5 (female flowers); 1 whorled; gamosepalous; 35 blunt-lobed (male flowers), or toothed (minutely, in female flowers), or entire (sometimes, in both male and female flowers); cupuliform (and sometimes flattened, in male flowers), or tubular (shortly, in female flowers); open in bud (?). Corolla 3–5 (male flowers), or 4–5 (female flowers); 1 whorled; polypetalous; imbricate; regular; at least somewhat fleshy; deciduous.
+Perianth with distinct calyx and corolla; 6–10 (male flowers), or 8–10 (female flowers); 2 whorled; isomerous. Calyx 3–5 (male flowers), or 4–5 (female flowers); 1 whorled; gamosepalous; 35 blunt-lobed (male flowers), or toothed (minutely, in female flowers), or entire (sometimes, in both male and female flowers); cupuliform (and sometimes flattened, in male flowers), or tubular (shortly, in female flowers); open in bud (?). Corolla 3–5 (male flowers), or 4–5 (female flowers); 1 whorled; polypetalous; imbricate; regular; at least somewhat fleshy; deciduous.
 
 Moraceae
 
@@ -1512,7 +1512,7 @@ Perianth sepaline (usually), or vestigial to absent (rarely); 0 (rarely), or (1�
 
 Morinaceae
 
-Perianth with distinct calyx and corolla; 7–9 (depending on interpretation of the calyx); 2 whorled; anisomerous. Calyx 2, or 4 (sometimes four lobed); 1 whorled; gamosepalous; blunt-lobed; bilabiate (the lips entire or two-lobed); persistent. Corolla 5; 1 whorled; gamopetalous; imbricate; tubular (tube usually slender and exserted, the throat gaping); bilabiate; yellow, or red, or pink, or white.
+Perianth with distinct calyx and corolla; 7–9 (depending on interpretation of the calyx); 2 whorled; anisomerous. Calyx 2, or 4 (sometimes four lobed); 1 whorled; gamosepalous; blunt-lobed; bilabiate (the lips entire or two-lobed); persistent. Corolla 5; 1 whorled; gamopetalous; imbricate; tubular (tube usually slender and exserted, the throat gaping); bilabiate; yellow, or red, or pink, or white.
 
 Moringaceae
 
@@ -1524,7 +1524,7 @@ Perianth with distinct calyx and corolla; (8–)10(–14); 2 whorled; isomerous.
 
 Musaceae
 
-Perianth petaline, or of tepals; 6; joined (five members united, the median inner member posterior and free); rather theoretically 2 whorled (the three outer members and two of the inner members represented by teeth or lobes on a perianth tube, the split coinciding with the inner adaxial, free member); rather theoretically isomerous; petaloid. Corolla if the perianth is interpreted as such, partially gamopetalous (five members joined, one free). The joined petals anterior (the posterior member free). Corolla more or less bilabiate.
+Perianth petaline, or of tepals; 6; joined (five members united, the median inner member posterior and free); rather theoretically 2 whorled (the three outer members and two of the inner members represented by teeth or lobes on a perianth tube, the split coinciding with the inner adaxial, free member); rather theoretically isomerous; petaloid. Corolla if the perianth is interpreted as such, partially gamopetalous (five members joined, one free). The joined petals anterior (the posterior member free). Corolla more or less bilabiate.
 
 Myoporaceae
 
@@ -1548,15 +1548,15 @@ Perianth with distinct calyx and corolla; 6–12; 2 whorled; isomerous. Calyx (3
 
 Myrtaceae
 
-Perianth with distinct calyx and corolla (but these sometimes adnate to one another and constituting an operculum, which is shed at anthesis), or petaline (in Eucalyptus, where the connate petals sometimes form the operculum alone), or sepaline (e.g. Osbornia); 4–11; 1 whorled, or 2 whorled; isomerous, or anisomerous. Calyx (3–)4–5(–6) (or vestigial); 1 whorled; polysepalous, or gamosepalous (then sometimes splitting irregularly at anthesis, or shed entire); regular; calyptrate, or not calyptrate; imbricate (usually quincuncial), or valvate (or splitting irregularly). Corolla 4–5; 1 whorled; polypetalous (the petals often almost circular when flattened), or gamopetalous; calyptrate, or not calyptrate; imbricate; regular; white, or yellow, or red, or pink, or purple (not blue).
+Perianth with distinct calyx and corolla (but these sometimes adnate to one another and constituting an operculum, which is shed at anthesis), or petaline (in Eucalyptus, where the connate petals sometimes form the operculum alone), or sepaline (e.g. Osbornia); 4–11; 1 whorled, or 2 whorled; isomerous, or anisomerous. Calyx (3–)4–5(–6) (or vestigial); 1 whorled; polysepalous, or gamosepalous (then sometimes splitting irregularly at anthesis, or shed entire); regular; calyptrate, or not calyptrate; imbricate (usually quincuncial), or valvate (or splitting irregularly). Corolla 4–5; 1 whorled; polypetalous (the petals often almost circular when flattened), or gamopetalous; calyptrate, or not calyptrate; imbricate; regular; white, or yellow, or red, or pink, or purple (not blue).
 
 Najadaceae
 
-Perianth of tepals, or vestigial, or absent (depending on interpretation of the involucre, which in female flowers is absent or inconspicuous and adnate to the gynoecium); free, or joined; if interpreted as such, sepaloid.
+Perianth of tepals, or vestigial, or absent (depending on interpretation of the involucre, which in female flowers is absent or inconspicuous and adnate to the gynoecium); free, or joined; if interpreted as such, sepaloid.
 
 Nandinaceae
 
-Perianth with distinct calyx and corolla to sequentially intergrading from sepals to petals; 20–60 (many); if considered cyclic, about 6–9 whorled; all petaloid. Calyx 19–50 (many); spirally arranged; polysepalous (the sepals white); strobiloidally imbricate (the sepals decreasing in size acropetally). Corolla 6; polypetalous (the petals a little larger than the inner sepals).
+Perianth with distinct calyx and corolla to sequentially intergrading from sepals to petals; 20–60 (many); if considered cyclic, about 6–9 whorled; all petaloid. Calyx 19–50 (many); spirally arranged; polysepalous (the sepals white); strobiloidally imbricate (the sepals decreasing in size acropetally). Corolla 6; polypetalous (the petals a little larger than the inner sepals).
 
 Napoleonaeaceae
 
@@ -1564,7 +1564,7 @@ Perianth sepaline (the corolla lacking, but the outer androecial members forming
 
 Nartheciaceae
 
-Perianth of tepals; 6; free to joined; 2 whorled (3+3); isomerous; more or less petaloid; without spots, or spotted (occasionally); similar in the two whorls; white, or yellow (bright yellow in Narthecium, but usually inconspicuous, lacking patterns and spurs).
+Perianth of tepals; 6; free to joined; 2 whorled (3+3); isomerous; more or less petaloid; without spots, or spotted (occasionally); similar in the two whorls; white, or yellow (bright yellow in Narthecium, but usually inconspicuous, lacking patterns and spurs).
 
 Naucleaceae
 
@@ -1572,7 +1572,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Nelsoniaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; gamosepalous; blunt-lobed and toothed (the lower lobe bifid, the other 4 blunt); contorted. Corolla 5; 1 whorled; gamopetalous; imbricate (descending cochlear); regular (the lobes equal  not bilabiate).
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; gamosepalous; blunt-lobed and toothed (the lower lobe bifid, the other 4 blunt); contorted. Corolla 5; 1 whorled; gamopetalous; imbricate (descending cochlear); regular (the lobes equal  not bilabiate).
 
 Nelumbonaceae
 
@@ -1592,15 +1592,15 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Nitrariaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; polysepalous (?), or gamosepalous (connate below); regular; fleshy; persistent; non-accrescent; imbricate. Corolla 5; 1 whorled; polypetalous (the petals concave, with inflexed apices); (induplicate-) valvate; regular; white.
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; polysepalous (?), or gamosepalous (connate below); regular; fleshy; persistent; non-accrescent; imbricate. Corolla 5; 1 whorled; polypetalous (the petals concave, with inflexed apices); (induplicate-) valvate; regular; white.
 
 Nolanaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; gamosepalous; blunt-lobed; campanulate and tubular; unequal but not bilabiate to regular (?  the lobes often unequal); persistent (ultimately enclosing the fruit); imbricate (slightly, usually), or valvate (seldom). Corolla 5; 1 whorled; gamopetalous; plicate (between the lobes); campanulate, or funnel-shaped; obscurely bilabiate, or regular, or unequal but not bilabiate; white, or pink, or blue.
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 whorled; gamosepalous; blunt-lobed; campanulate and tubular; unequal but not bilabiate to regular (?  the lobes often unequal); persistent (ultimately enclosing the fruit); imbricate (slightly, usually), or valvate (seldom). Corolla 5; 1 whorled; gamopetalous; plicate (between the lobes); campanulate, or funnel-shaped; obscurely bilabiate, or regular, or unequal but not bilabiate; white, or pink, or blue.
 
 Nolinaceae
 
-Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; petaloid (?); similar in the two whorls (?).
+Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; petaloid (?); similar in the two whorls (?).
 
 Nyctaginaceae
 
@@ -1608,7 +1608,7 @@ Perianth sepaline (but often very corolla-like); (3–)5(–10); joined; 1 whorl
 
 Nymphaeaceae
 
-Perianth with distinct calyx and corolla (e.g. Nymphaea, according to the usual interpretation), or petaline (Nuphar); 5, or 20–50 (many); free. Calyx as commonly interpreted 4, or 5; polysepalous; imbricate. Corolla 5 (Nuphar), or 15–50 (many, showy); polypetalous; imbricate.
+Perianth with distinct calyx and corolla (e.g. Nymphaea, according to the usual interpretation), or petaline (Nuphar); 5, or 20–50 (many); free. Calyx as commonly interpreted 4, or 5; polysepalous; imbricate. Corolla 5 (Nuphar), or 15–50 (many, showy); polypetalous; imbricate.
 
 Nyssaceae
 
@@ -1636,7 +1636,7 @@ Perianth with distinct calyx and corolla (usually), or sepaline (the corolla som
 
 Oliniaceae
 
-Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 4, or 5 (represented only by a narrow rim on the hypanthium); 1 whorled; more or less polysepalous; usually more or less 45 lobulate, or blunt-lobed, or toothed; regular; not persistent (deciduous). Corolla 4, or 5; 1 whorled; alternating with the calyx (facilitating the identification of the latter); polypetalous; imbricate; regular. Petals spathulate.
+Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 4, or 5 (represented only by a narrow rim on the hypanthium); 1 whorled; more or less polysepalous; usually more or less 45 lobulate, or blunt-lobed, or toothed; regular; not persistent (deciduous). Corolla 4, or 5; 1 whorled; alternating with the calyx (facilitating the identification of the latter); polypetalous; imbricate; regular. Petals spathulate.
 
 Onagraceae
 
@@ -1652,7 +1652,7 @@ Perianth with distinct calyx and corolla, or sepaline (the corolla usually absen
 
 Orchidaceae
 
-Perianth of tepals (usually), or with distinct calyx and corolla (the outer members sometimes green); 6; free, or joined (two or more tepals often coherent at the base, sometimes adherent to the gynoecium); 2 whorled; isomerous (but zygomorphic); petaloid, or sepaloid and petaloid; without spots, or spotted (occasionally). Tepal apex trichomes (TAT) absent (25 genera). Calyx (if the outer whorl be so designated) 3 (the median member usually ostensibly posterior); 1 whorled; polysepalous, or partially gamosepalous, or gamosepalous. Corolla (i.e. the members of the inner whorl) 3; polypetalous, or partially gamopetalous, or gamopetalous; imbricate; (labellum) spurred (often), or not spurred.
+Perianth of tepals (usually), or with distinct calyx and corolla (the outer members sometimes green); 6; free, or joined (two or more tepals often coherent at the base, sometimes adherent to the gynoecium); 2 whorled; isomerous (but zygomorphic); petaloid, or sepaloid and petaloid; without spots, or spotted (occasionally). Tepal apex trichomes (TAT) absent (25 genera). Calyx (if the outer whorl be so designated) 3 (the median member usually ostensibly posterior); 1 whorled; polysepalous, or partially gamosepalous, or gamosepalous. Corolla (i.e. the members of the inner whorl) 3; polypetalous, or partially gamopetalous, or gamopetalous; imbricate; (labellum) spurred (often), or not spurred.
 
 Orobanchaceae
 
@@ -1668,7 +1668,7 @@ Perianth with distinct calyx and corolla; (8–)10–15(–20). Calyx (3–)5(�
 
 Palmae
 
-Perianth with distinct calyx and corolla, or of tepals, or vestigial to absent (rarely); 6 (usually), or 4, or 4–9 (rarely, when spiral); free, or joined; 2 whorled (usually 3+3, occasionally 2+2), or 1 whorled (rarely); isomerous (but the two whorls usually more or less dissimilar); sepaloid, or petaloid, or sepaloid and petaloid; when biseriate, usually different in the two whorls; usually white, or cream.
+Perianth with distinct calyx and corolla, or of tepals, or vestigial to absent (rarely); 6 (usually), or 4, or 4–9 (rarely, when spiral); free, or joined; 2 whorled (usually 3+3, occasionally 2+2), or 1 whorled (rarely); isomerous (but the two whorls usually more or less dissimilar); sepaloid, or petaloid, or sepaloid and petaloid; when biseriate, usually different in the two whorls; usually white, or cream.
 
 Pandaceae
 
@@ -1676,7 +1676,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Pandanaceae
 
-Perianth of tepals (?Sararanga), or absent (Freycinetia and Pandanus); in Sararanga 3–4; then joined (cupuliform); 1 whorled; in Sararanga, more or less sepaloid (?).
+Perianth of tepals (?Sararanga), or absent (Freycinetia and Pandanus); in Sararanga 3–4; then joined (cupuliform); 1 whorled; in Sararanga, more or less sepaloid (?).
 
 Papaveraceae
 
@@ -1684,11 +1684,11 @@ Perianth with distinct calyx and corolla (usually), or sepaline (the corolla lac
 
 Papilionoideae
 
-Perianth with distinct calyx and corolla (usually), or sepaline (corolla sometimes missing in Swartzieae, Amorphieae); (5–)10(–11) (?); 2 whorled; isomerous, or anisomerous. Calyx 5, or (3–)5(–6) (?); 1 whorled; usually gamosepalous (below); unequal but not bilabiate, or bilabiate, or regular; persistent (usually), or not persistent (e.g., Lamprolobium); accrescent (rarely), or non-accrescent; ascending imbricate; when pentamerous, with the median member anterior. Epicalyx present (representing adnate bracteoles, e.g. in Pultenaea), or absent. Corolla when present, 5 (usually), or 1–5 (Amorphieae, Swartzieae); 1 whorled; appendiculate (petals often auriculate, etc.), or not appendiculate; polypetalous, or partially gamopetalous, or gamopetalous (rarely, e.g. in Trifolium, where sometimes all the petals are adnate to the androecial tube). Commonly with 2 of the petals joined (the two ventral petals commonly connivent to form the keel of the typical papilionate corolla), or 4 of the petals joined (with the wings adnate to the keel, e.g. Lens, Pisum, Vicia). The joined petals anterior (or anterior and lateral). Corolla imbricate (descending, with the adaxial member outside and forming a flag (standard)); white, or yellow, or orange, or red, or pink, or purple, or blue; or some members persistent (e.g. Trifolium), or deciduous. Petals clawed, or sessile.
+Perianth with distinct calyx and corolla (usually), or sepaline (corolla sometimes missing in Swartzieae, Amorphieae); (5–)10(–11) (?); 2 whorled; isomerous, or anisomerous. Calyx 5, or (3–)5(–6) (?); 1 whorled; usually gamosepalous (below); unequal but not bilabiate, or bilabiate, or regular; persistent (usually), or not persistent (e.g., Lamprolobium); accrescent (rarely), or non-accrescent; ascending imbricate; when pentamerous, with the median member anterior. Epicalyx present (representing adnate bracteoles, e.g. in Pultenaea), or absent. Corolla when present, 5 (usually), or 1–5 (Amorphieae, Swartzieae); 1 whorled; appendiculate (petals often auriculate, etc.), or not appendiculate; polypetalous, or partially gamopetalous, or gamopetalous (rarely, e.g. in Trifolium, where sometimes all the petals are adnate to the androecial tube). Commonly with 2 of the petals joined (the two ventral petals commonly connivent to form the keel of the typical papilionate corolla), or 4 of the petals joined (with the wings adnate to the keel, e.g. Lens, Pisum, Vicia). The joined petals anterior (or anterior and lateral). Corolla imbricate (descending, with the adaxial member outside and forming a flag (standard)); white, or yellow, or orange, or red, or pink, or purple, or blue; or some members persistent (e.g. Trifolium), or deciduous. Petals clawed, or sessile.
 
 Paracryphiaceae
 
-Perianth of tepals; 4; free; 2 whorled (as here interpreted, consisting of four decussate, caducous tepals, the outermost one the largest and more or less enclosing the other three); deciduous.
+Perianth of tepals; 4; free; 2 whorled (as here interpreted, consisting of four decussate, caducous tepals, the outermost one the largest and more or less enclosing the other three); deciduous.
 
 Parnassiaceae
 
@@ -1696,7 +1696,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Passifloraceae
 
-Perianth with distinct calyx and corolla, or sepaline (the corolla rarely lacking); 5, or 6–16; usually 2 whorled; isomerous. Calyx (3–)5(–8); 1 whorled; polysepalous, or gamosepalous (basally); regular; persistent; imbricate. Corolla when present, (3–)5(–8); 1 whorled; appendiculate (with a conspicuous staminodal corona, this consisting of threadlike filaments or scales, or annular); polypetalous, or gamopetalous (the petals sometimes shortly united basally). Corolla lobes markedly longer than the tube. Corolla imbricate; regular.
+Perianth with distinct calyx and corolla, or sepaline (the corolla rarely lacking); 5, or 6–16; usually 2 whorled; isomerous. Calyx (3–)5(–8); 1 whorled; polysepalous, or gamosepalous (basally); regular; persistent; imbricate. Corolla when present, (3–)5(–8); 1 whorled; appendiculate (with a conspicuous staminodal corona, this consisting of threadlike filaments or scales, or annular); polypetalous, or gamopetalous (the petals sometimes shortly united basally). Corolla lobes markedly longer than the tube. Corolla imbricate; regular.
 
 Pedaliaceae
 
@@ -1732,7 +1732,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Pentastemonaceae
 
-Perianth of tepals; 5; joined; 1 whorled.
+Perianth of tepals; 5; joined; 1 whorled.
 
 Penthoraceae
 
@@ -1760,11 +1760,11 @@ Perianth sepaline; 4, or 5; 1 whorled. Calyx 4, or 5; 1 whorled; polysepalous, o
 
 Petermanniaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid to petaloid (with a conspicuous median vein); spotted; similar in the two whorls; red.
+Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid to petaloid (with a conspicuous median vein); spotted; similar in the two whorls; red.
 
 Petrosaviaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid; more or less similar in the two whorls ("sub-similar"); colourless; non-fleshy; persistent.
+Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid; more or less similar in the two whorls ("sub-similar"); colourless; non-fleshy; persistent.
 
 Phellinaceae
 
@@ -1776,15 +1776,15 @@ Perianth with distinct calyx and corolla; (8–)10–12; 2 whorled; isomerous, o
 
 Philesiaceae
 
-Perianth with distinct calyx and corolla, or of tepals; 6; free; 2 whorled; isomerous; sepaloid and petaloid, or petaloid (if not resolvable into calyx and corolla); spotted; different in the two whorls.
+Perianth with distinct calyx and corolla, or of tepals; 6; free; 2 whorled; isomerous; sepaloid and petaloid, or petaloid (if not resolvable into calyx and corolla); spotted; different in the two whorls.
 
 Philydraceae
 
-Perianth of tepals; diguisedly 6; joined (the two lateral (upper) members of the inner whorl fused with the upper (median) of the outer whorl to form a large, broad upper lip, the median (lower) member of the inner whorl forming a large lower lip, and the laterals of the outer whorl small and sometimes fused with the solitary stamen); 2 whorled; theoretically isomerous; petaloid; white, or yellow.
+Perianth of tepals; diguisedly 6; joined (the two lateral (upper) members of the inner whorl fused with the upper (median) of the outer whorl to form a large, broad upper lip, the median (lower) member of the inner whorl forming a large lower lip, and the laterals of the outer whorl small and sometimes fused with the solitary stamen); 2 whorled; theoretically isomerous; petaloid; white, or yellow.
 
 Phormiaceae
 
-Perianth of tepals, or with distinct calyx and corolla (dubiously); 6; free, or joined; 2 whorled; isomerous; petaloid (including the outer series); similar in the two whorls, or different in the two whorls (the outer often smaller, sometimes of different texture). Tepal apex trichomes (TAT) present (Agrostocrinum, Corynotheca, Dianella, Excremis, Phormium, Stypandra, Thelionema). Calyx (if the outer whorl so designated) 3; 1 whorled; polysepalous, or gamosepalous; regular, or unequal but not bilabiate. Corolla (if the inner whorl so designated) 3; 1 whorled; polypetalous, or gamopetalous; unequal but not bilabiate, or regular; green, or white, or yellow, or orange, or blue (or violet).
+Perianth of tepals, or with distinct calyx and corolla (dubiously); 6; free, or joined; 2 whorled; isomerous; petaloid (including the outer series); similar in the two whorls, or different in the two whorls (the outer often smaller, sometimes of different texture). Tepal apex trichomes (TAT) present (Agrostocrinum, Corynotheca, Dianella, Excremis, Phormium, Stypandra, Thelionema). Calyx (if the outer whorl so designated) 3; 1 whorled; polysepalous, or gamosepalous; regular, or unequal but not bilabiate. Corolla (if the inner whorl so designated) 3; 1 whorled; polypetalous, or gamopetalous; unequal but not bilabiate, or regular; green, or white, or yellow, or orange, or blue (or violet).
 
 Phrymataceae
 
@@ -1816,7 +1816,7 @@ Perianth absent.
 
 Pistaciaceae
 
-Perianth sepaline, or absent (if the calyx is considered to be bracteal); 1–5. Calyx 1–2 (or missing, in male flowers), or 2–5 (in female flowers); polysepalous (small, scarious).
+Perianth sepaline, or absent (if the calyx is considered to be bracteal); 1–5. Calyx 1–2 (or missing, in male flowers), or 2–5 (in female flowers); polysepalous (small, scarious).
 
 Pittosporaceae
 
@@ -1844,7 +1844,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous; sepaloid and
 
 Podoaceae
 
-Perianth with distinct calyx and corolla (in male flowers), or absent (in female flowers), or vestigial (if represented by the disk of the female flower); in male flowers, 4, or 5. Calyx 1 whorled; gamosepalous; 45 toothed; cupuliform; regular; open in bud. Corolla 4, or 5; 1 whorled; polypetalous; valvate; regular. Petals clawed, or sessile (sometimes elongate-filiform).
+Perianth with distinct calyx and corolla (in male flowers), or absent (in female flowers), or vestigial (if represented by the disk of the female flower); in male flowers, 4, or 5. Calyx 1 whorled; gamosepalous; 45 toothed; cupuliform; regular; open in bud. Corolla 4, or 5; 1 whorled; polypetalous; valvate; regular. Petals clawed, or sessile (sometimes elongate-filiform).
 
 Podophyllaceae
 
@@ -1852,7 +1852,7 @@ Perianth with distinct calyx and corolla (usually, but the sepals sometimes peta
 
 Podostemaceae
 
-Perianth sepaline, or petaline, or of tepals, or vestigial, or absent (when present, usually regarded as apetalous); when present, 1, or 2–3(–5), or 5–50 (rarely to many); free, or joined (especially in Tristichoideae); 1 whorled; sepaloid, or petaloid.
+Perianth sepaline, or petaline, or of tepals, or vestigial, or absent (when present, usually regarded as apetalous); when present, 1, or 2–3(–5), or 5–50 (rarely to many); free, or joined (especially in Tristichoideae); 1 whorled; sepaloid, or petaloid.
 
 Polemoniaceae
 
@@ -1872,11 +1872,11 @@ Perianth with distinct calyx and corolla; 8 (usually), or 10; 2 whorled. Calyx 4
 
 Pontederiaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; petaloid; spotted (occasionally), or without spots; similar in the two whorls; white, or violet, or blue, or yellow (rarely).
+Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; petaloid; spotted (occasionally), or without spots; similar in the two whorls; white, or violet, or blue, or yellow (rarely).
 
 Portulacaceae
 
-Perianth with distinct calyx and corolla, or sepaline (the latter if the ostensible calyx is interpreted as bracteoles, whereupon the corolla becomes a petaloid calyx); 7; 2–3 whorled; anisomerous. Calyx 2; 1–2 whorled; polysepalous, or gamosepalous (the members sometimes united basally); persistent; imbricate (the upper member overlapped). Corolla if not interpreted as calyx, (2–)5(–18); 1 whorled; polypetalous, or gamopetalous (sometimes basally connate). Corolla lobes markedly longer than the tube. Corolla imbricate; regular; white, or yellow, or pink, or purple (often satiny).
+Perianth with distinct calyx and corolla, or sepaline (the latter if the ostensible calyx is interpreted as bracteoles, whereupon the corolla becomes a petaloid calyx); 7; 2–3 whorled; anisomerous. Calyx 2; 1–2 whorled; polysepalous, or gamosepalous (the members sometimes united basally); persistent; imbricate (the upper member overlapped). Corolla if not interpreted as calyx, (2–)5(–18); 1 whorled; polypetalous, or gamopetalous (sometimes basally connate). Corolla lobes markedly longer than the tube. Corolla imbricate; regular; white, or yellow, or pink, or purple (often satiny).
 
 Posidoniaceae
 
@@ -1888,7 +1888,7 @@ Perianth with distinct calyx and corolla; 9–21; 2 whorled, or 3 whorled; isome
 
 Potamogetonaceae
 
-Perianth of tepals (as usually interpreted), or absent (if the perianth members are interpreted as staminal appendages  which seems not unreasonable); if the staminal appendages are interpreted as perianth, 4; free (the members rounded, shortly clawed, valvate); 1 whorled.
+Perianth of tepals (as usually interpreted), or absent (if the perianth members are interpreted as staminal appendages  which seems not unreasonable); if the staminal appendages are interpreted as perianth, 4; free (the members rounded, shortly clawed, valvate); 1 whorled.
 
 Primulaceae
 
@@ -1896,7 +1896,7 @@ Perianth with distinct calyx and corolla (usually), or sepaline (the corolla abs
 
 Proteaceae
 
-Perianth with distinct calyx and corolla (there sometimes being glands or scales, perhaps representing petals, internal to and alternating with the conspicuous tepals), or sepaline (the conspicuous perianth component seemingly representing the calyx, though petaloid); 4, or (6–)8; 1 whorled, or 2 whorled; isomerous, or anisomerous. Calyx (the conspicuous tepals being so interpreted) 4; gamosepalous (with a basal tube), or partially gamosepalous, or polysepalous (or interpretable as such, when the stamens are interpreted in the throat of the perianth  i.e. at the top of the hypanthium). When not completely gamosepalous, 3 of the members joined (and one free). Calyx tubular; unequal but not bilabiate (the tube sometimes cleft down most of one side), or bilabiate, or regular (but then commonly with the tube bent up, or with the lobes rolling back); valvate (but variously split when open). Corolla when present, (2–)4 (then represented by glands or scales).
+Perianth with distinct calyx and corolla (there sometimes being glands or scales, perhaps representing petals, internal to and alternating with the conspicuous tepals), or sepaline (the conspicuous perianth component seemingly representing the calyx, though petaloid); 4, or (6–)8; 1 whorled, or 2 whorled; isomerous, or anisomerous. Calyx (the conspicuous tepals being so interpreted) 4; gamosepalous (with a basal tube), or partially gamosepalous, or polysepalous (or interpretable as such, when the stamens are interpreted in the throat of the perianth  i.e. at the top of the hypanthium). When not completely gamosepalous, 3 of the members joined (and one free). Calyx tubular; unequal but not bilabiate (the tube sometimes cleft down most of one side), or bilabiate, or regular (but then commonly with the tube bent up, or with the lobes rolling back); valvate (but variously split when open). Corolla when present, (2–)4 (then represented by glands or scales).
 
 Psiloxylaceae
 
@@ -1908,7 +1908,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Pteridophyllaceae
 
-Perianth with distinct calyx and corolla; 6; 3 whorled (2+2+2); isomerous. Calyx 2; 1 whorled; polysepalous; neither appendaged nor spurred (and the sepals not lobed); not persistent (caducous); open in bud (not enclosing the flower bud). Corolla 4; 2 whorled (2+2); polypetalous; unequal but not bilabiate, or regular (the petals subequal); white; deciduous (caducous). Petals entire.
+Perianth with distinct calyx and corolla; 6; 3 whorled (2+2+2); isomerous. Calyx 2; 1 whorled; polysepalous; neither appendaged nor spurred (and the sepals not lobed); not persistent (caducous); open in bud (not enclosing the flower bud). Corolla 4; 2 whorled (2+2); polypetalous; unequal but not bilabiate, or regular (the petals subequal); white; deciduous (caducous). Petals entire.
 
 Pterostemonaceae
 
@@ -1936,11 +1936,11 @@ Perianth with distinct calyx and corolla; 10(–14). Calyx 5(–7); 1 whorled; b
 
 Rafflesiaceae
 
-Perianth ambiguously sepaline, or petaline, or of tepals (but distinct from the bracts); 5 (Rafflesia), or 10 (Sapria); free, or joined (?); 1 whorled (Rafflesia), or 2 whorled (Sapria); sepaloid, or petaloid (?); spotted (at least sometimes), or without spots (?); fleshy, or non-fleshy (imbricate).
+Perianth ambiguously sepaline, or petaline, or of tepals (but distinct from the bracts); 5 (Rafflesia), or 10 (Sapria); free, or joined (?); 1 whorled (Rafflesia), or 2 whorled (Sapria); sepaloid, or petaloid (?); spotted (at least sometimes), or without spots (?); fleshy, or non-fleshy (imbricate).
 
 Ranunculaceae
 
-Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals, or sepaline, or petaline; 5–50 (to many); free, or joined. Calyx when definable (3–)5–8 (or more, often becoming petaloid); polysepalous, or partially gamosepalous, or gamosepalous; basally spurred, or neither appendaged nor spurred; persistent, or not persistent; imbricate, or valvate. Corolla when definable 3–50 (to many  perhaps staminodal in origin); polypetalous, or partially gamopetalous, or gamopetalous; imbricate; green, or white, or yellow, or red (e.g. some Aquilegia species), or purple, or blue; spurred (occasionally), or not spurred (or with little tubular nectariferous petals). Petals clawed, or sessile.
+Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals, or sepaline, or petaline; 5–50 (to many); free, or joined. Calyx when definable (3–)5–8 (or more, often becoming petaloid); polysepalous, or partially gamosepalous, or gamosepalous; basally spurred, or neither appendaged nor spurred; persistent, or not persistent; imbricate, or valvate. Corolla when definable 3–50 (to many  perhaps staminodal in origin); polypetalous, or partially gamopetalous, or gamopetalous; imbricate; green, or white, or yellow, or red (e.g. some Aquilegia species), or purple, or blue; spurred (occasionally), or not spurred (or with little tubular nectariferous petals). Petals clawed, or sessile.
 
 Rapateaceae
 
@@ -1952,7 +1952,7 @@ Perianth with distinct calyx and corolla, or sepaline (petals sometimes lacking)
 
 Restionaceae
 
-Perianth of tepals, or vestigial, or absent; members, when present, (3–)6; free (usually), or joined (the inner members sometimes basally connate); 2 whorled (usually), or 1 whorled (the inner whorl sometimes missing); isomerous, or anisomerous (the inner whorl, when present, sometimes reduced in number); if anything, sepaloid; similar in the two whorls.
+Perianth of tepals, or vestigial, or absent; members, when present, (3–)6; free (usually), or joined (the inner members sometimes basally connate); 2 whorled (usually), or 1 whorled (the inner whorl sometimes missing); isomerous, or anisomerous (the inner whorl, when present, sometimes reduced in number); if anything, sepaloid; similar in the two whorls.
 
 Retziaceae
 
@@ -1984,7 +1984,7 @@ Perianth with distinct calyx and corolla; 12; 2 whorled. Calyx 6; 1 whorled; per
 
 Ripogonaceae
 
-Perianth of tepals (inconspicuous); 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls.
+Perianth of tepals (inconspicuous); 6; free; 2 whorled; isomerous; petaloid; similar in the two whorls.
 
 Roridulaceae
 
@@ -2008,7 +2008,7 @@ Perianth absent (unless small staminal appendages are regarded as perianth segme
 
 Ruscaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; sepaloid, or petaloid; more or less similar in the two whorls, or different in the two whorls (the inner members sometimes narrower); green, or white, or cream; fleshy (sometimes with a fleshy corona), or non-fleshy.
+Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; sepaloid, or petaloid; more or less similar in the two whorls, or different in the two whorls (the inner members sometimes narrower); green, or white, or cream; fleshy (sometimes with a fleshy corona), or non-fleshy.
 
 Rutaceae
 
@@ -2028,7 +2028,7 @@ Perianth absent, or vestigial (a supposed vestigial calyx being represented in P
 
 Salvadoraceae
 
-Perianth with distinct calyx and corolla; (6–)8(–10); 2 whorled; isomerous to anisomerous. Calyx 2–4(–5); 1 whorled; gamosepalous; blunt-lobed; regular; imbricate, or valvate. Corolla 4(–5); 1 whorled; appendiculate (with teeth or small glands on the inside  these representing staminodes?), or not appendiculate; polypetalous, or gamopetalous (shortly connate at the base in Salvadora). Corolla lobes markedly longer than the tube. Corolla imbricate, or contorted; regular.
+Perianth with distinct calyx and corolla; (6–)8(–10); 2 whorled; isomerous to anisomerous. Calyx 2–4(–5); 1 whorled; gamosepalous; blunt-lobed; regular; imbricate, or valvate. Corolla 4(–5); 1 whorled; appendiculate (with teeth or small glands on the inside  these representing staminodes?), or not appendiculate; polypetalous, or gamopetalous (shortly connate at the base in Salvadora). Corolla lobes markedly longer than the tube. Corolla imbricate, or contorted; regular.
 
 Sambucaceae
 
@@ -2036,7 +2036,7 @@ Perianth with distinct calyx and corolla; 6–10; 2 whorled; isomerous. Calyx 3�
 
 Santalaceae
 
-Perianth sepaline, or petaline (dubiously, then perhaps sepaline-petaloid); (3–)4–5(–8); free, or joined (the lobes valvate); 1 whorled; sepaloid, or petaloid; green, or white, or cream, or yellow, or red; fleshy, or non-fleshy; persistent, or deciduous. Calyx (calycode) (3–)4–5(–8); 1 whorled; gamosepalous; regular; fleshy, or non-fleshy; persistent, or not persistent; valvate.
+Perianth sepaline, or petaline (dubiously, then perhaps sepaline-petaloid); (3–)4–5(–8); free, or joined (the lobes valvate); 1 whorled; sepaloid, or petaloid; green, or white, or cream, or yellow, or red; fleshy, or non-fleshy; persistent, or deciduous. Calyx (calycode) (3–)4–5(–8); 1 whorled; gamosepalous; regular; fleshy, or non-fleshy; persistent, or not persistent; valvate.
 
 Sapindaceae
 
@@ -2076,11 +2076,11 @@ Perianth with distinct calyx and corolla (usually), or sepaline (corolla sometim
 
 Scheuchzeriaceae
 
-Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; sepaloid to petaloid; green, or cream.
+Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; sepaloid to petaloid; green, or cream.
 
 Schisandraceae
 
-Perianth sequentially intergrading from sepals to petals, or of tepals; (5–)9–15(–24) (the outermost and innermost members sometimes more or less reduced); free; spiralled, in two to several series; sepaloid, or petaloid, or sepaloid and petaloid; green (the outer members, often), or white, or cream, or yellow, or red, or pink.
+Perianth sequentially intergrading from sepals to petals, or of tepals; (5–)9–15(–24) (the outermost and innermost members sometimes more or less reduced); free; spiralled, in two to several series; sepaloid, or petaloid, or sepaloid and petaloid; green (the outer members, often), or white, or cream, or yellow, or red, or pink.
 
 Scrophulariaceae
 
@@ -2088,7 +2088,7 @@ Perianth with distinct calyx and corolla; (6–)8–10(–13); 2 whorled; isomer
 
 Scyphostegiaceae
 
-Perianth with distinct calyx and corolla (more or less, at least in the female flowers), or of tepals (at least in male flowers); 6; free; 1 whorled (3+3); isomerous. Calyx if recognised as such, 3; of female flowers, 1 whorled; polysepalous. Corolla of female flowers, 3; 1 whorled; polypetalous.
+Perianth with distinct calyx and corolla (more or less, at least in the female flowers), or of tepals (at least in male flowers); 6; free; 1 whorled (3+3); isomerous. Calyx if recognised as such, 3; of female flowers, 1 whorled; polysepalous. Corolla of female flowers, 3; 1 whorled; polypetalous.
 
 Scytopetalaceae
 
@@ -2108,7 +2108,7 @@ Perianth sepaline; (4–)5(–6); 1 whorled. Calyx (4–)5(–6); 1 whorled; pol
 
 Siparunaceae
 
-Perianth with distinct calyx and corolla, or sepaline, or of tepals (depending on iterpretation); 4–8; joined (sometimes almost entirely connate into a calyptra or a flat, oblique, lanceolate tongue, usually united and intruded below into an interior annular disk (velum) around the androecium or gynoecium); 1–2 whorled (valvate within the series); isomerous, or anisomerous; sepaloid.
+Perianth with distinct calyx and corolla, or sepaline, or of tepals (depending on iterpretation); 4–8; joined (sometimes almost entirely connate into a calyptra or a flat, oblique, lanceolate tongue, usually united and intruded below into an interior annular disk (velum) around the androecium or gynoecium); 1–2 whorled (valvate within the series); isomerous, or anisomerous; sepaloid.
 
 Siphonodontaceae
 
@@ -2120,7 +2120,7 @@ Perianth with distinct calyx and corolla; usually 10; 2 whorled; isomerous. Caly
 
 Smilacaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; petaloid (but fairly inconspicuous); similar in the two whorls to different in the two whorls (the inner members more or less reduced, sometimes fringed).
+Perianth of tepals; 6; free, or joined; 2 whorled; isomerous; petaloid (but fairly inconspicuous); similar in the two whorls to different in the two whorls (the inner members more or less reduced, sometimes fringed).
 
 Solanaceae
 
@@ -2132,7 +2132,7 @@ Perianth with distinct calyx and corolla, or sepaline (corolla sometimes lacking
 
 Schultzenst.
 
-Perianth of tepals; (1–)3–4(–6); free; 1 whorled, or 2 whorled; isomerous, or anisomerous; sepaloid (scaly).
+Perianth of tepals; (1–)3–4(–6); free; 1 whorled, or 2 whorled; isomerous, or anisomerous; sepaloid (scaly).
 
 Sphaerosepalaceae
 
@@ -2168,7 +2168,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Stemonaceae
 
-Perianth of tepals; 4; free, or joined; 2 whorled; isomerous (2+2); sepaloid, or petaloid; similar in the two whorls.
+Perianth of tepals; 4; free, or joined; 2 whorled; isomerous (2+2); sepaloid, or petaloid; similar in the two whorls.
 
 Stemonuraceae
 
@@ -2192,7 +2192,7 @@ Perianth with distinct calyx and corolla; 13–15; consisting of spiralled calyx
 
 Strelitziaceae
 
-Perianth of tepals; 6; joined (the outer members free, the inner joined, the laterals to each other and the median either joined to them basally only, or free); 2 whorled (the median member of the outer whorl abaxial (anterior)); anisomerous; petaloid; different in the two whorls (the members of the inner whorl free or more or less adnate to those of the inner whorl; the two laterals of the inner whorl larger than the median (adaxial, posterior) one, and in Strelitzia these two inner laterals strongly asymmetrical and connivent, forming a large, bilaterally symmetrical arrow-shaped organ that enfolds the filaments and style).
+Perianth of tepals; 6; joined (the outer members free, the inner joined, the laterals to each other and the median either joined to them basally only, or free); 2 whorled (the median member of the outer whorl abaxial (anterior)); anisomerous; petaloid; different in the two whorls (the members of the inner whorl free or more or less adnate to those of the inner whorl; the two laterals of the inner whorl larger than the median (adaxial, posterior) one, and in Strelitzia these two inner laterals strongly asymmetrical and connivent, forming a large, bilaterally symmetrical arrow-shaped organ that enfolds the filaments and style).
 
 Strychnaceae
 
@@ -2200,7 +2200,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Stylidiaceae
 
-Perianth with distinct calyx and corolla; (7–)10(–12); 2 whorled; isomerous (usually), or anisomerous. Calyx (2–)5(–7); 1 whorled; polysepalous, or gamosepalous; bilabiate (usually); imbricate; with the median member posterior. Corolla 5 (though often ostensibly only 4, with two pairs of conspicuous lobes); 1 whorled; appendiculate (in the throat, or the labellum appendaged), or not appendiculate; gamopetalous; imbricate (and resupinate or partly so); unequal but not bilabiate (the anterior member different from the others, forming a labellum, often much smaller and/or otherwise different from the rest), or regular; white, or pink, or purple.
+Perianth with distinct calyx and corolla; (7–)10(–12); 2 whorled; isomerous (usually), or anisomerous. Calyx (2–)5(–7); 1 whorled; polysepalous, or gamosepalous; bilabiate (usually); imbricate; with the median member posterior. Corolla 5 (though often ostensibly only 4, with two pairs of conspicuous lobes); 1 whorled; appendiculate (in the throat, or the labellum appendaged), or not appendiculate; gamopetalous; imbricate (and resupinate or partly so); unequal but not bilabiate (the anterior member different from the others, forming a labellum, often much smaller and/or otherwise different from the rest), or regular; white, or pink, or purple.
 
 Stylobasiaceae
 
@@ -2228,7 +2228,7 @@ Perianth with distinct calyx and corolla; 6–8 (rarely), or 10, or 15; 2 whorle
 
 Taccaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; all more or less petaloid; similar in the two whorls; green, or purple, or brown.
+Perianth of tepals; 6; joined; 2 whorled; isomerous; all more or less petaloid; similar in the two whorls; green, or purple, or brown.
 
 Tamaricaceae
 
@@ -2240,7 +2240,7 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous; sepaloid and
 
 Tecophilaeaceae
 
-Perianth of tepals (the members spreading or reflexed); 6; free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or yellow, or violet, or blue. Tepal apex trichomes (TAT) present (Conanthera, Cyanella, Lanaria).
+Perianth of tepals (the members spreading or reflexed); 6; free, or joined; 2 whorled; isomerous; petaloid; similar in the two whorls; white, or yellow, or violet, or blue. Tepal apex trichomes (TAT) present (Conanthera, Cyanella, Lanaria).
 
 Tepuianthaceae
 
@@ -2272,11 +2272,11 @@ Perianth with distinct calyx and corolla; 8, or 10; 3 whorled (Tetramerista), or
 
 Theaceae
 
-Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals; 9–12(–50) (i.e. rarely many); (when cyclic) isomerous, or anisomerous. Calyx 5, or 7; 1 whorled; gamosepalous (usually); regular; persistent; non-accrescent; imbricate. Corolla (4–)5(–50) (rarely many); not appendiculate; polypetalous, or gamopetalous (sometimes basally connate). Corolla lobes markedly longer than the tube. Corolla imbricate; regular.
+Perianth with distinct calyx and corolla, or sequentially intergrading from sepals to petals; 9–12(–50) (i.e. rarely many); (when cyclic) isomerous, or anisomerous. Calyx 5, or 7; 1 whorled; gamosepalous (usually); regular; persistent; non-accrescent; imbricate. Corolla (4–)5(–50) (rarely many); not appendiculate; polypetalous, or gamopetalous (sometimes basally connate). Corolla lobes markedly longer than the tube. Corolla imbricate; regular.
 
 Theligonaceae
 
-Perianth ostensibly sepaline (in male flowers, where it is closed in bud, subsequently becoming valvately 25 partite with broad, revolute segments; unless the perianth is here interpreted as an involucre surrounding a reduced flower cluster), or petaline (the female flowers with a membranous, oblique, tubular, 24 valvately toothed perianth, interpreted as a corolla); 2–5. Calyx of the male flowers, if so interpreted, 2–5 (partite); valvate. Corolla of female flowers, if so interpreted, 2–4 (toothed); gamopetalous; valvate; vase-shaped (produced above into a narrow tube); unequal but not bilabiate.
+Perianth ostensibly sepaline (in male flowers, where it is closed in bud, subsequently becoming valvately 25 partite with broad, revolute segments; unless the perianth is here interpreted as an involucre surrounding a reduced flower cluster), or petaline (the female flowers with a membranous, oblique, tubular, 24 valvately toothed perianth, interpreted as a corolla); 2–5. Calyx of the male flowers, if so interpreted, 2–5 (partite); valvate. Corolla of female flowers, if so interpreted, 2–4 (toothed); gamopetalous; valvate; vase-shaped (produced above into a narrow tube); unequal but not bilabiate.
 
 Theophrastaceae
 
@@ -2284,7 +2284,7 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous. Calyx 
 
 Thismiaceae
 
-Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls, or different in the two whorls (the lobes equal, or those of the inner whorl longer and narrower or even geniculate).
+Perianth of tepals; 6; joined; 2 whorled; isomerous; petaloid; similar in the two whorls, or different in the two whorls (the lobes equal, or those of the inner whorl longer and narrower or even geniculate).
 
 Thunbergiaceae
 
@@ -2292,11 +2292,11 @@ Perianth with distinct calyx and corolla, or petaline (the calyx always reduced,
 
 Thurniaceae
 
-Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; sepaloid, or petaloid (the members thin, narrow, hyaline, persistent, obtuse); similar in the two whorls (chaffy); hyaline; persistent.
+Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; sepaloid, or petaloid (the members thin, narrow, hyaline, persistent, obtuse); similar in the two whorls (chaffy); hyaline; persistent.
 
 Thymelaeaceae
 
-Perianth with distinct calyx and corolla, or sepaline (the corolla sometimes missing or interpretable as staminodes, then the calyx commonly more or less petaloid); 4–5, or 8–10, or 11–17; 2 whorled, or 1 whorled; isomerous, or anisomerous. Calyx 4–5; 1 whorled; gamosepalous (usually, variously laciniate or represented by lobes on the hypanthium), or polysepalous (rarely); unequal but not bilabiate, or regular; (tube) persistent; imbricate. Corolla when present, (3–)4–5(–12) (scale-like); 1 whorled; polypetalous (inserted on the hypanthial tube or at its mouth); imbricate.
+Perianth with distinct calyx and corolla, or sepaline (the corolla sometimes missing or interpretable as staminodes, then the calyx commonly more or less petaloid); 4–5, or 8–10, or 11–17; 2 whorled, or 1 whorled; isomerous, or anisomerous. Calyx 4–5; 1 whorled; gamosepalous (usually, variously laciniate or represented by lobes on the hypanthium), or polysepalous (rarely); unequal but not bilabiate, or regular; (tube) persistent; imbricate. Corolla when present, (3–)4–5(–12) (scale-like); 1 whorled; polypetalous (inserted on the hypanthial tube or at its mouth); imbricate.
 
 Laurito
 
@@ -2308,11 +2308,11 @@ Perianth with distinct calyx and corolla, or sepaline (corolla rarely lacking); 
 
 Tofieldiaceae
 
-Perianth of tepals; 6; free to joined (the perianth segments spreading, distinct or shortly basally connate); 2 whorled (3+3); isomerous; sepaloid, or petaloid; without spots, or spotted (occasionally); similar in the two whorls; green to white, or cream, or purple, or brown (usually inconspicuous, usually lacking patterns and spurs).
+Perianth of tepals; 6; free to joined (the perianth segments spreading, distinct or shortly basally connate); 2 whorled (3+3); isomerous; sepaloid, or petaloid; without spots, or spotted (occasionally); similar in the two whorls; green to white, or cream, or purple, or brown (usually inconspicuous, usually lacking patterns and spurs).
 
 Toricelliaceae
 
-Perianth with distinct calyx and corolla (male flowers), or sepaline (female flowers); 10 (male flowers), or 6–10 (female flowers); 1 whorled (female flowers), or 2 whorled (male); in female flowers, isomerous. Calyx 5 (male flowers), or 3–5 (female flowers); 1 whorled; gamosepalous; blunt-lobed (male flowers), or toothed (female flowers, the 35 teeth minute); lobes of male flowers more or less unequal; open in bud. Corolla 5 (in male flowers only); in male flowers, 1 whorled; polypetalous (the petals inflexed); induplicate valvate.
+Perianth with distinct calyx and corolla (male flowers), or sepaline (female flowers); 10 (male flowers), or 6–10 (female flowers); 1 whorled (female flowers), or 2 whorled (male); in female flowers, isomerous. Calyx 5 (male flowers), or 3–5 (female flowers); 1 whorled; gamosepalous; blunt-lobed (male flowers), or toothed (female flowers, the 35 teeth minute); lobes of male flowers more or less unequal; open in bud. Corolla 5 (in male flowers only); in male flowers, 1 whorled; polypetalous (the petals inflexed); induplicate valvate.
 
 Tovariaceae
 
@@ -2332,11 +2332,11 @@ Perianth with distinct calyx and corolla; 6, or 8, or 10; 2 whorled; isomerous. 
 
 Tribelaceae
 
-Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5 (small); 1 whorled; shortly gamosepalous (below); regular; persistent; imbricate. Corolla 5 (relatively large); 1 whorled; polypetalous; contorted; regular; fleshy to not fleshy (thickish). Petals slightly clawed; entire (elliptical).
+Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5 (small); 1 whorled; shortly gamosepalous (below); regular; persistent; imbricate. Corolla 5 (relatively large); 1 whorled; polypetalous; contorted; regular; fleshy to not fleshy (thickish). Petals slightly clawed; entire (elliptical).
 
 Trichopodaceae
 
-Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid (the tube green, but the lobes coloured); similar in the two whorls; dark purple, or brown; persistent.
+Perianth of tepals; 6; joined; 2 whorled (3+3); isomerous; petaloid (the tube green, but the lobes coloured); similar in the two whorls; dark purple, or brown; persistent.
 
 Trigoniaceae
 
@@ -2344,11 +2344,11 @@ Perianth with distinct calyx and corolla; 8, or 10; 2 whorled; isomerous, or ani
 
 Trilliaceae
 
-Perianth with distinct calyx and corolla, or sepaline, or of tepals; 6–18; free; 1 whorled, or 2 whorled (the inner whorl sometimes rudimentary or missing, e.g. Paris tetraphylla, Kinugasa); usually isomerous; petaloid, or sepaloid and petaloid; without spots, or spotted; similar in the two whorls to different in the two whorls (often different in shape and/or colour); green, or yellow, or white, or purple; persistent. Calyx (when regarded as such) 3–5(–10); 1 whorled; polysepalous; regular; persistent; imbricate, or contorted. Corolla (when the inner whorl thus interpreted) 3–5(–8); 1 whorled; polypetalous; imbricate, or contorted; regular; green, or white, or yellow, or pink, or purple (etc.); persistent. Petals clawed (sometimes), or sessile; entire.
+Perianth with distinct calyx and corolla, or sepaline, or of tepals; 6–18; free; 1 whorled, or 2 whorled (the inner whorl sometimes rudimentary or missing, e.g. Paris tetraphylla, Kinugasa); usually isomerous; petaloid, or sepaloid and petaloid; without spots, or spotted; similar in the two whorls to different in the two whorls (often different in shape and/or colour); green, or yellow, or white, or purple; persistent. Calyx (when regarded as such) 3–5(–10); 1 whorled; polysepalous; regular; persistent; imbricate, or contorted. Corolla (when the inner whorl thus interpreted) 3–5(–8); 1 whorled; polypetalous; imbricate, or contorted; regular; green, or white, or yellow, or pink, or purple (etc.); persistent. Petals clawed (sometimes), or sessile; entire.
 
 Trimeniaceae
 
-Perianth sepaline (inseparable from bracteoles); 10–50 (decussate pairs, or spiral); free.
+Perianth sepaline (inseparable from bracteoles); 10–50 (decussate pairs, or spiral); free.
 
 Triplostegiaceae
 
@@ -2356,7 +2356,7 @@ Perianth with distinct calyx and corolla (complicated by epicalyces); basically 
 
 Triuridaceae
 
-Perianth of tepals; (3–)6(–10); joined; 1 whorled (valvate in bud); petaloid; without spots; white, or red to purple, or hyaline.
+Perianth of tepals; (3–)6(–10); joined; 1 whorled (valvate in bud); petaloid; without spots; white, or red to purple, or hyaline.
 
 Trochodendraceae
 
@@ -2372,7 +2372,7 @@ Perianth with distinct calyx and corolla (and sometimes with a membranous corona
 
 Typhaceae
 
-Perianth vestigial (in the form of simple, lobed or forked hairs); 1–10(–20) (?  commonly 3 in the males, 14 in the females); free, or joined (somewhat adnate to the slender, elongated axis); 1–5 whorled (irregular).
+Perianth vestigial (in the form of simple, lobed or forked hairs); 1–10(–20) (?  commonly 3 in the males, 14 in the females); free, or joined (somewhat adnate to the slender, elongated axis); 1–5 whorled (irregular).
 
 Uapacaceae
 
@@ -2380,7 +2380,7 @@ Perianth sepaline (in the male flowers), or vestigial (in female flowers); in th
 
 Ulmaceae
 
-Perianth sepaline; (2–)5(–9); free, or joined; 1 whorled (ostensibly), or 2 whorled (?theoretically). Calyx if the perianth is so interpreted, (2–)5(–9); 1 whorled, or 2 whorled; polysepalous, or gamosepalous; unequal but not bilabiate, or regular; persistent; imbricate, or valvate (induplicate-valvate in Trema).
+Perianth sepaline; (2–)5(–9); free, or joined; 1 whorled (ostensibly), or 2 whorled (?theoretically). Calyx if the perianth is so interpreted, (2–)5(–9); 1 whorled, or 2 whorled; polysepalous, or gamosepalous; unequal but not bilabiate, or regular; persistent; imbricate, or valvate (induplicate-valvate in Trema).
 
 Umbelliferae
 
@@ -2392,7 +2392,7 @@ Perianth sepaline, or vestigial to absent (sometimes, in female flowers); (2–)
 
 Uvulariaceae
 
-Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; petaloid; without spots; similar in the two whorls, or different in the two whorls (the outer tepals, or all of them, often with a nectariferous spur); white, or yellow, or white and purple, or yellow and purple (i.e. sometimes purple-spotted).
+Perianth of tepals; 6; free; 2 whorled (3+3); isomerous; petaloid; without spots; similar in the two whorls, or different in the two whorls (the outer tepals, or all of them, often with a nectariferous spur); white, or yellow, or white and purple, or yellow and purple (i.e. sometimes purple-spotted).
 
 Vahliaceae
 
@@ -2400,11 +2400,11 @@ Perianth with distinct calyx and corolla; 10; 2 whorled; isomerous. Calyx 5; 1 w
 
 Valerianaceae
 
-Perianth with distinct calyx and corolla (the calyx usually much reduced at anthesis, but often developing later into a pappus); when determinable, 3–10; 2 whorled; isomerous, or anisomerous. Calyx rarely obviously 5 (Nardostachys, usually not clearly determinable); represented by bristles (often, ultimately), or not represented by bristles; 1 whorled; polysepalous, or gamosepalous (Nardostachys exhibits well developed segments, but they are usually reduced or obsolete, sometimes being represented by inconspicuous teeth, or often (e.g. Valeriana) represented by up to 20 segments that are inrolled at anthesis to form a ring around the base of the corolla, unrolling and expanding in the fruit to become setaceous, plumose and pappus-like); entire, or lobulate, or blunt-lobed, or toothed (usually much reduced at anthesis); persistent; accrescent (often forming a pappus in the fruit  e.g. Valeriana). Epicalyx absent. Corolla (3–)5; 1 whorled; gamopetalous; imbricate; funnel-shaped, or tubular; unequal but not bilabiate, or bilabiate, or regular; spurred (often), or not spurred.
+Perianth with distinct calyx and corolla (the calyx usually much reduced at anthesis, but often developing later into a pappus); when determinable, 3–10; 2 whorled; isomerous, or anisomerous. Calyx rarely obviously 5 (Nardostachys, usually not clearly determinable); represented by bristles (often, ultimately), or not represented by bristles; 1 whorled; polysepalous, or gamosepalous (Nardostachys exhibits well developed segments, but they are usually reduced or obsolete, sometimes being represented by inconspicuous teeth, or often (e.g. Valeriana) represented by up to 20 segments that are inrolled at anthesis to form a ring around the base of the corolla, unrolling and expanding in the fruit to become setaceous, plumose and pappus-like); entire, or lobulate, or blunt-lobed, or toothed (usually much reduced at anthesis); persistent; accrescent (often forming a pappus in the fruit  e.g. Valeriana). Epicalyx absent. Corolla (3–)5; 1 whorled; gamopetalous; imbricate; funnel-shaped, or tubular; unequal but not bilabiate, or bilabiate, or regular; spurred (often), or not spurred.
 
 Velloziaceae
 
-Perianth of tepals; 6; free, or joined; 2 whorled (3+3); isomerous; petaloid (and often with separate or fused coronal appendages, these more or less fused with the tepals, external to and usually adnate to the stamens, probably representing filament lobes, cf. Amaryllidaceae); similar in the two whorls, or different in the two whorls; white, or yellow, or purple, or violet, or blue (usually brightly coloured).
+Perianth of tepals; 6; free, or joined; 2 whorled (3+3); isomerous; petaloid (and often with separate or fused coronal appendages, these more or less fused with the tepals, external to and usually adnate to the stamens, probably representing filament lobes, cf. Amaryllidaceae); similar in the two whorls, or different in the two whorls; white, or yellow, or purple, or violet, or blue (usually brightly coloured).
 
 Viburnaceae
 
@@ -2432,7 +2432,7 @@ Perianth with distinct calyx and corolla; 8; 2 whorled; isomerous. Calyx 4; gamo
 
 Winteraceae
 
-Perianth with distinct calyx and corolla; (4–)7–50 (to many); 2–4 whorled; isomerous, or anisomerous. Calyx 2–4(–6); 1 whorled; polysepalous, or gamosepalous (then the sepals basally connate or totally concrescent); unequal but not bilabiate, or regular; not persistent; calyptrate, or not calyptrate; valvate. Corolla (2–)5–50; 1–3 whorled; polypetalous, or partially gamopetalous (the outer whorl sometimes joined); imbricate; unequal but not bilabiate, or regular.
+Perianth with distinct calyx and corolla; (4–)7–50 (to many); 2–4 whorled; isomerous, or anisomerous. Calyx 2–4(–6); 1 whorled; polysepalous, or gamosepalous (then the sepals basally connate or totally concrescent); unequal but not bilabiate, or regular; not persistent; calyptrate, or not calyptrate; valvate. Corolla (2–)5–50; 1–3 whorled; polypetalous, or partially gamopetalous (the outer whorl sometimes joined); imbricate; unequal but not bilabiate, or regular.
 
 Xanthophyllaceae
 
@@ -2440,15 +2440,15 @@ Perianth with distinct calyx and corolla; (9–)10; 2 whorled. Calyx 5; 1 whorle
 
 Xanthorrhoeaceae
 
-Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid (or bractlike); different in the two whorls (the outer members stiffer and shorter). Tepal apex trichomes (TAT) present.
+Perianth of tepals; 6; free; 2 whorled; isomerous; sepaloid (or bractlike); different in the two whorls (the outer members stiffer and shorter). Tepal apex trichomes (TAT) present.
 
 Xeronemataceae
 
-Perianth of tepals (these about 2 cm long); 6; free; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls; red (along with all the inflorescence components). Tepal apex trichomes (TAT) absent.
+Perianth of tepals (these about 2 cm long); 6; free; 2 whorled (3+3); isomerous; petaloid; similar in the two whorls; red (along with all the inflorescence components). Tepal apex trichomes (TAT) absent.
 
 Xyridaceae
 
-Perianth with distinct calyx and corolla; 6; free, or free and joined; 2 whorled; isomerous, or anisomerous; different in the two whorls. Calyx (2–)3 (the median member sometimes lacking  or caducous?); 1 whorled; polysepalous, or partially gamosepalous. Sometimes having 2 of the members joined (the laterals, basally). Calyx unequal but not bilabiate; persistent. Corolla 3; 1 whorled; polypetalous, or gamopetalous (Abolbodaceae); imbricate; unequal but not bilabiate; yellow (usually), or white, or blue. Petals when free clawed, or sessile (?).
+Perianth with distinct calyx and corolla; 6; free, or free and joined; 2 whorled; isomerous, or anisomerous; different in the two whorls. Calyx (2–)3 (the median member sometimes lacking  or caducous?); 1 whorled; polysepalous, or partially gamosepalous. Sometimes having 2 of the members joined (the laterals, basally). Calyx unequal but not bilabiate; persistent. Corolla 3; 1 whorled; polypetalous, or gamopetalous (Abolbodaceae); imbricate; unequal but not bilabiate; yellow (usually), or white, or blue. Petals when free clawed, or sessile (?).
 
 Zannichelliaceae
 
@@ -2460,7 +2460,7 @@ Perianth with distinct calyx and corolla; 6; joined; 2 whorled; isomerous; diffe
 
 Zosteraceae
 
-Perianth vestigial (if the marginal outgrowths from the axis  retincacula, which sometimes enclose the stamens  are interpreted as perianth), or absent.
+Perianth vestigial (if the marginal outgrowths from the axis  retincacula, which sometimes enclose the stamens  are interpreted as perianth), or absent.
 
 Zygophyllaceae
 

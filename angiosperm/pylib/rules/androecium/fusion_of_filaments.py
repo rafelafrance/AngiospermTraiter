@@ -13,7 +13,7 @@ from angiosperm.pylib.rules.base import Base
 @dataclass(eq=False)
 class FusionOfFilaments(Base):
     # Class vars ----------
-    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "perianth.csv"
+    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "androecium.csv"
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
