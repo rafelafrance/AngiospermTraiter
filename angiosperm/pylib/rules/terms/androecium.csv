@@ -4,30 +4,29 @@ androecium_structural_phyllotaxy_term,spiraled,spiral
 androecium_structural_phyllotaxy_term,spirals,spiral
 androecium_structural_phyllotaxy_term,whorled,whorled
 androecium_structural_phyllotaxy_term,whorls,whorled
-anther_attachment_term,basifixed,
-anther_attachment_term,dorsifixed,
-anther_attachment_term,subbasifixed,
-anther_attachment_term,versatile,
-anther_dehiscence_term,apical pore,
-anther_dehiscence_term,flap-valvate,
-anther_dehiscence_term,h-valvate,
-anther_dehiscence_term,longitudinal slit,
-anther_dehiscence_term,scattered pore,
-anther_orientation_term,extrorse,
-anther_orientation_term,introrse,
-anther_orientation_term,latrorse,
+androecium_term,androecium
+anther_attachment_term,basifixed
+anther_attachment_term,dorsifixed
+anther_attachment_term,subbasifixed
+anther_attachment_term,versatile
+anther_dehiscence_term,apical pore
+anther_dehiscence_term,flap-valvate
+anther_dehiscence_term,h-valvate
+anther_dehiscence_term,longitudinal slit
+anther_dehiscence_term,scattered pore
+anther_orientation_term,extrorse
+anther_orientation_term,introrse
+anther_orientation_term,latrorse
 anther_term,anter,anther
 anther_term,anters,anther
-connate_stamen_grouping_term,diadelphous,
-connate_stamen_grouping_term,monadelphous,
-connate_stamen_grouping_term,polyadelphous,
-connective_extension,connective extension,
+connate_stamen_grouping_term,diadelphous
+connate_stamen_grouping_term,monadelphous
+connate_stamen_grouping_term,polyadelphous
+connective_extension,connective extension
 connective_extension_term,connective extension
 exserted_stamens_presence,exerted,,present
 exserted_stamens_presence,inserted,,absent
-exserted_stamens_term,exserted stamens,
-fertile_stamens_term,fertile stamen,fertile stamens
-fertile_stamens_term,fertile stamens,fertile stamens
+exserted_stamens_term,exserted stamens
 filament_length_term,absent,absent
 filament_length_term,elongate,present
 filament_length_term,present,present
@@ -57,7 +56,7 @@ fusion_of_filaments_to_inner_perianth_term,adnation,fused
 fusion_of_filaments_to_inner_perianth_term,apostemonous,free
 fusion_of_filaments_to_inner_perianth_term,epipetalous,fused
 fusion_of_filaments_to_inner_perianth_term,free,free
-fusion_of_filaments_to_inner_perianth_term,fused at base,
+fusion_of_filaments_to_inner_perianth_term,fused at base
 fusion_of_filaments_to_inner_perianth_term,fused,fused
 gametophyte_development_at_anthesis_term,2 celled,2-celled
 gametophyte_development_at_anthesis_term,2-celled,2-celled
@@ -70,7 +69,6 @@ number_of_androecium_whorls_count_term,tetradynamous,2
 number_of_androecium_whorls_count_term,tetraseriate,4
 number_of_androecium_whorls_count_term,triseriate,3
 number_of_androecium_whorls_count_term,uniseriate,1
-number_of_androecium_whorls_term,Number of androecium structural whorls,
 number_of_fertile_stamens_term,number of fertile stamen,number of fertile stamen
 number_of_fertile_stamens_term,number of fertile stamens,number of fertile stamen
 petaloid_staminodes_term,petaloid staminodes,petaloid staminodes
@@ -96,7 +94,7 @@ thecae_number_term,dithecal,two
 thecae_number_term,monothecal,one
 thecae_number_term,one,one
 thecae_number_term,two,two
-thecae_term,thecae,
+thecae_term,thecae
 whorls_term,whorl,whorls
 whorls_term,whorled,whorls
 whorls_term,whorls,whorls

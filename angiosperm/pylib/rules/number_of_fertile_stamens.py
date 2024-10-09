@@ -23,6 +23,8 @@ class NumberOfFertileStamens(Base):
     low: int = None
     high: int = None
     max: int = None
+    _start_token: int = None
+    _end_token: int = None
 
     def formatted(self) -> dict[str, str]:
         value = [
@@ -55,21 +57,30 @@ class NumberOfFertileStamens(Base):
                 decoder={
                     "-": {"TEXT": {"IN": t_const.DASH}, "OP": "+"},
                     "99-99": {"ENT_TYPE": "range"},
-                    "fertile_stamens": {"ENT_TYPE": "fertile_stamens_term"},
+                    ",": {"POS": "PUNCT"},
+                    "or": {"POS": "CCONJ"},
+                    "androecium": {"ENT_TYPE": "androecium_term"},
                 },
                 patterns=[
-                    " fertile_stamens+ 99-99+ ",
-                    " 99-99+ -* fertile_stamens+ ",
+                    " androecium+ 99-99+ ",
+                    " androecium+ 99-99+ ,? or 99-99+ ",
                 ],
             ),
         ]
 
     @classmethod
     def number_of_fertile_stamens_match(cls, ent):
-        kwargs = {}
+        """WARNING: Adding multiple traits."""
+        all_traits = []
 
-        for token in ent:
-            if token._.flag == "range_data":
+        for sub_ent in ent.ents:
+            if sub_ent.label_ == "range":
+                kwargs = {
+                    "_start_token": sub_ent.start,
+                    "_end_token": sub_ent.end,
+                }
+                token = ent[sub_ent.start]
+
                 for key in ("min", "low", "high", "max"):
                     if value := getattr(token._.trait, key, None):
                         value = t_util.to_positive_int(value)
@@ -77,11 +88,24 @@ class NumberOfFertileStamens(Base):
                             raise reject_match.RejectMatch
                         kwargs[key] = value
 
-            elif token._.term == "number_term":
-                value = cls.replace.get(token.lower_, token.lower_)
-                kwargs["low"] = t_util.to_positive_int(value)
+                    elif token._.term == "number_term":
+                        value = cls.replace.get(token.lower_, token.lower_)
+                        kwargs["low"] = t_util.to_positive_int(value)
 
-        return cls.from_ent(ent, **kwargs)
+                first = len(all_traits) == 0
+                start_char = ent.start_char if first else sub_ent.start_char
+                end_char = sub_ent.end_char
+                all_traits.append(
+                    NumberOfFertileStamens(
+                        start=start_char,
+                        end=end_char,
+                        _trait="number_of_fertile_stamens",
+                        _text=ent.text[start_char:end_char],
+                        **kwargs,
+                    )
+                )
+
+        return all_traits
 
 
 @registry.misc("number_of_fertile_stamens_match")
