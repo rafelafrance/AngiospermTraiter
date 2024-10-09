@@ -64,6 +64,8 @@ class NumberOfFertileStamens(Base):
                 patterns=[
                     " androecium+ 99-99+ ",
                     " androecium+ 99-99+ ,? or 99-99+ ",
+                    " androecium+ 99-99+ ,? or 99-99+ ,? or 99-99+ ",
+                    " androecium+ 99-99+ ,? or 99-99+ ,? or 99-99+ ,? or 99-99+ ",
                 ],
             ),
         ]

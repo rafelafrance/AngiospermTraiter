@@ -27,3 +27,14 @@ class TestFlowerCount(unittest.TestCase):
                 NumberOfFertileStamens(low=5, high=8, start=17, end=20),
             ],
         )
+
+    def test_number_of_fertile_stamens_04(self):
+        self.assertEqual(
+            parse("androecium", "Androecium 2–5, or 8, or 10, or 20–60"),
+            [
+                NumberOfFertileStamens(low=2, high=5, start=0, end=14),
+                NumberOfFertileStamens(low=8, start=19, end=20),
+                NumberOfFertileStamens(low=10, start=25, end=27),
+                NumberOfFertileStamens(low=20, high=60, start=32, end=37),
+            ],
+        )
