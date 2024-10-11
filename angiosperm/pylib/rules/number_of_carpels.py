@@ -13,9 +13,9 @@ from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
-class NumberOfPetalsFused(Base):
+class NumberOfCarpels(Base):
     # Class vars ----------
-    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "perianth.csv"
+    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "gynoecium.csv"
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
@@ -31,41 +31,41 @@ class NumberOfPetalsFused(Base):
             if (v := getattr(self, k) is not None)
         ]
         value = ", ".join(value)
-        return {"Number of petals fused": value}
+        return {"Number of perianth whorls": value}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="number_of_petals_fused_terms", path=cls.term_csv)
+        add.term_pipe(nlp, name="number_of_carpels_terms", path=cls.term_csv)
         add.trait_pipe(
             nlp,
-            name="number_of_petals_fused_patterns",
-            compiler=cls.number_of_petals_fused_patterns(),
+            name="number_of_carpels_patterns",
+            compiler=cls.number_of_carpels_patterns(),
             overwrite=["range"],
         )
         # add.debug_tokens(nlp)  # #################################################
-        add.cleanup_pipe(nlp, name="number_of_petals_fused_cleanup")
+        add.cleanup_pipe(nlp, name="number_of_carpels_cleanup")
 
     @classmethod
-    def number_of_petals_fused_patterns(cls):
+    def number_of_carpels_patterns(cls):
         return [
             Compiler(
-                label="number_of_petals_fused",
-                on_match="number_of_petals_fused_match",
-                keep="number_of_petals_fused",
+                label="number_of_carpels",
+                on_match="number_of_carpels_match",
+                keep="number_of_carpels",
                 decoder={
                     "-": {"TEXT": {"IN": t_const.DASH}},
                     "99-99": {"ENT_TYPE": "range"},
-                    "petals": {"ENT_TYPE": "petals_fused_term"},
+                    "carpels": {"ENT_TYPE": "carpels_term"},
                 },
                 patterns=[
-                    " petals+ 99-99+ ",
-                    " 99-99+ -* petals+ ",
+                    " carpels+ 99-99+ ",
+                    " 99-99+ -* carpels+ ",
                 ],
             ),
         ]
 
     @classmethod
-    def number_of_petals_fused_match(cls, ent):
+    def number_of_carpels_match(cls, ent):
         kwargs = {}
 
         for token in ent:
@@ -77,13 +77,13 @@ class NumberOfPetalsFused(Base):
                             raise reject_match.RejectMatch
                         kwargs[key] = value
 
-            elif token._.term == "number_term":
+            elif token._.term == "perianth_whorl_count_term":
                 value = cls.replace.get(token.lower_, token.lower_)
                 kwargs["low"] = t_util.to_positive_int(value)
 
         return cls.from_ent(ent, **kwargs)
 
 
-@registry.misc("number_of_petals_fused_match")
-def number_of_petals_fused_match(ent):
-    return NumberOfPetalsFused.number_of_petals_fused_match(ent)
+@registry.misc("number_of_carpels_match")
+def number_of_carpels_match(ent):
+    return NumberOfCarpels.number_of_carpels_match(ent)

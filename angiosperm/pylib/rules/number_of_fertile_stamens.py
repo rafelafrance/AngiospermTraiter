@@ -3,17 +3,16 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
-from traiter.pylib import const as t_const
 from traiter.pylib import term_util
 from traiter.pylib import util as t_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add, reject_match
 
-from angiosperm.pylib.rules.base import Base
+from angiosperm.pylib.rules.multiple_traits_base import MultipleTraitsBase
 
 
 @dataclass(eq=False)
-class NumberOfFertileStamens(Base):
+class NumberOfFertileStamens(MultipleTraitsBase):
     # Class vars ----------
     term_csv: ClassVar[list[Path]] = Path(__file__).parent / "terms" / "androecium.csv"
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
@@ -33,7 +32,7 @@ class NumberOfFertileStamens(Base):
             if (v := getattr(self, k) is not None)
         ]
         value = ", ".join(value)
-        return {"Number of flowers in an inflorescence": value}
+        return {"Number of fertile stamens": value}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -55,7 +54,6 @@ class NumberOfFertileStamens(Base):
                 on_match="number_of_fertile_stamens_match",
                 keep="number_of_fertile_stamens",
                 decoder={
-                    "-": {"TEXT": {"IN": t_const.DASH}, "OP": "+"},
                     "99-99": {"ENT_TYPE": "range"},
                     ",": {"POS": "PUNCT"},
                     "or": {"POS": "CCONJ"},
@@ -77,10 +75,7 @@ class NumberOfFertileStamens(Base):
 
         for sub_ent in ent.ents:
             if sub_ent.label_ == "range":
-                kwargs = {
-                    "_start_token": sub_ent.start,
-                    "_end_token": sub_ent.end,
-                }
+                kwargs = {}
                 token = ent[sub_ent.start]
 
                 for key in ("min", "low", "high", "max"):
@@ -103,6 +98,8 @@ class NumberOfFertileStamens(Base):
                         end=end_char,
                         _trait="number_of_fertile_stamens",
                         _text=ent.text[start_char:end_char],
+                        _start_token=sub_ent.start,
+                        _end_token=sub_ent.end,
                         **kwargs,
                     )
                 )

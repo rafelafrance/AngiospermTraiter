@@ -53,7 +53,7 @@ class NumberOfPerianthWhorls(Base):
                 on_match="number_of_perianth_whorls_match",
                 keep="number_of_perianth_whorls",
                 decoder={
-                    "-": {"TEXT": {"IN": t_const.DASH}, "OP": "+"},
+                    "-": {"TEXT": {"IN": t_const.DASH}},
                     "99-99": {"ENT_TYPE": "range"},
                     "whorls": {"ENT_TYPE": "whorls_term"},
                     "count": {"ENT_TYPE": "perianth_whorl_count_term"},
