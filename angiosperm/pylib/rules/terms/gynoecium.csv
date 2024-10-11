@@ -1,55 +1,55 @@
 label,pattern,replace,presence
-capitate_term,capitate,
 capitate_stigma_presence_term,conical,,present
 capitate_stigma_presence_term,lobed,,present
-fusion_of_carpels_term,free,free
-fusion_of_carpels_term,fused at base,fused at base
-fusion_of_carpels_term,fused,fused
-fusion_of_carpels_term,pistil fusion,fused
+capitate_term,capitate
 carpels_term,carpel,carpels
 carpels_term,carpeled,carpels
 carpels_term,carpelled,carpels
 carpels_term,carpels,carpels
-gynoecium_term,gynoecium,
+fusion_of_carpels_term,free,free
+fusion_of_carpels_term,fused at base,fused at base
+fusion_of_carpels_term,fused,fused
+fusion_of_carpels_term,pistil fusion,fused
+fusion_of_styles_term,free
+fusion_of_styles_term,fused
+fusion_term,fusion
 gynoecium_phyllotaxy_term,spiral,spiral
 gynoecium_phyllotaxy_term,spiraled,spiral
 gynoecium_phyllotaxy_term,spirals,spiral
 gynoecium_phyllotaxy_term,whorled,whorled
 gynoecium_phyllotaxy_term,whorls,whorled
-gynophore_term,gynophore,
+gynoecium_term,gynoecium
 gynophore_presence_term,style present,,present
-integument_term,integument,
+gynophore_term,gynophore
 integument_number_term,bitegmic,two
 integument_number_term,one,one
 integument_number_term,one,unitegmic
 integument_number_term,two,two
-nucellus_development_term,crassinucellate,
-nucellus_development_term,tenuinucellate,
-ovule_orientation_term,amphitropous,
-ovule_orientation_term,anatropous,
-ovule_orientation_term,campylotropous,
-ovule_orientation_term,circinotropous,
-ovule_orientation_term,hemianatropous,
-ovule_orientation_term,orthotropous,
-ovules_term,ovules,ovules
-papillate_term,papillate,
-papillate_stigmata_term,papillate stigmata,
-petaloid_term,petaloid,
-petaloid_style_term,petaloid style
-phyllotaxy_term,phyllotaxy
-placentation_term,apical,
-placentation_term,axile,
-placentation_term,basal,
-placentation_term,free-central,
-placentation_term,laminar,
-placentation_term,marginal,
-placentation_term,parietal,
-stigma_term,stigma,
-stigma_term,stigmata,
-style_term,style,style
-style_term,styles,style
-fusion_term,fusion
-fusion_of_styles_term,free,
-fusion_of_styles_term,fused,
+integument_term,integument
+nucellus_development_term,crassinucellate
+nucellus_development_term,tenuinucellate
 number_of_carpels_term,number of carpels
 number_of_ovules_per_carpel_term,number of ovules per carpel
+ovule_orientation_term,amphitropous
+ovule_orientation_term,anatropous
+ovule_orientation_term,campylotropous
+ovule_orientation_term,circinotropous
+ovule_orientation_term,hemianatropous
+ovule_orientation_term,orthotropous
+ovules_term,ovules,ovules
+papillate_stigmata_term,papillate stigmata
+papillate_term,papillate
+petaloid_style_term,petaloid style
+petaloid_term,petaloid
+phyllotaxy_term,phyllotaxy
+placentation_term,apical
+placentation_term,axile
+placentation_term,basal
+placentation_term,free-central
+placentation_term,laminar
+placentation_term,marginal
+placentation_term,parietal
+stigma_term,stigma
+stigma_term,stigmata
+style_term,style,style
+style_term,styles,style
