@@ -13,20 +13,22 @@ I should also mention that this repository builds upon other repositories:
 **TODO**
 
 ## Rule-based parsing strategy
-1. There is a lot of overlap in trait terms, for example biseriate is used for perianth, androecium, etc. Fortunately, each major plant section has its own paragraph, so I can split the text into paragraphs and parse each separately and with its own vocabulary and patterns.
+1. There is a lot of overlap in trait terms, for example `biseriate` is used for `perianth`, `androecium`, etc. Fortunately, each major plant section has its own paragraph, so I can split the text into paragraphs and parse each separately and with its own vocabulary and patterns.
 2. I label terms using Spacy's phrase and rule-based matchers.
 3. Then I match terms using rule-based matchers to yield a trait.
 
-For example, given the text: `Petiole 1-2 cm.`:
-- I recognize vocabulary terms like:
-    - `Petiole` is plant part
-    - `1` a number
-    - `-` a dash
-    - `2` a number
-    - `cm` is a unit notation
-- Then I group tokens. For instance:
-    - `1-2 cm` is a range with units which becomes a size trait.
-- Finally, I associate the size with the plant part `Petiole` by using another pattern matching parser.
+For example, given the text: `Gynoecium 1–3–5(–6) carpelled.`:
+- NOTE: Each web page refers to a specific taxonomic unit, in this case a family, so I know that from other information on the page, like the title.
+1. First I recognize that this is a text paragraph dealing with gynoecia, so I use a parser tailored with those terms.
+   1. The first sentence in the text paragraph contains the word `Gynoecium`.
+2. I then recognize other various terms in the paragraph.
+   1. `1–3–5(–6)` is a numeric range term. These are integers and there are no units (like cm) making it a count range and not a measurement range like length or width.
+       - `1` = the minimum value seen
+       - `3` = the commonly seen low value
+       - `5` = the commonly seen high value
+       - `6` = the maximum value seen
+   2. `carpelled` is term applied to gynoecia.
+3. The parser recognizes the `<range> <carpelled>` pattern, and gets a carpel count for this plant taxon.
 
 There are, of course, complications and subtleties not outlined above, but you should get the gist of what is going on here.
 

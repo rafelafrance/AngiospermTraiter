@@ -5,9 +5,7 @@
 
 test:
 	. .venv/bin/activate
-	export MOCK_TRAITER=1
 	python -m unittest discover
-	export MOCK_TRAITER=0
 
 install:
 	test -d .venv || python3.12 -m venv .venv

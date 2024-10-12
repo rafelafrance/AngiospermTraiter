@@ -4,7 +4,8 @@ androecium_structural_phyllotaxy_term,spiraled,spiral
 androecium_structural_phyllotaxy_term,spirals,spiral
 androecium_structural_phyllotaxy_term,whorled,whorled
 androecium_structural_phyllotaxy_term,whorls,whorled
-androecium_term,androecium
+androecium_term,androecia,androecium
+androecium_term,androecium,androecium
 anther_attachment_term,basifixed
 anther_attachment_term,dorsifixed
 anther_attachment_term,subbasifixed

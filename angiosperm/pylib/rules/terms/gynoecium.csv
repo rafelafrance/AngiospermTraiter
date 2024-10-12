@@ -18,7 +18,8 @@ gynoecium_phyllotaxy_term,spiraled,spiral
 gynoecium_phyllotaxy_term,spirals,spiral
 gynoecium_phyllotaxy_term,whorled,whorled
 gynoecium_phyllotaxy_term,whorls,whorled
-gynoecium_term,gynoecium
+gynoecium_term,gynoecia,gynoecium
+gynoecium_term,gynoecium,gynoecium
 gynophore_presence_term,style present,,present
 gynophore_term,gynophore
 integument_number_term,bitegmic,two
