@@ -20,7 +20,7 @@ I should also mention that this repository builds upon other repositories:
 For example, given the text: `Gynoecium 1–3–5(–6) carpelled.`:
 - NOTE: Each web page refers to a specific taxonomic unit, in this case a family, so I know that from other information on the page, like the title.
 1. First I recognize that this is a text paragraph dealing with gynoecia, so I use a parser tailored with those terms.
-   1. The first sentence in the text paragraph contains the word `Gynoecium`.
+   1. The first sentence in the paragraph contains the word `Gynoecium`.
 2. I then recognize other various terms in the paragraph.
    1. `1–3–5(–6)` is a numeric range term. These are integers and there are no units (like cm) making it a count range and not a measurement range like length or width.
        - `1` = the minimum value seen
