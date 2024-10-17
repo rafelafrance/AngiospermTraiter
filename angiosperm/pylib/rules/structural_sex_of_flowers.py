@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar
+from typing import Any, ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
@@ -15,15 +15,15 @@ class StructuralSexOfFlowers(Base):
     # Class vars ----------
     term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "reproductive_type.csv"
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
+    presence: ClassVar[dict[str, str]] = term_util.look_up_table(
+        term_csv, "presence", int
+    )
     # ---------------------
 
-    structural_sex: str = None
-    uncertain: bool = None
+    structural_sex: int = None
 
-    def formatted(self) -> dict[str, str]:
-        value = self.structural_sex
-        value += " ?" if self.uncertain else ""
-        return {"Structural sex of flowers": value}
+    def formatted(self) -> dict[str, Any]:
+        return {"Structural sex of flowers": self.structural_sex}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -44,29 +44,18 @@ class StructuralSexOfFlowers(Base):
                 on_match="structural_sex_of_flowers_match",
                 keep="structural_sex_of_flowers",
                 decoder={
-                    "[?]": {"ENT_TYPE": "q_mark"},
                     "structural_sex": {"ENT_TYPE": "structural_sex_of_flowers_term"},
                 },
                 patterns=[
                     " structural_sex+ ",
-                    " structural_sex+ [?]+ ",
                 ],
             ),
         ]
 
     @classmethod
     def structural_sex_of_flowers_match(cls, ent):
-        structural_sex = next(
-            (
-                e.text.lower()
-                for e in ent.ents
-                if e.label_ == "structural_sex_of_flowers_term"
-            ),
-            None,
-        )
-        structural_sex = cls.replace.get(structural_sex, structural_sex)
-        uncertain = next((True for e in ent.ents if e.label_ == "q_mark"), None)
-        return cls.from_ent(ent, structural_sex=structural_sex, uncertain=uncertain)
+        structural_sex = cls.presence.get(ent.text.lower())
+        return cls.from_ent(ent, structural_sex=structural_sex)
 
 
 @registry.misc("structural_sex_of_flowers_match")

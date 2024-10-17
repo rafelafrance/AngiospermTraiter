@@ -11,5 +11,5 @@ class TestStructuralSexOfFlowers(unittest.TestCase):
         self.maxDiff = None
         self.assertEqual(
             parse("reproductive_type", "Unisexual flowers present."),
-            [StructuralSexOfFlowers(structural_sex="unisexual", start=0, end=9)],
+            [StructuralSexOfFlowers(structural_sex=1, start=0, end=25)],
         )

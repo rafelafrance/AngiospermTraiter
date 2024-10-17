@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar
+from typing import Any, ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
@@ -19,7 +19,7 @@ class FilamentLength(Base):
 
     width: str = None
 
-    def formatted(self) -> dict[str, str]:
+    def formatted(self) -> dict[str, Any]:
         return {"Filament width": self.width}
 
     @classmethod
