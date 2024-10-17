@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from typing import Any
 
 from spacy.language import Language
 from traiter.pylib.darwin_core import DarwinCore
@@ -12,7 +11,7 @@ class Base(TraiterBase):
     def pipe(cls, nlp: Language):
         raise NotImplementedError
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         raise NotImplementedError
 
     def to_dwc(self, dwc) -> DarwinCore:

@@ -9,7 +9,7 @@ class TestFlowerGrouping(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "Flowers aggregated in ‘inflorescences’;"),
             [
-                FlowerGrouping(grouping="inflorescence", start=0, end=38),
+                FlowerGrouping(grouping="1", start=0, end=38),
             ],
         )
 
@@ -17,7 +17,7 @@ class TestFlowerGrouping(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "Flowers usually solitary;"),
             [
-                FlowerGrouping(grouping="solitary", start=0, end=25),
+                FlowerGrouping(grouping="0", start=0, end=24),
             ],
         )
 
@@ -27,7 +27,7 @@ class TestFlowerGrouping(unittest.TestCase):
                 "general_floral", "Flowers solitary, or aggregated in ‘inflorescences’;"
             ),
             [
-                FlowerGrouping(grouping="solitary", start=0, end=17),
-                FlowerGrouping(grouping="inflorescence", start=18, end=51),
+                FlowerGrouping(grouping="0", start=0, end=16),
+                FlowerGrouping(grouping="1", start=21, end=51),
             ],
         )

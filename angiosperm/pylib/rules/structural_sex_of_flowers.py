@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
@@ -14,15 +14,12 @@ from angiosperm.pylib.rules.base import Base
 class StructuralSexOfFlowers(Base):
     # Class vars ----------
     term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "reproductive_type.csv"
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(
-        term_csv, "presence", int
-    )
+    presence: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "presence")
     # ---------------------
 
-    structural_sex: int = None
+    structural_sex: str = None
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         return {"Structural sex of flowers": self.structural_sex}
 
     @classmethod

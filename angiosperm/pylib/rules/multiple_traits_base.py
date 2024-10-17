@@ -8,7 +8,6 @@ I want to pull out 4 separate fertile stamen counts.
 """  # noqa: RUF002
 
 from dataclasses import dataclass
-from typing import Any
 
 from spacy.language import Language
 from traiter.pylib.darwin_core import DarwinCore
@@ -25,7 +24,7 @@ class MultipleTraitsBase(Base):
     def pipe(cls, nlp: Language):
         raise NotImplementedError
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         raise NotImplementedError
 
     def to_dwc(self, dwc) -> DarwinCore:

@@ -1,9 +1,10 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
+from traiter.pylib.const import QUOTE
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 
@@ -14,12 +15,12 @@ from angiosperm.pylib.rules.base import Base
 class FlowerGrouping(Base):
     # Class vars ----------
     term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "general_floral.csv"
-    replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
+    presence: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "presence")
     # ---------------------
 
     grouping: str = None
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         return {"Flower grouping": self.grouping}
 
     @classmethod
@@ -44,15 +45,16 @@ class FlowerGrouping(Base):
                     "adp": {"POS": "ADP"},
                     "adv": {"POS": "ADV"},
                     "cconj": {"POS": "CCONJ"},
-                    "flower_term": {"ENT_TYPE": "flower_term"},
-                    "grouping": {"ENT_TYPE": "flower_grouping_term"},
-                    "'": {"POS": "PUNCT"},
+                    "flower": {"ENT_TYPE": "flower_term"},
+                    "grouping": {"ENT_TYPE": "grouping_term"},
+                    "inflorescences": {"ENT_TYPE": "inflorescences_term"},
+                    "'": {"TEXT": {"IN": QUOTE}},
                     "verb": {"POS": "VERB"},
                 },
                 patterns=[
-                    " flower_term verb? adp? '? grouping+ '? ",
-                    " flower_term       adv? '? grouping+ '? ",
-                    " cconj       verb  adp? '? grouping+ '? ",
+                    " flower* verb? adp? '? grouping+ '? ",
+                    " flower* adv? adp? '? grouping+ '? ",
+                    " flower* grouping+ verb? adp? '? inflorescences '? ",
                 ],
             ),
         ]
@@ -60,10 +62,13 @@ class FlowerGrouping(Base):
     @classmethod
     def flower_grouping_match(cls, ent):
         grouping = next(
-            (e.text.lower() for e in ent.ents if e.label_ == "flower_grouping_term"),
+            (
+                cls.presence.get(e.text.lower())
+                for e in ent.ents
+                if e.label_ == "grouping_term"
+            ),
             None,
         )
-        grouping = cls.replace.get(grouping, grouping)
         return cls.from_ent(ent, grouping=grouping)
 
 

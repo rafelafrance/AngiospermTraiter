@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib.pattern_compiler import Compiler
@@ -21,7 +21,7 @@ class PerianthPresence(Base):
 
     present: bool = None
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         return {"Perianth presence": "present" if self.present else "absent"}
 
     @classmethod

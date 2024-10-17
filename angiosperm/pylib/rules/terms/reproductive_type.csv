@@ -1,21 +1,21 @@
 label,pattern,replace,presence
 androecium_term,androecium
-extra_floral_nectary_term,extra floral nectaries,extrafloral nectary
-extra_floral_nectary_term,extra floral nectary,extrafloral nectary
-extra_floral_nectary_term,extrafloral nectaries,extrafloral nectary
-extra_floral_nectary_term,extrafloral nectary,extrafloral nectary
 extra_floral_nectary_term,extra floral nectaries,extra-floral nectary
+extra_floral_nectary_term,extra floral nectaries,extrafloral nectary
 extra_floral_nectary_term,extra floral nectary,extra-floral nectary
+extra_floral_nectary_term,extra floral nectary,extrafloral nectary
 extra_floral_nectary_term,extrafloral nectaries,extra-floral nectary
+extra_floral_nectary_term,extrafloral nectaries,extrafloral nectary
 extra_floral_nectary_term,extrafloral nectary,extra-floral nectary
+extra_floral_nectary_term,extrafloral nectary,extrafloral nectary
 floral_nectary_term,floral nectaries,floral nectary
 floral_nectary_term,floral nectary,floral nectary
 gynoecium_term,gynoecium
-nectary_position_term,base of stamen
-nectary_position_term,base of stamens
 nectar_secretion_term,nectar secreted
 nectar_secretion_term,nectar secretion
 nectar_secretion_term,nectar secretions
+nectary_position_term,base of stamen
+nectary_position_term,base of stamens
 perianth_term,perianth
 plant_sexual_system_term,androdioecious
 plant_sexual_system_term,androdioecy
@@ -31,5 +31,5 @@ plant_sexual_system_term,polygamomonoecy
 q_mark,(?)
 q_mark,?
 q_mark,[?]
-structural_sex_of_flowers_term,unisexual flowers present,,1
 structural_sex_of_flowers_term,unisexual flowers absent,,0
+structural_sex_of_flowers_term,unisexual flowers present,,1

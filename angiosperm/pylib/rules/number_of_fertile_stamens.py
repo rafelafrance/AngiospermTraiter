@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
@@ -25,7 +25,7 @@ class NumberOfFertileStamens(MultipleTraitsBase):
     _start_token: int = None
     _end_token: int = None
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         value = [
             f"{k}={v}"
             for k in ("min", "low", "high", "max")

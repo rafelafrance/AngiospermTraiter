@@ -1,51 +1,54 @@
-label,pattern,replace,inflorescence_growth_pattern,presence
-bract_presence_term,ebracteate,,,absent
-bract_presence_term,ebracteolate,,,absent
-bract_presence_term,epicalyx,,,present
-bract_presence_term,involucral,,,present
-bract_presence_term,involucrate,,,present
-bract_presence_term,involucre,,,present
-bract_presence_term,ocreola,,,present
-bract_presence_term,phyllary,,,present
-bract_presence_term,tegule,,,present
+label,pattern,replace,presence,inflorescence_growth_pattern
+bract_presence_term,ebracteate,,0
+bract_presence_term,ebracteolate,,0
+bract_presence_term,epicalyx,,1
+bract_presence_term,involucral,,1
+bract_presence_term,involucrate,,1
+bract_presence_term,involucre,,1
+bract_presence_term,ocreola,,1
+bract_presence_term,phyllaries,,1
+bract_presence_term,phyllary,,1
+bract_presence_term,tegule,,1
 bract_term,bract,bracts
 bract_term,bracts,bracts
-flower_grouping_term,inflorescence,inflorescence
-flower_grouping_term,inflorescences,inflorescence
-flower_grouping_term,inflorescenses,inflorescence
-flower_grouping_term,solitary,solitary
 flower_term,flower,flower
 flower_term,flowered,flower
 flower_term,flowers,flower
+grouping_term,aggregated,,1
+grouping_term,grouped,,1
+grouping_term,solitary,,0
 inflorescence_morphology_term,asteraceae capitula
-inflorescence_morphology_term,corymb,raceme-like,indeterminate
-inflorescence_morphology_term,corymbiform,raceme-like,indeterminate
-inflorescence_morphology_term,corymbrose,raceme-like,indeterminate
-inflorescence_morphology_term,corymbs,raceme-like,indeterminate
-inflorescence_morphology_term,cyme,cyme,determinate
-inflorescence_morphology_term,cymes,cyme,determinate
-inflorescence_morphology_term,cymose,cyme,determinate
+inflorescence_morphology_term,corymb,raceme-like,,indeterminate
+inflorescence_morphology_term,corymbiform,raceme-like,,indeterminate
+inflorescence_morphology_term,corymbrose,raceme-like,,indeterminate
+inflorescence_morphology_term,corymbs,raceme-like,,indeterminate
+inflorescence_morphology_term,cyme,cyme,,determinate
+inflorescence_morphology_term,cymes,cyme,,determinate
+inflorescence_morphology_term,cymose,cyme,,determinate
 inflorescence_morphology_term,globose capitula
 inflorescence_morphology_term,head,globose capitula
 inflorescence_morphology_term,heads,globose capitula
-inflorescence_morphology_term,monopodial,,indeterminate
-inflorescence_morphology_term,panicle,panicle,indeterminate
-inflorescence_morphology_term,panicles,panicle,indeterminate
-inflorescence_morphology_term,paniculate,panicle,indeterminate
-inflorescence_morphology_term,paniculiform,panicle,indeterminate
-inflorescence_morphology_term,raceme,raceme-like,indeterminate
-inflorescence_morphology_term,raceme-like,raceme-like,indeterminate
-inflorescence_morphology_term,racemes,raceme-like,indeterminate
-inflorescence_morphology_term,racemiform,raceme-like,indeterminate
-inflorescence_morphology_term,racemose,raceme-like,indeterminate
-inflorescence_morphology_term,spadix,raceme-like,indeterminate
-inflorescence_morphology_term,spike,raceme-like,indeterminate
-inflorescence_morphology_term,spikes,raceme-like,indeterminate
-inflorescence_morphology_term,sympodial,,determinate
-inflorescence_morphology_term,umbel,umbel,indeterminate
-inflorescence_morphology_term,umbels,umbel,indeterminate
+inflorescence_morphology_term,monopodial,,,indeterminate
+inflorescence_morphology_term,panicle,panicle,,indeterminate
+inflorescence_morphology_term,panicles,panicle,,indeterminate
+inflorescence_morphology_term,paniculate,panicle,,indeterminate
+inflorescence_morphology_term,paniculiform,panicle,,indeterminate
+inflorescence_morphology_term,raceme,raceme-like,,indeterminate
+inflorescence_morphology_term,raceme-like,raceme-like,,indeterminate
+inflorescence_morphology_term,racemes,raceme-like,,indeterminate
+inflorescence_morphology_term,racemiform,raceme-like,,indeterminate
+inflorescence_morphology_term,racemose,raceme-like,,indeterminate
+inflorescence_morphology_term,spadix,raceme-like,,indeterminate
+inflorescence_morphology_term,spike,raceme-like,,indeterminate
+inflorescence_morphology_term,spikes,raceme-like,,indeterminate
+inflorescence_morphology_term,sympodial,,,determinate
+inflorescence_morphology_term,umbel,umbel,,indeterminate
+inflorescence_morphology_term,umbels,umbel,,indeterminate
 inflorescence_position_term,axillary
 inflorescence_position_term,terminal
+inflorescences_term,inflorescence
+inflorescences_term,inflorescences
+inflorescences_term,inflorescenses
 nectary_position_term,base of stamen
 nectary_position_term,base of stamens
 number_of_flowers_in_an_inflorescence_term,Number of flowers in an inflorescence
@@ -56,10 +59,10 @@ ovary_position_term,inferior,inferior
 ovary_position_term,partially inferior,half-inferior
 ovary_position_term,perigynous,half-inferior
 ovary_position_term,superior,superior
-pedicel_presence,pedicellate,,,present
-pedicel_presence,peduncle,,,present
-pedicel_presence,pedunculate,,,present
-pedicel_presence,sessile,,,absent
+pedicel_presence,pedicellate,,1
+pedicel_presence,peduncle,,1
+pedicel_presence,pedunculate,,1
+pedicel_presence,sessile,,0
 pedicel_term,pedicel,pedicel
 pedicel_term,pedicelled,pedicel
 pedicel_term,pedicels,pedicel
@@ -79,8 +82,3 @@ plant_sexual_system_term,monoecious,monoecy
 plant_sexual_system_term,monoecy,monoecy
 plant_sexual_system_term,polygamomonoecious,polygamomonoecy
 plant_sexual_system_term,polygamomonoecy,polygamomonoecy
-q_mark,(?)
-q_mark,?
-q_mark,[?]
-structural_sex_of_flowers_term,bisexual
-structural_sex_of_flowers_term,unisexual

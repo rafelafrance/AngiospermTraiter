@@ -1,8 +1,9 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
+from traiter.pylib import term_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 from traiter.pylib.rules import terms as t_terms
@@ -17,12 +18,13 @@ class Bracts(Base):
         Path(__file__).parent / "terms" / "general_floral.csv",
         Path(t_terms.__file__).parent / "missing_terms.csv",
     ]
+    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
     # ---------------------
 
-    present: bool = None
+    present: str = None
 
-    def formatted(self) -> dict[str, Any]:
-        return {"Bracts": "present" if self.present else "absent"}
+    def formatted(self) -> dict[str, str]:
+        return {"Bracts": self.present}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -41,18 +43,18 @@ class Bracts(Base):
                 decoder={
                     "missing": {"ENT_TYPE": "missing"},
                     "bract_present": {"ENT_TYPE": "bract_presence_term"},
-                    "bract_term": {"ENT_TYPE": "bract_term"},
                 },
                 patterns=[
-                    " missing* bract_present+ bract_term* missing* ",
-                    " missing*                bract_term+ missing* ",
+                    " missing* bract_present+ missing* ",
                 ],
             ),
         ]
 
     @classmethod
     def bract_match(cls, ent):
-        present = not any(e.label_ == "missing" for e in ent.ents)
+        missing = any(e.label_ == "missing" for e in ent.ents)
+        absent = any(cls.presence.get(e.text.lower()) == "0" for e in ent.ents)
+        present = "1" if not (missing or absent) else "0"
         return cls.from_ent(ent, present=present)
 
 

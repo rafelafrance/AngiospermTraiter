@@ -8,8 +8,7 @@ from tests.setup import parse
 
 class TestStructuralSexOfFlowers(unittest.TestCase):
     def test_structural_sex_of_flowers_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse("reproductive_type", "Unisexual flowers present."),
-            [StructuralSexOfFlowers(structural_sex=1, start=0, end=25)],
+            [StructuralSexOfFlowers(structural_sex="1", start=0, end=25)],
         )

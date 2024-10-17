@@ -12,7 +12,7 @@ class TestBract(unittest.TestCase):
                 "with involucral bracts, or without involucral bracts;",
             ),
             [
-                Bracts(present=True, start=5, end=22),
-                Bracts(present=False, start=27, end=52),
+                Bracts(present="1", start=5, end=15),
+                Bracts(present="0", start=27, end=45),
             ],
         )

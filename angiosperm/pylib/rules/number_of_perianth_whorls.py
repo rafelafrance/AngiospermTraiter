@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import const as t_const
@@ -24,7 +24,7 @@ class NumberOfPerianthWhorls(Base):
     high: int = None
     max: int = None
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         value = [
             f"{k}={v}"
             for k in ("min", "low", "high", "max")

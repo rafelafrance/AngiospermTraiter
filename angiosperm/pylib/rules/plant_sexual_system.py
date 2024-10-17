@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import ClassVar
 
 from spacy import Language, registry
 from traiter.pylib import term_util
@@ -20,7 +20,7 @@ class PlantSexualSystem(Base):
     sexual_system: str = None
     uncertain: bool = None
 
-    def formatted(self) -> dict[str, Any]:
+    def formatted(self) -> dict[str, str]:
         value = self.sexual_system
         value += " ?" if self.uncertain else ""
         return {"Plant sexual system": value}
