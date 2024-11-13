@@ -17,17 +17,18 @@ nectar_secretion_term,nectar secretions
 nectary_position_term,base of stamen
 nectary_position_term,base of stamens
 perianth_term,perianth
-plant_sexual_system_term,androdioecious
-plant_sexual_system_term,androdioecy
-plant_sexual_system_term,dioecious
-plant_sexual_system_term,dioecy
-plant_sexual_system_term,gynodioecious
-plant_sexual_system_term,gynodioecy
-plant_sexual_system_term,monecious
-plant_sexual_system_term,monoecious
-plant_sexual_system_term,monoecy
-plant_sexual_system_term,polygamomonoecious
-plant_sexual_system_term,polygamomonoecy
+plant_sexual_system_term,androdioecious,androdioecy
+plant_sexual_system_term,andromonoecious,andromonoecious
+plant_sexual_system_term,androdioecy,androdioecy
+plant_sexual_system_term,dioecious,dioecy
+plant_sexual_system_term,dioecy,dioecy
+plant_sexual_system_term,gynodioecious,gynodioecious
+plant_sexual_system_term,gynodioecy,gynodioecy
+plant_sexual_system_term,monecious,monoecy
+plant_sexual_system_term,monoecious,monoecy
+plant_sexual_system_term,monoecy,monoecy
+plant_sexual_system_term,polygamomonoecious,polygamomonoecious
+plant_sexual_system_term,polygamomonoecy,polygamomonoecy
 q_mark,(?)
 q_mark,?
 q_mark,[?]

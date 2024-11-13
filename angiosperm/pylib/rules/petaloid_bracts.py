@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
+from spacy.lang.fa.generate_verbs_exc import present
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 from traiter.pylib.rules import terms as t_terms
@@ -19,10 +20,10 @@ class PetaloidBracts(Base):
     ]
     # ---------------------
 
-    present: bool = None
+    present: int = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Petaloid bracts": "present" if self.present else "absent"}
+        return {"Petaloid bracts": present}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -54,8 +55,8 @@ class PetaloidBracts(Base):
 
     @classmethod
     def petaloid_bracts_match(cls, ent):
-        present = not any(e.label_ == "missing" for e in ent.ents)
-        return cls.from_ent(ent, present=present)
+        absent = int(any(e.label_ == "missing" for e in ent.ents))
+        return cls.from_ent(ent, present=1 - absent)
 
 
 @registry.misc("petaloid_bracts_match")

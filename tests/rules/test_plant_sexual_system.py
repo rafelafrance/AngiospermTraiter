@@ -8,6 +8,7 @@ from tests.setup import parse
 
 class TestSexualSystem(unittest.TestCase):
     def test_sexual_system_01(self):
+        self.maxDiff = None
         self.assertEqual(
             parse(
                 "reproductive_type",

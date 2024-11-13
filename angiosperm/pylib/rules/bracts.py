@@ -37,9 +37,9 @@ class Bracts(Base):
     def bract_patterns(cls):
         return [
             Compiler(
-                label="bract",
+                label="bracts",
                 on_match="bract_match",
-                keep="bract",
+                keep="bracts",
                 decoder={
                     "missing": {"ENT_TYPE": "missing"},
                     "bract_present": {"ENT_TYPE": "bract_presence_term"},

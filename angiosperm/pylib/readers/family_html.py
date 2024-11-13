@@ -5,20 +5,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from traiter.pylib.rules.base import Base
 
-from angiosperm.pylib.pipelines import (
-    androecium,
-    general_floral,
-    perianth,
-    reproductive_type,
-)
-
-PIPELINES = {
-    "androecium": androecium.build(),
-    "floral": general_floral.build(),
-    "inflorescence": general_floral.build(),
-    "perianth": perianth.build(),
-    "reproductive": reproductive_type.build(),
-}
+from angiosperm.pylib.pipelines import util
 
 
 @dataclasses.dataclass
@@ -45,7 +32,6 @@ def read(input_dir: Path) -> dict[str, Page]:
 
         soup = BeautifulSoup(raw, features="lxml")
 
-        # taxon = get_taxon(soup.title.text)
         taxon = soup.title.text
 
         if taxon in pages:
@@ -58,12 +44,6 @@ def read(input_dir: Path) -> dict[str, Page]:
     return pages
 
 
-# def get_taxon(text):
-#     taxon = text.split("-")[-1]
-#     taxon = taxon.split()[0]
-#     return taxon
-
-
 def get_paragraphs(soup):
     paragraphs: list[Paragraph] = []
 
@@ -71,14 +51,13 @@ def get_paragraphs(soup):
         traits: list[Base] = []
         text = " ".join(para.text.split())
 
-        first, *_ = text.split(".")
-        first = first.lower()
+        first_sent, *_ = text.split(".")
+        first_sent = first_sent.lower()
 
         parsed = False
-        for key, pipeline in PIPELINES.items():
-            if key in first:
-                doc = pipeline(text)
-                traits += [e._.trait for e in doc.ents]
+        for key, pipeline in util.PIPELINES.items():
+            if key in first_sent:
+                traits = util.get_traits(pipeline, text)
                 parsed = True
 
         if parsed:

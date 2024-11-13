@@ -1,28 +1,11 @@
 from traiter.pylib.util import compress
 
-from angiosperm.pylib.pipelines import (
-    androecium,
-    general_floral,
-    gynoecium,
-    leaf,
-    perianth,
-    reproductive_type,
-)
-
-PIPELINES = {
-    "androecium": androecium.build(),
-    "general_floral": general_floral.build(),
-    "gynoecium": gynoecium.build(),
-    "leaf": leaf.build(),
-    "perianth": perianth.build(),
-    "reproductive_type": reproductive_type.build(),
-}
+from angiosperm.pylib.pipelines import util
 
 
-def parse(pipeline: str, text: str) -> list:
+def parse(pipeline: str, text: str, *, append_missing=False) -> list:
     text = compress(text)
-    doc = PIPELINES[pipeline](text)
-    traits = [e._.trait for e in doc.ents]
+    traits = util.get_traits(pipeline, text, append_missing=append_missing)
 
     # from pprint import pp
     # pp(traits)

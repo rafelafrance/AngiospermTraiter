@@ -11,7 +11,7 @@ class TestPetaloidBracts(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "petaloid ‘bracts’ surpassing the petals"),
             [
-                PetaloidBracts(present=True, start=0, end=17),
+                PetaloidBracts(present=1, start=0, end=17),
             ],
         )
 
@@ -19,6 +19,6 @@ class TestPetaloidBracts(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "without petaloid ‘bracts’ surpassing the petals"),
             [
-                PetaloidBracts(present=False, start=0, end=25),
+                PetaloidBracts(present=0, start=0, end=25),
             ],
         )

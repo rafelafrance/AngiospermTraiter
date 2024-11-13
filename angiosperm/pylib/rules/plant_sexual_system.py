@@ -64,7 +64,7 @@ class PlantSexualSystem(Base):
             ),
             None,
         )
-        sexual_system = cls.replace.get(sexual_system, sexual_system)
+        # sexual_system = cls.replace.get(sexual_system, sexual_system)
         uncertain = next((True for e in ent.ents if e.label_ == "q_mark"), None)
         return cls.from_ent(ent, sexual_system=sexual_system, uncertain=uncertain)
 
