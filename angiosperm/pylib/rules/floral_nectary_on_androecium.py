@@ -5,7 +5,6 @@ from typing import ClassVar
 from spacy import Language, registry
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
-from traiter.pylib.rules import terms as t_terms
 
 from angiosperm.pylib.rules.base import Base
 
@@ -15,7 +14,7 @@ class FloralNectaryOnAndroecium(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
         Path(__file__).parent / "terms" / "reproductive_type.csv",
-        Path(t_terms.__file__).parent / "missing_terms.csv",
+        Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
     # ---------------------
 

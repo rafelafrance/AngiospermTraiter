@@ -6,7 +6,6 @@ from spacy import Language, registry
 from traiter.pylib import term_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
-from traiter.pylib.rules import terms as t_terms
 
 from angiosperm.pylib.rules.base import Base
 
@@ -16,7 +15,7 @@ class Pedicel(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
         Path(__file__).parent / "terms" / "general_floral.csv",
-        Path(t_terms.__file__).parent / "missing_terms.csv",
+        Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
     presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
     # ---------------------

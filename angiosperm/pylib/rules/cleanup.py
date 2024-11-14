@@ -4,7 +4,8 @@ from traiter.pylib.pipes import add
 
 
 def pipe(nlp: Language):
-    add.custom_pipe(nlp, "cleanup", config={"delete": """ range """.split()})
+    config = {"delete": """ range """.split()}
+    add.custom_pipe(nlp, "cleanup", config=config)
 
 
 @Language.factory("cleanup")

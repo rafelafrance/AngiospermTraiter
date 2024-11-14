@@ -10,7 +10,7 @@ from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
-class ExtrafloralNectary(Base):
+class FloralNectary(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
         Path(__file__).parent / "terms" / "reproductive_type.csv",
@@ -18,46 +18,47 @@ class ExtrafloralNectary(Base):
     ]
     # ---------------------
 
-    present: bool = None
+    present: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Extrafloral nectary": "present" if self.present else "absent"}
+        return {"Floral nectary on gynoecium": self.present}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="extrafloral_nectary_terms", path=cls.csvs)
+        add.term_pipe(nlp, name="floral_nectary_on_gynoecium_terms", path=cls.csvs)
         add.trait_pipe(
             nlp,
-            name="extrafloral_nectary_patterns",
-            compiler=cls.extrafloral_nectary_patterns(),
+            name="floral_nectary_on_gynoecium_patterns",
+            compiler=cls.floral_nectary_on_gynoecium_patterns(),
         )
         # add.debug_tokens(nlp)  # #################################################
-        add.cleanup_pipe(nlp, name="extrafloral_nectary_cleanup")
+        add.cleanup_pipe(nlp, name="floral_nectary_on_gynoecium_cleanup")
 
     @classmethod
-    def extrafloral_nectary_patterns(cls):
+    def floral_nectary_on_gynoecium_patterns(cls):
         return [
             Compiler(
-                label="extrafloral_nectary",
-                on_match="extrafloral_nectary_match",
-                keep="extrafloral_nectary",
+                label="floral_nectary",
+                on_match="floral_nectary_match",
+                keep="floral_nectary",
                 decoder={
-                    "adp": {"POS": "ADP"},
-                    "floral_nectary": {"ENT_TYPE": "extra_floral_nectary_term"},
+                    "nectary": {"ENT_TYPE": "floral_nectary_term"},
+                    "secretion": {"ENT_TYPE": "nectar_secretion_term"},
                     "missing": {"ENT_TYPE": "missing"},
                 },
                 patterns=[
-                    " missing* floral_nectary+ missing* ",
+                    " missing* nectary+   fill? fill? organ+ missing* ",
+                    " missing* secretion+ fill? fill? organ+ missing* ",
                 ],
             ),
         ]
 
     @classmethod
-    def extrafloral_nectary_match(cls, ent):
+    def floral_nectary_match(cls, ent):
         present = not any(e.label_ == "missing" for e in ent.ents)
         return cls.from_ent(ent, present=present)
 
 
-@registry.misc("extrafloral_nectary_match")
-def extrafloral_nectary_match(ent):
-    return ExtrafloralNectary.extrafloral_nectary_match(ent)
+@registry.misc("floral_nectary_match")
+def floral_nectary_match(ent):
+    return FloralNectary.floral_nectary_match(ent)
