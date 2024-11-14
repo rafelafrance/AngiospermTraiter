@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
+from traiter.pylib import term_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 
@@ -14,28 +15,28 @@ class FloralNectary(Base):
     # Class vars ----------
     csvs: ClassVar[list[Path]] = [
         Path(__file__).parent / "terms" / "reproductive_type.csv",
-        Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
+    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
     # ---------------------
 
     present: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Floral nectary on gynoecium": self.present}
+        return {"Floral nectary present": self.present}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="floral_nectary_on_gynoecium_terms", path=cls.csvs)
+        add.term_pipe(nlp, name="floral_nectary_terms", path=cls.csvs)
         add.trait_pipe(
             nlp,
-            name="floral_nectary_on_gynoecium_patterns",
-            compiler=cls.floral_nectary_on_gynoecium_patterns(),
+            name="floral_nectary_patterns",
+            compiler=cls.floral_nectary_patterns(),
         )
         # add.debug_tokens(nlp)  # #################################################
-        add.cleanup_pipe(nlp, name="floral_nectary_on_gynoecium_cleanup")
+        add.cleanup_pipe(nlp, name="floral_nectary_cleanup")
 
     @classmethod
-    def floral_nectary_on_gynoecium_patterns(cls):
+    def floral_nectary_patterns(cls):
         return [
             Compiler(
                 label="floral_nectary",
@@ -43,19 +44,21 @@ class FloralNectary(Base):
                 keep="floral_nectary",
                 decoder={
                     "nectary": {"ENT_TYPE": "floral_nectary_term"},
-                    "secretion": {"ENT_TYPE": "nectar_secretion_term"},
-                    "missing": {"ENT_TYPE": "missing"},
+                    "presence": {"ENT_TYPE": "presence_term"},
                 },
                 patterns=[
-                    " missing* nectary+   fill? fill? organ+ missing* ",
-                    " missing* secretion+ fill? fill? organ+ missing* ",
+                    " nectary+ presence+ ",
                 ],
             ),
         ]
 
     @classmethod
     def floral_nectary_match(cls, ent):
-        present = not any(e.label_ == "missing" for e in ent.ents)
+        present = next(
+            cls.presence.get(e.text.lower(), "1")
+            for e in ent.ents
+            if e.label_ == "presence_term"
+        )
         return cls.from_ent(ent, present=present)
 
 

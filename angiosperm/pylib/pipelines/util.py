@@ -6,7 +6,8 @@ from angiosperm.pylib.pipelines import (
     perianth,
     reproductive_type,
 )
-from angiosperm.pylib.rules.bracts import Bracts
+from angiosperm.pylib.rules.missing import get_missing
+from angiosperm.pylib.rules.nectaries_secretion import get_nectaries_secretion
 
 PIPELINES = {
     "androecium": androecium.build(),
@@ -17,23 +18,15 @@ PIPELINES = {
     "reproductive_type": reproductive_type.build(),
 }
 
-MISSING = {
-    "bracts": Bracts,
-    "petaloid_bracts": Bracts,
-}
 
-
-def get_traits(pipeline: str, text: str, *, append_missing=True):
+def get_traits(pipeline: str, text: str, *, append_missing=True, append_nectary=True):
     doc = PIPELINES[pipeline](text)
     traits = [e._.trait for e in doc.ents]
+
     if append_missing:
         get_missing(traits)
+
+    if append_nectary:
+        get_nectaries_secretion(traits)
+
     return traits
-
-
-def get_missing(traits):
-    found = {t._trait for t in traits}
-    for trait_name, cls in MISSING.items():
-        if trait_name not in found:
-            trait = cls(_trait=trait_name, present="?")
-            traits.append(trait)
