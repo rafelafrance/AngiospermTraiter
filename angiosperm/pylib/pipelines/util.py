@@ -19,6 +19,7 @@ PIPELINES = {
 
 MISSING = {
     "bracts": Bracts,
+    "petaloid_bracts": Bracts,
 }
 
 

@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
+from traiter.pylib import term_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 from traiter.pylib.rules import terms as t_terms
@@ -17,12 +18,13 @@ class Pedicel(Base):
         Path(__file__).parent / "terms" / "general_floral.csv",
         Path(t_terms.__file__).parent / "missing_terms.csv",
     ]
+    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
     # ---------------------
 
-    present: bool = None
+    present: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Pedicel": "present" if self.present else "absent"}
+        return {"Pedicel": self.present}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -39,12 +41,9 @@ class Pedicel(Base):
                 on_match="pedicel_match",
                 keep="pedicel",
                 decoder={
-                    "missing": {"ENT_TYPE": {"IN": ["absent", "missing"]}},
-                    "pedicel_term": {"ENT_TYPE": "pedicel_term"},
                     "pedicel_present": {"ENT_TYPE": "pedicel_presence"},
                 },
                 patterns=[
-                    " missing* pedicel_term+ missing* ",
                     " pedicel_present+ ",
                 ],
             ),
@@ -52,8 +51,9 @@ class Pedicel(Base):
 
     @classmethod
     def pedicel_match(cls, ent):
-        present = not any(e.label_ in ["absent", "missing"] for e in ent.ents)
-        return cls.from_ent(ent, present=present)
+        pedicel = ent.text.lower()
+        present_ = cls.presence.get(pedicel, "1")
+        return cls.from_ent(ent, present=present_)
 
 
 @registry.misc("pedicel_match")

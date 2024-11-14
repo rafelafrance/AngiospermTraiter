@@ -1,4 +1,6 @@
 label,pattern,replace,presence,inflorescence_growth_pattern
+bract_presence_term,bracteolate,,1
+bract_presence_term,bracteole,,1
 bract_presence_term,ebracteate,,0
 bract_presence_term,ebracteolate,,0
 bract_presence_term,epicalyx,,1
@@ -8,6 +10,7 @@ bract_presence_term,involucre,,1
 bract_presence_term,ocreola,,1
 bract_presence_term,phyllaries,,1
 bract_presence_term,phyllary,,1
+bract_presence_term,spathe,,1
 bract_presence_term,tegule,,1
 bract_term,bract,bracts
 bract_term,bracts,bracts
@@ -59,13 +62,13 @@ ovary_position_term,inferior,inferior
 ovary_position_term,partially inferior,half-inferior
 ovary_position_term,perigynous,half-inferior
 ovary_position_term,superior,superior
+pedicel_presence,pedicel,,1
 pedicel_presence,pedicellate,,1
+pedicel_presence,pedicelled,,1
+pedicel_presence,pedicels,,1
 pedicel_presence,peduncle,,1
 pedicel_presence,pedunculate,,1
 pedicel_presence,sessile,,0
-pedicel_term,pedicel,pedicel
-pedicel_term,pedicelled,pedicel
-pedicel_term,pedicels,pedicel
 petaloid_bract_term,bracts petaloid,petaloid bracts
 petaloid_bract_term,petaloid 'bracts',petaloid bracts
 petaloid_bract_term,petaloid bract,petaloid bracts

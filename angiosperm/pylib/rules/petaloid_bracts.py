@@ -20,7 +20,7 @@ class PetaloidBracts(Base):
     ]
     # ---------------------
 
-    present: int = None
+    present: str = None
 
     def formatted(self) -> dict[str, str]:
         return {"Petaloid bracts": present}
@@ -40,9 +40,9 @@ class PetaloidBracts(Base):
     def petaloid_bracts_patterns(cls):
         return [
             Compiler(
-                label="petaloid bracts",
+                label="petaloid_bracts",
                 on_match="petaloid_bracts_match",
-                keep="petaloid bracts",
+                keep="petaloid_bracts",
                 decoder={
                     "missing": {"ENT_TYPE": "missing"},
                     "bract": {"ENT_TYPE": "petaloid_bract_term"},
@@ -55,8 +55,9 @@ class PetaloidBracts(Base):
 
     @classmethod
     def petaloid_bracts_match(cls, ent):
-        absent = int(any(e.label_ == "missing" for e in ent.ents))
-        return cls.from_ent(ent, present=1 - absent)
+        absent = any(e.label_ == "missing" for e in ent.ents)
+        present_ = "0" if absent else "1"
+        return cls.from_ent(ent, present=present_)
 
 
 @registry.misc("petaloid_bracts_match")

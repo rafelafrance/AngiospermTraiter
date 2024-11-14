@@ -9,7 +9,7 @@ class TestPetaloidBracts(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "on slender pedicels"),
             [
-                Pedicel(present=True, start=11, end=19),
+                Pedicel(present="1", start=11, end=19),
             ],
         )
 
@@ -17,6 +17,14 @@ class TestPetaloidBracts(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "long pedicellate"),
             [
-                Pedicel(present=True, start=5, end=16),
+                Pedicel(present="1", start=5, end=16),
+            ],
+        )
+
+    def test_pedicel_03(self):
+        self.assertEqual(
+            parse("general_floral", "Sessile"),
+            [
+                Pedicel(present="0", start=0, end=7),
             ],
         )

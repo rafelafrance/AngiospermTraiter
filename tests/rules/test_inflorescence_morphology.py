@@ -79,7 +79,7 @@ class TestInflorescence(unittest.TestCase):
                     start=33,
                     end=41,
                 ),
-                Pedicel(start=58, end=69, present=True),
+                Pedicel(start=58, end=69, present="1"),
                 InflorescenceMorphology(
                     morphology="globose capitula",
                     start=70,
