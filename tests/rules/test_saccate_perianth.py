@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.saccate_perianth import SaccatePerianth
 from tests.setup import parse
 
 
-class TestFloralNectaryOnAndroecium(unittest.TestCase):
+class TestSaccatePerianth(unittest.TestCase):
     def test_saccate_perianth_01(self):
         self.assertEqual(
             parse("perianth", "(or saccate, anteriorly)"),

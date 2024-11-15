@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.fusion_of_perianth import FusionOfPerianth
 from tests.setup import parse
 
 
-class TestBract(unittest.TestCase):
+class TestFusionOfPerianth(unittest.TestCase):
     def test_fusion_of_perianth_01(self):
         self.assertEqual(
             parse("perianth", "basally connate,"),

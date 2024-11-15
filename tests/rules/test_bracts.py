@@ -5,8 +5,8 @@ from angiosperm.pylib.rules.petaloid_bracts import PetaloidBracts
 from tests.setup import parse
 
 
-class TestBract(unittest.TestCase):
-    def test_bract_01(self):
+class TestBracts(unittest.TestCase):
+    def test_bracts_01(self):
         self.maxDiff = None
         self.assertEqual(
             parse(
@@ -21,7 +21,7 @@ class TestBract(unittest.TestCase):
             ],
         )
 
-    def test_bract_02(self):
+    def test_bracts_02(self):
         self.assertEqual(
             parse("general_floral", "Nothing about this trait", append_missing=True),
             [

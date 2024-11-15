@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.perianth_shape import PerianthShape
 from tests.setup import parse
 
 
-class TestFloralNectaryOnAndroecium(unittest.TestCase):
+class TestPerianthShape(unittest.TestCase):
     def test_perianth_shape_01(self):
         self.assertEqual(
             parse("perianth", "shortly campanulate;"),

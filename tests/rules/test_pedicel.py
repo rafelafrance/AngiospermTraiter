@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.pedicel import Pedicel
 from tests.setup import parse
 
 
-class TestPetaloidBracts(unittest.TestCase):
+class TestPedicel(unittest.TestCase):
     def test_pedicel_01(self):
         self.assertEqual(
             parse("general_floral", "on slender pedicels"),

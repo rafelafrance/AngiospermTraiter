@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.number_of_petals_fused import NumberOfPetalsFused
 from tests.setup import parse
 
 
-class TestFlowerCount(unittest.TestCase):
+class TestNumberOfPetalsFused(unittest.TestCase):
     def test_number_of_petals_fused_01(self):
         self.assertEqual(
             parse("perianth", "petals fused (8–)10(–16)."),

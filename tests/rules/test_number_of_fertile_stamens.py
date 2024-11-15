@@ -1,12 +1,10 @@
 import unittest
 
-from angiosperm.pylib.rules.number_of_fertile_stamens import (
-    NumberOfFertileStamens,
-)
+from angiosperm.pylib.rules.number_of_fertile_stamens import NumberOfFertileStamens
 from tests.setup import parse
 
 
-class TestFlowerCount(unittest.TestCase):
+class TestNumberOfFertileStamens(unittest.TestCase):
     def test_number_of_fertile_stamens_01(self):
         self.assertEqual(
             parse("androecium", "Androecium 5."),

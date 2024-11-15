@@ -4,7 +4,7 @@ from angiosperm.pylib.rules.number_of_carpels import NumberOfCarpels
 from tests.setup import parse
 
 
-class TestFlowerCount(unittest.TestCase):
+class TestNumberOfCarpels(unittest.TestCase):
     def test_number_of_carpels_01(self):
         self.assertEqual(
             parse("gynoecium", "Gynoecium 1–3–5(–6) carpelled."),

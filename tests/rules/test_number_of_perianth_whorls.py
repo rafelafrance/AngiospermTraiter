@@ -1,12 +1,10 @@
 import unittest
 
-from angiosperm.pylib.rules.number_of_perianth_whorls import (
-    NumberOfPerianthWhorls,
-)
+from angiosperm.pylib.rules.number_of_perianth_whorls import NumberOfPerianthWhorls
 from tests.setup import parse
 
 
-class TestFlowerCount(unittest.TestCase):
+class TestNumberOfPerianthWhorls(unittest.TestCase):
     def test_number_of_perianth_whorls_01(self):
         self.assertEqual(
             parse("perianth", "; 2-whorled."),
