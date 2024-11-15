@@ -55,8 +55,8 @@ def get_paragraphs(soup):
         first_sent = first_sent.lower()
 
         parsed = False
-        for key, pipeline in util.PIPELINES.items():
-            if key in first_sent:
+        for pipeline in util.PIPELINES.values():
+            if pipeline.pattern in first_sent:
                 traits = util.get_traits(pipeline, text)
                 parsed = True
 

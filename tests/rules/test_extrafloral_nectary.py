@@ -6,26 +6,25 @@ from angiosperm.pylib.rules.petaloid_bracts import PetaloidBracts
 from tests.setup import parse
 
 
-class TestBracts(unittest.TestCase):
-    def test_bracts_01(self):
+class TestExtrafloralNectary(unittest.TestCase):
+    def test_extrafloral_nectary_01(self):
         self.maxDiff = None
         self.assertEqual(
             parse(
-                "general_floral",
-                "with involucral bracts, or without involucral bracts;",
+                "leaf_anatomy",
+                "often with a pair of glands or extrafloral nectaries",
                 append_missing=True,
             ),
             [
-                Bracts(present="1", start=5, end=15),
-                Bracts(present="0", start=27, end=45),
+                ExtrafloralNectary(present="1", start=31, end=52),
+                Bracts(present="?"),
                 PetaloidBracts(present="?"),
-                ExtrafloralNectary(present="0"),
             ],
         )
 
-    def test_bracts_02(self):
+    def test_extrafloral_nectary_02(self):
         self.assertEqual(
-            parse("general_floral", "Nothing about this trait", append_missing=True),
+            parse("leaf_anatomy", "Ssh, don't mention them!", append_missing=True),
             [
                 Bracts(present="?"),
                 PetaloidBracts(present="?"),

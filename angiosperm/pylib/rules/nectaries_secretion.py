@@ -75,7 +75,7 @@ def get_nectaries_secretion(traits):
             organs |= set(trait.organs)
 
         if trait._trait == "floral_nectary":
-            present = trait.presenti
+            present = trait.present
 
     for organ, cls in ORGANS.items():
         if organ in organs and present != "":
@@ -87,5 +87,8 @@ def get_nectaries_secretion(traits):
         elif organ not in organs and len(organs) > 0:
             traits.append(cls(_trait=cls.trait_name, present="0"))
 
-        elif len(organs) == 0 and present != "":
+        elif len(organs) == 0 and present == "1":
             traits.append(cls(_trait=cls.trait_name, present="?"))
+
+        elif len(organs) == 0 and present == "0":
+            traits.append(cls(_trait=cls.trait_name, present="0"))

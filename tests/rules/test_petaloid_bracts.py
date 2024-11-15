@@ -1,6 +1,7 @@
 import unittest
 
 from angiosperm.pylib.rules.bracts import Bracts
+from angiosperm.pylib.rules.extrafloral_nectary import ExtrafloralNectary
 from angiosperm.pylib.rules.petaloid_bracts import PetaloidBracts
 from tests.setup import parse
 
@@ -16,6 +17,7 @@ class TestPetaloidBracts(unittest.TestCase):
             [
                 PetaloidBracts(present="1", start=0, end=17),
                 Bracts(present="?"),
+                ExtrafloralNectary(present="0"),
             ],
         )
 
@@ -29,6 +31,7 @@ class TestPetaloidBracts(unittest.TestCase):
             [
                 PetaloidBracts(present="0", start=0, end=25),
                 Bracts(present="?"),
+                ExtrafloralNectary(present="0"),
             ],
         )
 
@@ -42,5 +45,6 @@ class TestPetaloidBracts(unittest.TestCase):
             [
                 Bracts(present="?"),
                 PetaloidBracts(present="?"),
+                ExtrafloralNectary(present="0"),
             ],
         )
