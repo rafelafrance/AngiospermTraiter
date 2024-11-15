@@ -31,7 +31,7 @@ class NumberOfCarpels(Base):
             if (v := getattr(self, k) is not None)
         ]
         value = ", ".join(value)
-        return {"Number of perianth whorls": value}
+        return {"Number of carpels": value}
 
     @classmethod
     def pipe(cls, nlp: Language):

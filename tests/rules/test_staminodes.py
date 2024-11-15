@@ -4,11 +4,11 @@ from angiosperm.pylib.rules.staminodes import Staminodes
 from tests.setup import parse
 
 
-class TestExtrafloralNectary(unittest.TestCase):
-    def test_extrafloral_nectary_01(self):
+class TestStaminodes(unittest.TestCase):
+    def test_staminodes_01(self):
         self.assertEqual(
             parse("androecium", "or including staminodes"),
             [
-                Staminodes(present=True, start=13, end=23),
+                Staminodes(present="1", start=13, end=23),
             ],
         )

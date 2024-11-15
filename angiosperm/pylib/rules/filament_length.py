@@ -17,31 +17,31 @@ class FilamentLength(Base):
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
-    width: str = None
+    length: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Filament width": self.width}
+        return {"Filament length": self.length}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="filament_width_terms", path=cls.term_csv)
+        add.term_pipe(nlp, name="filament_length_terms", path=cls.term_csv)
         add.trait_pipe(
             nlp,
-            name="filament_width_patterns",
-            compiler=cls.filament_width_patterns(),
+            name="filament_length_patterns",
+            compiler=cls.filament_length_patterns(),
         )
         # add.debug_tokens(nlp)  # #################################################
-        add.cleanup_pipe(nlp, name="filament_width_cleanup")
+        add.cleanup_pipe(nlp, name="filament_length_cleanup")
 
     @classmethod
-    def filament_width_patterns(cls):
+    def filament_length_patterns(cls):
         return [
             Compiler(
-                label="filament_width",
-                on_match="filament_width_match",
-                keep="filament_width",
+                label="filament_length",
+                on_match="filament_length_match",
+                keep="filament_length",
                 decoder={
-                    "position": {"ENT_TYPE": "filament_width_term"},
+                    "position": {"ENT_TYPE": "filament_length_term"},
                 },
                 patterns=[
                     " position+ ",
@@ -50,16 +50,15 @@ class FilamentLength(Base):
         ]
 
     @classmethod
-    def filament_width_match(cls, ent):
-        term = "filament_width_term"
+    def filament_length_match(cls, ent):
         position = next(
-            (e.text.lower() for e in ent.ents if e.label_ == term),
+            (e.text.lower() for e in ent.ents if e.label_ == "filament_length_term"),
             None,
         )
         position = cls.replace.get(position, position)
         return cls.from_ent(ent, position=position)
 
 
-@registry.misc("filament_width_match")
-def filament_width_match(ent):
-    return FilamentLength.filament_width_match(ent)
+@registry.misc("filament_length_match")
+def filament_length_match(ent):
+    return FilamentLength.filament_length_match(ent)

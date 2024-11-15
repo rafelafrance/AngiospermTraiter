@@ -9,6 +9,6 @@ class TestFloralNectaryOnAndroecium(unittest.TestCase):
         self.assertEqual(
             parse("perianth", "Petals slightly clawed"),
             [
-                ClawedPetal(present=True, start=16, end=22),
+                ClawedPetal(present="1", start=16, end=22),
             ],
         )

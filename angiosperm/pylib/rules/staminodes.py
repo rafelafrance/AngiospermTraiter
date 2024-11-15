@@ -18,10 +18,10 @@ class Staminodes(Base):
     ]
     # ---------------------
 
-    present: bool = None
+    present: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Staminodes": "present" if self.present else "absent"}
+        return {"Staminodes": self.present}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -53,7 +53,8 @@ class Staminodes(Base):
 
     @classmethod
     def staminodes_match(cls, ent):
-        present = not any(e.label_ == "missing" for e in ent.ents)
+        missing = any(e.label_ == "missing" for e in ent.ents)
+        present = "0" if missing else "1"
         return cls.from_ent(ent, present=present)
 
 

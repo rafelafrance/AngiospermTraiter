@@ -9,6 +9,6 @@ class TestFloralNectaryOnAndroecium(unittest.TestCase):
         self.assertEqual(
             parse("perianth", "(or saccate, anteriorly)"),
             [
-                SaccatePerianth(present=True, start=4, end=11),
+                SaccatePerianth(present="1", start=4, end=11),
             ],
         )

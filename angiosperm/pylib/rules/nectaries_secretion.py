@@ -20,7 +20,7 @@ class FloralNectaryOnAndroecium(Base):
         ...
 
     def formatted(self) -> dict[str, str]:
-        return {"Floral nectary on androecium": self.present}
+        return {"Floral nectary on androecium ": self.present}
 
 
 # ###############################################################################
@@ -54,7 +54,7 @@ class FloralNectaryOnPerianth(Base):
         ...
 
     def formatted(self) -> dict[str, str]:
-        return {"Floral nectary on perianth": self.present}
+        return {"Floral nectary on perianth ": self.present}
 
 
 # ###############################################################################
@@ -65,6 +65,7 @@ ORGANS = {
 }
 
 
+# ###############################################################################
 def get_nectaries_secretion(traits):
     organs = set()
     present = ""
@@ -74,7 +75,7 @@ def get_nectaries_secretion(traits):
             organs |= set(trait.organs)
 
         if trait._trait == "floral_nectary":
-            present = trait.present
+            present = trait.presenti
 
     for organ, cls in ORGANS.items():
         if organ in organs and present != "":
