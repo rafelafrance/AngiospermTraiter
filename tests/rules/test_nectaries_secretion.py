@@ -103,6 +103,7 @@ class TestNectarSecretion(unittest.TestCase):
         )
 
     def test_nectar_secretion_06(self):
+        self.maxDiff = None
         self.assertEqual(
             parse(
                 "reproductive_type",
@@ -113,8 +114,25 @@ class TestNectarSecretion(unittest.TestCase):
             ),
             [
                 FloralNectary(present="0", start=0, end=23),
-                FloralNectaryOnAndroecium(present="0"),
-                FloralNectaryOnGynoecium(present="0"),
-                FloralNectaryOnPerianth(present="0"),
+                FloralNectaryOnAndroecium(present="-"),
+                FloralNectaryOnGynoecium(present="-"),
+                FloralNectaryOnPerianth(present="-"),
+            ],
+        )
+
+    def test_nectar_secretion_07(self):
+        self.maxDiff = None
+        self.assertEqual(
+            parse(
+                "reproductive_type",
+                """
+                Yada yada yada.
+                """,
+                append_nectary=True,
+            ),
+            [
+                FloralNectaryOnAndroecium(present="-"),
+                FloralNectaryOnGynoecium(present="-"),
+                FloralNectaryOnPerianth(present="-"),
             ],
         )

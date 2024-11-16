@@ -5,17 +5,20 @@ from pathlib import Path
 
 from angiosperm.pylib import log
 from angiosperm.pylib.readers import family_html
-from angiosperm.pylib.writers import html_writer
+from angiosperm.pylib.writers import csv_writer, html_writer
 
 
 def main():
     log.started()
     args = parse_args()
 
-    pages = family_html.read(args.input_dir)
+    pages: dict[str, family_html.Page] = family_html.read(args.input_dir)
 
     if args.html_file:
         html_writer.write(pages, args.html_file)
+
+    if args.csv_file:
+        csv_writer.write(pages, args.csv_file)
 
     log.finished()
 
@@ -45,6 +48,13 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         metavar="PATH",
         help="""Output formatted trait data to this HTML file.""",
+    )
+
+    arg_parser.add_argument(
+        "--csv-file",
+        type=Path,
+        metavar="PATH",
+        help="""Output traits data to this CSV file.""",
     )
 
     args = arg_parser.parse_args()

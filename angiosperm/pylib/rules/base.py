@@ -7,6 +7,8 @@ from traiter.pylib.rules.base import Base as TraiterBase
 
 @dataclass(eq=False)
 class Base(TraiterBase):
+    _paragraph: str = None
+
     @classmethod
     def pipe(cls, nlp: Language):
         raise NotImplementedError

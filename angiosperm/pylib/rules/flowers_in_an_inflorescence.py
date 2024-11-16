@@ -28,7 +28,7 @@ class FlowersInAnInflorescence(Base):
         value = [
             f"{k}={v}"
             for k in ("min", "low", "high", "max")
-            if (v := getattr(self, k) is not None)
+            if (v := getattr(self, k)) is not None
         ]
         value = ", ".join(value)
         return {"Number of flowers in an inflorescence": value}

@@ -3,7 +3,6 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
-from spacy.lang.fa.generate_verbs_exc import present
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 
@@ -22,7 +21,7 @@ class PetaloidBracts(Base):
     present: str = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Petaloid bracts": present}
+        return {"Petaloid bracts": self.present}
 
     @classmethod
     def pipe(cls, nlp: Language):

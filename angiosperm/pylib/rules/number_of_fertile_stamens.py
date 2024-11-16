@@ -29,7 +29,7 @@ class NumberOfFertileStamens(MultipleTraitsBase):
         value = [
             f"{k}={v}"
             for k in ("min", "low", "high", "max")
-            if (v := getattr(self, k) is not None)
+            if (v := getattr(self, k)) is not None
         ]
         value = ", ".join(value)
         return {"Number of fertile stamens": value}
@@ -103,6 +103,9 @@ class NumberOfFertileStamens(MultipleTraitsBase):
                         **kwargs,
                     )
                 )
+
+                if not kwargs:
+                    raise reject_match.RejectMatch
 
         return all_traits
 

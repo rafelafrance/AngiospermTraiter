@@ -11,6 +11,7 @@ from angiosperm.pylib.rules.base import Base
 class FloralNectaryOnAndroecium(Base):
     # Class vars ----------
     trait_name: ClassVar[str] = "floral_nectary_on_androecium"
+    paragraph: ClassVar[str] = "reproductive_type"
     # ---------------------
 
     present: str = None
@@ -28,6 +29,7 @@ class FloralNectaryOnAndroecium(Base):
 class FloralNectaryOnGynoecium(Base):
     # Class vars ----------
     trait_name: ClassVar[str] = "floral_nectary_on_gynoecium"
+    paragraph: ClassVar[str] = "reproductive_type"
     # ---------------------
 
     present: str = None
@@ -45,6 +47,7 @@ class FloralNectaryOnGynoecium(Base):
 class FloralNectaryOnPerianth(Base):
     # Class vars ----------
     trait_name: ClassVar[str] = "floral_nectary_on_perianth"
+    paragraph: ClassVar[str] = "reproductive_type"
     # ---------------------
 
     present: str = None
@@ -79,16 +82,21 @@ def get_nectaries_secretion(traits):
 
     for organ, cls in ORGANS.items():
         if organ in organs and present != "":
-            traits.append(cls(_trait=cls.trait_name, present=present))
-
-        elif organ in organs and present == "":
-            traits.append(cls(_trait=cls.trait_name, present="-"))
+            traits.append(
+                cls(_trait=cls.trait_name, present=present, _paragraph=cls.paragraph)
+            )
 
         elif organ not in organs and len(organs) > 0:
-            traits.append(cls(_trait=cls.trait_name, present="0"))
+            traits.append(
+                cls(_trait=cls.trait_name, present="0", _paragraph=cls.paragraph)
+            )
 
-        elif len(organs) == 0 and present == "1":
-            traits.append(cls(_trait=cls.trait_name, present="?"))
+        elif present != "1":
+            traits.append(
+                cls(_trait=cls.trait_name, present="-", _paragraph=cls.paragraph)
+            )
 
-        elif len(organs) == 0 and present == "0":
-            traits.append(cls(_trait=cls.trait_name, present="0"))
+        elif present == "1":
+            traits.append(
+                cls(_trait=cls.trait_name, present="?", _paragraph=cls.paragraph)
+            )

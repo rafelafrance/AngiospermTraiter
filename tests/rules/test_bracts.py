@@ -16,8 +16,8 @@ class TestBracts(unittest.TestCase):
                 append_missing=True,
             ),
             [
-                Bracts(present="1", start=5, end=15),
-                Bracts(present="0", start=27, end=45),
+                Bracts(present="1", start=5, end=22),
+                Bracts(present="0", start=27, end=52),
                 PetaloidBracts(present="?"),
                 ExtrafloralNectary(present="0"),
             ],

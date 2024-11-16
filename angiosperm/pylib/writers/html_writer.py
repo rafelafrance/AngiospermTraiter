@@ -60,8 +60,8 @@ def write(input_pages: dict[str, Page], html_file: Path):
         pages=html_pages,
     )
 
-    with html_file.open("w") as html:
-        html.write(template)
+    with html_file.open("w") as handle:
+        handle.write(template)
 
 
 def format_paragraph(

@@ -51,12 +51,12 @@ class FilamentWidth(Base):
 
     @classmethod
     def filament_width_match(cls, ent):
-        position = next(
+        width = next(
             (e.text.lower() for e in ent.ents if e.label_ == "filament_width_term"),
             None,
         )
-        position = cls.replace.get(position, position)
-        return cls.from_ent(ent, position=position)
+        width = cls.replace.get(width, width)
+        return cls.from_ent(ent, width=width)
 
 
 @registry.misc("filament_width_match")

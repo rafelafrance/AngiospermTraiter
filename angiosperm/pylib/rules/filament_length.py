@@ -51,12 +51,12 @@ class FilamentLength(Base):
 
     @classmethod
     def filament_length_match(cls, ent):
-        position = next(
+        length = next(
             (e.text.lower() for e in ent.ents if e.label_ == "filament_length_term"),
             None,
         )
-        position = cls.replace.get(position, position)
-        return cls.from_ent(ent, position=position)
+        length = cls.replace.get(length, length)
+        return cls.from_ent(ent, length=length)
 
 
 @registry.misc("filament_length_match")

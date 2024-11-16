@@ -28,7 +28,7 @@ class NumberOfAndroeciumWhorls(Base):
         value = [
             f"{k}={v}"
             for k in ("min", "low", "high", "max")
-            if (v := getattr(self, k) is not None)
+            if (v := getattr(self, k)) is not None
         ]
         value = ", ".join(value)
         return {"Number of androecium structural whorls": value}
@@ -82,6 +82,9 @@ class NumberOfAndroeciumWhorls(Base):
             elif token._.term == "number_of_androecium_whorls_count_term":
                 value = cls.replace.get(token.lower_, token.lower_)
                 kwargs["low"] = t_util.to_positive_int(value)
+
+        if not kwargs:
+            raise reject_match.RejectMatch
 
         return cls.from_ent(ent, **kwargs)
 
