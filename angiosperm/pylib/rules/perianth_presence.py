@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import ClassVar
 
 from spacy import Language, registry
+from traiter.pylib import term_util
 from traiter.pylib.pattern_compiler import Compiler
 from traiter.pylib.pipes import add
 
@@ -16,6 +17,7 @@ class PerianthPresence(Base):
         Path(__file__).parent / "terms" / "perianth.csv",
         Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "replace")
     # ---------------------
 
     present: str = None

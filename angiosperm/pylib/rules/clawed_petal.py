@@ -17,7 +17,7 @@ class ClawedPetal(Base):
         Path(__file__).parent / "terms" / "perianth.csv",
         Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "replace")
     # ---------------------
 
     present: str = None

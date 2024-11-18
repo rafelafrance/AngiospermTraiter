@@ -9,6 +9,6 @@ class TestFusionOfPerianth(unittest.TestCase):
         self.assertEqual(
             parse("perianth", "basally connate,"),
             [
-                FusionOfPerianth(fusion="connate at base", start=0, end=15),
+                FusionOfPerianth(fusion="2", start=0, end=15),
             ],
         )

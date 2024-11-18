@@ -9,6 +9,6 @@ class TestPerianthMargin(unittest.TestCase):
         self.assertEqual(
             parse("perianth", "commonly bilobed or emarginate "),
             [
-                PerianthMargin(margin="entire", start=20, end=30),
+                PerianthMargin(margin="0", start=20, end=30),
             ],
         )

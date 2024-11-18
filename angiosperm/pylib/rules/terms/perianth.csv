@@ -1,52 +1,50 @@
-label,pattern,replace,presence
-clawed_petal_term,clawed,,1
-fusion_of_perianth_term,basally connate,connate at base
-fusion_of_perianth_term,connate at base
-fusion_of_perianth_term,connate
-fusion_of_perianth_term,distinct
-fusion_term,fusion,fused
-fusion_term,fusion,fusion
+label,pattern,replace
+clawed_petal_term,clawed,1
+fusion_of_perianth_term,basally connate,2
+fusion_of_perianth_term,connate at base,2
+fusion_of_perianth_term,connate,1
+fusion_of_perianth_term,distinct,0
 number_of_petals_term,number of petals
-perianth_differentiation_term,differentiated,differentiated
-perianth_differentiation_term,homochlamydeous,undifferentiated
-perianth_differentiation_term,petal,differentiated
-perianth_differentiation_term,sepal,differentiated
-perianth_differentiation_term,tepals,undifferentiated
-perianth_differentiation_term,undifferentiated,undifferentiated
-perianth_margin_term,emarginate,entire
-perianth_margin_term,entire,entire
-perianth_margin_term,filiform,toothed
-perianth_margin_term,fimbriate,toothed
-perianth_margin_term,fringed,toothed
-perianth_margin_term,toothed,toothed
-perianth_merism_term,dimerous
-perianth_merism_term,heptamerous
-perianth_merism_term,hexamerous
-perianth_merism_term,octomerous
-perianth_merism_term,pentamerous
-perianth_merism_term,tetramerous
-perianth_merism_term,trimerous
-perianth_shape_term,bell-shape,bell-shaped
-perianth_shape_term,bell-shaped,bell-shaped
+perianth_differentiation_term,differentiated,1
+perianth_differentiation_term,homochlamydeous,0
+perianth_differentiation_term,petal,1
+perianth_differentiation_term,sepal,1
+perianth_differentiation_term,tepals,0
+perianth_differentiation_term,undifferentiated,0
+perianth_margin_term,emarginate,0
+perianth_margin_term,entire,0
+perianth_margin_term,filiform,1
+perianth_margin_term,fimbriate,1
+perianth_margin_term,fringed,1
+perianth_margin_term,toothed,1
+perianth_merism_term,dimerous,0
+perianth_merism_term,heptamerous,5
+perianth_merism_term,hexamerous,4
+perianth_merism_term,octomerous,6
+perianth_merism_term,pentamerous,3
+perianth_merism_term,tetramerous,2
+perianth_merism_term,trimerous,1
+perianth_shape_term,bell-shape
+perianth_shape_term,bell-shaped
 perianth_shape_term,bilabiate
-perianth_shape_term,campanulate,bell-shaped
-perianth_shape_term,funnelform,funnelform
-perianth_shape_term,hypocrateriform,hypocrateriform
+perianth_shape_term,campanulate
+perianth_shape_term,funnelform
+perianth_shape_term,hypocrateriform
 perianth_shape_term,reflexed
-perianth_shape_term,rotate,funnelform
-perianth_shape_term,salverform,hypocrateriform
-perianth_shape_term,tabular,tabular
-perianth_shape_term,tube-shaped,tabular
-perianth_shape_term,tubular,tabular
-perianth_shape_term,urceolate,bell-shaped
-perianth_shape_term,urn-shape,bell-shaped
-perianth_shape_term,urn-shaped,bell-shaped
-perianth_shape_term,wheel-shaped,funnelform
-perianth_term,perianth,perianth
-perianth_term,perianths,perianth
-perianth_term,perigon,perianth
-perianth_term,perigone,perianth
-perianth_term,perigonium,perianth
+perianth_shape_term,rotate
+perianth_shape_term,salverform
+perianth_shape_term,tabular
+perianth_shape_term,tube-shaped
+perianth_shape_term,tubular
+perianth_shape_term,urceolate
+perianth_shape_term,urn-shape
+perianth_shape_term,urn-shaped
+perianth_shape_term,wheel-shaped
+perianth_term,perianth
+perianth_term,perianths
+perianth_term,perigon
+perianth_term,perigone
+perianth_term,perigonium
 perianth_whorl_count_term,biseriate,2
 perianth_whorl_count_term,dicyclic,2
 perianth_whorl_count_term,uniseriate,1
@@ -54,16 +52,17 @@ petal_arrangement_term,imbricate
 petal_arrangement_term,valvate
 petals_fused_term,fused petals
 petals_fused_term,petals fused
-phyllotaxy_term,phyllotaxy,phyllotaxy
+phyllotaxy_term,phyllotaxy
 saccate_term,saccate
-symmetry_of_perianth_term,actinomorphic,actinomorphic
-symmetry_of_perianth_term,asymmetric
-symmetry_of_perianth_term,bilaterally symmetric,zygomorphic
-symmetry_of_perianth_term,disymmetric
-symmetry_of_perianth_term,radially symmetric,actinomorphic
-symmetry_of_perianth_term,radially symmetric,actinomorphic
-symmetry_of_perianth_term,symmetric,symmetric
-symmetry_of_perianth_term,zygomorphic,zygomorphic
-whorls_term,whorl,whorls
-whorls_term,whorled,whorls
-whorls_term,whorls,whorls
+symmetry_of_perianth_term,actinomorphic,0
+symmetry_of_perianth_term,asymmetric,2
+symmetry_of_perianth_term,bilaterally symmetric,1
+symmetry_of_perianth_term,disymmetric,3
+symmetry_of_perianth_term,radially symmetric,0
+symmetry_of_perianth_term,zygomorphic,1
+whorls_term,whorl,0
+whorls_term,whorled,0
+whorls_term,whorls,0
+spiral_term,spiral,1
+spiral_term,spiraled,1
+spiral_term,spirals,1

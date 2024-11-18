@@ -9,8 +9,6 @@ class TestPerianthDifferentiation(unittest.TestCase):
         self.assertEqual(
             parse("perianth", "Perianth of tepals"),
             [
-                PerianthDifferentiation(
-                    differentiation="undifferentiated", start=0, end=18
-                ),
+                PerianthDifferentiation(differentiation="0", start=0, end=18),
             ],
         )

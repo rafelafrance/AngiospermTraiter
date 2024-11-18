@@ -9,6 +9,6 @@ class TestPerianthMerism(unittest.TestCase):
         self.assertEqual(
             parse("perianth", "when pentamerous,"),
             [
-                PerianthMerism(merism="pentamerous", start=5, end=16),
+                PerianthMerism(merism="3", start=5, end=16),
             ],
         )

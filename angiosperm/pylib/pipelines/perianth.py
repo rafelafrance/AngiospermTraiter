@@ -7,7 +7,8 @@ from angiosperm.pylib.rules.perianth_differentiation import PerianthDifferentiat
 from angiosperm.pylib.rules.perianth_margin import PerianthMargin
 from angiosperm.pylib.rules.perianth_merism import PerianthMerism
 from angiosperm.pylib.rules.perianth_presence import PerianthPresence
-from angiosperm.pylib.rules.perianth_shape import PerianthShape
+
+# from angiosperm.pylib.rules.perianth_shape import PerianthShape
 from angiosperm.pylib.rules.range import Range
 from angiosperm.pylib.rules.saccate_perianth import SaccatePerianth
 from angiosperm.pylib.rules.symmetry_of_perianth import SymmetryOfPerianth
@@ -27,7 +28,7 @@ def build():
     SaccatePerianth.pipe(nlp)
     PerianthMargin.pipe(nlp)
     ClawedPetal.pipe(nlp)
-    PerianthShape.pipe(nlp)
+    # PerianthShape.pipe(nlp)
 
     # Needs to be last because it overlaps with other traits
     PerianthPresence.pipe(nlp)
