@@ -16,7 +16,7 @@ class FloralNectary(Base):
     csvs: ClassVar[list[Path]] = [
         Path(__file__).parent / "terms" / "reproductive_type.csv",
     ]
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "replace")
     # ---------------------
 
     present: str = None
@@ -55,7 +55,7 @@ class FloralNectary(Base):
     @classmethod
     def floral_nectary_match(cls, ent):
         present = next(
-            cls.presence.get(e.text.lower(), "1")
+            cls.replace.get(e.text.lower(), "1")
             for e in ent.ents
             if e.label_ == "presence_term"
         )

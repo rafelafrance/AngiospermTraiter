@@ -54,7 +54,7 @@ class InflorescencePosition(Base):
 
     @classmethod
     def inflorescence_position_match(cls, ent):
-        return cls.from_ent(ent, position=ent.text.lower())
+        return cls.from_ent(ent, position=cls.replace.get(ent.text.lower(), "?"))
 
 
 @registry.misc("inflorescence_position_match")

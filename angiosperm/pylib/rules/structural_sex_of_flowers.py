@@ -14,7 +14,7 @@ from angiosperm.pylib.rules.base import Base
 class StructuralSexOfFlowers(Base):
     # Class vars ----------
     term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "reproductive_type.csv"
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "presence")
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
     structural_sex: str = None
@@ -51,7 +51,7 @@ class StructuralSexOfFlowers(Base):
 
     @classmethod
     def structural_sex_of_flowers_match(cls, ent):
-        structural_sex = cls.presence.get(ent.text.lower())
+        structural_sex = cls.replace.get(ent.text.lower())
         return cls.from_ent(ent, structural_sex=structural_sex)
 
 

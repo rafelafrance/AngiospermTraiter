@@ -15,10 +15,6 @@ def write(pages, csv_file):
                 if value:
                     merged[key].append(value)
 
-        # for key, value in merged.items():
-        #     # value = [v for v in value if v]
-        #     print(key, value)
-        # print()
         traits: dict[str, str] = {
             k: " | ".join(sorted(set(v))) for k, v in merged.items()
         }

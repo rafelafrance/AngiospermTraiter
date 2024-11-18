@@ -12,7 +12,7 @@ def main():
     log.started()
     args = parse_args()
 
-    pages: dict[str, family_html.Page] = family_html.read(args.input_dir)
+    pages: dict[str, family_html.Page] = family_html.read(args.input_dir, args.limit)
 
     if args.html_file:
         html_writer.write(pages, args.html_file)
@@ -55,6 +55,13 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         metavar="PATH",
         help="""Output traits data to this CSV file.""",
+    )
+
+    arg_parser.add_argument(
+        "--limit",
+        type=int,
+        metavar="N",
+        help="""Only read in this many files.""",
     )
 
     args = arg_parser.parse_args()

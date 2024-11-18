@@ -4,10 +4,11 @@ import sys
 from pathlib import Path
 
 from bs4 import BeautifulSoup
-from traiter.pylib.rules.base import Base
+from tqdm import tqdm
 
 from angiosperm.pylib.pipelines import util
 from angiosperm.pylib.rules import missing, nectaries_secretion
+from angiosperm.pylib.rules.base import Base
 
 
 @dataclasses.dataclass
@@ -30,13 +31,14 @@ class Page:
         return traits
 
 
-def read(input_dir: Path) -> dict[str, Page]:
+def read(input_dir: Path, limit: int = 0) -> dict[str, Page]:
     pages: dict[str, Page] = {}
 
-    paths = sorted(input_dir.glob("*.htm*"))
+    paths = [p for p in sorted(input_dir.glob("*.htm*")) if p.stem != "chars"]
+    if limit > 0:
+        paths = paths[:limit]
 
-    for path in paths[:10]:
-        print(path)
+    for path in tqdm(paths):
         with path.open("rb") as in_file:
             raw = in_file.read()
 
@@ -56,8 +58,13 @@ def read(input_dir: Path) -> dict[str, Page]:
         missing.get_missing(all_traits)
         nectaries_secretion.get_nectaries_secretion(all_traits)
         for trait in all_traits:
-            if trait._paragraph in pages[taxon].paragraphs:
-                pages[taxon].paragraphs[trait._paragraph].traits.append(trait)
+            if trait._paragraph not in pages[taxon].paragraphs:
+                paragraph = Paragraph(
+                    label=trait._paragraph,
+                    text=f"**** '{trait._paragraph}' paragraph missing **** ",
+                )
+                pages[taxon].paragraphs[trait._paragraph] = paragraph
+            pages[taxon].paragraphs[trait._paragraph].traits.append(trait)
 
     return pages
 
@@ -75,5 +82,7 @@ def get_paragraphs(soup):
             if pipeline.pattern in first_sent:
                 traits = util.get_traits(label, text)
                 paragraphs[label] = Paragraph(label=label, text=text, traits=traits)
+                for trait in traits:
+                    trait._paragraph = label
 
     return paragraphs

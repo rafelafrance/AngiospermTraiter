@@ -18,12 +18,9 @@ class PlantSexualSystem(Base):
     # ---------------------
 
     sexual_system: str = None
-    uncertain: bool = None
 
     def formatted(self) -> dict[str, str]:
-        value = self.sexual_system
-        value += " ?" if self.uncertain else ""
-        return {"Plant sexual system": value}
+        return {"Plant sexual system": self.sexual_system}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -44,12 +41,10 @@ class PlantSexualSystem(Base):
                 on_match="plant_sexual_system_match",
                 keep="sexual_system",
                 decoder={
-                    "[?]": {"ENT_TYPE": "q_mark"},
                     "sexual_system": {"ENT_TYPE": "plant_sexual_system_term"},
                 },
                 patterns=[
                     " sexual_system+ ",
-                    " sexual_system+ [?]+ ",
                 ],
             ),
         ]
@@ -57,16 +52,10 @@ class PlantSexualSystem(Base):
     @classmethod
     def plant_sexual_system_match(cls, ent):
         sexual_system = next(
-            (
-                e.text.lower()
-                for e in ent.ents
-                if e.label_ == "plant_sexual_system_term"
-            ),
-            None,
+            e.text.lower() for e in ent.ents if e.label_ == "plant_sexual_system_term"
         )
-        # sexual_system = cls.replace.get(sexual_system, sexual_system)
-        uncertain = next((True for e in ent.ents if e.label_ == "q_mark"), None)
-        return cls.from_ent(ent, sexual_system=sexual_system, uncertain=uncertain)
+        sexual_system = cls.replace.get(sexual_system, sexual_system)
+        return cls.from_ent(ent, sexual_system=sexual_system)
 
 
 @registry.misc("plant_sexual_system_match")

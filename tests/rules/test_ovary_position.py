@@ -9,6 +9,6 @@ class TestOvaryPosition(unittest.TestCase):
         self.assertEqual(
             parse("general_floral", "Epigynous disk present (large, pulviniform)."),
             [
-                OvaryPosition(position="inferior", start=0, end=9),
+                OvaryPosition(position="2", start=0, end=9),
             ],
         )

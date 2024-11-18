@@ -17,7 +17,7 @@ class Bracts(Base):
         Path(__file__).parent / "terms" / "general_floral.csv",
         Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "replace")
     # ---------------------
 
     present: str = None
@@ -53,7 +53,7 @@ class Bracts(Base):
     @classmethod
     def bract_match(cls, ent):
         missing = any(e.label_ == "missing" for e in ent.ents)
-        absent = any(cls.presence.get(e.text.lower()) == "0" for e in ent.ents)
+        absent = any(cls.replace.get(e.text.lower()) == "0" for e in ent.ents)
         present = "1" if not (missing or absent) else "0"
         return cls.from_ent(ent, present=present)
 

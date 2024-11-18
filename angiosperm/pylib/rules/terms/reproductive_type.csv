@@ -1,6 +1,6 @@
-label,pattern,replace,presence
-floral_nectary_term,floral nectaries,floral nectary
-floral_nectary_term,floral nectary,floral nectary
+label,pattern,replace
+floral_nectary_term,floral nectaries
+floral_nectary_term,floral nectary
 nectar_secretion_term,nectar secreted
 nectar_secretion_term,nectar secretion
 nectar_secretion_term,nectar secretions
@@ -9,22 +9,19 @@ nectary_position_term,base of stamens
 nectary_organ_term,androecium
 nectary_organ_term,gynoecium
 nectary_organ_term,perianth
-plant_sexual_system_term,androdioecious,androdioecy
-plant_sexual_system_term,androdioecy,androdioecy
-plant_sexual_system_term,andromonoecious,andromonoecious
-plant_sexual_system_term,dioecious,dioecy
-plant_sexual_system_term,dioecy,dioecy
-plant_sexual_system_term,gynodioecious,gynodioecious
-plant_sexual_system_term,gynodioecy,gynodioecy
-plant_sexual_system_term,monecious,monoecy
-plant_sexual_system_term,monoecious,monoecy
-plant_sexual_system_term,monoecy,monoecy
+plant_sexual_system_term,androdioecious,1
+plant_sexual_system_term,androdioecy,1
+plant_sexual_system_term,andromonoecious,1
+plant_sexual_system_term,dioecious,1
+plant_sexual_system_term,dioecy,1
+plant_sexual_system_term,gynodioecious,1
+plant_sexual_system_term,gynodioecy,1
+plant_sexual_system_term,monecious,0
+plant_sexual_system_term,monoecious,0
+plant_sexual_system_term,monoecy,0
 plant_sexual_system_term,polygamomonoecious,polygamomonoecious
 plant_sexual_system_term,polygamomonoecy,polygamomonoecy
-presence_term,absent,,0
-presence_term,present,,1
-q_mark,(?)
-q_mark,?
-q_mark,[?]
-structural_sex_of_flowers_term,unisexual flowers absent,,0
-structural_sex_of_flowers_term,unisexual flowers present,,1
+presence_term,absent,0
+presence_term,present,1
+structural_sex_of_flowers_term,unisexual flowers absent,0
+structural_sex_of_flowers_term,unisexual flowers present,1

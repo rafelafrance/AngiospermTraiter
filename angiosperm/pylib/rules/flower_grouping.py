@@ -15,7 +15,7 @@ from angiosperm.pylib.rules.base import Base
 class FlowerGrouping(Base):
     # Class vars ----------
     term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "general_floral.csv"
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "presence")
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
     grouping: str = None
@@ -63,7 +63,7 @@ class FlowerGrouping(Base):
     def flower_grouping_match(cls, ent):
         grouping = next(
             (
-                cls.presence.get(e.text.lower())
+                cls.replace.get(e.text.lower())
                 for e in ent.ents
                 if e.label_ == "grouping_term"
             ),

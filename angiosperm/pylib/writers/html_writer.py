@@ -44,7 +44,7 @@ def write(input_pages: dict[str, Page], html_file: Path):
 
     for input_page in input_pages.values():
         paras = []
-        for para in input_page.paragraphs:
+        for para in input_page.paragraphs.values():
             formatted = format_paragraph(para.text, para.traits, css_classes)
             traits = format_traits(para.text, para.traits, css_classes)
             paras.append(HtmlParagraph(formatted, traits))
@@ -74,6 +74,9 @@ def format_paragraph(
     for trait in traits:
         start = trait.start
         end = trait.end
+
+        if start is None:
+            continue
 
         if prev < start:
             frags[prev, start]["raw"] = raw_text[prev:start]

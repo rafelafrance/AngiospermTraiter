@@ -17,7 +17,7 @@ class Pedicel(Base):
         Path(__file__).parent / "terms" / "general_floral.csv",
         Path(__file__).parent / "terms" / "missing_terms.csv",
     ]
-    presence: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "presence")
+    replace: ClassVar[dict[str, str]] = term_util.look_up_table(csvs, "replace")
     # ---------------------
 
     present: str = None
@@ -51,7 +51,7 @@ class Pedicel(Base):
     @classmethod
     def pedicel_match(cls, ent):
         pedicel = ent.text.lower()
-        present_ = cls.presence.get(pedicel, "1")
+        present_ = cls.replace.get(pedicel, "1")
         return cls.from_ent(ent, present=present_)
 
 

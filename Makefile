@@ -1,7 +1,10 @@
-.PHONY: test install dev clean
+.PHONY: test install dev clean parse
 .ONESHELL:
 
-# Many requests to simplify this script, so here we are.
+TODAY = $(shell date -I)
+INPUT_DIR ?= ./data/angiodata/www
+HTML_FILE ?= ./data/output/parse_families_$(TODAY).html
+CSV_FILE ?= ./data/output/parse_families_$(TODAY).csv
 
 test:
 	. .venv/bin/activate
@@ -27,3 +30,9 @@ dev:
 clean:
 	rm -r .venv
 	find -iname "*.pyc" -delete
+
+parse:
+	angiosperm/parse_families.py \
+		--input-dir $(INPUT_DIR) \
+		--html-file $(HTML_FILE) \
+		--csv-file $(CSV_FILE)

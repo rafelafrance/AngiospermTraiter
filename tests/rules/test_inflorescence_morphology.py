@@ -12,6 +12,7 @@ from tests.setup import parse
 
 class TestInflorescence(unittest.TestCase):
     def test_inflorescence_01(self):
+        self.maxDiff = None
         self.assertEqual(
             parse(
                 "general_floral",
@@ -20,46 +21,42 @@ class TestInflorescence(unittest.TestCase):
                 or even in heads;""",
             ),
             [
-                InflorescencePosition(position="terminal", start=15, end=23),
-                InflorescencePosition(position="axillary", start=28, end=36),
+                InflorescencePosition(position="0", start=15, end=23),
+                InflorescencePosition(position="1", start=28, end=36),
                 InflorescenceMorphology(
-                    morphology="cyme", growth_pattern="determinate", start=49, end=54
+                    morphology="1", growth_pattern="1", start=49, end=54
                 ),
                 InflorescenceMorphology(
-                    morphology="cyme", growth_pattern="determinate", start=56, end=62
+                    morphology="1", growth_pattern="1", start=56, end=62
                 ),
                 InflorescenceMorphology(
-                    morphology="raceme-like",
-                    growth_pattern="indeterminate",
+                    morphology="2",
+                    growth_pattern="0",
                     start=63,
                     end=70,
                 ),
                 InflorescenceMorphology(
-                    morphology="panicle",
-                    growth_pattern="indeterminate",
+                    morphology="0",
+                    growth_pattern="0",
                     start=72,
                     end=80,
                 ),
                 InflorescenceMorphology(
-                    morphology="umbel", growth_pattern="indeterminate", start=84, end=90
+                    morphology="1", growth_pattern="0", start=84, end=90
                 ),
                 InflorescenceMorphology(
-                    morphology="raceme-like",
-                    growth_pattern="indeterminate",
+                    morphology="2",
+                    growth_pattern="0",
                     start=95,
                     end=102,
                 ),
                 InflorescenceMorphology(
-                    morphology="panicle",
-                    growth_pattern="indeterminate",
+                    morphology="0",
+                    growth_pattern="0",
                     start=106,
                     end=114,
                 ),
-                InflorescenceMorphology(
-                    morphology="globose capitula",
-                    start=127,
-                    end=132,
-                ),
+                InflorescenceMorphology(morphology="0", start=127, end=132),
             ],
         )
 
@@ -74,26 +71,22 @@ class TestInflorescence(unittest.TestCase):
             ),
             [
                 InflorescenceMorphology(
-                    morphology="raceme-like",
-                    growth_pattern="indeterminate",
+                    morphology="2",
+                    growth_pattern="0",
                     start=33,
                     end=41,
                 ),
                 Pedicel(start=58, end=69, present="1"),
+                InflorescenceMorphology(morphology="0", start=70, end=75),
                 InflorescenceMorphology(
-                    morphology="globose capitula",
-                    start=70,
-                    end=75,
-                ),
-                InflorescenceMorphology(
-                    morphology="raceme-like",
-                    growth_pattern="indeterminate",
+                    morphology="2",
+                    growth_pattern="0",
                     start=83,
                     end=90,
                 ),
                 InflorescenceMorphology(
-                    morphology="umbel",
-                    growth_pattern="indeterminate",
+                    morphology="1",
+                    growth_pattern="0",
                     start=102,
                     end=108,
                 ),

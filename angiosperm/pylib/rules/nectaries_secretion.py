@@ -61,7 +61,10 @@ class FloralNectaryOnPerianth(Base):
 
 
 # ###############################################################################
-ORGANS = {
+NECTARY_TYPE = [
+    FloralNectaryOnAndroecium | FloralNectaryOnGynoecium | FloralNectaryOnPerianth
+]
+ORGANS: dict[str, NECTARY_TYPE] = {
     "androecium": FloralNectaryOnAndroecium,
     "gynoecium": FloralNectaryOnGynoecium,
     "perianth": FloralNectaryOnPerianth,

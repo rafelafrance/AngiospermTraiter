@@ -15,10 +15,8 @@ class TestSexualSystem(unittest.TestCase):
                 "Plants monoecious, or dioecious, or polygamomonoecious (?).",
             ),
             [
-                PlantSexualSystem(sexual_system="monoecious", start=7, end=17),
-                PlantSexualSystem(sexual_system="dioecious", start=22, end=31),
-                PlantSexualSystem(
-                    sexual_system="polygamomonoecious", uncertain=True, start=36, end=58
-                ),
+                PlantSexualSystem(sexual_system="0", start=7, end=17),
+                PlantSexualSystem(sexual_system="1", start=22, end=31),
+                PlantSexualSystem(sexual_system="polygamomonoecious", start=36, end=54),
             ],
         )

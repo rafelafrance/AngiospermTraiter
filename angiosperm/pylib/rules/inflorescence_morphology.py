@@ -69,9 +69,9 @@ class InflorescenceMorphology(Base):
 
     @classmethod
     def inflorescence_morphology_match(cls, ent):
-        morphology = ent.text.lower()
-        morphology = cls.replace.get(morphology, morphology)
-        growth = cls.growth.get(morphology)
+        term = ent.text.lower()
+        morphology = cls.replace.get(term, "?")
+        growth = cls.growth.get(term)
         return cls.from_ent(ent, morphology=morphology, growth_pattern=growth)
 
 

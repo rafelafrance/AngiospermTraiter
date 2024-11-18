@@ -1,88 +1,76 @@
-label,pattern,replace,presence,inflorescence_growth_pattern
-bract_presence_term,bracteolate,,1
-bract_presence_term,bracteole,,1
-bract_presence_term,ebracteate,,0
-bract_presence_term,ebracteolate,,0
-bract_presence_term,epicalyx,,1
-bract_presence_term,involucral,,1
-bract_presence_term,involucrate,,1
-bract_presence_term,involucre,,1
-bract_presence_term,ocreola,,1
-bract_presence_term,phyllaries,,1
-bract_presence_term,phyllary,,1
-bract_presence_term,spathe,,1
-bract_presence_term,tegule,,1
-bract_term,bract,bracts
-bract_term,bracts,bracts
-flower_term,flower,flower
-flower_term,flowered,flower
-flower_term,flowers,flower
-grouping_term,aggregated,,1
-grouping_term,grouped,,1
-grouping_term,solitary,,0
-inflorescence_morphology_term,asteraceae capitula
-inflorescence_morphology_term,corymb,raceme-like,,indeterminate
-inflorescence_morphology_term,corymbiform,raceme-like,,indeterminate
-inflorescence_morphology_term,corymbrose,raceme-like,,indeterminate
-inflorescence_morphology_term,corymbs,raceme-like,,indeterminate
-inflorescence_morphology_term,cyme,cyme,,determinate
-inflorescence_morphology_term,cymes,cyme,,determinate
-inflorescence_morphology_term,cymose,cyme,,determinate
-inflorescence_morphology_term,globose capitula
-inflorescence_morphology_term,head,globose capitula
-inflorescence_morphology_term,heads,globose capitula
-inflorescence_morphology_term,monopodial,,,indeterminate
-inflorescence_morphology_term,panicle,panicle,,indeterminate
-inflorescence_morphology_term,panicles,panicle,,indeterminate
-inflorescence_morphology_term,paniculate,panicle,,indeterminate
-inflorescence_morphology_term,paniculiform,panicle,,indeterminate
-inflorescence_morphology_term,raceme,raceme-like,,indeterminate
-inflorescence_morphology_term,raceme-like,raceme-like,,indeterminate
-inflorescence_morphology_term,racemes,raceme-like,,indeterminate
-inflorescence_morphology_term,racemiform,raceme-like,,indeterminate
-inflorescence_morphology_term,racemose,raceme-like,,indeterminate
-inflorescence_morphology_term,spadix,raceme-like,,indeterminate
-inflorescence_morphology_term,spike,raceme-like,,indeterminate
-inflorescence_morphology_term,spikes,raceme-like,,indeterminate
-inflorescence_morphology_term,sympodial,,,determinate
-inflorescence_morphology_term,umbel,umbel,,indeterminate
-inflorescence_morphology_term,umbels,umbel,,indeterminate
-inflorescence_position_term,axillary
-inflorescence_position_term,terminal
+label,pattern,replace,inflorescence_growth_pattern
+bract_presence_term,bracteolate,1
+bract_presence_term,bracteole,1
+bract_presence_term,ebracteate,0
+bract_presence_term,ebracteolate,0
+bract_presence_term,epicalyx,1
+bract_presence_term,involucral,1
+bract_presence_term,involucrate,1
+bract_presence_term,involucre,1
+bract_presence_term,ocreola,1
+bract_presence_term,phyllaries,1
+bract_presence_term,phyllary,1
+bract_presence_term,spathe,1
+bract_presence_term,tegule,1
+bract_term,bract
+bract_term,bracts
+flower_term,flower
+flower_term,flowered
+flower_term,flowers
+grouping_term,aggregated,1
+grouping_term,grouped,1
+grouping_term,solitary,0
+inflorescence_morphology_term,3
+inflorescence_morphology_term,corymb,2,0
+inflorescence_morphology_term,corymbiform,2,0
+inflorescence_morphology_term,corymbrose,2,0
+inflorescence_morphology_term,corymbs,2,0
+inflorescence_morphology_term,cyme,1,1
+inflorescence_morphology_term,cymes,1,1
+inflorescence_morphology_term,cymose,1,1
+inflorescence_morphology_term,globose capitula,0
+inflorescence_morphology_term,head,0
+inflorescence_morphology_term,heads,0
+inflorescence_morphology_term,monopodial,,0
+inflorescence_morphology_term,panicle,0,0
+inflorescence_morphology_term,panicles,0,0
+inflorescence_morphology_term,paniculate,0,0
+inflorescence_morphology_term,paniculiform,0,0
+inflorescence_morphology_term,raceme,2,0
+inflorescence_morphology_term,raceme-like,2,0
+inflorescence_morphology_term,racemes,2,0
+inflorescence_morphology_term,racemiform,2,0
+inflorescence_morphology_term,racemose,2,0
+inflorescence_morphology_term,spadix,2,0
+inflorescence_morphology_term,spike,2,0
+inflorescence_morphology_term,spikes,2,0
+inflorescence_morphology_term,sympodial,,1
+inflorescence_morphology_term,umbel,1,0
+inflorescence_morphology_term,umbels,1,0
+inflorescence_position_term,axillary,1
+inflorescence_position_term,terminal,0
 inflorescences_term,inflorescence
 inflorescences_term,inflorescences
 inflorescences_term,inflorescenses
 nectary_position_term,base of stamen
 nectary_position_term,base of stamens
 number_of_flowers_in_an_inflorescence_term,Number of flowers in an inflorescence
-ovary_position_term,epigynous,inferior
-ovary_position_term,half-inferior,half-inferior
-ovary_position_term,hypogynous,superior
-ovary_position_term,inferior,inferior
-ovary_position_term,partially inferior,half-inferior
-ovary_position_term,perigynous,half-inferior
-ovary_position_term,superior,superior
-pedicel_presence,pedicel,,1
-pedicel_presence,pedicellate,,1
-pedicel_presence,pedicelled,,1
-pedicel_presence,pedicels,,1
-pedicel_presence,peduncle,,1
-pedicel_presence,pedunculate,,1
-pedicel_presence,sessile,,0
-petaloid_bract_term,bracts petaloid,petaloid bracts
-petaloid_bract_term,petaloid 'bracts',petaloid bracts
-petaloid_bract_term,petaloid bract,petaloid bracts
-petaloid_bract_term,petaloid bracts,petaloid bracts
-petaloid_bract_term,petaloid ‘bracts’,petaloid bracts
-plant_sexual_system_term,androdioecious,androdioecy
-plant_sexual_system_term,andromonoecious,andromonoecious
-plant_sexual_system_term,androdioecy,androdioecy
-plant_sexual_system_term,dioecious,dioecy
-plant_sexual_system_term,dioecy,dioecy
-plant_sexual_system_term,gynodioecious,gynodioecious
-plant_sexual_system_term,gynodioecy,gynodioecy
-plant_sexual_system_term,monecious,monoecy
-plant_sexual_system_term,monoecious,monoecy
-plant_sexual_system_term,monoecy,monoecy
-plant_sexual_system_term,polygamomonoecious,polygamomonoecious
-plant_sexual_system_term,polygamomonoecy,polygamomonoecy
+ovary_position_term,epigynous,2
+ovary_position_term,half-inferior,1
+ovary_position_term,hypogynous,0
+ovary_position_term,inferior,2
+ovary_position_term,partially inferior,1
+ovary_position_term,perigynous,1
+ovary_position_term,superior,0
+pedicel_presence,pedicel,1
+pedicel_presence,pedicellate,1
+pedicel_presence,pedicelled,1
+pedicel_presence,pedicels,1
+pedicel_presence,peduncle,1
+pedicel_presence,pedunculate,1
+pedicel_presence,sessile,0
+petaloid_bract_term,bracts petaloid,1
+petaloid_bract_term,petaloid 'bracts',1
+petaloid_bract_term,petaloid bract,1
+petaloid_bract_term,petaloid bracts,1
+petaloid_bract_term,petaloid ‘bracts’,1
