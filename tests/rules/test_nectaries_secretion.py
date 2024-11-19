@@ -103,7 +103,6 @@ class TestNectarSecretion(unittest.TestCase):
         )
 
     def test_nectar_secretion_06(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 "reproductive_type",
@@ -121,7 +120,6 @@ class TestNectarSecretion(unittest.TestCase):
         )
 
     def test_nectar_secretion_07(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 "reproductive_type",

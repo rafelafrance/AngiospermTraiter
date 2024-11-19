@@ -1,26 +1,26 @@
 label,pattern,replace,inflorescence_growth_pattern
-bract_presence_term,bracteolate,1
-bract_presence_term,bracteole,1
-bract_presence_term,ebracteate,0
-bract_presence_term,ebracteolate,0
-bract_presence_term,epicalyx,1
-bract_presence_term,involucral,1
-bract_presence_term,involucrate,1
-bract_presence_term,involucre,1
-bract_presence_term,ocreola,1
-bract_presence_term,phyllaries,1
-bract_presence_term,phyllary,1
-bract_presence_term,spathe,1
-bract_presence_term,tegule,1
-bract_term,bract
-bract_term,bracts
-flower_term,flower
-flower_term,flowered
-flower_term,flowers
-grouping_term,aggregated,1
-grouping_term,grouped,1
-grouping_term,solitary,0
-inflorescence_morphology_term,3
+bract_presence_term,bracteolate,1,
+bract_presence_term,bracteole,1,
+bract_presence_term,ebracteate,0,
+bract_presence_term,ebracteolate,0,
+bract_presence_term,epicalyx,1,
+bract_presence_term,involucral,1,
+bract_presence_term,involucrate,1,
+bract_presence_term,involucre,1,
+bract_presence_term,ocreola,1,
+bract_presence_term,phyllaries,1,
+bract_presence_term,phyllary,1,
+bract_presence_term,spathe,1,
+bract_presence_term,tegule,1,
+bract_term,bract,,
+bract_term,bracts,,
+flower_term,flower,,
+flower_term,flowered,,
+flower_term,flowers,,
+grouping_term,aggregated,1,
+grouping_term,grouped,1,
+grouping_term,solitary,0,
+inflorescence_morphology_term,3,,
 inflorescence_morphology_term,corymb,2,0
 inflorescence_morphology_term,corymbiform,2,0
 inflorescence_morphology_term,corymbrose,2,0
@@ -28,9 +28,9 @@ inflorescence_morphology_term,corymbs,2,0
 inflorescence_morphology_term,cyme,1,1
 inflorescence_morphology_term,cymes,1,1
 inflorescence_morphology_term,cymose,1,1
-inflorescence_morphology_term,globose capitula,0
-inflorescence_morphology_term,head,0
-inflorescence_morphology_term,heads,0
+inflorescence_morphology_term,globose capitula,0,
+inflorescence_morphology_term,head,0,
+inflorescence_morphology_term,heads,0,
 inflorescence_morphology_term,monopodial,,0
 inflorescence_morphology_term,panicle,0,0
 inflorescence_morphology_term,panicles,0,0
@@ -47,30 +47,30 @@ inflorescence_morphology_term,spikes,2,0
 inflorescence_morphology_term,sympodial,,1
 inflorescence_morphology_term,umbel,1,0
 inflorescence_morphology_term,umbels,1,0
-inflorescence_position_term,axillary,1
-inflorescence_position_term,terminal,0
-inflorescences_term,inflorescence
-inflorescences_term,inflorescences
-inflorescences_term,inflorescenses
-nectary_position_term,base of stamen
-nectary_position_term,base of stamens
-number_of_flowers_in_an_inflorescence_term,Number of flowers in an inflorescence
-ovary_position_term,epigynous,2
-ovary_position_term,half-inferior,1
-ovary_position_term,hypogynous,0
-ovary_position_term,inferior,2
-ovary_position_term,partially inferior,1
-ovary_position_term,perigynous,1
-ovary_position_term,superior,0
-pedicel_presence,pedicel,1
-pedicel_presence,pedicellate,1
-pedicel_presence,pedicelled,1
-pedicel_presence,pedicels,1
-pedicel_presence,peduncle,1
-pedicel_presence,pedunculate,1
-pedicel_presence,sessile,0
-petaloid_bract_term,bracts petaloid,1
-petaloid_bract_term,petaloid 'bracts',1
-petaloid_bract_term,petaloid bract,1
-petaloid_bract_term,petaloid bracts,1
-petaloid_bract_term,petaloid ‘bracts’,1
+inflorescence_position_term,axillary,1,
+inflorescence_position_term,terminal,0,
+inflorescences_term,inflorescence,,
+inflorescences_term,inflorescences,,
+inflorescences_term,inflorescenses,,
+nectary_position_term,base of stamen,,
+nectary_position_term,base of stamens,,
+number_of_flowers_in_an_inflorescence_term,Number of flowers in an inflorescence,,
+ovary_position_term,epigynous,2,
+ovary_position_term,half-inferior,1,
+ovary_position_term,hypogynous,0,
+ovary_position_term,inferior,2,
+ovary_position_term,partially inferior,1,
+ovary_position_term,perigynous,1,
+ovary_position_term,superior,0,
+pedicel_presence,pedicel,1,
+pedicel_presence,pedicellate,1,
+pedicel_presence,pedicelled,1,
+pedicel_presence,pedicels,1,
+pedicel_presence,peduncle,1,
+pedicel_presence,pedunculate,1,
+pedicel_presence,sessile,0,
+petaloid_bract_term,bracts petaloid,1,
+petaloid_bract_term,petaloid 'bracts',1,
+petaloid_bract_term,petaloid bract,1,
+petaloid_bract_term,petaloid bracts,1,
+petaloid_bract_term,petaloid ‘bracts’,1,

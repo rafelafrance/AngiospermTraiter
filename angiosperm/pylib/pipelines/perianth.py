@@ -6,6 +6,7 @@ from angiosperm.pylib.rules.number_of_petals_fused import NumberOfPetalsFused
 from angiosperm.pylib.rules.perianth_differentiation import PerianthDifferentiation
 from angiosperm.pylib.rules.perianth_margin import PerianthMargin
 from angiosperm.pylib.rules.perianth_merism import PerianthMerism
+from angiosperm.pylib.rules.perianth_phyllotaxy import PerianthPhyllotaxy
 from angiosperm.pylib.rules.perianth_presence import PerianthPresence
 
 # from angiosperm.pylib.rules.perianth_shape import PerianthShape
@@ -30,7 +31,8 @@ def build():
     ClawedPetal.pipe(nlp)
     # PerianthShape.pipe(nlp)
 
-    # Needs to be last because it overlaps with other traits
+    # Need to be last because they overlap with other traits
     PerianthPresence.pipe(nlp)
+    PerianthPhyllotaxy.pipe(nlp)
 
     return base.teardown(nlp)

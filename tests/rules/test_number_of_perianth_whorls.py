@@ -18,7 +18,6 @@ class TestNumberOfPerianthWhorls(unittest.TestCase):
         )
 
     def test_number_of_perianth_whorls_03(self):
-        self.maxDiff = None
         self.assertEqual(
             parse("perianth", "the abaxially pilose lobes biseriate"),
             [NumberOfPerianthWhorls(low=2, start=27, end=36)],

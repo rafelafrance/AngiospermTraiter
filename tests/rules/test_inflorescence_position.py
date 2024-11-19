@@ -6,7 +6,6 @@ from tests.setup import parse
 
 class TestInflorescencePosition(unittest.TestCase):
     def test_inflorescence_position_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse("general_floral", """terminal, or axillary;"""),
             [

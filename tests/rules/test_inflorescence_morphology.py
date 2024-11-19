@@ -12,7 +12,6 @@ from tests.setup import parse
 
 class TestInflorescence(unittest.TestCase):
     def test_inflorescence_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 "general_floral",
@@ -61,7 +60,6 @@ class TestInflorescence(unittest.TestCase):
         )
 
     def test_inflorescence_02(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 "general_floral",

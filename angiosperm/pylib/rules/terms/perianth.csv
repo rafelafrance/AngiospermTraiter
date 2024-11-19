@@ -4,7 +4,7 @@ fusion_of_perianth_term,basally connate,2
 fusion_of_perianth_term,connate at base,2
 fusion_of_perianth_term,connate,1
 fusion_of_perianth_term,distinct,0
-number_of_petals_term,number of petals
+number_of_petals_term,number of petals,
 perianth_differentiation_term,differentiated,1
 perianth_differentiation_term,homochlamydeous,0
 perianth_differentiation_term,petal,1
@@ -24,36 +24,36 @@ perianth_merism_term,octomerous,6
 perianth_merism_term,pentamerous,3
 perianth_merism_term,tetramerous,2
 perianth_merism_term,trimerous,1
-perianth_shape_term,bell-shape
-perianth_shape_term,bell-shaped
-perianth_shape_term,bilabiate
-perianth_shape_term,campanulate
-perianth_shape_term,funnelform
-perianth_shape_term,hypocrateriform
-perianth_shape_term,reflexed
-perianth_shape_term,rotate
-perianth_shape_term,salverform
-perianth_shape_term,tabular
-perianth_shape_term,tube-shaped
-perianth_shape_term,tubular
-perianth_shape_term,urceolate
-perianth_shape_term,urn-shape
-perianth_shape_term,urn-shaped
-perianth_shape_term,wheel-shaped
-perianth_term,perianth
-perianth_term,perianths
-perianth_term,perigon
-perianth_term,perigone
-perianth_term,perigonium
+perianth_shape_term,bell-shape,
+perianth_shape_term,bell-shaped,
+perianth_shape_term,bilabiate,
+perianth_shape_term,campanulate,
+perianth_shape_term,funnelform,
+perianth_shape_term,hypocrateriform,
+perianth_shape_term,reflexed,
+perianth_shape_term,rotate,
+perianth_shape_term,salverform,
+perianth_shape_term,tabular,
+perianth_shape_term,tube-shaped,
+perianth_shape_term,tubular,
+perianth_shape_term,urceolate,
+perianth_shape_term,urn-shape,
+perianth_shape_term,urn-shaped,
+perianth_shape_term,wheel-shaped,
+perianth_term,perianth,
+perianth_term,perianths,
+perianth_term,perigon,
+perianth_term,perigone,
+perianth_term,perigonium,
 perianth_whorl_count_term,biseriate,2
 perianth_whorl_count_term,dicyclic,2
 perianth_whorl_count_term,uniseriate,1
-petal_arrangement_term,imbricate
-petal_arrangement_term,valvate
-petals_fused_term,fused petals
-petals_fused_term,petals fused
-phyllotaxy_term,phyllotaxy
-saccate_term,saccate
+petal_arrangement_term,imbricate,
+petal_arrangement_term,valvate,
+petals_fused_term,fused petals,
+petals_fused_term,petals fused,
+phyllotaxy_term,phyllotaxy,
+saccate_term,saccate,
 symmetry_of_perianth_term,actinomorphic,0
 symmetry_of_perianth_term,asymmetric,2
 symmetry_of_perianth_term,bilaterally symmetric,1
@@ -63,6 +63,6 @@ symmetry_of_perianth_term,zygomorphic,1
 whorls_term,whorl,0
 whorls_term,whorled,0
 whorls_term,whorls,0
-spiral_term,spiral,1
-spiral_term,spiraled,1
-spiral_term,spirals,1
+spirals_term,spiral,1
+spirals_term,spiraled,1
+spirals_term,spirals,1

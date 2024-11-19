@@ -1,14 +1,14 @@
 label,pattern,replace
-floral_nectary_term,floral nectaries
-floral_nectary_term,floral nectary
-nectar_secretion_term,nectar secreted
-nectar_secretion_term,nectar secretion
-nectar_secretion_term,nectar secretions
-nectary_position_term,base of stamen
-nectary_position_term,base of stamens
-nectary_organ_term,androecium
-nectary_organ_term,gynoecium
-nectary_organ_term,perianth
+floral_nectary_term,floral nectaries,
+floral_nectary_term,floral nectary,
+nectar_secretion_term,nectar secreted,
+nectar_secretion_term,nectar secretion,
+nectar_secretion_term,nectar secretions,
+nectary_position_term,base of stamen,
+nectary_position_term,base of stamens,
+nectary_organ_term,androecium,
+nectary_organ_term,gynoecium,
+nectary_organ_term,perianth,
 plant_sexual_system_term,androdioecious,1
 plant_sexual_system_term,androdioecy,1
 plant_sexual_system_term,andromonoecious,1
@@ -19,8 +19,8 @@ plant_sexual_system_term,gynodioecy,1
 plant_sexual_system_term,monecious,0
 plant_sexual_system_term,monoecious,0
 plant_sexual_system_term,monoecy,0
-plant_sexual_system_term,polygamomonoecious,polygamomonoecious
-plant_sexual_system_term,polygamomonoecy,polygamomonoecy
+plant_sexual_system_term,polygamomonoecious,0
+plant_sexual_system_term,polygamomonoecy,0
 presence_term,absent,0
 presence_term,present,1
 structural_sex_of_flowers_term,unisexual flowers absent,0

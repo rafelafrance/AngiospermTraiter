@@ -17,10 +17,10 @@ class PerianthPhyllotaxy(Base):
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
     # ---------------------
 
-    phyllotaxy: str = None
+    phyllotaxy: list[str] = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Perianth phyllotaxy": self.phyllotaxy}
+        return {"Perianth phyllotaxy": ", ".join(sorted(self.phyllotaxy))}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -41,7 +41,7 @@ class PerianthPhyllotaxy(Base):
                 on_match="perianth_phyllotaxy_match",
                 keep="perianth_phyllotaxy",
                 decoder={
-                    "phyllotaxy": {"ENT_TYPE": "perianth_phyllotaxy_term"},
+                    "phyllotaxy": {"ENT_TYPE": {"IN": ["whorls_term", "spirals_term"]}},
                 },
                 patterns=[
                     " phyllotaxy+ ",
@@ -51,12 +51,11 @@ class PerianthPhyllotaxy(Base):
 
     @classmethod
     def perianth_phyllotaxy_match(cls, ent):
-        term = "perianth_phyllotaxy_term"
-        phyllotaxy = next(
-            (e.text.lower() for e in ent.ents if e.label_ == term),
-            None,
-        )
-        phyllotaxy = cls.replace.get(phyllotaxy, phyllotaxy)
+        phyllotaxy = [
+            cls.replace[e.text.lower()]
+            for e in ent.ents
+            if ent.label_ in ["whorls_term", "spirals_term"]
+        ]
         return cls.from_ent(ent, phyllotaxy=phyllotaxy)
 
 

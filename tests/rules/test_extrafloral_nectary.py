@@ -8,7 +8,6 @@ from tests.setup import parse
 
 class TestExtrafloralNectary(unittest.TestCase):
     def test_extrafloral_nectary_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 "leaf_anatomy",

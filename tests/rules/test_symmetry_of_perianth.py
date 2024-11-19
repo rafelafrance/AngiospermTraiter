@@ -6,7 +6,6 @@ from tests.setup import parse
 
 class TestSymmetryOfPerianth(unittest.TestCase):
     def test_symmetry_of_perianth_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse("perianth", "or joined (symmetric or asymmetric,"),
             [

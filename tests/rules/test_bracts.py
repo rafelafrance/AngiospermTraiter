@@ -8,7 +8,6 @@ from tests.setup import parse
 
 class TestBracts(unittest.TestCase):
     def test_bracts_01(self):
-        self.maxDiff = None
         self.assertEqual(
             parse(
                 "general_floral",
