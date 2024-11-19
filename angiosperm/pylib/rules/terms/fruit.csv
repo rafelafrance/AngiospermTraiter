@@ -1,68 +1,68 @@
-label,pattern,replace,presence
+label,pattern,replace
 anthocarp,anthocarp,
-anthocarp_presence,accessory fruit,pericarpium,
-anthocarp_presence,pericarpium,,absent
+anthocarp_presence,accessory fruit,
+anthocarp_presence,pericarpium,0
 anthocarp_source_tissue,androecium,
 anthocarp_source_tissue,hypanthium,
 anthocarp_source_tissue,perianth,
 anthocarp_source_tissue,receptacle,
-carpel,carpel,carpel
-carpel,carpels,carpel
-central_column,central column
-central_column_composition,hollow
-central_column_composition,solid
-composition,composition
+carpel,carpel,
+carpel,carpels,
+central_column,central column,
+central_column_composition,hollow,
+central_column_composition,solid,
+composition,composition,
 dehiscence,dehiscent,
 dehiscence,indehiscent,
-dehiscence_unit,endocarp,endocarp
-dehiscence_unit,endocarps,endocarp
-dehiscence_unit,mesocarp,mesocarp
-dehiscence_unit,mesocarps,mesocarp
-dehiscence_unit,perianth,perianth
-dehiscence_unit,seed,seed
-dehiscence_unit,seeds,seed
+dehiscence_unit,endocarp,
+dehiscence_unit,endocarps,
+dehiscence_unit,mesocarp,
+dehiscence_unit,mesocarps,
+dehiscence_unit,perianth,
+dehiscence_unit,seed,
+dehiscence_unit,seeds,
 distinct,distinct,
 endocarp,endocarp,
-epicarp,epicarp
-epicarp_hairs,bristles,hairy
-epicarp_hairs,echinate,hairy
-epicarp_hairs,glabrous,glabrous
-epicarp_hairs,hairy,hairy
-epicarp_hairs,hooks,hairy
-epicarp_hairs,horns,hairy
-epicarp_hairs,muricate,hairy
-epicarp_hairs,prickles,hairy
-epicarp_hairs,psilate,glabrous
-epicarp_hairs,smooth,glabrous
-epicarp_hairs,spines,hairy
-epicarp_hairs,thorns,hairy
-epicarp_hairs,trichomes,hairy
-epicarp_texture,durable
-epicarp_texture,papery
-explosive,explosive
-false_septum,false septum
+epicarp,epicarp,
+epicarp_hairs,bristles,
+epicarp_hairs,echinate,
+epicarp_hairs,glabrous,
+epicarp_hairs,hairy,
+epicarp_hairs,hooks,
+epicarp_hairs,horns,
+epicarp_hairs,muricate,
+epicarp_hairs,prickles,
+epicarp_hairs,psilate,
+epicarp_hairs,smooth,
+epicarp_hairs,spines,
+epicarp_hairs,thorns,
+epicarp_hairs,trichomes,
+epicarp_texture,durable,
+epicarp_texture,papery,
+explosive,explosive,
+false_septum,false septum,
 fleshy,fleshy,
 fleshy_hypanthium_texture,oily,
 fleshy_hypanthium_texture,proteinaceous,
-flower,flower,flower
-flower,flowered,flower
-flower,flowers,flower
-fruit,fruit,fruit
-fruit,fruits,fruit
+flower,flower,
+flower,flowered,
+flower,flowers,
+fruit,fruit,
+fruit,fruits,
 fruit_wing_source_tissue,bracts,
 fruit_wing_source_tissue,fruit tissue,
 fruit_wing_source_tissue,perianth,
-fruit_wings_presence,nut,,absent
-fruit_wings_presence,samara,,present
+fruit_wings_presence,nut,0
+fruit_wings_presence,samara,1
 fusion,fusion,
 glandular,glandular,
 glandular_epicarp_hairs,long,
 glandular_epicarp_hairs,medium,
 glandular_epicarp_hairs,short to medium,
 glandular_epicarp_hairs,short,
-hairs,hair,hairs
-hairs,hairs,hairs
-hypanthium,hypanthium
+hairs,hair,
+hairs,hairs,
+hypanthium,hypanthium,
 hypanthium_texture,dry,
 hypanthium_texture,fleshy,
 hypanthium_texture,one layer,
@@ -73,32 +73,32 @@ inflation,bladder-like,
 inflation,inflated capsule,
 inflation,inflated,
 inflation,inflation,
-length,length
+length,length,
 location_of_wing_attachment,apical,
 location_of_wing_attachment,basal,
 location_of_wing_attachment,lateral,
-locules,locule,locules
-locules,locules,locules
-mature_fruit,mature fruit
-mesocarp,mesocarp
+locules,locule,
+locules,locules,
+mature_fruit,mature fruit,
+mesocarp,mesocarp,
 number,number,
-number_of_locules,eseptate,1,
-operculum,operculum
+number_of_locules,eseptate,
+operculum,operculum,
 pericarp,pericarp,
 pericarp_fusion,fused,
 pericarp_fusion,unfused,
 position,position,
-replum,replum
+replum,replum,
 schizocarpic,schizocarp,
 schizocarpic,schizocarpic,
-schizocarpic_presence,mericarp,,present
+schizocarpic_presence,mericarp,1
 source,source,
-source_flower,multiple flowers fused,multiple flowers fused
-source_flower,multiple fruit,multiple flowers fused
-source_flower,one flower,one flower
-source_flower,simple,one flower
-style_position,style position
-style_remnants,style remnants
+source_flower,multiple flowers fused,
+source_flower,multiple fruit,
+source_flower,one flower,
+source_flower,simple,
+style_position,style position,
+style_remnants,style remnants,
 suture_position,back of carpel,
 suture_position,dorsal,
 suture_position,ventral,
@@ -106,68 +106,68 @@ suture_relative_location,apex,
 suture_relative_location,base,
 suture_relative_location,middle,
 sutures,sutures,
-texture,texture
+texture,texture,
 tissue,tissue,
-valves_diverging,valves diverging
+valves_diverging,valves diverging,
 wing_venation,marginal vein,
-wings,wing,wings
-wings,wings,wings
-style_position_on_fruit,at apex
-style_position_on_fruit,at margin
-style_position_on_fruit,at base
-style_position_on_fruit,nearly basal
-fruit_length,fruit length
-fruit_outline_in_cross_section,circular,circular
-fruit_outline_in_cross_section,elliptic,circular
-fruit_outline_in_cross_section,terete,circular
-fruit_outline_in_cross_section,lensoidal,lensoidal
-fruit_outline_in_cross_section,flat,lensoidal
-fruit_outline_in_cross_section,compressed,lensoidal
-general_fruit_shape,ellipsoid,ellipsoid
-general_fruit_shape,globose,ellipsoid
-general_fruit_shape,elliptical,ellipsoid
-general_fruit_shape,terete,ellipsoid
-general_fruit_shape,ovate,ovate
-general_fruit_shape,ovoid,ovate
-general_fruit_shape,egg-shaped,ovate
-general_fruit_shape,pear-shaped,ovate
-general_fruit_shape,pyriform,ovate
-general_fruit_shape,obovate,obovate
-general_fruit_shape,obovoid,obovate
-general_fruit_shape,polygonal,polygonal
-general_fruit_shape,triangular,polygonal
-general_fruit_shape,prismatic,polygonal
-general_fruit_shape,cruciform,polygonal
-general_fruit_shape,star-shaped,polygonal
-general_fruit_shape,angled,polygonal
+wings,wing,
+wings,wings,
+style_position_on_fruit,at apex,
+style_position_on_fruit,at margin,
+style_position_on_fruit,at base,
+style_position_on_fruit,nearly basal,
+fruit_length,fruit length,
+fruit_outline_in_cross_section,circular,
+fruit_outline_in_cross_section,elliptic,
+fruit_outline_in_cross_section,terete,
+fruit_outline_in_cross_section,lensoidal,
+fruit_outline_in_cross_section,flat,
+fruit_outline_in_cross_section,compressed,
+general_fruit_shape,ellipsoid,
+general_fruit_shape,globose,
+general_fruit_shape,elliptical,
+general_fruit_shape,terete,
+general_fruit_shape,ovate,
+general_fruit_shape,ovoid,
+general_fruit_shape,egg-shaped,
+general_fruit_shape,pear-shaped,
+general_fruit_shape,pyriform,
+general_fruit_shape,obovate,
+general_fruit_shape,obovoid,
+general_fruit_shape,polygonal,
+general_fruit_shape,triangular,
+general_fruit_shape,prismatic,
+general_fruit_shape,cruciform,
+general_fruit_shape,star-shaped,
+general_fruit_shape,angled,
 epicarp_hair_length,short,
 epicarp_hair_length,medium,
 epicarp_hair_length,long,
-epicarp_ribs,epicarp ribs
-epicarp_ribs_presence,psilate,,absent
-epicarp_ribs_presence,smooth,,absent
-epicarp_ribs_presence,ridged,,present
-epicarp_ribs_presence,ribbed,,present
-epicarp_ribs_presence,furrowed,,present
-epicarp_ribs_presence,grooved,,present
-epicarp_warts,epicarp warts
-epicarp_warts_presence,psilate,,absent
-epicarp_warts_presence,smooth,,absent
-epicarp_warts_presence,verucate,,present
-epicarp_warts_presence,lenticulate,,present
-epicarp_warts_presence,papillose,,present
-epicarp_warts_presence,tuberculate,,present
-epicarp_warts_presence,warted,,present
-epicarp_warts_presence,roughened,,present
-epicarp_warts_presence,verucate,,present
-epicarp_warts_presence,rugose,,present
-epicarp_warts_presence,wrinkled,,present
-reticulate_epicarp,reticulate epicarp
-reticulate_epicarp_presence,psilate,,absent
-reticulate_epicarp_presence,smooth,,absent
-striate_epicarp,smooth,striate epicarp
-striate_epicarp_presence,fibrous,,present
-foveolate_oendocarp,foveolate endocarp
-foveolate_oendocarp_presence,pitted,,present
-striate_endocarp,striate endocarp
-striate_endocarp_presence,fibrous,,present
+epicarp_ribs,epicarp ribs,
+epicarp_ribs_presence,psilate,0
+epicarp_ribs_presence,smooth,0
+epicarp_ribs_presence,ridged,1
+epicarp_ribs_presence,ribbed,1
+epicarp_ribs_presence,furrowed,1
+epicarp_ribs_presence,grooved,1
+epicarp_warts,epicarp warts,
+epicarp_warts_presence,psilate,0
+epicarp_warts_presence,smooth,0
+epicarp_warts_presence,verucate,1
+epicarp_warts_presence,lenticulate,1
+epicarp_warts_presence,papillose,1
+epicarp_warts_presence,tuberculate,1
+epicarp_warts_presence,warted,1
+epicarp_warts_presence,roughened,1
+epicarp_warts_presence,verucate,1
+epicarp_warts_presence,rugose,1
+epicarp_warts_presence,wrinkled,1
+reticulate_epicarp,reticulate epicarp,
+reticulate_epicarp_presence,psilate,0
+reticulate_epicarp_presence,smooth,0
+striate_epicarp,smooth,
+striate_epicarp_presence,fibrous,1
+foveolate_oendocarp,foveolate endocarp,
+foveolate_oendocarp_presence,pitted,1
+striate_endocarp,striate endocarp,
+striate_endocarp_presence,fibrous,1
