@@ -6,8 +6,8 @@ from angiosperm.pylib.rules.number_of_petals_fused import NumberOfPetalsFused
 from angiosperm.pylib.rules.perianth_differentiation import PerianthDifferentiation
 from angiosperm.pylib.rules.perianth_margin import PerianthMargin
 from angiosperm.pylib.rules.perianth_merism import PerianthMerism
-from angiosperm.pylib.rules.perianth_phyllotaxy import PerianthPhyllotaxy
 from angiosperm.pylib.rules.perianth_presence import PerianthPresence
+from angiosperm.pylib.rules.phyllotaxy import Phyllotaxy
 
 # from angiosperm.pylib.rules.perianth_shape import PerianthShape
 from angiosperm.pylib.rules.range import Range
@@ -33,6 +33,8 @@ def build():
 
     # Need to be last because they overlap with other traits
     PerianthPresence.pipe(nlp)
-    PerianthPhyllotaxy.pipe(nlp)
+
+    Phyllotaxy.pipe(nlp)
+    Phyllotaxy.structure = "perianth"
 
     return base.teardown(nlp)

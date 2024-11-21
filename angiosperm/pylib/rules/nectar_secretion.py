@@ -17,10 +17,10 @@ class NectarSecretion(Base):
     ]
     # ---------------------
 
-    organs: list[str] = None
+    structures: list[str] = None
 
     def formatted(self) -> dict[str, str]:
-        return {"Nectar secretion from": ", ".join(self.organs)}
+        return {"Nectar secretion from": ", ".join(self.structures)}
 
     @classmethod
     def pipe(cls, nlp: Language):
@@ -41,24 +41,24 @@ class NectarSecretion(Base):
                 on_match="nectar_secretion_match",
                 keep="nectar_secretion",
                 decoder={
-                    "organ": {"ENT_TYPE": "nectary_organ_term"},
+                    "structure": {"ENT_TYPE": "nectary_structure_term"},
                     "secretion": {"ENT_TYPE": "nectar_secretion_term"},
                     "words": {"IS_SENT_START": False},
                 },
                 patterns=[
-                    " secretion+ words* organ ",
-                    " secretion+ words* organ words+ organ ",
-                    " secretion+ words* organ words+ organ words+ organ ",
+                    " secretion+ words* structure ",
+                    " secretion+ words* structure words+ structure ",
+                    " secretion+ words* structure words+ structure words+ structure ",
                 ],
             ),
         ]
 
     @classmethod
     def nectar_secretion_match(cls, ent):
-        organs = sorted(
-            e.text.lower() for e in ent.ents if e.label_ == "nectary_organ_term"
+        structures = sorted(
+            e.text.lower() for e in ent.ents if e.label_ == "nectary_structure_term"
         )
-        return cls.from_ent(ent, organs=organs)
+        return cls.from_ent(ent, structures=structures)
 
 
 @registry.misc("nectar_secretion_match")

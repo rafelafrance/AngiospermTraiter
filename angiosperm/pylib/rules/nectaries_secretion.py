@@ -64,7 +64,7 @@ class FloralNectaryOnPerianth(Base):
 NECTARY_TYPE = [
     FloralNectaryOnAndroecium | FloralNectaryOnGynoecium | FloralNectaryOnPerianth
 ]
-ORGANS: dict[str, NECTARY_TYPE] = {
+STRUCTURES: dict[str, NECTARY_TYPE] = {
     "androecium": FloralNectaryOnAndroecium,
     "gynoecium": FloralNectaryOnGynoecium,
     "perianth": FloralNectaryOnPerianth,
@@ -73,23 +73,23 @@ ORGANS: dict[str, NECTARY_TYPE] = {
 
 # ###############################################################################
 def get_nectaries_secretion(traits):
-    organs = set()
+    structures = set()
     present = ""
 
     for trait in traits:
         if trait._trait == "nectar_secretion":
-            organs |= set(trait.organs)
+            structures |= set(trait.structures)
 
         if trait._trait == "floral_nectary":
             present = trait.present
 
-    for organ, cls in ORGANS.items():
-        if organ in organs and present != "":
+    for structure, cls in STRUCTURES.items():
+        if structure in structures and present != "":
             traits.append(
                 cls(_trait=cls.trait_name, present=present, _paragraph=cls.paragraph)
             )
 
-        elif organ not in organs and len(organs) > 0:
+        elif structure not in structures and len(structures) > 0:
             traits.append(
                 cls(_trait=cls.trait_name, present="0", _paragraph=cls.paragraph)
             )

@@ -12,7 +12,7 @@ class TestNectarSecretion(unittest.TestCase):
                 "Nectar secretion from the gynoecium (via septal nectaries).",
             ),
             [
-                NectarSecretion(organs=["gynoecium"], start=0, end=35),
+                NectarSecretion(structures=["gynoecium"], start=0, end=35),
             ],
         )
 
@@ -23,7 +23,7 @@ class TestNectarSecretion(unittest.TestCase):
                 "Nectar secretion from the perianth, or from the androecium",
             ),
             [
-                NectarSecretion(organs=["androecium", "perianth"], start=0, end=58),
+                NectarSecretion(structures=["androecium", "perianth"], start=0, end=58),
             ],
         )
 
@@ -34,6 +34,6 @@ class TestNectarSecretion(unittest.TestCase):
                 "Nectar secretion from the perianth (from the tepal bases).",
             ),
             [
-                NectarSecretion(organs=["perianth"], start=0, end=34),
+                NectarSecretion(structures=["perianth"], start=0, end=34),
             ],
         )

@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 from angiosperm.pylib.pipelines import util
-from angiosperm.pylib.rules import missing, nectaries_secretion
+from angiosperm.pylib.rules import missing, nectaries_secretion, phyllotaxy
 from angiosperm.pylib.rules.base import Base
 
 
@@ -55,8 +55,9 @@ def read(input_dir: Path, limit: int = 0) -> dict[str, Page]:
         pages[taxon] = Page(taxon=taxon, paragraphs=paragraphs)
 
         all_traits = pages[taxon].all_traits
-        missing.get_missing(all_traits)
+        missing.get_missing_traits(all_traits)
         nectaries_secretion.get_nectaries_secretion(all_traits)
+        phyllotaxy.get_missing_phyllotaxy(all_traits)
         for trait in all_traits:
             if trait._paragraph not in pages[taxon].paragraphs:
                 paragraph = Paragraph(

@@ -22,7 +22,7 @@ class TestNectarSecretion(unittest.TestCase):
                 append_nectary=True,
             ),
             [
-                NectarSecretion(organs=["gynoecium"], start=0, end=35),
+                NectarSecretion(structures=["gynoecium"], start=0, end=35),
                 FloralNectary(present="1", start=60, end=84),
                 FloralNectaryOnAndroecium(present="0"),
                 FloralNectaryOnGynoecium(present="1"),
@@ -41,7 +41,7 @@ class TestNectarSecretion(unittest.TestCase):
                 append_nectary=True,
             ),
             [
-                NectarSecretion(organs=["androecium", "perianth"], start=0, end=58),
+                NectarSecretion(structures=["androecium", "perianth"], start=0, end=58),
                 FloralNectary(present="1", start=60, end=84),
                 FloralNectaryOnAndroecium(present="1"),
                 FloralNectaryOnGynoecium(present="0"),
@@ -60,7 +60,7 @@ class TestNectarSecretion(unittest.TestCase):
                 append_nectary=True,
             ),
             [
-                NectarSecretion(organs=["androecium", "perianth"], start=0, end=58),
+                NectarSecretion(structures=["androecium", "perianth"], start=0, end=58),
                 FloralNectary(present="0", start=60, end=83),
                 FloralNectaryOnAndroecium(present="0"),
                 FloralNectaryOnGynoecium(present="0"),
@@ -78,7 +78,7 @@ class TestNectarSecretion(unittest.TestCase):
                 append_nectary=True,
             ),
             [
-                NectarSecretion(organs=["androecium", "perianth"], start=0, end=58),
+                NectarSecretion(structures=["androecium", "perianth"], start=0, end=58),
                 FloralNectaryOnAndroecium(present="-"),
                 FloralNectaryOnGynoecium(present="0"),
                 FloralNectaryOnPerianth(present="-"),

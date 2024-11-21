@@ -40,7 +40,7 @@ MISSING = {
 }
 
 
-def get_missing(traits):
+def get_missing_traits(traits):
     found = {t._trait for t in traits}
     for trait_name, missing in MISSING.items():
         if trait_name not in found:

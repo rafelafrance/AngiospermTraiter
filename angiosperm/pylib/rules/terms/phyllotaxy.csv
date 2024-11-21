@@ -1,0 +1,8 @@
+label,pattern,replace
+phyllotaxy_term,phyllotaxy,
+whorls_term,whorl,0
+whorls_term,whorled,0
+whorls_term,whorls,0
+spirals_term,spiral,1
+spirals_term,spiraled,1
+spirals_term,spirals,1
