@@ -85,3 +85,16 @@ def get_missing_phyllotaxy(traits):
         traits.append(
             Phyllotaxy(_trait="perianth_phyllotaxy", phyllotaxy=sorted(phyllotaxy))
         )
+
+    # Androecium phyllotaxy
+    phyllotaxy = []
+    if "androecium_phyllotaxy" not in found and "number_of_androecium_whorls" in found:
+        phyllotaxy.append("0")
+
+    if "androecium_phyllotaxy" not in found and "number_of_androecium_spirals" in found:
+        phyllotaxy.append("1")
+
+    if phyllotaxy:
+        traits.append(
+            Phyllotaxy(_trait="androecium_phyllotaxy", phyllotaxy=sorted(phyllotaxy))
+        )

@@ -1,9 +1,4 @@
 label,pattern,replace
-androecium_structural_phyllotaxy_term,spiral,spiral
-androecium_structural_phyllotaxy_term,spiraled,spiral
-androecium_structural_phyllotaxy_term,spirals,spiral
-androecium_structural_phyllotaxy_term,whorled,whorled
-androecium_structural_phyllotaxy_term,whorls,whorled
 androecium_term,androecia,androecium
 androecium_term,androecium,androecium
 anther_attachment_term,basifixed,
@@ -64,12 +59,6 @@ gametophyte_development_at_anthesis_term,2-celled,2-celled
 gametophyte_development_at_anthesis_term,3 celled,3-celled
 gametophyte_development_at_anthesis_term,3-celled,3-celled
 gametophyte_development_at_anthesis_term,trinucleate,3-celled
-number_of_androecium_whorls_count_term,biseriate,2
-number_of_androecium_whorls_count_term,pentaseriate,5
-number_of_androecium_whorls_count_term,tetradynamous,2
-number_of_androecium_whorls_count_term,tetraseriate,4
-number_of_androecium_whorls_count_term,triseriate,3
-number_of_androecium_whorls_count_term,uniseriate,1
 number_of_fertile_stamens_term,number of fertile stamen,number of fertile stamen
 number_of_fertile_stamens_term,number of fertile stamens,number of fertile stamen
 petaloid_staminodes_term,petaloid staminodes,petaloid staminodes
@@ -96,10 +85,3 @@ thecae_number_term,monothecal,one
 thecae_number_term,one,one
 thecae_number_term,two,two
 thecae_term,thecae,
-phyllotaxy_term,phyllotaxy,
-whorls_term,whorl,0
-whorls_term,whorled,0
-whorls_term,whorls,0
-spiral_term,spiral,1
-spiral_term,spiralled,1
-spiral_term,spirals,1

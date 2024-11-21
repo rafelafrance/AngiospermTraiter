@@ -13,10 +13,11 @@ from angiosperm.pylib.rules.base import Base
 
 
 @dataclass(eq=False)
-class NumberOfPerianthWhorls(Base):
+class NumberOfWhorls(Base):
     # Class vars ----------
-    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "perianth.csv"
+    term_csv: ClassVar[Path] = Path(__file__).parent / "terms" / "phyllotaxy.csv"
     replace: ClassVar[dict[str, str]] = term_util.look_up_table(term_csv, "replace")
+    structure: ClassVar[str] = "<Not set>"
     # ---------------------
 
     min: int = None
@@ -31,39 +32,43 @@ class NumberOfPerianthWhorls(Base):
             if (v := getattr(self, k)) is not None
         ]
         value = ", ".join(value)
-        return {"Number of perianth whorls": value}
+        return {f"Number of {self.structure} whorls": value}
 
     @classmethod
     def pipe(cls, nlp: Language):
-        add.term_pipe(nlp, name="number_of_perianth_whorls_terms", path=cls.term_csv)
+        add.term_pipe(nlp, name="number_of_whorls_terms", path=cls.term_csv)
         add.trait_pipe(
             nlp,
-            name="number_of_perianth_whorls_patterns",
-            compiler=cls.number_of_perianth_whorls_patterns(),
+            name="number_of_whorls_patterns",
+            compiler=cls.number_of_whorls_patterns(),
             overwrite=["range"],
         )
         # add.debug_tokens(nlp)  # #################################################
-        add.cleanup_pipe(nlp, name="number_of_perianth_whorls_cleanup")
+        add.cleanup_pipe(nlp, name="number_of_whorls_cleanup")
 
     @classmethod
-    def number_of_perianth_whorls_patterns(cls):
+    def number_of_whorls_patterns(cls):
         return [
             Compiler(
-                label="number_of_perianth_whorls",
-                on_match="number_of_perianth_whorls_match",
-                keep="number_of_perianth_whorls",
+                label=f"number_of_{cls.structure}_whorls",
+                on_match="number_of_whorls_match",
+                keep=f"number_of_{cls.structure}_whorls",
                 decoder={
                     "-": {"TEXT": {"IN": t_const.DASH}},
                     "99-99": {"ENT_TYPE": "range"},
                     "whorls": {"ENT_TYPE": "whorls_term"},
-                    "count": {"ENT_TYPE": "perianth_whorl_count_term"},
+                    "count": {"ENT_TYPE": "whorl_count_term"},
                 },
-                patterns=[" whorls+ 99-99+ ", " 99-99+ -* whorls+ ", " count "],
+                patterns=[
+                    " whorls+ 99-99+ ",
+                    " 99-99+ -* whorls+ ",
+                    " count ",
+                ],
             ),
         ]
 
     @classmethod
-    def number_of_perianth_whorls_match(cls, ent):
+    def number_of_whorls_match(cls, ent):
         kwargs = {}
 
         for token in ent:
@@ -75,7 +80,7 @@ class NumberOfPerianthWhorls(Base):
                             raise reject_match.RejectMatch
                         kwargs[key] = value
 
-            elif token._.term == "perianth_whorl_count_term":
+            elif token._.term == "whorl_count_term":
                 value = cls.replace.get(token.lower_, token.lower_)
                 kwargs["low"] = t_util.to_positive_int(value)
 
@@ -85,6 +90,6 @@ class NumberOfPerianthWhorls(Base):
         return cls.from_ent(ent, **kwargs)
 
 
-@registry.misc("number_of_perianth_whorls_match")
-def number_of_perianth_whorls_match(ent):
-    return NumberOfPerianthWhorls.number_of_perianth_whorls_match(ent)
+@registry.misc("number_of_whorls_match")
+def number_of_whorls_match(ent):
+    return NumberOfWhorls.number_of_whorls_match(ent)

@@ -6,3 +6,9 @@ whorls_term,whorls,0
 spirals_term,spiral,1
 spirals_term,spiraled,1
 spirals_term,spirals,1
+whorl_count_term,biseriate,2
+whorl_count_term,pentaseriate,5
+whorl_count_term,tetradynamous,2
+whorl_count_term,tetraseriate,4
+whorl_count_term,triseriate,3
+whorl_count_term,uniseriate,1
